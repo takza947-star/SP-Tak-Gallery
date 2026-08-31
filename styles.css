@@ -1,20 +1,20 @@
 :root {
   color-scheme: light;
-  --bg: #f5f6f2;
+  --bg: #f8fafc;
   --surface: #ffffff;
-  --surface-subtle: #eceee8;
-  --ink: #171a18;
-  --muted: #656b67;
-  --line: #d9ddd7;
-  --brand: #156b55;
-  --brand-dark: #0f4e3f;
-  --keep: #1f8a5b;
-  --keep-soft: #e5f5ed;
-  --ban: #c84d4d;
-  --ban-soft: #fbe9e7;
-  --accent: #e6b94f;
-  --focus: #1769aa;
-  --shadow: 0 12px 30px rgba(22, 28, 24, 0.08);
+  --surface-subtle: #f1f5f9;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --line: #e2e8f0;
+  --brand: #0f766e;
+  --brand-dark: #115e59;
+  --keep: #16a34a;
+  --keep-soft: #dcfce7;
+  --ban: #dc2626;
+  --ban-soft: #fee2e2;
+  --accent: #f59e0b;
+  --focus: #2563eb;
+  --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
   font-family: "Noto Sans Thai", system-ui, sans-serif;
 }
 

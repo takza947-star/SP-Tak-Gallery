@@ -213,21 +213,35 @@ function exportShot(shot) {
 }
 
 function exportAsText(data) {
-  const lines = ["SP TAK SHOT REVIEW", ""];
-  [["เก็บ", data.keep], ["แบน", data.ban], ["รอตรวจ", data.pending]].forEach(([label, items]) => {
-    lines.push(`${label} (${items.length})`);
-    items.forEach((item) => {
-      lines.push(`- ${item.id} @ ${item.timecode} | ${item.title}${item.note ? ` | ${item.note}` : ""}`);
+  const lines = ["# 🎬 สรุปผลการคัดเลือกช็อต (SP Tak Shot Review)", ""];
+  if (data.keep.length > 0) {
+    lines.push(`## ✅ ช็อตที่เลือกใช้ (Keep: ${data.keep.length} ช็อต)`);
+    data.keep.forEach((item) => {
+      lines.push(`- [${item.product}] ${item.id} @ ${item.timecode} | ${item.title}${item.note ? ` (หมายเหตุ: ${item.note})` : ""}`);
     });
     lines.push("");
-  });
+  }
+  if (data.ban.length > 0) {
+    lines.push(`## ❌ ช็อตที่สั่งแบน (Ban: ${data.ban.length} ช็อต)`);
+    data.ban.forEach((item) => {
+      lines.push(`- [${item.product}] ${item.id} @ ${item.timecode} | ${item.title}${item.note ? ` (เหตุผล: ${item.note})` : ""}`);
+    });
+    lines.push("");
+  }
+  if (data.pending.length > 0) {
+    lines.push(`## ⏳ ช็อตที่รอตรวจ (${data.pending.length} ช็อต)`);
+    data.pending.forEach((item) => {
+      lines.push(`- [${item.product}] ${item.id} @ ${item.timecode} | ${item.title}`);
+    });
+    lines.push("");
+  }
   return lines.join("\n").trim();
 }
 
 function renderSummary() {
   const data = buildExport();
   elements.summaryContent.replaceChildren();
-  [["เก็บ", data.keep, "keep"], ["แบน", data.ban, "ban"], ["รอตรวจ", data.pending, "pending"]]
+  [["เก็บ (Keep)", data.keep, "keep"], ["แบน (Ban)", data.ban, "ban"], ["รอตรวจ", data.pending, "pending"]]
     .forEach(([label, items, state]) => {
       const section = document.createElement("section");
       section.className = "summary-block";
@@ -278,22 +292,15 @@ async function copySummary() {
   const text = exportAsText(buildExport());
   try {
     await navigator.clipboard.writeText(text);
+    showToast("คัดลอกสรุปสำหรับส่งให้ AI แล้ว");
   } catch {
-    const textarea = document.createElement("textarea");
-    textarea.value = text;
-    textarea.style.position = "fixed";
-    textarea.style.opacity = "0";
-    document.body.append(textarea);
-    textarea.select();
-    document.execCommand("copy");
-    textarea.remove();
+    showToast("ไม่สามารถคัดลอกได้อัตโนมัติ");
   }
-  showToast("คัดลอกสรุปแล้ว");
 }
 
 function downloadSummary() {
-  const data = JSON.stringify(buildExport(), null, 2);
-  const blob = new Blob([data], { type: "application/json;charset=utf-8" });
+  const data = buildExport();
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement("a");
   anchor.href = url;

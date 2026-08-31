@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f6f2">
   <meta name="description" content="SP Tak Shot Review Gallery">
-  <title>SP Tak Gallery</title>
+  <title>SP Tak - Shot Review Gallery</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
         <label class="search-field">
           <i data-lucide="search" aria-hidden="true"></i>
           <span class="sr-only">ค้นหาช็อต</span>
-          <input id="searchInput" type="search" placeholder="ค้นหาช็อต" autocomplete="off">
+          <input id="searchInput" type="search" placeholder="ค้นหาช็อต..." autocomplete="off">
         </label>
         <button class="button button-primary" id="openSummary" type="button">
           <i data-lucide="clipboard-list" aria-hidden="true"></i>
@@ -40,8 +40,8 @@
   <main class="app-main">
     <section class="overview" aria-labelledby="pageTitle">
       <div>
-        <p class="eyebrow">ชุดตรวจสอบตัวอย่าง</p>
-        <h1 id="pageTitle">คัดช็อตสำหรับตัดต่อ</h1>
+        <p class="eyebrow">ระบบตรวจสอบและคัดเลือกฟุตเทจ (Shot Review Workbench)</p>
+        <h1 id="pageTitle">คัดช็อตสำหรับตัดต่อวิดีโอ</h1>
       </div>
       <dl class="stats" aria-label="สถานะการตรวจ">
         <div>
@@ -49,11 +49,11 @@
           <dd id="totalStat">6</dd>
         </div>
         <div class="stat-keep">
-          <dt>เก็บ</dt>
+          <dt>เก็บ (Keep)</dt>
           <dd id="keepStat">0</dd>
         </div>
         <div class="stat-ban">
-          <dt>แบน</dt>
+          <dt>แบน (Ban)</dt>
           <dd id="banStat">0</dd>
         </div>
         <div>
@@ -68,17 +68,17 @@
         <span class="filter-label">สินค้า</span>
         <div class="segmented" id="productFilters" role="tablist" aria-label="เลือกสินค้า">
           <button class="segment is-active" type="button" data-product="all" aria-selected="true">ทั้งหมด</button>
-          <button class="segment" type="button" data-product="fridge" aria-selected="false">ตู้เย็น</button>
-          <button class="segment" type="button" data-product="rack" aria-selected="false">ชั้นวาง</button>
-          <button class="segment" type="button" data-product="washer" aria-selected="false">เครื่องซักผ้า</button>
+          <button class="segment" type="button" data-product="fridge" aria-selected="false">ตู้เย็น TCL</button>
+          <button class="segment" type="button" data-product="rack" aria-selected="false">ชั้นวาง 5 ชั้น</button>
+          <button class="segment" type="button" data-product="washer" aria-selected="false">เครื่องซักผ้า KASHIWA</button>
         </div>
       </div>
       <div class="filter-group">
         <span class="filter-label">สถานะ</span>
         <div class="segmented" id="statusFilters" role="tablist" aria-label="เลือกสถานะ">
           <button class="segment is-active" type="button" data-status="all" aria-selected="true">ทั้งหมด</button>
-          <button class="segment" type="button" data-status="keep" aria-selected="false">เก็บ</button>
-          <button class="segment" type="button" data-status="ban" aria-selected="false">แบน</button>
+          <button class="segment" type="button" data-status="keep" aria-selected="false">เก็บ (Keep)</button>
+          <button class="segment" type="button" data-status="ban" aria-selected="false">แบน (Ban)</button>
           <button class="segment" type="button" data-status="pending" aria-selected="false">รอตรวจ</button>
         </div>
       </div>
@@ -108,13 +108,13 @@
         <p class="shot-meta"></p>
         <label class="note-field">
           <span>หมายเหตุ</span>
-          <input class="note-input" type="text" maxlength="120" placeholder="เพิ่มรายละเอียดของช็อต">
+          <input class="note-input" type="text" maxlength="120" placeholder="เพิ่มหมายเหตุ เช่น ช็อตแกะกล่อง, หน้าคน...">
         </label>
         <div class="decision-row">
-          <button class="icon-command keep-button" type="button" title="เก็บช็อตนี้" aria-label="เก็บช็อตนี้">
+          <button class="icon-command keep-button" type="button" title="เก็บช็อตนี้ (Keep)" aria-label="เก็บช็อตนี้">
             <i data-lucide="check" aria-hidden="true"></i>
           </button>
-          <button class="icon-command ban-button" type="button" title="แบนช็อตนี้" aria-label="แบนช็อตนี้">
+          <button class="icon-command ban-button" type="button" title="แบนช็อตนี้ (Ban)" aria-label="แบนช็อตนี้">
             <i data-lucide="x" aria-hidden="true"></i>
           </button>
         </div>
@@ -126,8 +126,8 @@
     <form method="dialog" class="dialog-shell">
       <header class="dialog-header">
         <div>
-          <p class="eyebrow">Review export</p>
-          <h2>สรุปการคัดช็อต</h2>
+          <p class="eyebrow">Review Export · ส่งคำสั่งให้ AI</p>
+          <h2>สรุปการคัดช็อตสำหรับตัดต่อ</h2>
         </div>
         <button class="icon-button" value="cancel" type="submit" aria-label="ปิด">
           <i data-lucide="x" aria-hidden="true"></i>
@@ -146,7 +146,7 @@
         </button>
         <button class="button button-primary" id="copyReview" type="button">
           <i data-lucide="copy" aria-hidden="true"></i>
-          คัดลอก
+          คัดลอกคำสั่ง
         </button>
       </footer>
     </form>
