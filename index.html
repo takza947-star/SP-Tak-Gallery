@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f2">
+  <meta name="description" content="SP Tak Shot Review Gallery">
+  <title>SP Tak Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="SP Tak Gallery">
+        <span class="brand-mark">SP</span>
+        <span>
+          <strong>Shot Review</strong>
+          <small>SP Tak Gallery</small>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <label class="search-field">
+          <i data-lucide="search" aria-hidden="true"></i>
+          <span class="sr-only">ค้นหาช็อต</span>
+          <input id="searchInput" type="search" placeholder="ค้นหาช็อต" autocomplete="off">
+        </label>
+        <button class="button button-primary" id="openSummary" type="button">
+          <i data-lucide="clipboard-list" aria-hidden="true"></i>
+          <span>สรุป</span>
+          <span class="button-count" id="selectedCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <section class="overview" aria-labelledby="pageTitle">
+      <div>
+        <p class="eyebrow">ชุดตรวจสอบตัวอย่าง</p>
+        <h1 id="pageTitle">คัดช็อตสำหรับตัดต่อ</h1>
+      </div>
+      <dl class="stats" aria-label="สถานะการตรวจ">
+        <div>
+          <dt>ทั้งหมด</dt>
+          <dd id="totalStat">6</dd>
+        </div>
+        <div class="stat-keep">
+          <dt>เก็บ</dt>
+          <dd id="keepStat">0</dd>
+        </div>
+        <div class="stat-ban">
+          <dt>แบน</dt>
+          <dd id="banStat">0</dd>
+        </div>
+        <div>
+          <dt>รอตรวจ</dt>
+          <dd id="pendingStat">6</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="filters" aria-label="ตัวกรอง">
+      <div class="filter-group">
+        <span class="filter-label">สินค้า</span>
+        <div class="segmented" id="productFilters" role="tablist" aria-label="เลือกสินค้า">
+          <button class="segment is-active" type="button" data-product="all" aria-selected="true">ทั้งหมด</button>
+          <button class="segment" type="button" data-product="fridge" aria-selected="false">ตู้เย็น</button>
+          <button class="segment" type="button" data-product="rack" aria-selected="false">ชั้นวาง</button>
+          <button class="segment" type="button" data-product="washer" aria-selected="false">เครื่องซักผ้า</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">สถานะ</span>
+        <div class="segmented" id="statusFilters" role="tablist" aria-label="เลือกสถานะ">
+          <button class="segment is-active" type="button" data-status="all" aria-selected="true">ทั้งหมด</button>
+          <button class="segment" type="button" data-status="keep" aria-selected="false">เก็บ</button>
+          <button class="segment" type="button" data-status="ban" aria-selected="false">แบน</button>
+          <button class="segment" type="button" data-status="pending" aria-selected="false">รอตรวจ</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery" aria-live="polite"></section>
+    <div class="empty-state" id="emptyState" hidden>
+      <i data-lucide="search-x" aria-hidden="true"></i>
+      <p>ไม่พบช็อตที่ตรงกับตัวกรอง</p>
+    </div>
+  </main>
+
+  <template id="shotTemplate">
+    <article class="shot-card">
+      <button class="shot-image" type="button" aria-label="เปิดภาพขนาดใหญ่">
+        <span class="demo-badge">DEMO</span>
+        <span class="timecode"></span>
+      </button>
+      <div class="shot-body">
+        <div class="shot-heading">
+          <div>
+            <p class="product-name"></p>
+            <h2 class="shot-title"></h2>
+          </div>
+          <span class="status-dot" aria-label="รอตรวจ"></span>
+        </div>
+        <p class="shot-meta"></p>
+        <label class="note-field">
+          <span>หมายเหตุ</span>
+          <input class="note-input" type="text" maxlength="120" placeholder="เพิ่มรายละเอียดของช็อต">
+        </label>
+        <div class="decision-row">
+          <button class="icon-command keep-button" type="button" title="เก็บช็อตนี้" aria-label="เก็บช็อตนี้">
+            <i data-lucide="check" aria-hidden="true"></i>
+          </button>
+          <button class="icon-command ban-button" type="button" title="แบนช็อตนี้" aria-label="แบนช็อตนี้">
+            <i data-lucide="x" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <dialog class="dialog summary-dialog" id="summaryDialog">
+    <form method="dialog" class="dialog-shell">
+      <header class="dialog-header">
+        <div>
+          <p class="eyebrow">Review export</p>
+          <h2>สรุปการคัดช็อต</h2>
+        </div>
+        <button class="icon-button" value="cancel" type="submit" aria-label="ปิด">
+          <i data-lucide="x" aria-hidden="true"></i>
+        </button>
+      </header>
+      <div class="summary-content" id="summaryContent"></div>
+      <footer class="dialog-actions">
+        <button class="button button-danger" id="resetReview" type="button">
+          <i data-lucide="rotate-ccw" aria-hidden="true"></i>
+          ล้างผล
+        </button>
+        <span class="action-spacer"></span>
+        <button class="button" id="downloadReview" type="button">
+          <i data-lucide="download" aria-hidden="true"></i>
+          JSON
+        </button>
+        <button class="button button-primary" id="copyReview" type="button">
+          <i data-lucide="copy" aria-hidden="true"></i>
+          คัดลอก
+        </button>
+      </footer>
+    </form>
+  </dialog>
+
+  <dialog class="dialog preview-dialog" id="previewDialog">
+    <form method="dialog" class="preview-shell">
+      <button class="icon-button preview-close" value="cancel" type="submit" aria-label="ปิดภาพ">
+        <i data-lucide="x" aria-hidden="true"></i>
+      </button>
+      <div class="preview-image" id="previewImage"></div>
+      <div class="preview-caption">
+        <span id="previewProduct"></span>
+        <strong id="previewTitle"></strong>
+        <span id="previewTimecode"></span>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
