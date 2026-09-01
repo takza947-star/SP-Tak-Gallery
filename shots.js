@@ -1,7 +1,7 @@
-// Generated shot catalog (1827 shots every 2.0s)
+// Generated clean shot catalog (1042 shots every 2.0s)
 const shots = [
   {
-    "id": "RACK_IMG_1465_MOV_0000",
+    "id": "RACK_IMG_1465_MOV_00000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -9,21 +9,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00000.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0020",
+    "id": "RACK_IMG_1465_MOV_00020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -31,10 +20,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00020.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0040",
+    "id": "RACK_IMG_1465_MOV_00040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -42,21 +31,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00040.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0060",
+    "id": "RACK_IMG_1465_MOV_00060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -64,10 +42,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00060.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0080",
+    "id": "RACK_IMG_1465_MOV_00080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -75,21 +53,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00080.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0100",
+    "id": "RACK_IMG_1465_MOV_00100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -97,10 +64,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00100.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0120",
+    "id": "RACK_IMG_1465_MOV_00120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -108,21 +75,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00120.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0140",
+    "id": "RACK_IMG_1465_MOV_00140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -130,10 +86,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_14.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00140.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0160",
+    "id": "RACK_IMG_1465_MOV_00160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -141,21 +97,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_16.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00160.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_16.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0180",
+    "id": "RACK_IMG_1465_MOV_00180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -163,10 +108,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_18.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00180.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0200",
+    "id": "RACK_IMG_1465_MOV_00200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -174,21 +119,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_20.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00200.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_20.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0220",
+    "id": "RACK_IMG_1465_MOV_00220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -196,10 +130,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_22.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00220.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0240",
+    "id": "RACK_IMG_1465_MOV_00240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -207,21 +141,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_24.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00240.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0260",
+    "id": "RACK_IMG_1465_MOV_00260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -229,10 +152,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_26.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00260.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0280",
+    "id": "RACK_IMG_1465_MOV_00280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -240,21 +163,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_28.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00280.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:28)",
-    "timecode": "00:28",
-    "timeSec": 28.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_28.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0300",
+    "id": "RACK_IMG_1465_MOV_00300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -262,10 +174,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_30.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00300.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0320",
+    "id": "RACK_IMG_1465_MOV_00320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -273,21 +185,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_32.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00320.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0320",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:32)",
-    "timecode": "00:32",
-    "timeSec": 32.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_32.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0340",
+    "id": "RACK_IMG_1465_MOV_00340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -295,10 +196,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_34.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00340.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0360",
+    "id": "RACK_IMG_1465_MOV_00360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -306,21 +207,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_36.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00360.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_36.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0380",
+    "id": "RACK_IMG_1465_MOV_00380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -328,10 +218,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_38.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00380.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0400",
+    "id": "RACK_IMG_1465_MOV_00400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -339,21 +229,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_40.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00400.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0400",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:40)",
-    "timecode": "00:40",
-    "timeSec": 40.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_40.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0420",
+    "id": "RACK_IMG_1465_MOV_00420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -361,10 +240,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_42.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00420.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0440",
+    "id": "RACK_IMG_1465_MOV_00440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -372,21 +251,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_44.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00440.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0440",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:44)",
-    "timecode": "00:44",
-    "timeSec": 44.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_44.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0460",
+    "id": "RACK_IMG_1465_MOV_00460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -394,10 +262,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_46.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00460.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0480",
+    "id": "RACK_IMG_1465_MOV_00480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -405,21 +273,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_48.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00480.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_48.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0500",
+    "id": "RACK_IMG_1465_MOV_00500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -427,10 +284,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_50.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00500.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0520",
+    "id": "RACK_IMG_1465_MOV_00520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -438,21 +295,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_52.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00520.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0520",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:52)",
-    "timecode": "00:52",
-    "timeSec": 52.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_52.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0540",
+    "id": "RACK_IMG_1465_MOV_00540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -460,10 +306,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_54.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00540.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0560",
+    "id": "RACK_IMG_1465_MOV_00560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -471,21 +317,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_56.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00560.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0560",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (00:56)",
-    "timecode": "00:56",
-    "timeSec": 56.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_56.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0580",
+    "id": "RACK_IMG_1465_MOV_00580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -493,10 +328,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_58.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00580.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0600",
+    "id": "RACK_IMG_1465_MOV_00600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -504,21 +339,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_60.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00600.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_60.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0620",
+    "id": "RACK_IMG_1465_MOV_00620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -526,10 +350,10 @@ const shots = [
     "timecode": "01:02",
     "timeSec": 62.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_62.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00620.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0640",
+    "id": "RACK_IMG_1465_MOV_00640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -537,21 +361,10 @@ const shots = [
     "timecode": "01:04",
     "timeSec": 64.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_64.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00640.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0640",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:04)",
-    "timecode": "01:04",
-    "timeSec": 64.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_64.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0660",
+    "id": "RACK_IMG_1465_MOV_00660",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -559,10 +372,10 @@ const shots = [
     "timecode": "01:06",
     "timeSec": 66.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_66.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00660.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0680",
+    "id": "RACK_IMG_1465_MOV_00680",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -570,21 +383,10 @@ const shots = [
     "timecode": "01:08",
     "timeSec": 68.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_68.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00680.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0680",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:08)",
-    "timecode": "01:08",
-    "timeSec": 68.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_68.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0700",
+    "id": "RACK_IMG_1465_MOV_00700",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -592,10 +394,10 @@ const shots = [
     "timecode": "01:10",
     "timeSec": 70.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_70.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00700.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0720",
+    "id": "RACK_IMG_1465_MOV_00720",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -603,21 +405,10 @@ const shots = [
     "timecode": "01:12",
     "timeSec": 72.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_72.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00720.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0720",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_72.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0740",
+    "id": "RACK_IMG_1465_MOV_00740",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -625,10 +416,10 @@ const shots = [
     "timecode": "01:14",
     "timeSec": 74.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_74.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00740.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0760",
+    "id": "RACK_IMG_1465_MOV_00760",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -636,21 +427,10 @@ const shots = [
     "timecode": "01:16",
     "timeSec": 76.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_76.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00760.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0760",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:16)",
-    "timecode": "01:16",
-    "timeSec": 76.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_76.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0780",
+    "id": "RACK_IMG_1465_MOV_00780",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -658,10 +438,10 @@ const shots = [
     "timecode": "01:18",
     "timeSec": 78.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_78.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00780.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0800",
+    "id": "RACK_IMG_1465_MOV_00800",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -669,21 +449,10 @@ const shots = [
     "timecode": "01:20",
     "timeSec": 80.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_80.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00800.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0800",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:20)",
-    "timecode": "01:20",
-    "timeSec": 80.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_80.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0820",
+    "id": "RACK_IMG_1465_MOV_00820",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -691,10 +460,10 @@ const shots = [
     "timecode": "01:22",
     "timeSec": 82.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_82.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00820.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0840",
+    "id": "RACK_IMG_1465_MOV_00840",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -702,21 +471,10 @@ const shots = [
     "timecode": "01:24",
     "timeSec": 84.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_84.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00840.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0840",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_84.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0860",
+    "id": "RACK_IMG_1465_MOV_00860",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -724,10 +482,10 @@ const shots = [
     "timecode": "01:26",
     "timeSec": 86.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_86.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00860.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0880",
+    "id": "RACK_IMG_1465_MOV_00880",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -735,21 +493,10 @@ const shots = [
     "timecode": "01:28",
     "timeSec": 88.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_88.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00880.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0880",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:28)",
-    "timecode": "01:28",
-    "timeSec": 88.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_88.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0900",
+    "id": "RACK_IMG_1465_MOV_00900",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -757,10 +504,10 @@ const shots = [
     "timecode": "01:30",
     "timeSec": 90.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_90.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00900.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0920",
+    "id": "RACK_IMG_1465_MOV_00920",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -768,21 +515,10 @@ const shots = [
     "timecode": "01:32",
     "timeSec": 92.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_92.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00920.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0920",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:32)",
-    "timecode": "01:32",
-    "timeSec": 92.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_92.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0940",
+    "id": "RACK_IMG_1465_MOV_00940",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -790,10 +526,10 @@ const shots = [
     "timecode": "01:34",
     "timeSec": 94.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_94.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00940.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0960",
+    "id": "RACK_IMG_1465_MOV_00960",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -801,21 +537,10 @@ const shots = [
     "timecode": "01:36",
     "timeSec": 96.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_96.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00960.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_0960",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:36)",
-    "timecode": "01:36",
-    "timeSec": 96.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_96.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_0980",
+    "id": "RACK_IMG_1465_MOV_00980",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -823,10 +548,10 @@ const shots = [
     "timecode": "01:38",
     "timeSec": 98.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_98.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_00980.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1000",
+    "id": "RACK_IMG_1465_MOV_01000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -834,21 +559,10 @@ const shots = [
     "timecode": "01:40",
     "timeSec": 100.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_100.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01000.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:40)",
-    "timecode": "01:40",
-    "timeSec": 100.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_100.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1020",
+    "id": "RACK_IMG_1465_MOV_01020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -856,10 +570,10 @@ const shots = [
     "timecode": "01:42",
     "timeSec": 102.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_102.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01020.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1040",
+    "id": "RACK_IMG_1465_MOV_01040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -867,21 +581,10 @@ const shots = [
     "timecode": "01:44",
     "timeSec": 104.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_104.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01040.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:44)",
-    "timecode": "01:44",
-    "timeSec": 104.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_104.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1060",
+    "id": "RACK_IMG_1465_MOV_01060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -889,10 +592,10 @@ const shots = [
     "timecode": "01:46",
     "timeSec": 106.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_106.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01060.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1080",
+    "id": "RACK_IMG_1465_MOV_01080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -900,21 +603,10 @@ const shots = [
     "timecode": "01:48",
     "timeSec": 108.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_108.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01080.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:48)",
-    "timecode": "01:48",
-    "timeSec": 108.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_108.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1100",
+    "id": "RACK_IMG_1465_MOV_01100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -922,10 +614,10 @@ const shots = [
     "timecode": "01:50",
     "timeSec": 110.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_110.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01100.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1120",
+    "id": "RACK_IMG_1465_MOV_01120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -933,21 +625,10 @@ const shots = [
     "timecode": "01:52",
     "timeSec": 112.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_112.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01120.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:52)",
-    "timecode": "01:52",
-    "timeSec": 112.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_112.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1140",
+    "id": "RACK_IMG_1465_MOV_01140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -955,10 +636,10 @@ const shots = [
     "timecode": "01:54",
     "timeSec": 114.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_114.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01140.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1160",
+    "id": "RACK_IMG_1465_MOV_01160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -966,21 +647,10 @@ const shots = [
     "timecode": "01:56",
     "timeSec": 116.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_116.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01160.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (01:56)",
-    "timecode": "01:56",
-    "timeSec": 116.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_116.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1180",
+    "id": "RACK_IMG_1465_MOV_01180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -988,10 +658,10 @@ const shots = [
     "timecode": "01:58",
     "timeSec": 118.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_118.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01180.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1200",
+    "id": "RACK_IMG_1465_MOV_01200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -999,21 +669,10 @@ const shots = [
     "timecode": "02:00",
     "timeSec": 120.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_120.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01200.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:00)",
-    "timecode": "02:00",
-    "timeSec": 120.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_120.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1220",
+    "id": "RACK_IMG_1465_MOV_01220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1021,10 +680,10 @@ const shots = [
     "timecode": "02:02",
     "timeSec": 122.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_122.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01220.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1240",
+    "id": "RACK_IMG_1465_MOV_01240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1032,21 +691,10 @@ const shots = [
     "timecode": "02:04",
     "timeSec": 124.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_124.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01240.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:04)",
-    "timecode": "02:04",
-    "timeSec": 124.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_124.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1260",
+    "id": "RACK_IMG_1465_MOV_01260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1054,10 +702,10 @@ const shots = [
     "timecode": "02:06",
     "timeSec": 126.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_126.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01260.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1280",
+    "id": "RACK_IMG_1465_MOV_01280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1065,21 +713,10 @@ const shots = [
     "timecode": "02:08",
     "timeSec": 128.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_128.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01280.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:08)",
-    "timecode": "02:08",
-    "timeSec": 128.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_128.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1300",
+    "id": "RACK_IMG_1465_MOV_01300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1087,10 +724,10 @@ const shots = [
     "timecode": "02:10",
     "timeSec": 130.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_130.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01300.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1320",
+    "id": "RACK_IMG_1465_MOV_01320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1098,21 +735,10 @@ const shots = [
     "timecode": "02:12",
     "timeSec": 132.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_132.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01320.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1320",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:12)",
-    "timecode": "02:12",
-    "timeSec": 132.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_132.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1340",
+    "id": "RACK_IMG_1465_MOV_01340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1120,10 +746,10 @@ const shots = [
     "timecode": "02:14",
     "timeSec": 134.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_134.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01340.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1360",
+    "id": "RACK_IMG_1465_MOV_01360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1131,21 +757,10 @@ const shots = [
     "timecode": "02:16",
     "timeSec": 136.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_136.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01360.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:16)",
-    "timecode": "02:16",
-    "timeSec": 136.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_136.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1380",
+    "id": "RACK_IMG_1465_MOV_01380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1153,10 +768,10 @@ const shots = [
     "timecode": "02:18",
     "timeSec": 138.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_138.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01380.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1400",
+    "id": "RACK_IMG_1465_MOV_01400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1164,21 +779,10 @@ const shots = [
     "timecode": "02:20",
     "timeSec": 140.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_140.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01400.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1400",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:20)",
-    "timecode": "02:20",
-    "timeSec": 140.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_140.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1420",
+    "id": "RACK_IMG_1465_MOV_01420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1186,10 +790,10 @@ const shots = [
     "timecode": "02:22",
     "timeSec": 142.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_142.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01420.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1440",
+    "id": "RACK_IMG_1465_MOV_01440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1197,21 +801,10 @@ const shots = [
     "timecode": "02:24",
     "timeSec": 144.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_144.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01440.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1440",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:24)",
-    "timecode": "02:24",
-    "timeSec": 144.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_144.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1460",
+    "id": "RACK_IMG_1465_MOV_01460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1219,10 +812,10 @@ const shots = [
     "timecode": "02:26",
     "timeSec": 146.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_146.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01460.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1480",
+    "id": "RACK_IMG_1465_MOV_01480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1230,21 +823,10 @@ const shots = [
     "timecode": "02:28",
     "timeSec": 148.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_148.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01480.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:28)",
-    "timecode": "02:28",
-    "timeSec": 148.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_148.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1500",
+    "id": "RACK_IMG_1465_MOV_01500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1252,10 +834,10 @@ const shots = [
     "timecode": "02:30",
     "timeSec": 150.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_150.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01500.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1520",
+    "id": "RACK_IMG_1465_MOV_01520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1263,21 +845,10 @@ const shots = [
     "timecode": "02:32",
     "timeSec": 152.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_152.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01520.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1520",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:32)",
-    "timecode": "02:32",
-    "timeSec": 152.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_152.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1540",
+    "id": "RACK_IMG_1465_MOV_01540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1285,10 +856,10 @@ const shots = [
     "timecode": "02:34",
     "timeSec": 154.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_154.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01540.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1560",
+    "id": "RACK_IMG_1465_MOV_01560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1296,21 +867,10 @@ const shots = [
     "timecode": "02:36",
     "timeSec": 156.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_156.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01560.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1560",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:36)",
-    "timecode": "02:36",
-    "timeSec": 156.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_156.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1580",
+    "id": "RACK_IMG_1465_MOV_01580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1318,10 +878,10 @@ const shots = [
     "timecode": "02:38",
     "timeSec": 158.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_158.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01580.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1600",
+    "id": "RACK_IMG_1465_MOV_01600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1329,21 +889,10 @@ const shots = [
     "timecode": "02:40",
     "timeSec": 160.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_160.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01600.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:40)",
-    "timecode": "02:40",
-    "timeSec": 160.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_160.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1620",
+    "id": "RACK_IMG_1465_MOV_01620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1351,10 +900,10 @@ const shots = [
     "timecode": "02:42",
     "timeSec": 162.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_162.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01620.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1640",
+    "id": "RACK_IMG_1465_MOV_01640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1362,21 +911,10 @@ const shots = [
     "timecode": "02:44",
     "timeSec": 164.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_164.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01640.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1640",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:44)",
-    "timecode": "02:44",
-    "timeSec": 164.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_164.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1660",
+    "id": "RACK_IMG_1465_MOV_01660",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1384,10 +922,10 @@ const shots = [
     "timecode": "02:46",
     "timeSec": 166.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_166.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01660.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1680",
+    "id": "RACK_IMG_1465_MOV_01680",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1395,21 +933,10 @@ const shots = [
     "timecode": "02:48",
     "timeSec": 168.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_168.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01680.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1680",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:48)",
-    "timecode": "02:48",
-    "timeSec": 168.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_168.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1700",
+    "id": "RACK_IMG_1465_MOV_01700",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1417,10 +944,10 @@ const shots = [
     "timecode": "02:50",
     "timeSec": 170.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_170.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01700.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1720",
+    "id": "RACK_IMG_1465_MOV_01720",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1428,21 +955,10 @@ const shots = [
     "timecode": "02:52",
     "timeSec": 172.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_172.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01720.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1720",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:52)",
-    "timecode": "02:52",
-    "timeSec": 172.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_172.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1740",
+    "id": "RACK_IMG_1465_MOV_01740",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1450,10 +966,10 @@ const shots = [
     "timecode": "02:54",
     "timeSec": 174.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_174.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01740.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1760",
+    "id": "RACK_IMG_1465_MOV_01760",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1461,21 +977,10 @@ const shots = [
     "timecode": "02:56",
     "timeSec": 176.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_176.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01760.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1760",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (02:56)",
-    "timecode": "02:56",
-    "timeSec": 176.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_176.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1780",
+    "id": "RACK_IMG_1465_MOV_01780",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1483,10 +988,10 @@ const shots = [
     "timecode": "02:58",
     "timeSec": 178.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_178.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01780.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1800",
+    "id": "RACK_IMG_1465_MOV_01800",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1494,21 +999,10 @@ const shots = [
     "timecode": "03:00",
     "timeSec": 180.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_180.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01800.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1800",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:00)",
-    "timecode": "03:00",
-    "timeSec": 180.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_180.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1820",
+    "id": "RACK_IMG_1465_MOV_01820",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1516,10 +1010,10 @@ const shots = [
     "timecode": "03:02",
     "timeSec": 182.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_182.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01820.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1840",
+    "id": "RACK_IMG_1465_MOV_01840",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1527,21 +1021,10 @@ const shots = [
     "timecode": "03:04",
     "timeSec": 184.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_184.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01840.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1840",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:04)",
-    "timecode": "03:04",
-    "timeSec": 184.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_184.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1860",
+    "id": "RACK_IMG_1465_MOV_01860",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1549,10 +1032,10 @@ const shots = [
     "timecode": "03:06",
     "timeSec": 186.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_186.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01860.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1880",
+    "id": "RACK_IMG_1465_MOV_01880",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1560,21 +1043,10 @@ const shots = [
     "timecode": "03:08",
     "timeSec": 188.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_188.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01880.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1880",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:08)",
-    "timecode": "03:08",
-    "timeSec": 188.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_188.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1900",
+    "id": "RACK_IMG_1465_MOV_01900",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1582,10 +1054,10 @@ const shots = [
     "timecode": "03:10",
     "timeSec": 190.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_190.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01900.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1920",
+    "id": "RACK_IMG_1465_MOV_01920",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1593,21 +1065,10 @@ const shots = [
     "timecode": "03:12",
     "timeSec": 192.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_192.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01920.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1920",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:12)",
-    "timecode": "03:12",
-    "timeSec": 192.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_192.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1940",
+    "id": "RACK_IMG_1465_MOV_01940",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1615,10 +1076,10 @@ const shots = [
     "timecode": "03:14",
     "timeSec": 194.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_194.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01940.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1960",
+    "id": "RACK_IMG_1465_MOV_01960",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1626,21 +1087,10 @@ const shots = [
     "timecode": "03:16",
     "timeSec": 196.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_196.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01960.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_1960",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:16)",
-    "timecode": "03:16",
-    "timeSec": 196.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_196.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_1980",
+    "id": "RACK_IMG_1465_MOV_01980",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1648,10 +1098,10 @@ const shots = [
     "timecode": "03:18",
     "timeSec": 198.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_198.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_01980.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2000",
+    "id": "RACK_IMG_1465_MOV_02000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1659,21 +1109,10 @@ const shots = [
     "timecode": "03:20",
     "timeSec": 200.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_200.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02000.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:20)",
-    "timecode": "03:20",
-    "timeSec": 200.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_200.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2020",
+    "id": "RACK_IMG_1465_MOV_02020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1681,10 +1120,10 @@ const shots = [
     "timecode": "03:22",
     "timeSec": 202.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_202.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02020.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2040",
+    "id": "RACK_IMG_1465_MOV_02040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1692,21 +1131,10 @@ const shots = [
     "timecode": "03:24",
     "timeSec": 204.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_204.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02040.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:24)",
-    "timecode": "03:24",
-    "timeSec": 204.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_204.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2060",
+    "id": "RACK_IMG_1465_MOV_02060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1714,10 +1142,10 @@ const shots = [
     "timecode": "03:26",
     "timeSec": 206.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_206.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02060.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2080",
+    "id": "RACK_IMG_1465_MOV_02080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1725,21 +1153,10 @@ const shots = [
     "timecode": "03:28",
     "timeSec": 208.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_208.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02080.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:28)",
-    "timecode": "03:28",
-    "timeSec": 208.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_208.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2100",
+    "id": "RACK_IMG_1465_MOV_02100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1747,10 +1164,10 @@ const shots = [
     "timecode": "03:30",
     "timeSec": 210.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_210.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02100.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2120",
+    "id": "RACK_IMG_1465_MOV_02120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1758,21 +1175,10 @@ const shots = [
     "timecode": "03:32",
     "timeSec": 212.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_212.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02120.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:32)",
-    "timecode": "03:32",
-    "timeSec": 212.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_212.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2140",
+    "id": "RACK_IMG_1465_MOV_02140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1780,10 +1186,10 @@ const shots = [
     "timecode": "03:34",
     "timeSec": 214.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_214.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02140.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2160",
+    "id": "RACK_IMG_1465_MOV_02160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1791,21 +1197,10 @@ const shots = [
     "timecode": "03:36",
     "timeSec": 216.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_216.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02160.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:36)",
-    "timecode": "03:36",
-    "timeSec": 216.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_216.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2180",
+    "id": "RACK_IMG_1465_MOV_02180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1813,10 +1208,10 @@ const shots = [
     "timecode": "03:38",
     "timeSec": 218.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_218.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02180.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2200",
+    "id": "RACK_IMG_1465_MOV_02200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1824,21 +1219,10 @@ const shots = [
     "timecode": "03:40",
     "timeSec": 220.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_220.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02200.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:40)",
-    "timecode": "03:40",
-    "timeSec": 220.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_220.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2220",
+    "id": "RACK_IMG_1465_MOV_02220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1846,10 +1230,10 @@ const shots = [
     "timecode": "03:42",
     "timeSec": 222.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_222.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02220.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2240",
+    "id": "RACK_IMG_1465_MOV_02240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1857,21 +1241,10 @@ const shots = [
     "timecode": "03:44",
     "timeSec": 224.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_224.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02240.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:44)",
-    "timecode": "03:44",
-    "timeSec": 224.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_224.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2260",
+    "id": "RACK_IMG_1465_MOV_02260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1879,10 +1252,10 @@ const shots = [
     "timecode": "03:46",
     "timeSec": 226.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_226.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02260.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2280",
+    "id": "RACK_IMG_1465_MOV_02280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1890,21 +1263,10 @@ const shots = [
     "timecode": "03:48",
     "timeSec": 228.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_228.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02280.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:48)",
-    "timecode": "03:48",
-    "timeSec": 228.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_228.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2300",
+    "id": "RACK_IMG_1465_MOV_02300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1912,10 +1274,10 @@ const shots = [
     "timecode": "03:50",
     "timeSec": 230.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_230.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02300.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2320",
+    "id": "RACK_IMG_1465_MOV_02320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1923,21 +1285,10 @@ const shots = [
     "timecode": "03:52",
     "timeSec": 232.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_232.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02320.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2320",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:52)",
-    "timecode": "03:52",
-    "timeSec": 232.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_232.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2340",
+    "id": "RACK_IMG_1465_MOV_02340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1945,10 +1296,10 @@ const shots = [
     "timecode": "03:54",
     "timeSec": 234.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_234.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02340.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2360",
+    "id": "RACK_IMG_1465_MOV_02360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1956,21 +1307,10 @@ const shots = [
     "timecode": "03:56",
     "timeSec": 236.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_236.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02360.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (03:56)",
-    "timecode": "03:56",
-    "timeSec": 236.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_236.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2380",
+    "id": "RACK_IMG_1465_MOV_02380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1978,10 +1318,10 @@ const shots = [
     "timecode": "03:58",
     "timeSec": 238.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_238.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02380.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2400",
+    "id": "RACK_IMG_1465_MOV_02400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -1989,21 +1329,10 @@ const shots = [
     "timecode": "04:00",
     "timeSec": 240.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_240.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02400.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2400",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:00)",
-    "timecode": "04:00",
-    "timeSec": 240.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_240.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2420",
+    "id": "RACK_IMG_1465_MOV_02420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2011,10 +1340,10 @@ const shots = [
     "timecode": "04:02",
     "timeSec": 242.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_242.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02420.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2440",
+    "id": "RACK_IMG_1465_MOV_02440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2022,21 +1351,10 @@ const shots = [
     "timecode": "04:04",
     "timeSec": 244.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_244.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02440.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2440",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:04)",
-    "timecode": "04:04",
-    "timeSec": 244.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_244.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2460",
+    "id": "RACK_IMG_1465_MOV_02460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2044,10 +1362,10 @@ const shots = [
     "timecode": "04:06",
     "timeSec": 246.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_246.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02460.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2480",
+    "id": "RACK_IMG_1465_MOV_02480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2055,21 +1373,10 @@ const shots = [
     "timecode": "04:08",
     "timeSec": 248.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_248.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02480.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:08)",
-    "timecode": "04:08",
-    "timeSec": 248.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_248.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2500",
+    "id": "RACK_IMG_1465_MOV_02500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2077,10 +1384,10 @@ const shots = [
     "timecode": "04:10",
     "timeSec": 250.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_250.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02500.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2520",
+    "id": "RACK_IMG_1465_MOV_02520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2088,21 +1395,10 @@ const shots = [
     "timecode": "04:12",
     "timeSec": 252.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_252.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02520.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2520",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:12)",
-    "timecode": "04:12",
-    "timeSec": 252.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_252.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2540",
+    "id": "RACK_IMG_1465_MOV_02540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2110,10 +1406,10 @@ const shots = [
     "timecode": "04:14",
     "timeSec": 254.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_254.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02540.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2560",
+    "id": "RACK_IMG_1465_MOV_02560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2121,21 +1417,10 @@ const shots = [
     "timecode": "04:16",
     "timeSec": 256.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_256.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02560.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2560",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:16)",
-    "timecode": "04:16",
-    "timeSec": 256.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_256.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2580",
+    "id": "RACK_IMG_1465_MOV_02580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2143,10 +1428,10 @@ const shots = [
     "timecode": "04:18",
     "timeSec": 258.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_258.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02580.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2600",
+    "id": "RACK_IMG_1465_MOV_02600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2154,21 +1439,10 @@ const shots = [
     "timecode": "04:20",
     "timeSec": 260.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_260.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02600.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:20)",
-    "timecode": "04:20",
-    "timeSec": 260.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_260.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2620",
+    "id": "RACK_IMG_1465_MOV_02620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2176,10 +1450,10 @@ const shots = [
     "timecode": "04:22",
     "timeSec": 262.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_262.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02620.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2640",
+    "id": "RACK_IMG_1465_MOV_02640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2187,21 +1461,10 @@ const shots = [
     "timecode": "04:24",
     "timeSec": 264.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_264.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02640.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2640",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:24)",
-    "timecode": "04:24",
-    "timeSec": 264.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_264.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2660",
+    "id": "RACK_IMG_1465_MOV_02660",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2209,10 +1472,10 @@ const shots = [
     "timecode": "04:26",
     "timeSec": 266.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_266.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02660.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2680",
+    "id": "RACK_IMG_1465_MOV_02680",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2220,21 +1483,10 @@ const shots = [
     "timecode": "04:28",
     "timeSec": 268.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_268.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02680.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2680",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:28)",
-    "timecode": "04:28",
-    "timeSec": 268.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_268.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2700",
+    "id": "RACK_IMG_1465_MOV_02700",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2242,10 +1494,10 @@ const shots = [
     "timecode": "04:30",
     "timeSec": 270.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_270.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02700.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2720",
+    "id": "RACK_IMG_1465_MOV_02720",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2253,21 +1505,10 @@ const shots = [
     "timecode": "04:32",
     "timeSec": 272.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_272.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02720.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2720",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:32)",
-    "timecode": "04:32",
-    "timeSec": 272.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_272.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2740",
+    "id": "RACK_IMG_1465_MOV_02740",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2275,10 +1516,10 @@ const shots = [
     "timecode": "04:34",
     "timeSec": 274.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_274.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02740.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2760",
+    "id": "RACK_IMG_1465_MOV_02760",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2286,21 +1527,10 @@ const shots = [
     "timecode": "04:36",
     "timeSec": 276.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_276.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02760.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2760",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:36)",
-    "timecode": "04:36",
-    "timeSec": 276.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_276.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2780",
+    "id": "RACK_IMG_1465_MOV_02780",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2308,10 +1538,10 @@ const shots = [
     "timecode": "04:38",
     "timeSec": 278.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_278.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02780.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2800",
+    "id": "RACK_IMG_1465_MOV_02800",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2319,21 +1549,10 @@ const shots = [
     "timecode": "04:40",
     "timeSec": 280.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_280.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02800.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2800",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:40)",
-    "timecode": "04:40",
-    "timeSec": 280.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_280.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2820",
+    "id": "RACK_IMG_1465_MOV_02820",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2341,10 +1560,10 @@ const shots = [
     "timecode": "04:42",
     "timeSec": 282.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_282.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02820.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2840",
+    "id": "RACK_IMG_1465_MOV_02840",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2352,21 +1571,10 @@ const shots = [
     "timecode": "04:44",
     "timeSec": 284.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_284.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02840.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2840",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:44)",
-    "timecode": "04:44",
-    "timeSec": 284.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_284.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2860",
+    "id": "RACK_IMG_1465_MOV_02860",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2374,10 +1582,10 @@ const shots = [
     "timecode": "04:46",
     "timeSec": 286.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_286.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02860.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2880",
+    "id": "RACK_IMG_1465_MOV_02880",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2385,21 +1593,10 @@ const shots = [
     "timecode": "04:48",
     "timeSec": 288.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_288.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02880.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2880",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:48)",
-    "timecode": "04:48",
-    "timeSec": 288.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_288.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2900",
+    "id": "RACK_IMG_1465_MOV_02900",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2407,10 +1604,10 @@ const shots = [
     "timecode": "04:50",
     "timeSec": 290.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_290.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02900.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2920",
+    "id": "RACK_IMG_1465_MOV_02920",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2418,21 +1615,10 @@ const shots = [
     "timecode": "04:52",
     "timeSec": 292.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_292.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02920.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2920",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:52)",
-    "timecode": "04:52",
-    "timeSec": 292.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_292.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2940",
+    "id": "RACK_IMG_1465_MOV_02940",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2440,10 +1626,10 @@ const shots = [
     "timecode": "04:54",
     "timeSec": 294.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_294.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02940.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2960",
+    "id": "RACK_IMG_1465_MOV_02960",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2451,21 +1637,10 @@ const shots = [
     "timecode": "04:56",
     "timeSec": 296.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_296.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02960.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_2960",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (04:56)",
-    "timecode": "04:56",
-    "timeSec": 296.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_296.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_2980",
+    "id": "RACK_IMG_1465_MOV_02980",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2473,10 +1648,10 @@ const shots = [
     "timecode": "04:58",
     "timeSec": 298.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_298.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_02980.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3000",
+    "id": "RACK_IMG_1465_MOV_03000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2484,21 +1659,10 @@ const shots = [
     "timecode": "05:00",
     "timeSec": 300.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_300.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03000.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:00)",
-    "timecode": "05:00",
-    "timeSec": 300.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_300.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3020",
+    "id": "RACK_IMG_1465_MOV_03020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2506,10 +1670,10 @@ const shots = [
     "timecode": "05:02",
     "timeSec": 302.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_302.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03020.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3040",
+    "id": "RACK_IMG_1465_MOV_03040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2517,21 +1681,10 @@ const shots = [
     "timecode": "05:04",
     "timeSec": 304.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_304.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03040.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:04)",
-    "timecode": "05:04",
-    "timeSec": 304.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_304.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3060",
+    "id": "RACK_IMG_1465_MOV_03060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2539,10 +1692,10 @@ const shots = [
     "timecode": "05:06",
     "timeSec": 306.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_306.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03060.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3080",
+    "id": "RACK_IMG_1465_MOV_03080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2550,21 +1703,10 @@ const shots = [
     "timecode": "05:08",
     "timeSec": 308.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_308.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03080.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:08)",
-    "timecode": "05:08",
-    "timeSec": 308.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_308.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3100",
+    "id": "RACK_IMG_1465_MOV_03100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2572,10 +1714,10 @@ const shots = [
     "timecode": "05:10",
     "timeSec": 310.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_310.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03100.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3120",
+    "id": "RACK_IMG_1465_MOV_03120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2583,21 +1725,10 @@ const shots = [
     "timecode": "05:12",
     "timeSec": 312.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_312.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03120.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:12)",
-    "timecode": "05:12",
-    "timeSec": 312.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_312.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3140",
+    "id": "RACK_IMG_1465_MOV_03140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2605,10 +1736,10 @@ const shots = [
     "timecode": "05:14",
     "timeSec": 314.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_314.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03140.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3160",
+    "id": "RACK_IMG_1465_MOV_03160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2616,21 +1747,10 @@ const shots = [
     "timecode": "05:16",
     "timeSec": 316.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_316.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03160.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:16)",
-    "timecode": "05:16",
-    "timeSec": 316.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_316.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3180",
+    "id": "RACK_IMG_1465_MOV_03180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2638,10 +1758,10 @@ const shots = [
     "timecode": "05:18",
     "timeSec": 318.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_318.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03180.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3200",
+    "id": "RACK_IMG_1465_MOV_03200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2649,21 +1769,10 @@ const shots = [
     "timecode": "05:20",
     "timeSec": 320.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_320.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03200.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:20)",
-    "timecode": "05:20",
-    "timeSec": 320.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_320.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3220",
+    "id": "RACK_IMG_1465_MOV_03220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2671,10 +1780,10 @@ const shots = [
     "timecode": "05:22",
     "timeSec": 322.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_322.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03220.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3240",
+    "id": "RACK_IMG_1465_MOV_03240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2682,21 +1791,10 @@ const shots = [
     "timecode": "05:24",
     "timeSec": 324.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_324.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03240.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:24)",
-    "timecode": "05:24",
-    "timeSec": 324.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_324.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3260",
+    "id": "RACK_IMG_1465_MOV_03260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2704,10 +1802,10 @@ const shots = [
     "timecode": "05:26",
     "timeSec": 326.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_326.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03260.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3280",
+    "id": "RACK_IMG_1465_MOV_03280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2715,21 +1813,10 @@ const shots = [
     "timecode": "05:28",
     "timeSec": 328.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_328.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03280.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:28)",
-    "timecode": "05:28",
-    "timeSec": 328.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_328.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3300",
+    "id": "RACK_IMG_1465_MOV_03300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2737,10 +1824,10 @@ const shots = [
     "timecode": "05:30",
     "timeSec": 330.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_330.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03300.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3320",
+    "id": "RACK_IMG_1465_MOV_03320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2748,21 +1835,10 @@ const shots = [
     "timecode": "05:32",
     "timeSec": 332.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_332.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03320.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3320",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:32)",
-    "timecode": "05:32",
-    "timeSec": 332.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_332.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3340",
+    "id": "RACK_IMG_1465_MOV_03340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2770,10 +1846,10 @@ const shots = [
     "timecode": "05:34",
     "timeSec": 334.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_334.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03340.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3360",
+    "id": "RACK_IMG_1465_MOV_03360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2781,21 +1857,10 @@ const shots = [
     "timecode": "05:36",
     "timeSec": 336.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_336.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03360.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:36)",
-    "timecode": "05:36",
-    "timeSec": 336.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_336.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3380",
+    "id": "RACK_IMG_1465_MOV_03380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2803,10 +1868,10 @@ const shots = [
     "timecode": "05:38",
     "timeSec": 338.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_338.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03380.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3400",
+    "id": "RACK_IMG_1465_MOV_03400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2814,21 +1879,10 @@ const shots = [
     "timecode": "05:40",
     "timeSec": 340.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_340.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03400.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3400",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:40)",
-    "timecode": "05:40",
-    "timeSec": 340.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_340.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3420",
+    "id": "RACK_IMG_1465_MOV_03420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2836,10 +1890,10 @@ const shots = [
     "timecode": "05:42",
     "timeSec": 342.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_342.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03420.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3440",
+    "id": "RACK_IMG_1465_MOV_03440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2847,21 +1901,10 @@ const shots = [
     "timecode": "05:44",
     "timeSec": 344.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_344.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03440.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3440",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:44)",
-    "timecode": "05:44",
-    "timeSec": 344.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_344.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3460",
+    "id": "RACK_IMG_1465_MOV_03460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2869,10 +1912,10 @@ const shots = [
     "timecode": "05:46",
     "timeSec": 346.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_346.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03460.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3480",
+    "id": "RACK_IMG_1465_MOV_03480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2880,21 +1923,10 @@ const shots = [
     "timecode": "05:48",
     "timeSec": 348.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_348.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03480.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:48)",
-    "timecode": "05:48",
-    "timeSec": 348.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_348.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3500",
+    "id": "RACK_IMG_1465_MOV_03500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2902,10 +1934,10 @@ const shots = [
     "timecode": "05:50",
     "timeSec": 350.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_350.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03500.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3520",
+    "id": "RACK_IMG_1465_MOV_03520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2913,21 +1945,10 @@ const shots = [
     "timecode": "05:52",
     "timeSec": 352.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_352.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03520.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3520",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:52)",
-    "timecode": "05:52",
-    "timeSec": 352.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_352.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3540",
+    "id": "RACK_IMG_1465_MOV_03540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2935,10 +1956,10 @@ const shots = [
     "timecode": "05:54",
     "timeSec": 354.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_354.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03540.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3560",
+    "id": "RACK_IMG_1465_MOV_03560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2946,21 +1967,10 @@ const shots = [
     "timecode": "05:56",
     "timeSec": 356.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_356.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03560.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3560",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (05:56)",
-    "timecode": "05:56",
-    "timeSec": 356.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_356.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3580",
+    "id": "RACK_IMG_1465_MOV_03580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2968,10 +1978,10 @@ const shots = [
     "timecode": "05:58",
     "timeSec": 358.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_358.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03580.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3600",
+    "id": "RACK_IMG_1465_MOV_03600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -2979,21 +1989,10 @@ const shots = [
     "timecode": "06:00",
     "timeSec": 360.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_360.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03600.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (06:00)",
-    "timecode": "06:00",
-    "timeSec": 360.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_360.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1465_MOV_3620",
+    "id": "RACK_IMG_1465_MOV_03620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -3001,10 +2000,10 @@ const shots = [
     "timecode": "06:02",
     "timeSec": 362.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_362.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03620.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3640",
+    "id": "RACK_IMG_1465_MOV_03640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1465.MOV",
@@ -3012,21 +2011,10 @@ const shots = [
     "timecode": "06:04",
     "timeSec": 364.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_364.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_03640.jpg"
   },
   {
-    "id": "RACK_IMG_1465_MOV_3640",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1465.MOV",
-    "title": "IMG_1465.MOV (06:04)",
-    "timecode": "06:04",
-    "timeSec": 364.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1465_MOV/frame_364.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0000",
+    "id": "RACK_IMG_1466_MOV_00000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3034,21 +2022,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00000.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0020",
+    "id": "RACK_IMG_1466_MOV_00020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3056,10 +2033,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00020.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0040",
+    "id": "RACK_IMG_1466_MOV_00040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3067,21 +2044,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00040.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0060",
+    "id": "RACK_IMG_1466_MOV_00060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3089,10 +2055,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00060.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0080",
+    "id": "RACK_IMG_1466_MOV_00080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3100,21 +2066,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00080.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0100",
+    "id": "RACK_IMG_1466_MOV_00100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3122,10 +2077,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00100.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0120",
+    "id": "RACK_IMG_1466_MOV_00120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3133,21 +2088,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00120.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0140",
+    "id": "RACK_IMG_1466_MOV_00140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3155,10 +2099,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_14.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00140.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0160",
+    "id": "RACK_IMG_1466_MOV_00160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3166,21 +2110,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_16.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00160.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_16.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0180",
+    "id": "RACK_IMG_1466_MOV_00180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3188,10 +2121,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_18.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00180.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0200",
+    "id": "RACK_IMG_1466_MOV_00200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3199,21 +2132,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_20.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00200.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_20.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0220",
+    "id": "RACK_IMG_1466_MOV_00220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3221,10 +2143,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_22.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00220.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0240",
+    "id": "RACK_IMG_1466_MOV_00240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3232,21 +2154,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_24.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00240.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0260",
+    "id": "RACK_IMG_1466_MOV_00260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3254,10 +2165,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_26.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00260.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0280",
+    "id": "RACK_IMG_1466_MOV_00280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3265,21 +2176,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_28.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00280.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:28)",
-    "timecode": "00:28",
-    "timeSec": 28.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_28.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0300",
+    "id": "RACK_IMG_1466_MOV_00300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3287,10 +2187,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_30.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00300.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0320",
+    "id": "RACK_IMG_1466_MOV_00320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3298,21 +2198,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_32.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00320.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0320",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:32)",
-    "timecode": "00:32",
-    "timeSec": 32.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_32.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0340",
+    "id": "RACK_IMG_1466_MOV_00340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3320,10 +2209,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_34.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00340.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0360",
+    "id": "RACK_IMG_1466_MOV_00360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3331,21 +2220,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_36.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00360.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_36.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0380",
+    "id": "RACK_IMG_1466_MOV_00380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3353,10 +2231,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_38.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00380.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0400",
+    "id": "RACK_IMG_1466_MOV_00400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3364,21 +2242,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_40.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00400.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0400",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:40)",
-    "timecode": "00:40",
-    "timeSec": 40.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_40.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0420",
+    "id": "RACK_IMG_1466_MOV_00420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3386,10 +2253,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_42.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00420.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0440",
+    "id": "RACK_IMG_1466_MOV_00440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3397,21 +2264,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_44.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00440.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0440",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:44)",
-    "timecode": "00:44",
-    "timeSec": 44.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_44.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0460",
+    "id": "RACK_IMG_1466_MOV_00460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3419,10 +2275,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_46.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00460.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0480",
+    "id": "RACK_IMG_1466_MOV_00480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3430,21 +2286,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_48.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00480.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_48.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0500",
+    "id": "RACK_IMG_1466_MOV_00500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3452,10 +2297,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_50.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00500.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0520",
+    "id": "RACK_IMG_1466_MOV_00520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3463,21 +2308,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_52.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00520.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0520",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:52)",
-    "timecode": "00:52",
-    "timeSec": 52.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_52.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0540",
+    "id": "RACK_IMG_1466_MOV_00540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3485,10 +2319,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_54.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00540.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0560",
+    "id": "RACK_IMG_1466_MOV_00560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3496,21 +2330,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_56.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00560.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0560",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (00:56)",
-    "timecode": "00:56",
-    "timeSec": 56.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_56.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0580",
+    "id": "RACK_IMG_1466_MOV_00580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3518,10 +2341,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_58.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00580.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0600",
+    "id": "RACK_IMG_1466_MOV_00600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3529,21 +2352,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_60.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00600.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_60.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0620",
+    "id": "RACK_IMG_1466_MOV_00620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3551,10 +2363,10 @@ const shots = [
     "timecode": "01:02",
     "timeSec": 62.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_62.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00620.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0640",
+    "id": "RACK_IMG_1466_MOV_00640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3562,21 +2374,10 @@ const shots = [
     "timecode": "01:04",
     "timeSec": 64.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_64.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00640.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0640",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:04)",
-    "timecode": "01:04",
-    "timeSec": 64.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_64.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0660",
+    "id": "RACK_IMG_1466_MOV_00660",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3584,10 +2385,10 @@ const shots = [
     "timecode": "01:06",
     "timeSec": 66.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_66.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00660.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0680",
+    "id": "RACK_IMG_1466_MOV_00680",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3595,21 +2396,10 @@ const shots = [
     "timecode": "01:08",
     "timeSec": 68.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_68.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00680.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0680",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:08)",
-    "timecode": "01:08",
-    "timeSec": 68.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_68.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0700",
+    "id": "RACK_IMG_1466_MOV_00700",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3617,10 +2407,10 @@ const shots = [
     "timecode": "01:10",
     "timeSec": 70.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_70.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00700.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0720",
+    "id": "RACK_IMG_1466_MOV_00720",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3628,21 +2418,10 @@ const shots = [
     "timecode": "01:12",
     "timeSec": 72.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_72.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00720.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0720",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_72.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0740",
+    "id": "RACK_IMG_1466_MOV_00740",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3650,10 +2429,10 @@ const shots = [
     "timecode": "01:14",
     "timeSec": 74.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_74.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00740.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0760",
+    "id": "RACK_IMG_1466_MOV_00760",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3661,21 +2440,10 @@ const shots = [
     "timecode": "01:16",
     "timeSec": 76.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_76.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00760.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0760",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:16)",
-    "timecode": "01:16",
-    "timeSec": 76.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_76.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0780",
+    "id": "RACK_IMG_1466_MOV_00780",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3683,10 +2451,10 @@ const shots = [
     "timecode": "01:18",
     "timeSec": 78.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_78.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00780.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0800",
+    "id": "RACK_IMG_1466_MOV_00800",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3694,21 +2462,10 @@ const shots = [
     "timecode": "01:20",
     "timeSec": 80.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_80.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00800.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0800",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:20)",
-    "timecode": "01:20",
-    "timeSec": 80.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_80.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0820",
+    "id": "RACK_IMG_1466_MOV_00820",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3716,10 +2473,10 @@ const shots = [
     "timecode": "01:22",
     "timeSec": 82.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_82.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00820.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0840",
+    "id": "RACK_IMG_1466_MOV_00840",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3727,21 +2484,10 @@ const shots = [
     "timecode": "01:24",
     "timeSec": 84.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_84.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00840.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0840",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_84.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0860",
+    "id": "RACK_IMG_1466_MOV_00860",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3749,10 +2495,10 @@ const shots = [
     "timecode": "01:26",
     "timeSec": 86.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_86.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00860.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0880",
+    "id": "RACK_IMG_1466_MOV_00880",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3760,21 +2506,10 @@ const shots = [
     "timecode": "01:28",
     "timeSec": 88.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_88.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00880.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0880",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:28)",
-    "timecode": "01:28",
-    "timeSec": 88.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_88.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0900",
+    "id": "RACK_IMG_1466_MOV_00900",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3782,10 +2517,10 @@ const shots = [
     "timecode": "01:30",
     "timeSec": 90.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_90.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00900.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0920",
+    "id": "RACK_IMG_1466_MOV_00920",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3793,21 +2528,10 @@ const shots = [
     "timecode": "01:32",
     "timeSec": 92.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_92.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00920.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0920",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:32)",
-    "timecode": "01:32",
-    "timeSec": 92.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_92.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0940",
+    "id": "RACK_IMG_1466_MOV_00940",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3815,10 +2539,10 @@ const shots = [
     "timecode": "01:34",
     "timeSec": 94.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_94.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00940.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0960",
+    "id": "RACK_IMG_1466_MOV_00960",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3826,21 +2550,10 @@ const shots = [
     "timecode": "01:36",
     "timeSec": 96.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_96.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00960.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_0960",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:36)",
-    "timecode": "01:36",
-    "timeSec": 96.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_96.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_0980",
+    "id": "RACK_IMG_1466_MOV_00980",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3848,10 +2561,10 @@ const shots = [
     "timecode": "01:38",
     "timeSec": 98.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_98.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_00980.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1000",
+    "id": "RACK_IMG_1466_MOV_01000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3859,21 +2572,10 @@ const shots = [
     "timecode": "01:40",
     "timeSec": 100.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_100.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01000.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:40)",
-    "timecode": "01:40",
-    "timeSec": 100.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_100.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_1020",
+    "id": "RACK_IMG_1466_MOV_01020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3881,10 +2583,10 @@ const shots = [
     "timecode": "01:42",
     "timeSec": 102.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_102.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01020.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1040",
+    "id": "RACK_IMG_1466_MOV_01040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3892,21 +2594,10 @@ const shots = [
     "timecode": "01:44",
     "timeSec": 104.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_104.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01040.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:44)",
-    "timecode": "01:44",
-    "timeSec": 104.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_104.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_1060",
+    "id": "RACK_IMG_1466_MOV_01060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3914,10 +2605,10 @@ const shots = [
     "timecode": "01:46",
     "timeSec": 106.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_106.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01060.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1080",
+    "id": "RACK_IMG_1466_MOV_01080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3925,21 +2616,10 @@ const shots = [
     "timecode": "01:48",
     "timeSec": 108.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_108.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01080.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:48)",
-    "timecode": "01:48",
-    "timeSec": 108.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_108.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_1100",
+    "id": "RACK_IMG_1466_MOV_01100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3947,10 +2627,10 @@ const shots = [
     "timecode": "01:50",
     "timeSec": 110.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_110.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01100.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1120",
+    "id": "RACK_IMG_1466_MOV_01120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3958,21 +2638,10 @@ const shots = [
     "timecode": "01:52",
     "timeSec": 112.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_112.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01120.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:52)",
-    "timecode": "01:52",
-    "timeSec": 112.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_112.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_1140",
+    "id": "RACK_IMG_1466_MOV_01140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3980,10 +2649,10 @@ const shots = [
     "timecode": "01:54",
     "timeSec": 114.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_114.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01140.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1160",
+    "id": "RACK_IMG_1466_MOV_01160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -3991,21 +2660,10 @@ const shots = [
     "timecode": "01:56",
     "timeSec": 116.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_116.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01160.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (01:56)",
-    "timecode": "01:56",
-    "timeSec": 116.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_116.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_1180",
+    "id": "RACK_IMG_1466_MOV_01180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -4013,10 +2671,10 @@ const shots = [
     "timecode": "01:58",
     "timeSec": 118.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_118.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01180.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1200",
+    "id": "RACK_IMG_1466_MOV_01200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -4024,21 +2682,10 @@ const shots = [
     "timecode": "02:00",
     "timeSec": 120.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_120.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01200.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (02:00)",
-    "timecode": "02:00",
-    "timeSec": 120.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_120.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_1220",
+    "id": "RACK_IMG_1466_MOV_01220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -4046,10 +2693,10 @@ const shots = [
     "timecode": "02:02",
     "timeSec": 122.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_122.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01220.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1240",
+    "id": "RACK_IMG_1466_MOV_01240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -4057,21 +2704,10 @@ const shots = [
     "timecode": "02:04",
     "timeSec": 124.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_124.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01240.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (02:04)",
-    "timecode": "02:04",
-    "timeSec": 124.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_124.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1466_MOV_1260",
+    "id": "RACK_IMG_1466_MOV_01260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -4079,10 +2715,10 @@ const shots = [
     "timecode": "02:06",
     "timeSec": 126.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_126.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01260.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1280",
+    "id": "RACK_IMG_1466_MOV_01280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1466.MOV",
@@ -4090,21 +2726,10 @@ const shots = [
     "timecode": "02:08",
     "timeSec": 128.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_128.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_01280.jpg"
   },
   {
-    "id": "RACK_IMG_1466_MOV_1280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1466.MOV",
-    "title": "IMG_1466.MOV (02:08)",
-    "timecode": "02:08",
-    "timeSec": 128.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1466_MOV/frame_128.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0000",
+    "id": "RACK_IMG_1467_MOV_00000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4112,21 +2737,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00000.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0020",
+    "id": "RACK_IMG_1467_MOV_00020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4134,10 +2748,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00020.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0040",
+    "id": "RACK_IMG_1467_MOV_00040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4145,21 +2759,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00040.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0060",
+    "id": "RACK_IMG_1467_MOV_00060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4167,10 +2770,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00060.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0080",
+    "id": "RACK_IMG_1467_MOV_00080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4178,21 +2781,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00080.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0100",
+    "id": "RACK_IMG_1467_MOV_00100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4200,10 +2792,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00100.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0120",
+    "id": "RACK_IMG_1467_MOV_00120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4211,21 +2803,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00120.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0140",
+    "id": "RACK_IMG_1467_MOV_00140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4233,10 +2814,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_14.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00140.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0160",
+    "id": "RACK_IMG_1467_MOV_00160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4244,21 +2825,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_16.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00160.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_16.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0180",
+    "id": "RACK_IMG_1467_MOV_00180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4266,10 +2836,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_18.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00180.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0200",
+    "id": "RACK_IMG_1467_MOV_00200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4277,21 +2847,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_20.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00200.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_20.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0220",
+    "id": "RACK_IMG_1467_MOV_00220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4299,10 +2858,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_22.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00220.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0240",
+    "id": "RACK_IMG_1467_MOV_00240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4310,21 +2869,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_24.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00240.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0260",
+    "id": "RACK_IMG_1467_MOV_00260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4332,10 +2880,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_26.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00260.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0280",
+    "id": "RACK_IMG_1467_MOV_00280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4343,21 +2891,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_28.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00280.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:28)",
-    "timecode": "00:28",
-    "timeSec": 28.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_28.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0300",
+    "id": "RACK_IMG_1467_MOV_00300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4365,10 +2902,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_30.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00300.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0320",
+    "id": "RACK_IMG_1467_MOV_00320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4376,21 +2913,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_32.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00320.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0320",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:32)",
-    "timecode": "00:32",
-    "timeSec": 32.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_32.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0340",
+    "id": "RACK_IMG_1467_MOV_00340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4398,10 +2924,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_34.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00340.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0360",
+    "id": "RACK_IMG_1467_MOV_00360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4409,21 +2935,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_36.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00360.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_36.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0380",
+    "id": "RACK_IMG_1467_MOV_00380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4431,10 +2946,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_38.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00380.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0400",
+    "id": "RACK_IMG_1467_MOV_00400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4442,21 +2957,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_40.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00400.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0400",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:40)",
-    "timecode": "00:40",
-    "timeSec": 40.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_40.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0420",
+    "id": "RACK_IMG_1467_MOV_00420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4464,10 +2968,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_42.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00420.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0440",
+    "id": "RACK_IMG_1467_MOV_00440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4475,21 +2979,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_44.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00440.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0440",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:44)",
-    "timecode": "00:44",
-    "timeSec": 44.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_44.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0460",
+    "id": "RACK_IMG_1467_MOV_00460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4497,10 +2990,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_46.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00460.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0480",
+    "id": "RACK_IMG_1467_MOV_00480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4508,21 +3001,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_48.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00480.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_48.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0500",
+    "id": "RACK_IMG_1467_MOV_00500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4530,10 +3012,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_50.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00500.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0520",
+    "id": "RACK_IMG_1467_MOV_00520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4541,21 +3023,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_52.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00520.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0520",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:52)",
-    "timecode": "00:52",
-    "timeSec": 52.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_52.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0540",
+    "id": "RACK_IMG_1467_MOV_00540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4563,10 +3034,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_54.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00540.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0560",
+    "id": "RACK_IMG_1467_MOV_00560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4574,21 +3045,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_56.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00560.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0560",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (00:56)",
-    "timecode": "00:56",
-    "timeSec": 56.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_56.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0580",
+    "id": "RACK_IMG_1467_MOV_00580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4596,10 +3056,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_58.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00580.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0600",
+    "id": "RACK_IMG_1467_MOV_00600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4607,21 +3067,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_60.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00600.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_60.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0620",
+    "id": "RACK_IMG_1467_MOV_00620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4629,10 +3078,10 @@ const shots = [
     "timecode": "01:02",
     "timeSec": 62.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_62.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00620.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0640",
+    "id": "RACK_IMG_1467_MOV_00640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4640,21 +3089,10 @@ const shots = [
     "timecode": "01:04",
     "timeSec": 64.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_64.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00640.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0640",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:04)",
-    "timecode": "01:04",
-    "timeSec": 64.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_64.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0660",
+    "id": "RACK_IMG_1467_MOV_00660",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4662,10 +3100,10 @@ const shots = [
     "timecode": "01:06",
     "timeSec": 66.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_66.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00660.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0680",
+    "id": "RACK_IMG_1467_MOV_00680",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4673,21 +3111,10 @@ const shots = [
     "timecode": "01:08",
     "timeSec": 68.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_68.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00680.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0680",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:08)",
-    "timecode": "01:08",
-    "timeSec": 68.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_68.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0700",
+    "id": "RACK_IMG_1467_MOV_00700",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4695,10 +3122,10 @@ const shots = [
     "timecode": "01:10",
     "timeSec": 70.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_70.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00700.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0720",
+    "id": "RACK_IMG_1467_MOV_00720",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4706,21 +3133,10 @@ const shots = [
     "timecode": "01:12",
     "timeSec": 72.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_72.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00720.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0720",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_72.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0740",
+    "id": "RACK_IMG_1467_MOV_00740",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4728,10 +3144,10 @@ const shots = [
     "timecode": "01:14",
     "timeSec": 74.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_74.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00740.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0760",
+    "id": "RACK_IMG_1467_MOV_00760",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4739,21 +3155,10 @@ const shots = [
     "timecode": "01:16",
     "timeSec": 76.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_76.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00760.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0760",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:16)",
-    "timecode": "01:16",
-    "timeSec": 76.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_76.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0780",
+    "id": "RACK_IMG_1467_MOV_00780",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4761,10 +3166,10 @@ const shots = [
     "timecode": "01:18",
     "timeSec": 78.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_78.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00780.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0800",
+    "id": "RACK_IMG_1467_MOV_00800",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4772,21 +3177,10 @@ const shots = [
     "timecode": "01:20",
     "timeSec": 80.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_80.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00800.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0800",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:20)",
-    "timecode": "01:20",
-    "timeSec": 80.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_80.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0820",
+    "id": "RACK_IMG_1467_MOV_00820",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4794,10 +3188,10 @@ const shots = [
     "timecode": "01:22",
     "timeSec": 82.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_82.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00820.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0840",
+    "id": "RACK_IMG_1467_MOV_00840",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4805,21 +3199,10 @@ const shots = [
     "timecode": "01:24",
     "timeSec": 84.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_84.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00840.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0840",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_84.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0860",
+    "id": "RACK_IMG_1467_MOV_00860",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4827,10 +3210,10 @@ const shots = [
     "timecode": "01:26",
     "timeSec": 86.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_86.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00860.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0880",
+    "id": "RACK_IMG_1467_MOV_00880",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4838,21 +3221,10 @@ const shots = [
     "timecode": "01:28",
     "timeSec": 88.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_88.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00880.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0880",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:28)",
-    "timecode": "01:28",
-    "timeSec": 88.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_88.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0900",
+    "id": "RACK_IMG_1467_MOV_00900",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4860,10 +3232,10 @@ const shots = [
     "timecode": "01:30",
     "timeSec": 90.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_90.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00900.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0920",
+    "id": "RACK_IMG_1467_MOV_00920",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4871,21 +3243,10 @@ const shots = [
     "timecode": "01:32",
     "timeSec": 92.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_92.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00920.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0920",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:32)",
-    "timecode": "01:32",
-    "timeSec": 92.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_92.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0940",
+    "id": "RACK_IMG_1467_MOV_00940",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4893,10 +3254,10 @@ const shots = [
     "timecode": "01:34",
     "timeSec": 94.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_94.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00940.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0960",
+    "id": "RACK_IMG_1467_MOV_00960",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4904,21 +3265,10 @@ const shots = [
     "timecode": "01:36",
     "timeSec": 96.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_96.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00960.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_0960",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:36)",
-    "timecode": "01:36",
-    "timeSec": 96.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_96.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_0980",
+    "id": "RACK_IMG_1467_MOV_00980",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4926,10 +3276,10 @@ const shots = [
     "timecode": "01:38",
     "timeSec": 98.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_98.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_00980.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1000",
+    "id": "RACK_IMG_1467_MOV_01000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4937,21 +3287,10 @@ const shots = [
     "timecode": "01:40",
     "timeSec": 100.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_100.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01000.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:40)",
-    "timecode": "01:40",
-    "timeSec": 100.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_100.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1020",
+    "id": "RACK_IMG_1467_MOV_01020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4959,10 +3298,10 @@ const shots = [
     "timecode": "01:42",
     "timeSec": 102.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_102.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01020.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1040",
+    "id": "RACK_IMG_1467_MOV_01040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4970,21 +3309,10 @@ const shots = [
     "timecode": "01:44",
     "timeSec": 104.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_104.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01040.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:44)",
-    "timecode": "01:44",
-    "timeSec": 104.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_104.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1060",
+    "id": "RACK_IMG_1467_MOV_01060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -4992,10 +3320,10 @@ const shots = [
     "timecode": "01:46",
     "timeSec": 106.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_106.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01060.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1080",
+    "id": "RACK_IMG_1467_MOV_01080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5003,21 +3331,10 @@ const shots = [
     "timecode": "01:48",
     "timeSec": 108.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_108.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01080.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:48)",
-    "timecode": "01:48",
-    "timeSec": 108.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_108.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1100",
+    "id": "RACK_IMG_1467_MOV_01100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5025,10 +3342,10 @@ const shots = [
     "timecode": "01:50",
     "timeSec": 110.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_110.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01100.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1120",
+    "id": "RACK_IMG_1467_MOV_01120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5036,21 +3353,10 @@ const shots = [
     "timecode": "01:52",
     "timeSec": 112.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_112.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01120.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:52)",
-    "timecode": "01:52",
-    "timeSec": 112.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_112.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1140",
+    "id": "RACK_IMG_1467_MOV_01140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5058,10 +3364,10 @@ const shots = [
     "timecode": "01:54",
     "timeSec": 114.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_114.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01140.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1160",
+    "id": "RACK_IMG_1467_MOV_01160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5069,21 +3375,10 @@ const shots = [
     "timecode": "01:56",
     "timeSec": 116.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_116.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01160.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (01:56)",
-    "timecode": "01:56",
-    "timeSec": 116.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_116.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1180",
+    "id": "RACK_IMG_1467_MOV_01180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5091,10 +3386,10 @@ const shots = [
     "timecode": "01:58",
     "timeSec": 118.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_118.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01180.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1200",
+    "id": "RACK_IMG_1467_MOV_01200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5102,21 +3397,10 @@ const shots = [
     "timecode": "02:00",
     "timeSec": 120.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_120.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01200.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:00)",
-    "timecode": "02:00",
-    "timeSec": 120.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_120.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1220",
+    "id": "RACK_IMG_1467_MOV_01220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5124,10 +3408,10 @@ const shots = [
     "timecode": "02:02",
     "timeSec": 122.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_122.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01220.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1240",
+    "id": "RACK_IMG_1467_MOV_01240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5135,21 +3419,10 @@ const shots = [
     "timecode": "02:04",
     "timeSec": 124.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_124.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01240.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:04)",
-    "timecode": "02:04",
-    "timeSec": 124.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_124.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1260",
+    "id": "RACK_IMG_1467_MOV_01260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5157,10 +3430,10 @@ const shots = [
     "timecode": "02:06",
     "timeSec": 126.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_126.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01260.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1280",
+    "id": "RACK_IMG_1467_MOV_01280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5168,21 +3441,10 @@ const shots = [
     "timecode": "02:08",
     "timeSec": 128.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_128.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01280.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:08)",
-    "timecode": "02:08",
-    "timeSec": 128.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_128.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1300",
+    "id": "RACK_IMG_1467_MOV_01300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5190,10 +3452,10 @@ const shots = [
     "timecode": "02:10",
     "timeSec": 130.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_130.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01300.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1320",
+    "id": "RACK_IMG_1467_MOV_01320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5201,21 +3463,10 @@ const shots = [
     "timecode": "02:12",
     "timeSec": 132.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_132.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01320.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1320",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:12)",
-    "timecode": "02:12",
-    "timeSec": 132.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_132.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1340",
+    "id": "RACK_IMG_1467_MOV_01340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5223,10 +3474,10 @@ const shots = [
     "timecode": "02:14",
     "timeSec": 134.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_134.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01340.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1360",
+    "id": "RACK_IMG_1467_MOV_01360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5234,21 +3485,10 @@ const shots = [
     "timecode": "02:16",
     "timeSec": 136.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_136.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01360.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:16)",
-    "timecode": "02:16",
-    "timeSec": 136.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_136.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1380",
+    "id": "RACK_IMG_1467_MOV_01380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5256,10 +3496,10 @@ const shots = [
     "timecode": "02:18",
     "timeSec": 138.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_138.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01380.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1400",
+    "id": "RACK_IMG_1467_MOV_01400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5267,21 +3507,10 @@ const shots = [
     "timecode": "02:20",
     "timeSec": 140.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_140.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01400.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1400",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:20)",
-    "timecode": "02:20",
-    "timeSec": 140.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_140.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1420",
+    "id": "RACK_IMG_1467_MOV_01420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5289,10 +3518,10 @@ const shots = [
     "timecode": "02:22",
     "timeSec": 142.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_142.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01420.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1440",
+    "id": "RACK_IMG_1467_MOV_01440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5300,21 +3529,10 @@ const shots = [
     "timecode": "02:24",
     "timeSec": 144.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_144.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01440.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1440",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:24)",
-    "timecode": "02:24",
-    "timeSec": 144.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_144.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1460",
+    "id": "RACK_IMG_1467_MOV_01460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5322,10 +3540,10 @@ const shots = [
     "timecode": "02:26",
     "timeSec": 146.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_146.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01460.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1480",
+    "id": "RACK_IMG_1467_MOV_01480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5333,21 +3551,10 @@ const shots = [
     "timecode": "02:28",
     "timeSec": 148.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_148.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01480.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:28)",
-    "timecode": "02:28",
-    "timeSec": 148.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_148.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1500",
+    "id": "RACK_IMG_1467_MOV_01500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5355,10 +3562,10 @@ const shots = [
     "timecode": "02:30",
     "timeSec": 150.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_150.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01500.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1520",
+    "id": "RACK_IMG_1467_MOV_01520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5366,21 +3573,10 @@ const shots = [
     "timecode": "02:32",
     "timeSec": 152.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_152.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01520.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1520",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:32)",
-    "timecode": "02:32",
-    "timeSec": 152.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_152.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1540",
+    "id": "RACK_IMG_1467_MOV_01540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5388,10 +3584,10 @@ const shots = [
     "timecode": "02:34",
     "timeSec": 154.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_154.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01540.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1560",
+    "id": "RACK_IMG_1467_MOV_01560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5399,21 +3595,10 @@ const shots = [
     "timecode": "02:36",
     "timeSec": 156.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_156.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01560.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1560",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:36)",
-    "timecode": "02:36",
-    "timeSec": 156.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_156.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1580",
+    "id": "RACK_IMG_1467_MOV_01580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5421,10 +3606,10 @@ const shots = [
     "timecode": "02:38",
     "timeSec": 158.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_158.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01580.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1600",
+    "id": "RACK_IMG_1467_MOV_01600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5432,21 +3617,10 @@ const shots = [
     "timecode": "02:40",
     "timeSec": 160.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_160.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01600.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:40)",
-    "timecode": "02:40",
-    "timeSec": 160.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_160.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1620",
+    "id": "RACK_IMG_1467_MOV_01620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5454,10 +3628,10 @@ const shots = [
     "timecode": "02:42",
     "timeSec": 162.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_162.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01620.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1640",
+    "id": "RACK_IMG_1467_MOV_01640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5465,21 +3639,10 @@ const shots = [
     "timecode": "02:44",
     "timeSec": 164.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_164.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01640.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1640",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:44)",
-    "timecode": "02:44",
-    "timeSec": 164.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_164.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1660",
+    "id": "RACK_IMG_1467_MOV_01660",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5487,10 +3650,10 @@ const shots = [
     "timecode": "02:46",
     "timeSec": 166.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_166.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01660.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1680",
+    "id": "RACK_IMG_1467_MOV_01680",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5498,21 +3661,10 @@ const shots = [
     "timecode": "02:48",
     "timeSec": 168.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_168.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01680.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1680",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:48)",
-    "timecode": "02:48",
-    "timeSec": 168.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_168.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1700",
+    "id": "RACK_IMG_1467_MOV_01700",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5520,10 +3672,10 @@ const shots = [
     "timecode": "02:50",
     "timeSec": 170.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_170.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01700.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1720",
+    "id": "RACK_IMG_1467_MOV_01720",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5531,21 +3683,10 @@ const shots = [
     "timecode": "02:52",
     "timeSec": 172.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_172.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01720.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1720",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:52)",
-    "timecode": "02:52",
-    "timeSec": 172.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_172.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1740",
+    "id": "RACK_IMG_1467_MOV_01740",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5553,10 +3694,10 @@ const shots = [
     "timecode": "02:54",
     "timeSec": 174.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_174.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01740.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1760",
+    "id": "RACK_IMG_1467_MOV_01760",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5564,21 +3705,10 @@ const shots = [
     "timecode": "02:56",
     "timeSec": 176.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_176.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01760.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1760",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (02:56)",
-    "timecode": "02:56",
-    "timeSec": 176.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_176.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1780",
+    "id": "RACK_IMG_1467_MOV_01780",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5586,10 +3716,10 @@ const shots = [
     "timecode": "02:58",
     "timeSec": 178.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_178.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01780.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1800",
+    "id": "RACK_IMG_1467_MOV_01800",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5597,21 +3727,10 @@ const shots = [
     "timecode": "03:00",
     "timeSec": 180.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_180.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01800.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1800",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:00)",
-    "timecode": "03:00",
-    "timeSec": 180.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_180.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1820",
+    "id": "RACK_IMG_1467_MOV_01820",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5619,10 +3738,10 @@ const shots = [
     "timecode": "03:02",
     "timeSec": 182.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_182.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01820.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1840",
+    "id": "RACK_IMG_1467_MOV_01840",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5630,21 +3749,10 @@ const shots = [
     "timecode": "03:04",
     "timeSec": 184.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_184.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01840.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1840",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:04)",
-    "timecode": "03:04",
-    "timeSec": 184.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_184.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1860",
+    "id": "RACK_IMG_1467_MOV_01860",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5652,10 +3760,10 @@ const shots = [
     "timecode": "03:06",
     "timeSec": 186.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_186.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01860.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1880",
+    "id": "RACK_IMG_1467_MOV_01880",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5663,21 +3771,10 @@ const shots = [
     "timecode": "03:08",
     "timeSec": 188.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_188.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01880.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1880",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:08)",
-    "timecode": "03:08",
-    "timeSec": 188.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_188.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1900",
+    "id": "RACK_IMG_1467_MOV_01900",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5685,10 +3782,10 @@ const shots = [
     "timecode": "03:10",
     "timeSec": 190.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_190.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01900.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1920",
+    "id": "RACK_IMG_1467_MOV_01920",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5696,21 +3793,10 @@ const shots = [
     "timecode": "03:12",
     "timeSec": 192.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_192.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01920.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1920",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:12)",
-    "timecode": "03:12",
-    "timeSec": 192.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_192.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1940",
+    "id": "RACK_IMG_1467_MOV_01940",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5718,10 +3804,10 @@ const shots = [
     "timecode": "03:14",
     "timeSec": 194.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_194.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01940.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1960",
+    "id": "RACK_IMG_1467_MOV_01960",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5729,21 +3815,10 @@ const shots = [
     "timecode": "03:16",
     "timeSec": 196.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_196.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01960.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_1960",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:16)",
-    "timecode": "03:16",
-    "timeSec": 196.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_196.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_1980",
+    "id": "RACK_IMG_1467_MOV_01980",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5751,10 +3826,10 @@ const shots = [
     "timecode": "03:18",
     "timeSec": 198.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_198.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_01980.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2000",
+    "id": "RACK_IMG_1467_MOV_02000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5762,21 +3837,10 @@ const shots = [
     "timecode": "03:20",
     "timeSec": 200.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_200.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02000.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:20)",
-    "timecode": "03:20",
-    "timeSec": 200.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_200.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2020",
+    "id": "RACK_IMG_1467_MOV_02020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5784,10 +3848,10 @@ const shots = [
     "timecode": "03:22",
     "timeSec": 202.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_202.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02020.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2040",
+    "id": "RACK_IMG_1467_MOV_02040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5795,21 +3859,10 @@ const shots = [
     "timecode": "03:24",
     "timeSec": 204.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_204.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02040.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2040",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:24)",
-    "timecode": "03:24",
-    "timeSec": 204.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_204.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2060",
+    "id": "RACK_IMG_1467_MOV_02060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5817,10 +3870,10 @@ const shots = [
     "timecode": "03:26",
     "timeSec": 206.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_206.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02060.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2080",
+    "id": "RACK_IMG_1467_MOV_02080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5828,21 +3881,10 @@ const shots = [
     "timecode": "03:28",
     "timeSec": 208.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_208.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02080.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2080",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:28)",
-    "timecode": "03:28",
-    "timeSec": 208.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_208.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2100",
+    "id": "RACK_IMG_1467_MOV_02100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5850,10 +3892,10 @@ const shots = [
     "timecode": "03:30",
     "timeSec": 210.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_210.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02100.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2120",
+    "id": "RACK_IMG_1467_MOV_02120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5861,21 +3903,10 @@ const shots = [
     "timecode": "03:32",
     "timeSec": 212.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_212.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02120.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:32)",
-    "timecode": "03:32",
-    "timeSec": 212.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_212.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2140",
+    "id": "RACK_IMG_1467_MOV_02140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5883,10 +3914,10 @@ const shots = [
     "timecode": "03:34",
     "timeSec": 214.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_214.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02140.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2160",
+    "id": "RACK_IMG_1467_MOV_02160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5894,21 +3925,10 @@ const shots = [
     "timecode": "03:36",
     "timeSec": 216.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_216.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02160.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2160",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:36)",
-    "timecode": "03:36",
-    "timeSec": 216.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_216.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2180",
+    "id": "RACK_IMG_1467_MOV_02180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5916,10 +3936,10 @@ const shots = [
     "timecode": "03:38",
     "timeSec": 218.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_218.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02180.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2200",
+    "id": "RACK_IMG_1467_MOV_02200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5927,21 +3947,10 @@ const shots = [
     "timecode": "03:40",
     "timeSec": 220.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_220.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02200.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2200",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:40)",
-    "timecode": "03:40",
-    "timeSec": 220.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_220.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2220",
+    "id": "RACK_IMG_1467_MOV_02220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5949,10 +3958,10 @@ const shots = [
     "timecode": "03:42",
     "timeSec": 222.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_222.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02220.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2240",
+    "id": "RACK_IMG_1467_MOV_02240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5960,21 +3969,10 @@ const shots = [
     "timecode": "03:44",
     "timeSec": 224.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_224.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02240.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:44)",
-    "timecode": "03:44",
-    "timeSec": 224.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_224.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2260",
+    "id": "RACK_IMG_1467_MOV_02260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5982,10 +3980,10 @@ const shots = [
     "timecode": "03:46",
     "timeSec": 226.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_226.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02260.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2280",
+    "id": "RACK_IMG_1467_MOV_02280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -5993,21 +3991,10 @@ const shots = [
     "timecode": "03:48",
     "timeSec": 228.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_228.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02280.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2280",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:48)",
-    "timecode": "03:48",
-    "timeSec": 228.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_228.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2300",
+    "id": "RACK_IMG_1467_MOV_02300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6015,10 +4002,10 @@ const shots = [
     "timecode": "03:50",
     "timeSec": 230.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_230.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02300.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2320",
+    "id": "RACK_IMG_1467_MOV_02320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6026,21 +4013,10 @@ const shots = [
     "timecode": "03:52",
     "timeSec": 232.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_232.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02320.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2320",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:52)",
-    "timecode": "03:52",
-    "timeSec": 232.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_232.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2340",
+    "id": "RACK_IMG_1467_MOV_02340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6048,10 +4024,10 @@ const shots = [
     "timecode": "03:54",
     "timeSec": 234.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_234.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02340.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2360",
+    "id": "RACK_IMG_1467_MOV_02360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6059,21 +4035,10 @@ const shots = [
     "timecode": "03:56",
     "timeSec": 236.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_236.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02360.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (03:56)",
-    "timecode": "03:56",
-    "timeSec": 236.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_236.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2380",
+    "id": "RACK_IMG_1467_MOV_02380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6081,10 +4046,10 @@ const shots = [
     "timecode": "03:58",
     "timeSec": 238.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_238.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02380.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2400",
+    "id": "RACK_IMG_1467_MOV_02400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6092,21 +4057,10 @@ const shots = [
     "timecode": "04:00",
     "timeSec": 240.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_240.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02400.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2400",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:00)",
-    "timecode": "04:00",
-    "timeSec": 240.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_240.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2420",
+    "id": "RACK_IMG_1467_MOV_02420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6114,10 +4068,10 @@ const shots = [
     "timecode": "04:02",
     "timeSec": 242.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_242.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02420.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2440",
+    "id": "RACK_IMG_1467_MOV_02440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6125,21 +4079,10 @@ const shots = [
     "timecode": "04:04",
     "timeSec": 244.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_244.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02440.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2440",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:04)",
-    "timecode": "04:04",
-    "timeSec": 244.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_244.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2460",
+    "id": "RACK_IMG_1467_MOV_02460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6147,10 +4090,10 @@ const shots = [
     "timecode": "04:06",
     "timeSec": 246.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_246.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02460.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2480",
+    "id": "RACK_IMG_1467_MOV_02480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6158,21 +4101,10 @@ const shots = [
     "timecode": "04:08",
     "timeSec": 248.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_248.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02480.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:08)",
-    "timecode": "04:08",
-    "timeSec": 248.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_248.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2500",
+    "id": "RACK_IMG_1467_MOV_02500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6180,10 +4112,10 @@ const shots = [
     "timecode": "04:10",
     "timeSec": 250.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_250.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02500.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2520",
+    "id": "RACK_IMG_1467_MOV_02520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6191,21 +4123,10 @@ const shots = [
     "timecode": "04:12",
     "timeSec": 252.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_252.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02520.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2520",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:12)",
-    "timecode": "04:12",
-    "timeSec": 252.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_252.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2540",
+    "id": "RACK_IMG_1467_MOV_02540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6213,10 +4134,10 @@ const shots = [
     "timecode": "04:14",
     "timeSec": 254.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_254.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02540.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2560",
+    "id": "RACK_IMG_1467_MOV_02560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6224,21 +4145,10 @@ const shots = [
     "timecode": "04:16",
     "timeSec": 256.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_256.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02560.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2560",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:16)",
-    "timecode": "04:16",
-    "timeSec": 256.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_256.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2580",
+    "id": "RACK_IMG_1467_MOV_02580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6246,10 +4156,10 @@ const shots = [
     "timecode": "04:18",
     "timeSec": 258.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_258.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02580.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2600",
+    "id": "RACK_IMG_1467_MOV_02600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6257,21 +4167,10 @@ const shots = [
     "timecode": "04:20",
     "timeSec": 260.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_260.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02600.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:20)",
-    "timecode": "04:20",
-    "timeSec": 260.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_260.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2620",
+    "id": "RACK_IMG_1467_MOV_02620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6279,10 +4178,10 @@ const shots = [
     "timecode": "04:22",
     "timeSec": 262.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_262.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02620.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2640",
+    "id": "RACK_IMG_1467_MOV_02640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6290,21 +4189,10 @@ const shots = [
     "timecode": "04:24",
     "timeSec": 264.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_264.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02640.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2640",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:24)",
-    "timecode": "04:24",
-    "timeSec": 264.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_264.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2660",
+    "id": "RACK_IMG_1467_MOV_02660",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6312,10 +4200,10 @@ const shots = [
     "timecode": "04:26",
     "timeSec": 266.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_266.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02660.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2680",
+    "id": "RACK_IMG_1467_MOV_02680",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6323,21 +4211,10 @@ const shots = [
     "timecode": "04:28",
     "timeSec": 268.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_268.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02680.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2680",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:28)",
-    "timecode": "04:28",
-    "timeSec": 268.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_268.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2700",
+    "id": "RACK_IMG_1467_MOV_02700",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6345,10 +4222,10 @@ const shots = [
     "timecode": "04:30",
     "timeSec": 270.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_270.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02700.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2720",
+    "id": "RACK_IMG_1467_MOV_02720",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6356,21 +4233,10 @@ const shots = [
     "timecode": "04:32",
     "timeSec": 272.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_272.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02720.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2720",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:32)",
-    "timecode": "04:32",
-    "timeSec": 272.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_272.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2740",
+    "id": "RACK_IMG_1467_MOV_02740",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6378,10 +4244,10 @@ const shots = [
     "timecode": "04:34",
     "timeSec": 274.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_274.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02740.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2760",
+    "id": "RACK_IMG_1467_MOV_02760",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6389,21 +4255,10 @@ const shots = [
     "timecode": "04:36",
     "timeSec": 276.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_276.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02760.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2760",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:36)",
-    "timecode": "04:36",
-    "timeSec": 276.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_276.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2780",
+    "id": "RACK_IMG_1467_MOV_02780",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6411,10 +4266,10 @@ const shots = [
     "timecode": "04:38",
     "timeSec": 278.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_278.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02780.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2800",
+    "id": "RACK_IMG_1467_MOV_02800",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6422,21 +4277,10 @@ const shots = [
     "timecode": "04:40",
     "timeSec": 280.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_280.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02800.jpg"
   },
   {
-    "id": "RACK_IMG_1467_MOV_2800",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1467.MOV",
-    "title": "IMG_1467.MOV (04:40)",
-    "timecode": "04:40",
-    "timeSec": 280.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_280.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1467_MOV_2820",
+    "id": "RACK_IMG_1467_MOV_02820",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1467.MOV",
@@ -6444,10 +4288,10 @@ const shots = [
     "timecode": "04:42",
     "timeSec": 282.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_282.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1467_MOV/frame_02820.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0000",
+    "id": "RACK_IMG_1468_MOV_00000",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6455,21 +4299,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00000.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0000",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0020",
+    "id": "RACK_IMG_1468_MOV_00020",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6477,21 +4310,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00020.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0030",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:03)",
-    "timecode": "00:03",
-    "timeSec": 3.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_03.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0040",
+    "id": "RACK_IMG_1468_MOV_00040",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6499,10 +4321,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00040.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0060",
+    "id": "RACK_IMG_1468_MOV_00060",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6510,21 +4332,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00060.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0060",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:06)",
-    "timecode": "00:06",
-    "timeSec": 6.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_06.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0080",
+    "id": "RACK_IMG_1468_MOV_00080",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6532,21 +4343,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00080.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0090",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:09)",
-    "timecode": "00:09",
-    "timeSec": 9.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_09.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0100",
+    "id": "RACK_IMG_1468_MOV_00100",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6554,10 +4354,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00100.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0120",
+    "id": "RACK_IMG_1468_MOV_00120",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6565,21 +4365,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00120.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0120",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0140",
+    "id": "RACK_IMG_1468_MOV_00140",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6587,21 +4376,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_14.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00140.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0150",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:15)",
-    "timecode": "00:15",
-    "timeSec": 15.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_15.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0160",
+    "id": "RACK_IMG_1468_MOV_00160",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6609,10 +4387,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_16.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00160.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0180",
+    "id": "RACK_IMG_1468_MOV_00180",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6620,21 +4398,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_18.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00180.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0180",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:18)",
-    "timecode": "00:18",
-    "timeSec": 18.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_18.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0200",
+    "id": "RACK_IMG_1468_MOV_00200",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6642,21 +4409,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_20.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00200.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0210",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:21)",
-    "timecode": "00:21",
-    "timeSec": 21.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_21.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0220",
+    "id": "RACK_IMG_1468_MOV_00220",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6664,10 +4420,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_22.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00220.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0240",
+    "id": "RACK_IMG_1468_MOV_00240",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6675,21 +4431,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_24.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00240.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0240",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0260",
+    "id": "RACK_IMG_1468_MOV_00260",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6697,21 +4442,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_26.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00260.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0270",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:27)",
-    "timecode": "00:27",
-    "timeSec": 27.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_27.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0280",
+    "id": "RACK_IMG_1468_MOV_00280",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6719,10 +4453,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_28.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00280.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0300",
+    "id": "RACK_IMG_1468_MOV_00300",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6730,21 +4464,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_30.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00300.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0300",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:30)",
-    "timecode": "00:30",
-    "timeSec": 30.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_30.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0320",
+    "id": "RACK_IMG_1468_MOV_00320",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6752,21 +4475,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_32.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00320.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0330",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:33)",
-    "timecode": "00:33",
-    "timeSec": 33.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_33.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0340",
+    "id": "RACK_IMG_1468_MOV_00340",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6774,10 +4486,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_34.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00340.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0360",
+    "id": "RACK_IMG_1468_MOV_00360",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6785,21 +4497,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_36.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00360.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0360",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_36.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0380",
+    "id": "RACK_IMG_1468_MOV_00380",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6807,21 +4508,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_38.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00380.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0390",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:39)",
-    "timecode": "00:39",
-    "timeSec": 39.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_39.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0400",
+    "id": "RACK_IMG_1468_MOV_00400",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6829,10 +4519,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_40.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00400.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0420",
+    "id": "RACK_IMG_1468_MOV_00420",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6840,21 +4530,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_42.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00420.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0420",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:42)",
-    "timecode": "00:42",
-    "timeSec": 42.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_42.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0440",
+    "id": "RACK_IMG_1468_MOV_00440",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6862,21 +4541,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_44.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00440.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0450",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:45)",
-    "timecode": "00:45",
-    "timeSec": 45.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_45.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0460",
+    "id": "RACK_IMG_1468_MOV_00460",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6884,10 +4552,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_46.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00460.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0480",
+    "id": "RACK_IMG_1468_MOV_00480",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6895,21 +4563,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_48.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00480.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0480",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_48.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0500",
+    "id": "RACK_IMG_1468_MOV_00500",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6917,21 +4574,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_50.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00500.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0510",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:51)",
-    "timecode": "00:51",
-    "timeSec": 51.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_51.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0520",
+    "id": "RACK_IMG_1468_MOV_00520",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6939,10 +4585,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_52.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00520.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0540",
+    "id": "RACK_IMG_1468_MOV_00540",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6950,21 +4596,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_54.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00540.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0540",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:54)",
-    "timecode": "00:54",
-    "timeSec": 54.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_54.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0560",
+    "id": "RACK_IMG_1468_MOV_00560",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6972,21 +4607,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_56.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00560.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0570",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (00:57)",
-    "timecode": "00:57",
-    "timeSec": 57.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_57.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0580",
+    "id": "RACK_IMG_1468_MOV_00580",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -6994,10 +4618,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_58.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00580.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0600",
+    "id": "RACK_IMG_1468_MOV_00600",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -7005,21 +4629,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_60.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00600.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0600",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_60.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0620",
+    "id": "RACK_IMG_1468_MOV_00620",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -7027,21 +4640,10 @@ const shots = [
     "timecode": "01:02",
     "timeSec": 62.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_62.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00620.jpg"
   },
   {
-    "id": "RACK_IMG_1468_MOV_0630",
-    "product": "rack",
-    "productName": "ชั้นวาง 5 ชั้น",
-    "filename": "IMG_1468.MOV",
-    "title": "IMG_1468.MOV (01:03)",
-    "timecode": "01:03",
-    "timeSec": 63.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_63.0s.jpg"
-  },
-  {
-    "id": "RACK_IMG_1468_MOV_0640",
+    "id": "RACK_IMG_1468_MOV_00640",
     "product": "rack",
     "productName": "ชั้นวาง 5 ชั้น",
     "filename": "IMG_1468.MOV",
@@ -7049,10 +4651,10 @@ const shots = [
     "timecode": "01:04",
     "timeSec": 64.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_64.0s.jpg"
+    "image": "assets/thumbs/rack/IMG_1468_MOV/frame_00640.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0000",
+    "id": "FRIDGE_IMG_1271_MOV_00000",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7060,21 +4662,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00000.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0000",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0020",
+    "id": "FRIDGE_IMG_1271_MOV_00020",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7082,10 +4673,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00020.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0040",
+    "id": "FRIDGE_IMG_1271_MOV_00040",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7093,21 +4684,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00040.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0040",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0060",
+    "id": "FRIDGE_IMG_1271_MOV_00060",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7115,10 +4695,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00060.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0080",
+    "id": "FRIDGE_IMG_1271_MOV_00080",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7126,21 +4706,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00080.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0080",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0100",
+    "id": "FRIDGE_IMG_1271_MOV_00100",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7148,10 +4717,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00100.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0120",
+    "id": "FRIDGE_IMG_1271_MOV_00120",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7159,21 +4728,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00120.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0120",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0140",
+    "id": "FRIDGE_IMG_1271_MOV_00140",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7181,10 +4739,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_14.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00140.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0160",
+    "id": "FRIDGE_IMG_1271_MOV_00160",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7192,21 +4750,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_16.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00160.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0160",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_16.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0180",
+    "id": "FRIDGE_IMG_1271_MOV_00180",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7214,10 +4761,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_18.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00180.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0200",
+    "id": "FRIDGE_IMG_1271_MOV_00200",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7225,21 +4772,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_20.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00200.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0200",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_20.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0220",
+    "id": "FRIDGE_IMG_1271_MOV_00220",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7247,10 +4783,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_22.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00220.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0240",
+    "id": "FRIDGE_IMG_1271_MOV_00240",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7258,21 +4794,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_24.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00240.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0240",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0260",
+    "id": "FRIDGE_IMG_1271_MOV_00260",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7280,10 +4805,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_26.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00260.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0280",
+    "id": "FRIDGE_IMG_1271_MOV_00280",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7291,21 +4816,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_28.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00280.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0280",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:28)",
-    "timecode": "00:28",
-    "timeSec": 28.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_28.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0300",
+    "id": "FRIDGE_IMG_1271_MOV_00300",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7313,10 +4827,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_30.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00300.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0320",
+    "id": "FRIDGE_IMG_1271_MOV_00320",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7324,21 +4838,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_32.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00320.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0320",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:32)",
-    "timecode": "00:32",
-    "timeSec": 32.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_32.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0340",
+    "id": "FRIDGE_IMG_1271_MOV_00340",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7346,10 +4849,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_34.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00340.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0360",
+    "id": "FRIDGE_IMG_1271_MOV_00360",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7357,21 +4860,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_36.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00360.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0360",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_36.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0380",
+    "id": "FRIDGE_IMG_1271_MOV_00380",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7379,10 +4871,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_38.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00380.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0400",
+    "id": "FRIDGE_IMG_1271_MOV_00400",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7390,21 +4882,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_40.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00400.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0400",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:40)",
-    "timecode": "00:40",
-    "timeSec": 40.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_40.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0420",
+    "id": "FRIDGE_IMG_1271_MOV_00420",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7412,10 +4893,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_42.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00420.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0440",
+    "id": "FRIDGE_IMG_1271_MOV_00440",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7423,21 +4904,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_44.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00440.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0440",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:44)",
-    "timecode": "00:44",
-    "timeSec": 44.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_44.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0460",
+    "id": "FRIDGE_IMG_1271_MOV_00460",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7445,10 +4915,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_46.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00460.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0480",
+    "id": "FRIDGE_IMG_1271_MOV_00480",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7456,21 +4926,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_48.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00480.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0480",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_48.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0500",
+    "id": "FRIDGE_IMG_1271_MOV_00500",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7478,10 +4937,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_50.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00500.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0520",
+    "id": "FRIDGE_IMG_1271_MOV_00520",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7489,21 +4948,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_52.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00520.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0520",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:52)",
-    "timecode": "00:52",
-    "timeSec": 52.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_52.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0540",
+    "id": "FRIDGE_IMG_1271_MOV_00540",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7511,10 +4959,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_54.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00540.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0560",
+    "id": "FRIDGE_IMG_1271_MOV_00560",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7522,21 +4970,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_56.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00560.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0560",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (00:56)",
-    "timecode": "00:56",
-    "timeSec": 56.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_56.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0580",
+    "id": "FRIDGE_IMG_1271_MOV_00580",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7544,10 +4981,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_58.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00580.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0600",
+    "id": "FRIDGE_IMG_1271_MOV_00600",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7555,21 +4992,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_60.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00600.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0600",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_60.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0620",
+    "id": "FRIDGE_IMG_1271_MOV_00620",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7577,10 +5003,10 @@ const shots = [
     "timecode": "01:02",
     "timeSec": 62.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_62.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00620.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0640",
+    "id": "FRIDGE_IMG_1271_MOV_00640",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7588,21 +5014,10 @@ const shots = [
     "timecode": "01:04",
     "timeSec": 64.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_64.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00640.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0640",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:04)",
-    "timecode": "01:04",
-    "timeSec": 64.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_64.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0660",
+    "id": "FRIDGE_IMG_1271_MOV_00660",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7610,10 +5025,10 @@ const shots = [
     "timecode": "01:06",
     "timeSec": 66.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_66.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00660.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0680",
+    "id": "FRIDGE_IMG_1271_MOV_00680",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7621,21 +5036,10 @@ const shots = [
     "timecode": "01:08",
     "timeSec": 68.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_68.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00680.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0680",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:08)",
-    "timecode": "01:08",
-    "timeSec": 68.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_68.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0700",
+    "id": "FRIDGE_IMG_1271_MOV_00700",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7643,10 +5047,10 @@ const shots = [
     "timecode": "01:10",
     "timeSec": 70.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_70.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00700.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0720",
+    "id": "FRIDGE_IMG_1271_MOV_00720",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7654,21 +5058,10 @@ const shots = [
     "timecode": "01:12",
     "timeSec": 72.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_72.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00720.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0720",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_72.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0740",
+    "id": "FRIDGE_IMG_1271_MOV_00740",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7676,10 +5069,10 @@ const shots = [
     "timecode": "01:14",
     "timeSec": 74.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_74.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00740.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0760",
+    "id": "FRIDGE_IMG_1271_MOV_00760",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7687,21 +5080,10 @@ const shots = [
     "timecode": "01:16",
     "timeSec": 76.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_76.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00760.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0760",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:16)",
-    "timecode": "01:16",
-    "timeSec": 76.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_76.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0780",
+    "id": "FRIDGE_IMG_1271_MOV_00780",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7709,10 +5091,10 @@ const shots = [
     "timecode": "01:18",
     "timeSec": 78.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_78.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00780.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0800",
+    "id": "FRIDGE_IMG_1271_MOV_00800",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7720,21 +5102,10 @@ const shots = [
     "timecode": "01:20",
     "timeSec": 80.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_80.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00800.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0800",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:20)",
-    "timecode": "01:20",
-    "timeSec": 80.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_80.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0820",
+    "id": "FRIDGE_IMG_1271_MOV_00820",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7742,10 +5113,10 @@ const shots = [
     "timecode": "01:22",
     "timeSec": 82.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_82.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00820.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0840",
+    "id": "FRIDGE_IMG_1271_MOV_00840",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7753,21 +5124,10 @@ const shots = [
     "timecode": "01:24",
     "timeSec": 84.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_84.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00840.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0840",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_84.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0860",
+    "id": "FRIDGE_IMG_1271_MOV_00860",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7775,10 +5135,10 @@ const shots = [
     "timecode": "01:26",
     "timeSec": 86.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_86.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00860.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0880",
+    "id": "FRIDGE_IMG_1271_MOV_00880",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7786,21 +5146,10 @@ const shots = [
     "timecode": "01:28",
     "timeSec": 88.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_88.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00880.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0880",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:28)",
-    "timecode": "01:28",
-    "timeSec": 88.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_88.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0900",
+    "id": "FRIDGE_IMG_1271_MOV_00900",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7808,10 +5157,10 @@ const shots = [
     "timecode": "01:30",
     "timeSec": 90.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_90.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00900.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0920",
+    "id": "FRIDGE_IMG_1271_MOV_00920",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7819,21 +5168,10 @@ const shots = [
     "timecode": "01:32",
     "timeSec": 92.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_92.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00920.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0920",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:32)",
-    "timecode": "01:32",
-    "timeSec": 92.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_92.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0940",
+    "id": "FRIDGE_IMG_1271_MOV_00940",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7841,10 +5179,10 @@ const shots = [
     "timecode": "01:34",
     "timeSec": 94.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_94.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00940.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0960",
+    "id": "FRIDGE_IMG_1271_MOV_00960",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7852,21 +5190,10 @@ const shots = [
     "timecode": "01:36",
     "timeSec": 96.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_96.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00960.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_0960",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:36)",
-    "timecode": "01:36",
-    "timeSec": 96.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_96.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_0980",
+    "id": "FRIDGE_IMG_1271_MOV_00980",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7874,10 +5201,10 @@ const shots = [
     "timecode": "01:38",
     "timeSec": 98.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_98.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_00980.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1000",
+    "id": "FRIDGE_IMG_1271_MOV_01000",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7885,21 +5212,10 @@ const shots = [
     "timecode": "01:40",
     "timeSec": 100.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_100.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01000.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1000",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:40)",
-    "timecode": "01:40",
-    "timeSec": 100.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_100.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1020",
+    "id": "FRIDGE_IMG_1271_MOV_01020",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7907,10 +5223,10 @@ const shots = [
     "timecode": "01:42",
     "timeSec": 102.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_102.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01020.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1040",
+    "id": "FRIDGE_IMG_1271_MOV_01040",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7918,21 +5234,10 @@ const shots = [
     "timecode": "01:44",
     "timeSec": 104.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_104.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01040.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1040",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:44)",
-    "timecode": "01:44",
-    "timeSec": 104.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_104.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1060",
+    "id": "FRIDGE_IMG_1271_MOV_01060",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7940,10 +5245,10 @@ const shots = [
     "timecode": "01:46",
     "timeSec": 106.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_106.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01060.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1080",
+    "id": "FRIDGE_IMG_1271_MOV_01080",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7951,21 +5256,10 @@ const shots = [
     "timecode": "01:48",
     "timeSec": 108.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_108.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01080.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1080",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:48)",
-    "timecode": "01:48",
-    "timeSec": 108.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_108.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1100",
+    "id": "FRIDGE_IMG_1271_MOV_01100",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7973,10 +5267,10 @@ const shots = [
     "timecode": "01:50",
     "timeSec": 110.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_110.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01100.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1120",
+    "id": "FRIDGE_IMG_1271_MOV_01120",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -7984,21 +5278,10 @@ const shots = [
     "timecode": "01:52",
     "timeSec": 112.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_112.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01120.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1120",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:52)",
-    "timecode": "01:52",
-    "timeSec": 112.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_112.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1140",
+    "id": "FRIDGE_IMG_1271_MOV_01140",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8006,10 +5289,10 @@ const shots = [
     "timecode": "01:54",
     "timeSec": 114.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_114.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01140.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1160",
+    "id": "FRIDGE_IMG_1271_MOV_01160",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8017,21 +5300,10 @@ const shots = [
     "timecode": "01:56",
     "timeSec": 116.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_116.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01160.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1160",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (01:56)",
-    "timecode": "01:56",
-    "timeSec": 116.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_116.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1180",
+    "id": "FRIDGE_IMG_1271_MOV_01180",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8039,10 +5311,10 @@ const shots = [
     "timecode": "01:58",
     "timeSec": 118.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_118.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01180.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1200",
+    "id": "FRIDGE_IMG_1271_MOV_01200",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8050,21 +5322,10 @@ const shots = [
     "timecode": "02:00",
     "timeSec": 120.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_120.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01200.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1200",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:00)",
-    "timecode": "02:00",
-    "timeSec": 120.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_120.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1220",
+    "id": "FRIDGE_IMG_1271_MOV_01220",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8072,10 +5333,10 @@ const shots = [
     "timecode": "02:02",
     "timeSec": 122.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_122.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01220.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1240",
+    "id": "FRIDGE_IMG_1271_MOV_01240",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8083,21 +5344,10 @@ const shots = [
     "timecode": "02:04",
     "timeSec": 124.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_124.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01240.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1240",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:04)",
-    "timecode": "02:04",
-    "timeSec": 124.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_124.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1260",
+    "id": "FRIDGE_IMG_1271_MOV_01260",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8105,10 +5355,10 @@ const shots = [
     "timecode": "02:06",
     "timeSec": 126.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_126.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01260.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1280",
+    "id": "FRIDGE_IMG_1271_MOV_01280",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8116,21 +5366,10 @@ const shots = [
     "timecode": "02:08",
     "timeSec": 128.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_128.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01280.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1280",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:08)",
-    "timecode": "02:08",
-    "timeSec": 128.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_128.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1300",
+    "id": "FRIDGE_IMG_1271_MOV_01300",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8138,10 +5377,10 @@ const shots = [
     "timecode": "02:10",
     "timeSec": 130.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_130.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01300.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1320",
+    "id": "FRIDGE_IMG_1271_MOV_01320",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8149,21 +5388,10 @@ const shots = [
     "timecode": "02:12",
     "timeSec": 132.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_132.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01320.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1320",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:12)",
-    "timecode": "02:12",
-    "timeSec": 132.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_132.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1340",
+    "id": "FRIDGE_IMG_1271_MOV_01340",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8171,10 +5399,10 @@ const shots = [
     "timecode": "02:14",
     "timeSec": 134.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_134.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01340.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1360",
+    "id": "FRIDGE_IMG_1271_MOV_01360",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8182,21 +5410,10 @@ const shots = [
     "timecode": "02:16",
     "timeSec": 136.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_136.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01360.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1360",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:16)",
-    "timecode": "02:16",
-    "timeSec": 136.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_136.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1380",
+    "id": "FRIDGE_IMG_1271_MOV_01380",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8204,10 +5421,10 @@ const shots = [
     "timecode": "02:18",
     "timeSec": 138.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_138.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01380.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1400",
+    "id": "FRIDGE_IMG_1271_MOV_01400",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8215,21 +5432,10 @@ const shots = [
     "timecode": "02:20",
     "timeSec": 140.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_140.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01400.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1400",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:20)",
-    "timecode": "02:20",
-    "timeSec": 140.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_140.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1420",
+    "id": "FRIDGE_IMG_1271_MOV_01420",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8237,10 +5443,10 @@ const shots = [
     "timecode": "02:22",
     "timeSec": 142.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_142.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01420.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1440",
+    "id": "FRIDGE_IMG_1271_MOV_01440",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8248,21 +5454,10 @@ const shots = [
     "timecode": "02:24",
     "timeSec": 144.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_144.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01440.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1440",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:24)",
-    "timecode": "02:24",
-    "timeSec": 144.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_144.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1460",
+    "id": "FRIDGE_IMG_1271_MOV_01460",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8270,10 +5465,10 @@ const shots = [
     "timecode": "02:26",
     "timeSec": 146.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_146.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01460.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1480",
+    "id": "FRIDGE_IMG_1271_MOV_01480",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8281,21 +5476,10 @@ const shots = [
     "timecode": "02:28",
     "timeSec": 148.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_148.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01480.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1480",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:28)",
-    "timecode": "02:28",
-    "timeSec": 148.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_148.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1500",
+    "id": "FRIDGE_IMG_1271_MOV_01500",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8303,10 +5487,10 @@ const shots = [
     "timecode": "02:30",
     "timeSec": 150.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_150.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01500.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1520",
+    "id": "FRIDGE_IMG_1271_MOV_01520",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8314,21 +5498,10 @@ const shots = [
     "timecode": "02:32",
     "timeSec": 152.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_152.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01520.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1520",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:32)",
-    "timecode": "02:32",
-    "timeSec": 152.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_152.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1540",
+    "id": "FRIDGE_IMG_1271_MOV_01540",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8336,10 +5509,10 @@ const shots = [
     "timecode": "02:34",
     "timeSec": 154.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_154.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01540.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1560",
+    "id": "FRIDGE_IMG_1271_MOV_01560",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8347,21 +5520,10 @@ const shots = [
     "timecode": "02:36",
     "timeSec": 156.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_156.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01560.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1560",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:36)",
-    "timecode": "02:36",
-    "timeSec": 156.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_156.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1580",
+    "id": "FRIDGE_IMG_1271_MOV_01580",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8369,10 +5531,10 @@ const shots = [
     "timecode": "02:38",
     "timeSec": 158.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_158.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01580.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1600",
+    "id": "FRIDGE_IMG_1271_MOV_01600",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8380,21 +5542,10 @@ const shots = [
     "timecode": "02:40",
     "timeSec": 160.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_160.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01600.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1600",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:40)",
-    "timecode": "02:40",
-    "timeSec": 160.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_160.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1620",
+    "id": "FRIDGE_IMG_1271_MOV_01620",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8402,10 +5553,10 @@ const shots = [
     "timecode": "02:42",
     "timeSec": 162.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_162.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01620.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1640",
+    "id": "FRIDGE_IMG_1271_MOV_01640",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8413,21 +5564,10 @@ const shots = [
     "timecode": "02:44",
     "timeSec": 164.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_164.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01640.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1640",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:44)",
-    "timecode": "02:44",
-    "timeSec": 164.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_164.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1660",
+    "id": "FRIDGE_IMG_1271_MOV_01660",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8435,10 +5575,10 @@ const shots = [
     "timecode": "02:46",
     "timeSec": 166.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_166.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01660.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1680",
+    "id": "FRIDGE_IMG_1271_MOV_01680",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8446,21 +5586,10 @@ const shots = [
     "timecode": "02:48",
     "timeSec": 168.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_168.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01680.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1680",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:48)",
-    "timecode": "02:48",
-    "timeSec": 168.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_168.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1700",
+    "id": "FRIDGE_IMG_1271_MOV_01700",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8468,10 +5597,10 @@ const shots = [
     "timecode": "02:50",
     "timeSec": 170.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_170.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01700.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1720",
+    "id": "FRIDGE_IMG_1271_MOV_01720",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8479,21 +5608,10 @@ const shots = [
     "timecode": "02:52",
     "timeSec": 172.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_172.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01720.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1720",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:52)",
-    "timecode": "02:52",
-    "timeSec": 172.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_172.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1740",
+    "id": "FRIDGE_IMG_1271_MOV_01740",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8501,10 +5619,10 @@ const shots = [
     "timecode": "02:54",
     "timeSec": 174.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_174.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01740.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1760",
+    "id": "FRIDGE_IMG_1271_MOV_01760",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8512,21 +5630,10 @@ const shots = [
     "timecode": "02:56",
     "timeSec": 176.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_176.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01760.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1760",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (02:56)",
-    "timecode": "02:56",
-    "timeSec": 176.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_176.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1780",
+    "id": "FRIDGE_IMG_1271_MOV_01780",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8534,10 +5641,10 @@ const shots = [
     "timecode": "02:58",
     "timeSec": 178.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_178.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01780.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1800",
+    "id": "FRIDGE_IMG_1271_MOV_01800",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8545,21 +5652,10 @@ const shots = [
     "timecode": "03:00",
     "timeSec": 180.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_180.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01800.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1800",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:00)",
-    "timecode": "03:00",
-    "timeSec": 180.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_180.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1820",
+    "id": "FRIDGE_IMG_1271_MOV_01820",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8567,10 +5663,10 @@ const shots = [
     "timecode": "03:02",
     "timeSec": 182.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_182.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01820.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1840",
+    "id": "FRIDGE_IMG_1271_MOV_01840",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8578,21 +5674,10 @@ const shots = [
     "timecode": "03:04",
     "timeSec": 184.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_184.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01840.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1840",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:04)",
-    "timecode": "03:04",
-    "timeSec": 184.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_184.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1860",
+    "id": "FRIDGE_IMG_1271_MOV_01860",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8600,10 +5685,10 @@ const shots = [
     "timecode": "03:06",
     "timeSec": 186.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_186.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01860.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1880",
+    "id": "FRIDGE_IMG_1271_MOV_01880",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8611,21 +5696,10 @@ const shots = [
     "timecode": "03:08",
     "timeSec": 188.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_188.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01880.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1880",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:08)",
-    "timecode": "03:08",
-    "timeSec": 188.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_188.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1900",
+    "id": "FRIDGE_IMG_1271_MOV_01900",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8633,10 +5707,10 @@ const shots = [
     "timecode": "03:10",
     "timeSec": 190.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_190.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01900.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1920",
+    "id": "FRIDGE_IMG_1271_MOV_01920",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8644,21 +5718,10 @@ const shots = [
     "timecode": "03:12",
     "timeSec": 192.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_192.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01920.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1920",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:12)",
-    "timecode": "03:12",
-    "timeSec": 192.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_192.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1940",
+    "id": "FRIDGE_IMG_1271_MOV_01940",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8666,10 +5729,10 @@ const shots = [
     "timecode": "03:14",
     "timeSec": 194.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_194.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01940.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1960",
+    "id": "FRIDGE_IMG_1271_MOV_01960",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8677,21 +5740,10 @@ const shots = [
     "timecode": "03:16",
     "timeSec": 196.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_196.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01960.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_1960",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:16)",
-    "timecode": "03:16",
-    "timeSec": 196.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_196.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_1980",
+    "id": "FRIDGE_IMG_1271_MOV_01980",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8699,10 +5751,10 @@ const shots = [
     "timecode": "03:18",
     "timeSec": 198.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_198.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_01980.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2000",
+    "id": "FRIDGE_IMG_1271_MOV_02000",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8710,21 +5762,10 @@ const shots = [
     "timecode": "03:20",
     "timeSec": 200.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_200.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02000.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2000",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:20)",
-    "timecode": "03:20",
-    "timeSec": 200.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_200.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2020",
+    "id": "FRIDGE_IMG_1271_MOV_02020",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8732,10 +5773,10 @@ const shots = [
     "timecode": "03:22",
     "timeSec": 202.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_202.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02020.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2040",
+    "id": "FRIDGE_IMG_1271_MOV_02040",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8743,21 +5784,10 @@ const shots = [
     "timecode": "03:24",
     "timeSec": 204.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_204.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02040.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2040",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:24)",
-    "timecode": "03:24",
-    "timeSec": 204.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_204.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2060",
+    "id": "FRIDGE_IMG_1271_MOV_02060",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8765,10 +5795,10 @@ const shots = [
     "timecode": "03:26",
     "timeSec": 206.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_206.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02060.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2080",
+    "id": "FRIDGE_IMG_1271_MOV_02080",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8776,21 +5806,10 @@ const shots = [
     "timecode": "03:28",
     "timeSec": 208.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_208.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02080.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2080",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:28)",
-    "timecode": "03:28",
-    "timeSec": 208.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_208.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2100",
+    "id": "FRIDGE_IMG_1271_MOV_02100",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8798,10 +5817,10 @@ const shots = [
     "timecode": "03:30",
     "timeSec": 210.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_210.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02100.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2120",
+    "id": "FRIDGE_IMG_1271_MOV_02120",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8809,21 +5828,10 @@ const shots = [
     "timecode": "03:32",
     "timeSec": 212.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_212.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02120.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2120",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:32)",
-    "timecode": "03:32",
-    "timeSec": 212.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_212.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2140",
+    "id": "FRIDGE_IMG_1271_MOV_02140",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8831,10 +5839,10 @@ const shots = [
     "timecode": "03:34",
     "timeSec": 214.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_214.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02140.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2160",
+    "id": "FRIDGE_IMG_1271_MOV_02160",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8842,21 +5850,10 @@ const shots = [
     "timecode": "03:36",
     "timeSec": 216.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_216.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02160.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2160",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:36)",
-    "timecode": "03:36",
-    "timeSec": 216.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_216.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2180",
+    "id": "FRIDGE_IMG_1271_MOV_02180",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8864,10 +5861,10 @@ const shots = [
     "timecode": "03:38",
     "timeSec": 218.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_218.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02180.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2200",
+    "id": "FRIDGE_IMG_1271_MOV_02200",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8875,21 +5872,10 @@ const shots = [
     "timecode": "03:40",
     "timeSec": 220.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_220.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02200.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2200",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:40)",
-    "timecode": "03:40",
-    "timeSec": 220.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_220.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2220",
+    "id": "FRIDGE_IMG_1271_MOV_02220",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8897,10 +5883,10 @@ const shots = [
     "timecode": "03:42",
     "timeSec": 222.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_222.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02220.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2240",
+    "id": "FRIDGE_IMG_1271_MOV_02240",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8908,21 +5894,10 @@ const shots = [
     "timecode": "03:44",
     "timeSec": 224.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_224.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02240.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2240",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:44)",
-    "timecode": "03:44",
-    "timeSec": 224.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_224.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2260",
+    "id": "FRIDGE_IMG_1271_MOV_02260",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8930,10 +5905,10 @@ const shots = [
     "timecode": "03:46",
     "timeSec": 226.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_226.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02260.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2280",
+    "id": "FRIDGE_IMG_1271_MOV_02280",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8941,21 +5916,10 @@ const shots = [
     "timecode": "03:48",
     "timeSec": 228.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_228.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02280.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2280",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:48)",
-    "timecode": "03:48",
-    "timeSec": 228.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_228.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2300",
+    "id": "FRIDGE_IMG_1271_MOV_02300",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8963,10 +5927,10 @@ const shots = [
     "timecode": "03:50",
     "timeSec": 230.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_230.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02300.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2320",
+    "id": "FRIDGE_IMG_1271_MOV_02320",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8974,21 +5938,10 @@ const shots = [
     "timecode": "03:52",
     "timeSec": 232.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_232.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02320.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2320",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:52)",
-    "timecode": "03:52",
-    "timeSec": 232.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_232.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2340",
+    "id": "FRIDGE_IMG_1271_MOV_02340",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -8996,10 +5949,10 @@ const shots = [
     "timecode": "03:54",
     "timeSec": 234.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_234.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02340.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2360",
+    "id": "FRIDGE_IMG_1271_MOV_02360",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9007,21 +5960,10 @@ const shots = [
     "timecode": "03:56",
     "timeSec": 236.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_236.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02360.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2360",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (03:56)",
-    "timecode": "03:56",
-    "timeSec": 236.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_236.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2380",
+    "id": "FRIDGE_IMG_1271_MOV_02380",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9029,10 +5971,10 @@ const shots = [
     "timecode": "03:58",
     "timeSec": 238.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_238.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02380.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2400",
+    "id": "FRIDGE_IMG_1271_MOV_02400",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9040,21 +5982,10 @@ const shots = [
     "timecode": "04:00",
     "timeSec": 240.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_240.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02400.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2400",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:00)",
-    "timecode": "04:00",
-    "timeSec": 240.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_240.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2420",
+    "id": "FRIDGE_IMG_1271_MOV_02420",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9062,10 +5993,10 @@ const shots = [
     "timecode": "04:02",
     "timeSec": 242.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_242.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02420.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2440",
+    "id": "FRIDGE_IMG_1271_MOV_02440",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9073,21 +6004,10 @@ const shots = [
     "timecode": "04:04",
     "timeSec": 244.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_244.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02440.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2440",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:04)",
-    "timecode": "04:04",
-    "timeSec": 244.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_244.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2460",
+    "id": "FRIDGE_IMG_1271_MOV_02460",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9095,10 +6015,10 @@ const shots = [
     "timecode": "04:06",
     "timeSec": 246.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_246.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02460.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2480",
+    "id": "FRIDGE_IMG_1271_MOV_02480",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9106,21 +6026,10 @@ const shots = [
     "timecode": "04:08",
     "timeSec": 248.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_248.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02480.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2480",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:08)",
-    "timecode": "04:08",
-    "timeSec": 248.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_248.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2500",
+    "id": "FRIDGE_IMG_1271_MOV_02500",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9128,10 +6037,10 @@ const shots = [
     "timecode": "04:10",
     "timeSec": 250.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_250.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02500.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2520",
+    "id": "FRIDGE_IMG_1271_MOV_02520",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9139,21 +6048,10 @@ const shots = [
     "timecode": "04:12",
     "timeSec": 252.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_252.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02520.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2520",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:12)",
-    "timecode": "04:12",
-    "timeSec": 252.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_252.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2540",
+    "id": "FRIDGE_IMG_1271_MOV_02540",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9161,10 +6059,10 @@ const shots = [
     "timecode": "04:14",
     "timeSec": 254.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_254.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02540.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2560",
+    "id": "FRIDGE_IMG_1271_MOV_02560",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9172,21 +6070,10 @@ const shots = [
     "timecode": "04:16",
     "timeSec": 256.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_256.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02560.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2560",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:16)",
-    "timecode": "04:16",
-    "timeSec": 256.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_256.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2580",
+    "id": "FRIDGE_IMG_1271_MOV_02580",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9194,10 +6081,10 @@ const shots = [
     "timecode": "04:18",
     "timeSec": 258.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_258.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02580.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2600",
+    "id": "FRIDGE_IMG_1271_MOV_02600",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9205,21 +6092,10 @@ const shots = [
     "timecode": "04:20",
     "timeSec": 260.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_260.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02600.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2600",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:20)",
-    "timecode": "04:20",
-    "timeSec": 260.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_260.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2620",
+    "id": "FRIDGE_IMG_1271_MOV_02620",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9227,10 +6103,10 @@ const shots = [
     "timecode": "04:22",
     "timeSec": 262.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_262.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02620.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2640",
+    "id": "FRIDGE_IMG_1271_MOV_02640",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9238,21 +6114,10 @@ const shots = [
     "timecode": "04:24",
     "timeSec": 264.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_264.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02640.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2640",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:24)",
-    "timecode": "04:24",
-    "timeSec": 264.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_264.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2660",
+    "id": "FRIDGE_IMG_1271_MOV_02660",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9260,10 +6125,10 @@ const shots = [
     "timecode": "04:26",
     "timeSec": 266.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_266.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02660.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2680",
+    "id": "FRIDGE_IMG_1271_MOV_02680",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9271,21 +6136,10 @@ const shots = [
     "timecode": "04:28",
     "timeSec": 268.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_268.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02680.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2680",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:28)",
-    "timecode": "04:28",
-    "timeSec": 268.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_268.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2700",
+    "id": "FRIDGE_IMG_1271_MOV_02700",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9293,10 +6147,10 @@ const shots = [
     "timecode": "04:30",
     "timeSec": 270.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_270.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02700.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2720",
+    "id": "FRIDGE_IMG_1271_MOV_02720",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9304,21 +6158,10 @@ const shots = [
     "timecode": "04:32",
     "timeSec": 272.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_272.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02720.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2720",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:32)",
-    "timecode": "04:32",
-    "timeSec": 272.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_272.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2740",
+    "id": "FRIDGE_IMG_1271_MOV_02740",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9326,10 +6169,10 @@ const shots = [
     "timecode": "04:34",
     "timeSec": 274.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_274.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02740.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2760",
+    "id": "FRIDGE_IMG_1271_MOV_02760",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9337,21 +6180,10 @@ const shots = [
     "timecode": "04:36",
     "timeSec": 276.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_276.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02760.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2760",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:36)",
-    "timecode": "04:36",
-    "timeSec": 276.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_276.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2780",
+    "id": "FRIDGE_IMG_1271_MOV_02780",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9359,10 +6191,10 @@ const shots = [
     "timecode": "04:38",
     "timeSec": 278.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_278.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02780.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2800",
+    "id": "FRIDGE_IMG_1271_MOV_02800",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9370,21 +6202,10 @@ const shots = [
     "timecode": "04:40",
     "timeSec": 280.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_280.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02800.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2800",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:40)",
-    "timecode": "04:40",
-    "timeSec": 280.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_280.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2820",
+    "id": "FRIDGE_IMG_1271_MOV_02820",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9392,10 +6213,10 @@ const shots = [
     "timecode": "04:42",
     "timeSec": 282.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_282.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02820.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2840",
+    "id": "FRIDGE_IMG_1271_MOV_02840",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9403,21 +6224,10 @@ const shots = [
     "timecode": "04:44",
     "timeSec": 284.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_284.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02840.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2840",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:44)",
-    "timecode": "04:44",
-    "timeSec": 284.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_284.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2860",
+    "id": "FRIDGE_IMG_1271_MOV_02860",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9425,10 +6235,10 @@ const shots = [
     "timecode": "04:46",
     "timeSec": 286.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_286.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02860.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2880",
+    "id": "FRIDGE_IMG_1271_MOV_02880",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9436,21 +6246,10 @@ const shots = [
     "timecode": "04:48",
     "timeSec": 288.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_288.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02880.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2880",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:48)",
-    "timecode": "04:48",
-    "timeSec": 288.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_288.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2900",
+    "id": "FRIDGE_IMG_1271_MOV_02900",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9458,10 +6257,10 @@ const shots = [
     "timecode": "04:50",
     "timeSec": 290.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_290.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02900.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2920",
+    "id": "FRIDGE_IMG_1271_MOV_02920",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9469,21 +6268,10 @@ const shots = [
     "timecode": "04:52",
     "timeSec": 292.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_292.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02920.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2920",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:52)",
-    "timecode": "04:52",
-    "timeSec": 292.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_292.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2940",
+    "id": "FRIDGE_IMG_1271_MOV_02940",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9491,10 +6279,10 @@ const shots = [
     "timecode": "04:54",
     "timeSec": 294.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_294.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02940.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2960",
+    "id": "FRIDGE_IMG_1271_MOV_02960",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9502,21 +6290,10 @@ const shots = [
     "timecode": "04:56",
     "timeSec": 296.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_296.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02960.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_2960",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (04:56)",
-    "timecode": "04:56",
-    "timeSec": 296.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_296.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_2980",
+    "id": "FRIDGE_IMG_1271_MOV_02980",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9524,10 +6301,10 @@ const shots = [
     "timecode": "04:58",
     "timeSec": 298.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_298.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_02980.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3000",
+    "id": "FRIDGE_IMG_1271_MOV_03000",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9535,21 +6312,10 @@ const shots = [
     "timecode": "05:00",
     "timeSec": 300.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_300.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03000.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3000",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:00)",
-    "timecode": "05:00",
-    "timeSec": 300.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_300.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3020",
+    "id": "FRIDGE_IMG_1271_MOV_03020",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9557,10 +6323,10 @@ const shots = [
     "timecode": "05:02",
     "timeSec": 302.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_302.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03020.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3040",
+    "id": "FRIDGE_IMG_1271_MOV_03040",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9568,21 +6334,10 @@ const shots = [
     "timecode": "05:04",
     "timeSec": 304.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_304.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03040.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3040",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:04)",
-    "timecode": "05:04",
-    "timeSec": 304.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_304.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3060",
+    "id": "FRIDGE_IMG_1271_MOV_03060",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9590,10 +6345,10 @@ const shots = [
     "timecode": "05:06",
     "timeSec": 306.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_306.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03060.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3080",
+    "id": "FRIDGE_IMG_1271_MOV_03080",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9601,21 +6356,10 @@ const shots = [
     "timecode": "05:08",
     "timeSec": 308.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_308.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03080.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3080",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:08)",
-    "timecode": "05:08",
-    "timeSec": 308.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_308.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3100",
+    "id": "FRIDGE_IMG_1271_MOV_03100",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9623,10 +6367,10 @@ const shots = [
     "timecode": "05:10",
     "timeSec": 310.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_310.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03100.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3120",
+    "id": "FRIDGE_IMG_1271_MOV_03120",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9634,21 +6378,10 @@ const shots = [
     "timecode": "05:12",
     "timeSec": 312.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_312.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03120.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3120",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:12)",
-    "timecode": "05:12",
-    "timeSec": 312.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_312.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3140",
+    "id": "FRIDGE_IMG_1271_MOV_03140",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9656,10 +6389,10 @@ const shots = [
     "timecode": "05:14",
     "timeSec": 314.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_314.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03140.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3160",
+    "id": "FRIDGE_IMG_1271_MOV_03160",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9667,21 +6400,10 @@ const shots = [
     "timecode": "05:16",
     "timeSec": 316.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_316.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03160.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3160",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:16)",
-    "timecode": "05:16",
-    "timeSec": 316.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_316.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3180",
+    "id": "FRIDGE_IMG_1271_MOV_03180",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9689,10 +6411,10 @@ const shots = [
     "timecode": "05:18",
     "timeSec": 318.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_318.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03180.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3200",
+    "id": "FRIDGE_IMG_1271_MOV_03200",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9700,21 +6422,10 @@ const shots = [
     "timecode": "05:20",
     "timeSec": 320.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_320.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03200.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3200",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:20)",
-    "timecode": "05:20",
-    "timeSec": 320.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_320.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3220",
+    "id": "FRIDGE_IMG_1271_MOV_03220",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9722,10 +6433,10 @@ const shots = [
     "timecode": "05:22",
     "timeSec": 322.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_322.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03220.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3240",
+    "id": "FRIDGE_IMG_1271_MOV_03240",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9733,21 +6444,10 @@ const shots = [
     "timecode": "05:24",
     "timeSec": 324.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_324.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03240.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3240",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:24)",
-    "timecode": "05:24",
-    "timeSec": 324.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_324.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3260",
+    "id": "FRIDGE_IMG_1271_MOV_03260",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9755,10 +6455,10 @@ const shots = [
     "timecode": "05:26",
     "timeSec": 326.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_326.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03260.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3280",
+    "id": "FRIDGE_IMG_1271_MOV_03280",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9766,21 +6466,10 @@ const shots = [
     "timecode": "05:28",
     "timeSec": 328.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_328.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03280.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3280",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:28)",
-    "timecode": "05:28",
-    "timeSec": 328.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_328.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3300",
+    "id": "FRIDGE_IMG_1271_MOV_03300",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9788,10 +6477,10 @@ const shots = [
     "timecode": "05:30",
     "timeSec": 330.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_330.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03300.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3320",
+    "id": "FRIDGE_IMG_1271_MOV_03320",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9799,21 +6488,10 @@ const shots = [
     "timecode": "05:32",
     "timeSec": 332.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_332.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03320.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3320",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:32)",
-    "timecode": "05:32",
-    "timeSec": 332.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_332.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3340",
+    "id": "FRIDGE_IMG_1271_MOV_03340",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9821,10 +6499,10 @@ const shots = [
     "timecode": "05:34",
     "timeSec": 334.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_334.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03340.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3360",
+    "id": "FRIDGE_IMG_1271_MOV_03360",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9832,21 +6510,10 @@ const shots = [
     "timecode": "05:36",
     "timeSec": 336.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_336.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03360.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3360",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:36)",
-    "timecode": "05:36",
-    "timeSec": 336.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_336.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3380",
+    "id": "FRIDGE_IMG_1271_MOV_03380",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9854,10 +6521,10 @@ const shots = [
     "timecode": "05:38",
     "timeSec": 338.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_338.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03380.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3400",
+    "id": "FRIDGE_IMG_1271_MOV_03400",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9865,21 +6532,10 @@ const shots = [
     "timecode": "05:40",
     "timeSec": 340.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_340.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03400.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3400",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:40)",
-    "timecode": "05:40",
-    "timeSec": 340.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_340.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3420",
+    "id": "FRIDGE_IMG_1271_MOV_03420",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9887,10 +6543,10 @@ const shots = [
     "timecode": "05:42",
     "timeSec": 342.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_342.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03420.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3440",
+    "id": "FRIDGE_IMG_1271_MOV_03440",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9898,21 +6554,10 @@ const shots = [
     "timecode": "05:44",
     "timeSec": 344.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_344.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03440.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3440",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:44)",
-    "timecode": "05:44",
-    "timeSec": 344.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_344.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3460",
+    "id": "FRIDGE_IMG_1271_MOV_03460",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9920,10 +6565,10 @@ const shots = [
     "timecode": "05:46",
     "timeSec": 346.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_346.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03460.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3480",
+    "id": "FRIDGE_IMG_1271_MOV_03480",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9931,21 +6576,10 @@ const shots = [
     "timecode": "05:48",
     "timeSec": 348.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_348.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03480.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3480",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:48)",
-    "timecode": "05:48",
-    "timeSec": 348.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_348.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3500",
+    "id": "FRIDGE_IMG_1271_MOV_03500",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9953,10 +6587,10 @@ const shots = [
     "timecode": "05:50",
     "timeSec": 350.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_350.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03500.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3520",
+    "id": "FRIDGE_IMG_1271_MOV_03520",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9964,21 +6598,10 @@ const shots = [
     "timecode": "05:52",
     "timeSec": 352.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_352.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03520.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3520",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:52)",
-    "timecode": "05:52",
-    "timeSec": 352.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_352.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3540",
+    "id": "FRIDGE_IMG_1271_MOV_03540",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9986,10 +6609,10 @@ const shots = [
     "timecode": "05:54",
     "timeSec": 354.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_354.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03540.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3560",
+    "id": "FRIDGE_IMG_1271_MOV_03560",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -9997,21 +6620,10 @@ const shots = [
     "timecode": "05:56",
     "timeSec": 356.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_356.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03560.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3560",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (05:56)",
-    "timecode": "05:56",
-    "timeSec": 356.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_356.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3580",
+    "id": "FRIDGE_IMG_1271_MOV_03580",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10019,10 +6631,10 @@ const shots = [
     "timecode": "05:58",
     "timeSec": 358.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_358.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03580.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3600",
+    "id": "FRIDGE_IMG_1271_MOV_03600",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10030,21 +6642,10 @@ const shots = [
     "timecode": "06:00",
     "timeSec": 360.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_360.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03600.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3600",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:00)",
-    "timecode": "06:00",
-    "timeSec": 360.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_360.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3620",
+    "id": "FRIDGE_IMG_1271_MOV_03620",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10052,10 +6653,10 @@ const shots = [
     "timecode": "06:02",
     "timeSec": 362.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_362.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03620.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3640",
+    "id": "FRIDGE_IMG_1271_MOV_03640",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10063,21 +6664,10 @@ const shots = [
     "timecode": "06:04",
     "timeSec": 364.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_364.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03640.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3640",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:04)",
-    "timecode": "06:04",
-    "timeSec": 364.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_364.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3660",
+    "id": "FRIDGE_IMG_1271_MOV_03660",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10085,10 +6675,10 @@ const shots = [
     "timecode": "06:06",
     "timeSec": 366.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_366.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03660.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3680",
+    "id": "FRIDGE_IMG_1271_MOV_03680",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10096,21 +6686,10 @@ const shots = [
     "timecode": "06:08",
     "timeSec": 368.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_368.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03680.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3680",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:08)",
-    "timecode": "06:08",
-    "timeSec": 368.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_368.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3700",
+    "id": "FRIDGE_IMG_1271_MOV_03700",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10118,10 +6697,10 @@ const shots = [
     "timecode": "06:10",
     "timeSec": 370.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_370.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03700.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3720",
+    "id": "FRIDGE_IMG_1271_MOV_03720",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10129,21 +6708,10 @@ const shots = [
     "timecode": "06:12",
     "timeSec": 372.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_372.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03720.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3720",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:12)",
-    "timecode": "06:12",
-    "timeSec": 372.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_372.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3740",
+    "id": "FRIDGE_IMG_1271_MOV_03740",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10151,10 +6719,10 @@ const shots = [
     "timecode": "06:14",
     "timeSec": 374.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_374.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03740.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3760",
+    "id": "FRIDGE_IMG_1271_MOV_03760",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10162,21 +6730,10 @@ const shots = [
     "timecode": "06:16",
     "timeSec": 376.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_376.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03760.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3760",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:16)",
-    "timecode": "06:16",
-    "timeSec": 376.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_376.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3780",
+    "id": "FRIDGE_IMG_1271_MOV_03780",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10184,10 +6741,10 @@ const shots = [
     "timecode": "06:18",
     "timeSec": 378.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_378.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03780.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3800",
+    "id": "FRIDGE_IMG_1271_MOV_03800",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10195,21 +6752,10 @@ const shots = [
     "timecode": "06:20",
     "timeSec": 380.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_380.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03800.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3800",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:20)",
-    "timecode": "06:20",
-    "timeSec": 380.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_380.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3820",
+    "id": "FRIDGE_IMG_1271_MOV_03820",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10217,10 +6763,10 @@ const shots = [
     "timecode": "06:22",
     "timeSec": 382.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_382.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03820.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3840",
+    "id": "FRIDGE_IMG_1271_MOV_03840",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10228,21 +6774,10 @@ const shots = [
     "timecode": "06:24",
     "timeSec": 384.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_384.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03840.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3840",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:24)",
-    "timecode": "06:24",
-    "timeSec": 384.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_384.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3860",
+    "id": "FRIDGE_IMG_1271_MOV_03860",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10250,10 +6785,10 @@ const shots = [
     "timecode": "06:26",
     "timeSec": 386.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_386.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03860.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3880",
+    "id": "FRIDGE_IMG_1271_MOV_03880",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10261,21 +6796,10 @@ const shots = [
     "timecode": "06:28",
     "timeSec": 388.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_388.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03880.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3880",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:28)",
-    "timecode": "06:28",
-    "timeSec": 388.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_388.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3900",
+    "id": "FRIDGE_IMG_1271_MOV_03900",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10283,10 +6807,10 @@ const shots = [
     "timecode": "06:30",
     "timeSec": 390.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_390.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03900.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3920",
+    "id": "FRIDGE_IMG_1271_MOV_03920",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10294,21 +6818,10 @@ const shots = [
     "timecode": "06:32",
     "timeSec": 392.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_392.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03920.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3920",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:32)",
-    "timecode": "06:32",
-    "timeSec": 392.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_392.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3940",
+    "id": "FRIDGE_IMG_1271_MOV_03940",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10316,10 +6829,10 @@ const shots = [
     "timecode": "06:34",
     "timeSec": 394.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_394.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03940.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3960",
+    "id": "FRIDGE_IMG_1271_MOV_03960",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10327,21 +6840,10 @@ const shots = [
     "timecode": "06:36",
     "timeSec": 396.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_396.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03960.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_3960",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:36)",
-    "timecode": "06:36",
-    "timeSec": 396.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_396.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_3980",
+    "id": "FRIDGE_IMG_1271_MOV_03980",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10349,10 +6851,10 @@ const shots = [
     "timecode": "06:38",
     "timeSec": 398.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_398.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_03980.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4000",
+    "id": "FRIDGE_IMG_1271_MOV_04000",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10360,21 +6862,10 @@ const shots = [
     "timecode": "06:40",
     "timeSec": 400.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_400.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04000.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4000",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:40)",
-    "timecode": "06:40",
-    "timeSec": 400.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_400.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4020",
+    "id": "FRIDGE_IMG_1271_MOV_04020",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10382,10 +6873,10 @@ const shots = [
     "timecode": "06:42",
     "timeSec": 402.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_402.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04020.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4040",
+    "id": "FRIDGE_IMG_1271_MOV_04040",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10393,21 +6884,10 @@ const shots = [
     "timecode": "06:44",
     "timeSec": 404.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_404.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04040.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4040",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:44)",
-    "timecode": "06:44",
-    "timeSec": 404.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_404.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4060",
+    "id": "FRIDGE_IMG_1271_MOV_04060",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10415,10 +6895,10 @@ const shots = [
     "timecode": "06:46",
     "timeSec": 406.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_406.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04060.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4080",
+    "id": "FRIDGE_IMG_1271_MOV_04080",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10426,21 +6906,10 @@ const shots = [
     "timecode": "06:48",
     "timeSec": 408.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_408.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04080.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4080",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:48)",
-    "timecode": "06:48",
-    "timeSec": 408.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_408.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4100",
+    "id": "FRIDGE_IMG_1271_MOV_04100",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10448,10 +6917,10 @@ const shots = [
     "timecode": "06:50",
     "timeSec": 410.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_410.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04100.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4120",
+    "id": "FRIDGE_IMG_1271_MOV_04120",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10459,21 +6928,10 @@ const shots = [
     "timecode": "06:52",
     "timeSec": 412.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_412.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04120.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4120",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:52)",
-    "timecode": "06:52",
-    "timeSec": 412.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_412.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4140",
+    "id": "FRIDGE_IMG_1271_MOV_04140",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10481,10 +6939,10 @@ const shots = [
     "timecode": "06:54",
     "timeSec": 414.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_414.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04140.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4160",
+    "id": "FRIDGE_IMG_1271_MOV_04160",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10492,21 +6950,10 @@ const shots = [
     "timecode": "06:56",
     "timeSec": 416.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_416.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04160.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4160",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (06:56)",
-    "timecode": "06:56",
-    "timeSec": 416.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_416.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4180",
+    "id": "FRIDGE_IMG_1271_MOV_04180",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10514,10 +6961,10 @@ const shots = [
     "timecode": "06:58",
     "timeSec": 418.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_418.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04180.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4200",
+    "id": "FRIDGE_IMG_1271_MOV_04200",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10525,21 +6972,10 @@ const shots = [
     "timecode": "07:00",
     "timeSec": 420.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_420.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04200.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4200",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:00)",
-    "timecode": "07:00",
-    "timeSec": 420.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_420.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4220",
+    "id": "FRIDGE_IMG_1271_MOV_04220",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10547,10 +6983,10 @@ const shots = [
     "timecode": "07:02",
     "timeSec": 422.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_422.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04220.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4240",
+    "id": "FRIDGE_IMG_1271_MOV_04240",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10558,21 +6994,10 @@ const shots = [
     "timecode": "07:04",
     "timeSec": 424.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_424.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04240.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4240",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:04)",
-    "timecode": "07:04",
-    "timeSec": 424.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_424.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4260",
+    "id": "FRIDGE_IMG_1271_MOV_04260",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10580,10 +7005,10 @@ const shots = [
     "timecode": "07:06",
     "timeSec": 426.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_426.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04260.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4280",
+    "id": "FRIDGE_IMG_1271_MOV_04280",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10591,21 +7016,10 @@ const shots = [
     "timecode": "07:08",
     "timeSec": 428.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_428.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04280.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4280",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:08)",
-    "timecode": "07:08",
-    "timeSec": 428.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_428.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4300",
+    "id": "FRIDGE_IMG_1271_MOV_04300",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10613,10 +7027,10 @@ const shots = [
     "timecode": "07:10",
     "timeSec": 430.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_430.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04300.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4320",
+    "id": "FRIDGE_IMG_1271_MOV_04320",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10624,21 +7038,10 @@ const shots = [
     "timecode": "07:12",
     "timeSec": 432.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_432.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04320.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4320",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:12)",
-    "timecode": "07:12",
-    "timeSec": 432.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_432.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4340",
+    "id": "FRIDGE_IMG_1271_MOV_04340",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10646,10 +7049,10 @@ const shots = [
     "timecode": "07:14",
     "timeSec": 434.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_434.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04340.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4360",
+    "id": "FRIDGE_IMG_1271_MOV_04360",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10657,21 +7060,10 @@ const shots = [
     "timecode": "07:16",
     "timeSec": 436.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_436.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04360.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4360",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:16)",
-    "timecode": "07:16",
-    "timeSec": 436.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_436.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4380",
+    "id": "FRIDGE_IMG_1271_MOV_04380",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10679,10 +7071,10 @@ const shots = [
     "timecode": "07:18",
     "timeSec": 438.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_438.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04380.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4400",
+    "id": "FRIDGE_IMG_1271_MOV_04400",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10690,21 +7082,10 @@ const shots = [
     "timecode": "07:20",
     "timeSec": 440.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_440.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04400.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4400",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:20)",
-    "timecode": "07:20",
-    "timeSec": 440.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_440.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4420",
+    "id": "FRIDGE_IMG_1271_MOV_04420",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10712,10 +7093,10 @@ const shots = [
     "timecode": "07:22",
     "timeSec": 442.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_442.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04420.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4440",
+    "id": "FRIDGE_IMG_1271_MOV_04440",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10723,21 +7104,10 @@ const shots = [
     "timecode": "07:24",
     "timeSec": 444.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_444.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04440.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4440",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:24)",
-    "timecode": "07:24",
-    "timeSec": 444.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_444.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4460",
+    "id": "FRIDGE_IMG_1271_MOV_04460",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10745,10 +7115,10 @@ const shots = [
     "timecode": "07:26",
     "timeSec": 446.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_446.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04460.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4480",
+    "id": "FRIDGE_IMG_1271_MOV_04480",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10756,21 +7126,10 @@ const shots = [
     "timecode": "07:28",
     "timeSec": 448.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_448.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04480.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4480",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:28)",
-    "timecode": "07:28",
-    "timeSec": 448.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_448.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4500",
+    "id": "FRIDGE_IMG_1271_MOV_04500",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10778,10 +7137,10 @@ const shots = [
     "timecode": "07:30",
     "timeSec": 450.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_450.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04500.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4520",
+    "id": "FRIDGE_IMG_1271_MOV_04520",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10789,21 +7148,10 @@ const shots = [
     "timecode": "07:32",
     "timeSec": 452.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_452.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04520.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4520",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:32)",
-    "timecode": "07:32",
-    "timeSec": 452.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_452.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4540",
+    "id": "FRIDGE_IMG_1271_MOV_04540",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10811,10 +7159,10 @@ const shots = [
     "timecode": "07:34",
     "timeSec": 454.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_454.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04540.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4560",
+    "id": "FRIDGE_IMG_1271_MOV_04560",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10822,21 +7170,10 @@ const shots = [
     "timecode": "07:36",
     "timeSec": 456.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_456.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04560.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4560",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:36)",
-    "timecode": "07:36",
-    "timeSec": 456.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_456.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4580",
+    "id": "FRIDGE_IMG_1271_MOV_04580",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10844,10 +7181,10 @@ const shots = [
     "timecode": "07:38",
     "timeSec": 458.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_458.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04580.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4600",
+    "id": "FRIDGE_IMG_1271_MOV_04600",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10855,21 +7192,10 @@ const shots = [
     "timecode": "07:40",
     "timeSec": 460.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_460.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04600.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4600",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:40)",
-    "timecode": "07:40",
-    "timeSec": 460.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_460.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4620",
+    "id": "FRIDGE_IMG_1271_MOV_04620",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10877,10 +7203,10 @@ const shots = [
     "timecode": "07:42",
     "timeSec": 462.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_462.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04620.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4640",
+    "id": "FRIDGE_IMG_1271_MOV_04640",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10888,21 +7214,10 @@ const shots = [
     "timecode": "07:44",
     "timeSec": 464.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_464.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04640.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4640",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:44)",
-    "timecode": "07:44",
-    "timeSec": 464.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_464.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4660",
+    "id": "FRIDGE_IMG_1271_MOV_04660",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10910,10 +7225,10 @@ const shots = [
     "timecode": "07:46",
     "timeSec": 466.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_466.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04660.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4680",
+    "id": "FRIDGE_IMG_1271_MOV_04680",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10921,21 +7236,10 @@ const shots = [
     "timecode": "07:48",
     "timeSec": 468.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_468.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04680.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4680",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:48)",
-    "timecode": "07:48",
-    "timeSec": 468.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_468.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4700",
+    "id": "FRIDGE_IMG_1271_MOV_04700",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10943,10 +7247,10 @@ const shots = [
     "timecode": "07:50",
     "timeSec": 470.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_470.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04700.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4720",
+    "id": "FRIDGE_IMG_1271_MOV_04720",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10954,21 +7258,10 @@ const shots = [
     "timecode": "07:52",
     "timeSec": 472.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_472.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04720.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4720",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:52)",
-    "timecode": "07:52",
-    "timeSec": 472.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_472.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4740",
+    "id": "FRIDGE_IMG_1271_MOV_04740",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10976,10 +7269,10 @@ const shots = [
     "timecode": "07:54",
     "timeSec": 474.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_474.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04740.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4760",
+    "id": "FRIDGE_IMG_1271_MOV_04760",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -10987,21 +7280,10 @@ const shots = [
     "timecode": "07:56",
     "timeSec": 476.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_476.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04760.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4760",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (07:56)",
-    "timecode": "07:56",
-    "timeSec": 476.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_476.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4780",
+    "id": "FRIDGE_IMG_1271_MOV_04780",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11009,10 +7291,10 @@ const shots = [
     "timecode": "07:58",
     "timeSec": 478.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_478.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04780.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4800",
+    "id": "FRIDGE_IMG_1271_MOV_04800",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11020,21 +7302,10 @@ const shots = [
     "timecode": "08:00",
     "timeSec": 480.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_480.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04800.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4800",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:00)",
-    "timecode": "08:00",
-    "timeSec": 480.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_480.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4820",
+    "id": "FRIDGE_IMG_1271_MOV_04820",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11042,10 +7313,10 @@ const shots = [
     "timecode": "08:02",
     "timeSec": 482.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_482.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04820.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4840",
+    "id": "FRIDGE_IMG_1271_MOV_04840",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11053,21 +7324,10 @@ const shots = [
     "timecode": "08:04",
     "timeSec": 484.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_484.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04840.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4840",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:04)",
-    "timecode": "08:04",
-    "timeSec": 484.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_484.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4860",
+    "id": "FRIDGE_IMG_1271_MOV_04860",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11075,10 +7335,10 @@ const shots = [
     "timecode": "08:06",
     "timeSec": 486.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_486.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04860.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4880",
+    "id": "FRIDGE_IMG_1271_MOV_04880",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11086,21 +7346,10 @@ const shots = [
     "timecode": "08:08",
     "timeSec": 488.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_488.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04880.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4880",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:08)",
-    "timecode": "08:08",
-    "timeSec": 488.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_488.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4900",
+    "id": "FRIDGE_IMG_1271_MOV_04900",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11108,10 +7357,10 @@ const shots = [
     "timecode": "08:10",
     "timeSec": 490.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_490.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04900.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4920",
+    "id": "FRIDGE_IMG_1271_MOV_04920",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11119,21 +7368,10 @@ const shots = [
     "timecode": "08:12",
     "timeSec": 492.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_492.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04920.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4920",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:12)",
-    "timecode": "08:12",
-    "timeSec": 492.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_492.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4940",
+    "id": "FRIDGE_IMG_1271_MOV_04940",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11141,10 +7379,10 @@ const shots = [
     "timecode": "08:14",
     "timeSec": 494.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_494.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04940.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4960",
+    "id": "FRIDGE_IMG_1271_MOV_04960",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11152,21 +7390,10 @@ const shots = [
     "timecode": "08:16",
     "timeSec": 496.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_496.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04960.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_4960",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:16)",
-    "timecode": "08:16",
-    "timeSec": 496.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_496.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_4980",
+    "id": "FRIDGE_IMG_1271_MOV_04980",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11174,10 +7401,10 @@ const shots = [
     "timecode": "08:18",
     "timeSec": 498.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_498.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_04980.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5000",
+    "id": "FRIDGE_IMG_1271_MOV_05000",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11185,21 +7412,10 @@ const shots = [
     "timecode": "08:20",
     "timeSec": 500.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_500.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05000.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5000",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:20)",
-    "timecode": "08:20",
-    "timeSec": 500.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_500.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5020",
+    "id": "FRIDGE_IMG_1271_MOV_05020",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11207,10 +7423,10 @@ const shots = [
     "timecode": "08:22",
     "timeSec": 502.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_502.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05020.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5040",
+    "id": "FRIDGE_IMG_1271_MOV_05040",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11218,21 +7434,10 @@ const shots = [
     "timecode": "08:24",
     "timeSec": 504.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_504.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05040.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5040",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:24)",
-    "timecode": "08:24",
-    "timeSec": 504.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_504.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5060",
+    "id": "FRIDGE_IMG_1271_MOV_05060",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11240,10 +7445,10 @@ const shots = [
     "timecode": "08:26",
     "timeSec": 506.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_506.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05060.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5080",
+    "id": "FRIDGE_IMG_1271_MOV_05080",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11251,21 +7456,10 @@ const shots = [
     "timecode": "08:28",
     "timeSec": 508.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_508.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05080.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5080",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:28)",
-    "timecode": "08:28",
-    "timeSec": 508.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_508.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5100",
+    "id": "FRIDGE_IMG_1271_MOV_05100",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11273,10 +7467,10 @@ const shots = [
     "timecode": "08:30",
     "timeSec": 510.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_510.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05100.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5120",
+    "id": "FRIDGE_IMG_1271_MOV_05120",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11284,21 +7478,10 @@ const shots = [
     "timecode": "08:32",
     "timeSec": 512.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_512.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05120.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5120",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:32)",
-    "timecode": "08:32",
-    "timeSec": 512.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_512.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5140",
+    "id": "FRIDGE_IMG_1271_MOV_05140",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11306,10 +7489,10 @@ const shots = [
     "timecode": "08:34",
     "timeSec": 514.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_514.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05140.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5160",
+    "id": "FRIDGE_IMG_1271_MOV_05160",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11317,21 +7500,10 @@ const shots = [
     "timecode": "08:36",
     "timeSec": 516.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_516.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05160.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5160",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:36)",
-    "timecode": "08:36",
-    "timeSec": 516.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_516.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5180",
+    "id": "FRIDGE_IMG_1271_MOV_05180",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11339,10 +7511,10 @@ const shots = [
     "timecode": "08:38",
     "timeSec": 518.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_518.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05180.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5200",
+    "id": "FRIDGE_IMG_1271_MOV_05200",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11350,21 +7522,10 @@ const shots = [
     "timecode": "08:40",
     "timeSec": 520.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_520.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05200.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5200",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:40)",
-    "timecode": "08:40",
-    "timeSec": 520.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_520.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5220",
+    "id": "FRIDGE_IMG_1271_MOV_05220",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11372,10 +7533,10 @@ const shots = [
     "timecode": "08:42",
     "timeSec": 522.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_522.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05220.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5240",
+    "id": "FRIDGE_IMG_1271_MOV_05240",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11383,21 +7544,10 @@ const shots = [
     "timecode": "08:44",
     "timeSec": 524.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_524.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05240.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5240",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:44)",
-    "timecode": "08:44",
-    "timeSec": 524.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_524.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5260",
+    "id": "FRIDGE_IMG_1271_MOV_05260",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11405,10 +7555,10 @@ const shots = [
     "timecode": "08:46",
     "timeSec": 526.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_526.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05260.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5280",
+    "id": "FRIDGE_IMG_1271_MOV_05280",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11416,21 +7566,10 @@ const shots = [
     "timecode": "08:48",
     "timeSec": 528.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_528.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05280.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5280",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:48)",
-    "timecode": "08:48",
-    "timeSec": 528.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_528.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5300",
+    "id": "FRIDGE_IMG_1271_MOV_05300",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11438,10 +7577,10 @@ const shots = [
     "timecode": "08:50",
     "timeSec": 530.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_530.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05300.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5320",
+    "id": "FRIDGE_IMG_1271_MOV_05320",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11449,21 +7588,10 @@ const shots = [
     "timecode": "08:52",
     "timeSec": 532.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_532.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05320.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5320",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:52)",
-    "timecode": "08:52",
-    "timeSec": 532.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_532.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5340",
+    "id": "FRIDGE_IMG_1271_MOV_05340",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11471,10 +7599,10 @@ const shots = [
     "timecode": "08:54",
     "timeSec": 534.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_534.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05340.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5360",
+    "id": "FRIDGE_IMG_1271_MOV_05360",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11482,21 +7610,10 @@ const shots = [
     "timecode": "08:56",
     "timeSec": 536.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_536.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05360.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5360",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (08:56)",
-    "timecode": "08:56",
-    "timeSec": 536.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_536.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5380",
+    "id": "FRIDGE_IMG_1271_MOV_05380",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11504,10 +7621,10 @@ const shots = [
     "timecode": "08:58",
     "timeSec": 538.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_538.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05380.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5400",
+    "id": "FRIDGE_IMG_1271_MOV_05400",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11515,21 +7632,10 @@ const shots = [
     "timecode": "09:00",
     "timeSec": 540.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_540.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05400.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5400",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:00)",
-    "timecode": "09:00",
-    "timeSec": 540.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_540.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5420",
+    "id": "FRIDGE_IMG_1271_MOV_05420",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11537,10 +7643,10 @@ const shots = [
     "timecode": "09:02",
     "timeSec": 542.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_542.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05420.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5440",
+    "id": "FRIDGE_IMG_1271_MOV_05440",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11548,21 +7654,10 @@ const shots = [
     "timecode": "09:04",
     "timeSec": 544.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_544.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05440.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5440",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:04)",
-    "timecode": "09:04",
-    "timeSec": 544.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_544.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5460",
+    "id": "FRIDGE_IMG_1271_MOV_05460",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11570,10 +7665,10 @@ const shots = [
     "timecode": "09:06",
     "timeSec": 546.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_546.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05460.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5480",
+    "id": "FRIDGE_IMG_1271_MOV_05480",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11581,21 +7676,10 @@ const shots = [
     "timecode": "09:08",
     "timeSec": 548.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_548.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05480.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5480",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:08)",
-    "timecode": "09:08",
-    "timeSec": 548.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_548.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5500",
+    "id": "FRIDGE_IMG_1271_MOV_05500",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11603,10 +7687,10 @@ const shots = [
     "timecode": "09:10",
     "timeSec": 550.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_550.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05500.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5520",
+    "id": "FRIDGE_IMG_1271_MOV_05520",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11614,21 +7698,10 @@ const shots = [
     "timecode": "09:12",
     "timeSec": 552.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_552.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05520.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5520",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:12)",
-    "timecode": "09:12",
-    "timeSec": 552.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_552.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5540",
+    "id": "FRIDGE_IMG_1271_MOV_05540",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11636,10 +7709,10 @@ const shots = [
     "timecode": "09:14",
     "timeSec": 554.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_554.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05540.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5560",
+    "id": "FRIDGE_IMG_1271_MOV_05560",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11647,21 +7720,10 @@ const shots = [
     "timecode": "09:16",
     "timeSec": 556.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_556.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05560.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5560",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:16)",
-    "timecode": "09:16",
-    "timeSec": 556.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_556.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5580",
+    "id": "FRIDGE_IMG_1271_MOV_05580",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11669,10 +7731,10 @@ const shots = [
     "timecode": "09:18",
     "timeSec": 558.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_558.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05580.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5600",
+    "id": "FRIDGE_IMG_1271_MOV_05600",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11680,21 +7742,10 @@ const shots = [
     "timecode": "09:20",
     "timeSec": 560.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_560.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05600.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5600",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:20)",
-    "timecode": "09:20",
-    "timeSec": 560.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_560.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5620",
+    "id": "FRIDGE_IMG_1271_MOV_05620",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11702,10 +7753,10 @@ const shots = [
     "timecode": "09:22",
     "timeSec": 562.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_562.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05620.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5640",
+    "id": "FRIDGE_IMG_1271_MOV_05640",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11713,21 +7764,10 @@ const shots = [
     "timecode": "09:24",
     "timeSec": 564.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_564.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05640.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5640",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:24)",
-    "timecode": "09:24",
-    "timeSec": 564.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_564.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5660",
+    "id": "FRIDGE_IMG_1271_MOV_05660",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11735,10 +7775,10 @@ const shots = [
     "timecode": "09:26",
     "timeSec": 566.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_566.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05660.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5680",
+    "id": "FRIDGE_IMG_1271_MOV_05680",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11746,21 +7786,10 @@ const shots = [
     "timecode": "09:28",
     "timeSec": 568.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_568.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05680.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5680",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:28)",
-    "timecode": "09:28",
-    "timeSec": 568.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_568.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5700",
+    "id": "FRIDGE_IMG_1271_MOV_05700",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11768,10 +7797,10 @@ const shots = [
     "timecode": "09:30",
     "timeSec": 570.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_570.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05700.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5720",
+    "id": "FRIDGE_IMG_1271_MOV_05720",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11779,21 +7808,10 @@ const shots = [
     "timecode": "09:32",
     "timeSec": 572.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_572.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05720.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5720",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:32)",
-    "timecode": "09:32",
-    "timeSec": 572.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_572.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5740",
+    "id": "FRIDGE_IMG_1271_MOV_05740",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11801,10 +7819,10 @@ const shots = [
     "timecode": "09:34",
     "timeSec": 574.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_574.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05740.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5760",
+    "id": "FRIDGE_IMG_1271_MOV_05760",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11812,21 +7830,10 @@ const shots = [
     "timecode": "09:36",
     "timeSec": 576.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_576.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05760.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5760",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:36)",
-    "timecode": "09:36",
-    "timeSec": 576.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_576.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5780",
+    "id": "FRIDGE_IMG_1271_MOV_05780",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11834,10 +7841,10 @@ const shots = [
     "timecode": "09:38",
     "timeSec": 578.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_578.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05780.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5800",
+    "id": "FRIDGE_IMG_1271_MOV_05800",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11845,21 +7852,10 @@ const shots = [
     "timecode": "09:40",
     "timeSec": 580.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_580.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05800.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5800",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:40)",
-    "timecode": "09:40",
-    "timeSec": 580.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_580.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5820",
+    "id": "FRIDGE_IMG_1271_MOV_05820",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11867,10 +7863,10 @@ const shots = [
     "timecode": "09:42",
     "timeSec": 582.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_582.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05820.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5840",
+    "id": "FRIDGE_IMG_1271_MOV_05840",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11878,21 +7874,10 @@ const shots = [
     "timecode": "09:44",
     "timeSec": 584.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_584.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05840.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5840",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:44)",
-    "timecode": "09:44",
-    "timeSec": 584.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_584.0s.jpg"
-  },
-  {
-    "id": "FRIDGE_IMG_1271_MOV_5860",
+    "id": "FRIDGE_IMG_1271_MOV_05860",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11900,10 +7885,10 @@ const shots = [
     "timecode": "09:46",
     "timeSec": 586.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_586.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05860.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5880",
+    "id": "FRIDGE_IMG_1271_MOV_05880",
     "product": "fridge",
     "productName": "ตู้เย็น TCL",
     "filename": "IMG_1271.MOV",
@@ -11911,21 +7896,10 @@ const shots = [
     "timecode": "09:48",
     "timeSec": 588.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_588.0s.jpg"
+    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_05880.jpg"
   },
   {
-    "id": "FRIDGE_IMG_1271_MOV_5880",
-    "product": "fridge",
-    "productName": "ตู้เย็น TCL",
-    "filename": "IMG_1271.MOV",
-    "title": "IMG_1271.MOV (09:48)",
-    "timecode": "09:48",
-    "timeSec": 588.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/fridge/IMG_1271_MOV/frame_588.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0000",
+    "id": "WASHER_IMG_0883_MOV_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -11933,21 +7907,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00000.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0020",
+    "id": "WASHER_IMG_0883_MOV_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -11955,10 +7918,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00020.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0040",
+    "id": "WASHER_IMG_0883_MOV_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -11966,21 +7929,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00040.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0060",
+    "id": "WASHER_IMG_0883_MOV_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -11988,10 +7940,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00060.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0080",
+    "id": "WASHER_IMG_0883_MOV_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -11999,21 +7951,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00080.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0100",
+    "id": "WASHER_IMG_0883_MOV_00100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12021,10 +7962,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00100.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0120",
+    "id": "WASHER_IMG_0883_MOV_00120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12032,21 +7973,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00120.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0140",
+    "id": "WASHER_IMG_0883_MOV_00140",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12054,10 +7984,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_14.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00140.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0160",
+    "id": "WASHER_IMG_0883_MOV_00160",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12065,21 +7995,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_16.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00160.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_16.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0180",
+    "id": "WASHER_IMG_0883_MOV_00180",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12087,10 +8006,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_18.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00180.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0200",
+    "id": "WASHER_IMG_0883_MOV_00200",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12098,21 +8017,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_20.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00200.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_20.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0220",
+    "id": "WASHER_IMG_0883_MOV_00220",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12120,10 +8028,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_22.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00220.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0240",
+    "id": "WASHER_IMG_0883_MOV_00240",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12131,21 +8039,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_24.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00240.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0260",
+    "id": "WASHER_IMG_0883_MOV_00260",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12153,10 +8050,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_26.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00260.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0280",
+    "id": "WASHER_IMG_0883_MOV_00280",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12164,21 +8061,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_28.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00280.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:28)",
-    "timecode": "00:28",
-    "timeSec": 28.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_28.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0300",
+    "id": "WASHER_IMG_0883_MOV_00300",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12186,10 +8072,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_30.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00300.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0320",
+    "id": "WASHER_IMG_0883_MOV_00320",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12197,21 +8083,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_32.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00320.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:32)",
-    "timecode": "00:32",
-    "timeSec": 32.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_32.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0340",
+    "id": "WASHER_IMG_0883_MOV_00340",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12219,10 +8094,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_34.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00340.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0360",
+    "id": "WASHER_IMG_0883_MOV_00360",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12230,21 +8105,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_36.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00360.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_36.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0380",
+    "id": "WASHER_IMG_0883_MOV_00380",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12252,10 +8116,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_38.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00380.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0400",
+    "id": "WASHER_IMG_0883_MOV_00400",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12263,21 +8127,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_40.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00400.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:40)",
-    "timecode": "00:40",
-    "timeSec": 40.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_40.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0420",
+    "id": "WASHER_IMG_0883_MOV_00420",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12285,10 +8138,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_42.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00420.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0440",
+    "id": "WASHER_IMG_0883_MOV_00440",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12296,21 +8149,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_44.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00440.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:44)",
-    "timecode": "00:44",
-    "timeSec": 44.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_44.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0460",
+    "id": "WASHER_IMG_0883_MOV_00460",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12318,10 +8160,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_46.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00460.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0480",
+    "id": "WASHER_IMG_0883_MOV_00480",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12329,21 +8171,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_48.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00480.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_48.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0500",
+    "id": "WASHER_IMG_0883_MOV_00500",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12351,10 +8182,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_50.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00500.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0520",
+    "id": "WASHER_IMG_0883_MOV_00520",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12362,21 +8193,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_52.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00520.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:52)",
-    "timecode": "00:52",
-    "timeSec": 52.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_52.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0540",
+    "id": "WASHER_IMG_0883_MOV_00540",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12384,10 +8204,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_54.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00540.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0560",
+    "id": "WASHER_IMG_0883_MOV_00560",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12395,21 +8215,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_56.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00560.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (00:56)",
-    "timecode": "00:56",
-    "timeSec": 56.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_56.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0580",
+    "id": "WASHER_IMG_0883_MOV_00580",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12417,10 +8226,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_58.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00580.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0600",
+    "id": "WASHER_IMG_0883_MOV_00600",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12428,21 +8237,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_60.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00600.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_60.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0620",
+    "id": "WASHER_IMG_0883_MOV_00620",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12450,10 +8248,10 @@ const shots = [
     "timecode": "01:02",
     "timeSec": 62.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_62.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00620.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0640",
+    "id": "WASHER_IMG_0883_MOV_00640",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12461,21 +8259,10 @@ const shots = [
     "timecode": "01:04",
     "timeSec": 64.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_64.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00640.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:04)",
-    "timecode": "01:04",
-    "timeSec": 64.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_64.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0660",
+    "id": "WASHER_IMG_0883_MOV_00660",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12483,10 +8270,10 @@ const shots = [
     "timecode": "01:06",
     "timeSec": 66.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_66.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00660.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0680",
+    "id": "WASHER_IMG_0883_MOV_00680",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12494,21 +8281,10 @@ const shots = [
     "timecode": "01:08",
     "timeSec": 68.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_68.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00680.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:08)",
-    "timecode": "01:08",
-    "timeSec": 68.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_68.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0700",
+    "id": "WASHER_IMG_0883_MOV_00700",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12516,10 +8292,10 @@ const shots = [
     "timecode": "01:10",
     "timeSec": 70.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_70.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00700.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0720",
+    "id": "WASHER_IMG_0883_MOV_00720",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12527,21 +8303,10 @@ const shots = [
     "timecode": "01:12",
     "timeSec": 72.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_72.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00720.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_72.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0740",
+    "id": "WASHER_IMG_0883_MOV_00740",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12549,10 +8314,10 @@ const shots = [
     "timecode": "01:14",
     "timeSec": 74.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_74.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00740.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0760",
+    "id": "WASHER_IMG_0883_MOV_00760",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12560,21 +8325,10 @@ const shots = [
     "timecode": "01:16",
     "timeSec": 76.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_76.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00760.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:16)",
-    "timecode": "01:16",
-    "timeSec": 76.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_76.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0780",
+    "id": "WASHER_IMG_0883_MOV_00780",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12582,10 +8336,10 @@ const shots = [
     "timecode": "01:18",
     "timeSec": 78.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_78.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00780.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0800",
+    "id": "WASHER_IMG_0883_MOV_00800",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12593,21 +8347,10 @@ const shots = [
     "timecode": "01:20",
     "timeSec": 80.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_80.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00800.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:20)",
-    "timecode": "01:20",
-    "timeSec": 80.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_80.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0820",
+    "id": "WASHER_IMG_0883_MOV_00820",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12615,10 +8358,10 @@ const shots = [
     "timecode": "01:22",
     "timeSec": 82.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_82.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00820.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0840",
+    "id": "WASHER_IMG_0883_MOV_00840",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12626,21 +8369,10 @@ const shots = [
     "timecode": "01:24",
     "timeSec": 84.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_84.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00840.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_84.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0860",
+    "id": "WASHER_IMG_0883_MOV_00860",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12648,10 +8380,10 @@ const shots = [
     "timecode": "01:26",
     "timeSec": 86.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_86.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00860.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0880",
+    "id": "WASHER_IMG_0883_MOV_00880",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12659,21 +8391,10 @@ const shots = [
     "timecode": "01:28",
     "timeSec": 88.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_88.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00880.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:28)",
-    "timecode": "01:28",
-    "timeSec": 88.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_88.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0900",
+    "id": "WASHER_IMG_0883_MOV_00900",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12681,10 +8402,10 @@ const shots = [
     "timecode": "01:30",
     "timeSec": 90.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_90.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00900.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0920",
+    "id": "WASHER_IMG_0883_MOV_00920",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12692,21 +8413,10 @@ const shots = [
     "timecode": "01:32",
     "timeSec": 92.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_92.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00920.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:32)",
-    "timecode": "01:32",
-    "timeSec": 92.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_92.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0940",
+    "id": "WASHER_IMG_0883_MOV_00940",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12714,10 +8424,10 @@ const shots = [
     "timecode": "01:34",
     "timeSec": 94.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_94.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00940.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0960",
+    "id": "WASHER_IMG_0883_MOV_00960",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12725,21 +8435,10 @@ const shots = [
     "timecode": "01:36",
     "timeSec": 96.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_96.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00960.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_0960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:36)",
-    "timecode": "01:36",
-    "timeSec": 96.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_96.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_0980",
+    "id": "WASHER_IMG_0883_MOV_00980",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12747,10 +8446,10 @@ const shots = [
     "timecode": "01:38",
     "timeSec": 98.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_98.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_00980.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1000",
+    "id": "WASHER_IMG_0883_MOV_01000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12758,21 +8457,10 @@ const shots = [
     "timecode": "01:40",
     "timeSec": 100.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_100.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01000.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:40)",
-    "timecode": "01:40",
-    "timeSec": 100.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_100.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1020",
+    "id": "WASHER_IMG_0883_MOV_01020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12780,10 +8468,10 @@ const shots = [
     "timecode": "01:42",
     "timeSec": 102.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_102.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01020.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1040",
+    "id": "WASHER_IMG_0883_MOV_01040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12791,21 +8479,10 @@ const shots = [
     "timecode": "01:44",
     "timeSec": 104.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_104.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01040.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:44)",
-    "timecode": "01:44",
-    "timeSec": 104.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_104.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1060",
+    "id": "WASHER_IMG_0883_MOV_01060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12813,10 +8490,10 @@ const shots = [
     "timecode": "01:46",
     "timeSec": 106.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_106.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01060.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1080",
+    "id": "WASHER_IMG_0883_MOV_01080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12824,21 +8501,10 @@ const shots = [
     "timecode": "01:48",
     "timeSec": 108.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_108.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01080.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:48)",
-    "timecode": "01:48",
-    "timeSec": 108.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_108.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1100",
+    "id": "WASHER_IMG_0883_MOV_01100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12846,10 +8512,10 @@ const shots = [
     "timecode": "01:50",
     "timeSec": 110.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_110.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01100.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1120",
+    "id": "WASHER_IMG_0883_MOV_01120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12857,21 +8523,10 @@ const shots = [
     "timecode": "01:52",
     "timeSec": 112.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_112.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01120.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:52)",
-    "timecode": "01:52",
-    "timeSec": 112.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_112.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1140",
+    "id": "WASHER_IMG_0883_MOV_01140",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12879,10 +8534,10 @@ const shots = [
     "timecode": "01:54",
     "timeSec": 114.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_114.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01140.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1160",
+    "id": "WASHER_IMG_0883_MOV_01160",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12890,21 +8545,10 @@ const shots = [
     "timecode": "01:56",
     "timeSec": 116.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_116.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01160.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (01:56)",
-    "timecode": "01:56",
-    "timeSec": 116.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_116.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1180",
+    "id": "WASHER_IMG_0883_MOV_01180",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12912,10 +8556,10 @@ const shots = [
     "timecode": "01:58",
     "timeSec": 118.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_118.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01180.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1200",
+    "id": "WASHER_IMG_0883_MOV_01200",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12923,21 +8567,10 @@ const shots = [
     "timecode": "02:00",
     "timeSec": 120.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_120.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01200.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:00)",
-    "timecode": "02:00",
-    "timeSec": 120.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_120.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1220",
+    "id": "WASHER_IMG_0883_MOV_01220",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12945,10 +8578,10 @@ const shots = [
     "timecode": "02:02",
     "timeSec": 122.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_122.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01220.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1240",
+    "id": "WASHER_IMG_0883_MOV_01240",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12956,21 +8589,10 @@ const shots = [
     "timecode": "02:04",
     "timeSec": 124.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_124.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01240.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:04)",
-    "timecode": "02:04",
-    "timeSec": 124.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_124.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1260",
+    "id": "WASHER_IMG_0883_MOV_01260",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12978,10 +8600,10 @@ const shots = [
     "timecode": "02:06",
     "timeSec": 126.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_126.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01260.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1280",
+    "id": "WASHER_IMG_0883_MOV_01280",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -12989,21 +8611,10 @@ const shots = [
     "timecode": "02:08",
     "timeSec": 128.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_128.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01280.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:08)",
-    "timecode": "02:08",
-    "timeSec": 128.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_128.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1300",
+    "id": "WASHER_IMG_0883_MOV_01300",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13011,10 +8622,10 @@ const shots = [
     "timecode": "02:10",
     "timeSec": 130.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_130.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01300.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1320",
+    "id": "WASHER_IMG_0883_MOV_01320",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13022,21 +8633,10 @@ const shots = [
     "timecode": "02:12",
     "timeSec": 132.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_132.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01320.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:12)",
-    "timecode": "02:12",
-    "timeSec": 132.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_132.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1340",
+    "id": "WASHER_IMG_0883_MOV_01340",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13044,10 +8644,10 @@ const shots = [
     "timecode": "02:14",
     "timeSec": 134.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_134.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01340.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1360",
+    "id": "WASHER_IMG_0883_MOV_01360",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13055,21 +8655,10 @@ const shots = [
     "timecode": "02:16",
     "timeSec": 136.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_136.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01360.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:16)",
-    "timecode": "02:16",
-    "timeSec": 136.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_136.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1380",
+    "id": "WASHER_IMG_0883_MOV_01380",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13077,10 +8666,10 @@ const shots = [
     "timecode": "02:18",
     "timeSec": 138.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_138.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01380.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1400",
+    "id": "WASHER_IMG_0883_MOV_01400",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13088,21 +8677,10 @@ const shots = [
     "timecode": "02:20",
     "timeSec": 140.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_140.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01400.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:20)",
-    "timecode": "02:20",
-    "timeSec": 140.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_140.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1420",
+    "id": "WASHER_IMG_0883_MOV_01420",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13110,10 +8688,10 @@ const shots = [
     "timecode": "02:22",
     "timeSec": 142.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_142.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01420.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1440",
+    "id": "WASHER_IMG_0883_MOV_01440",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13121,21 +8699,10 @@ const shots = [
     "timecode": "02:24",
     "timeSec": 144.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_144.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01440.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:24)",
-    "timecode": "02:24",
-    "timeSec": 144.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_144.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1460",
+    "id": "WASHER_IMG_0883_MOV_01460",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13143,10 +8710,10 @@ const shots = [
     "timecode": "02:26",
     "timeSec": 146.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_146.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01460.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1480",
+    "id": "WASHER_IMG_0883_MOV_01480",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13154,21 +8721,10 @@ const shots = [
     "timecode": "02:28",
     "timeSec": 148.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_148.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01480.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:28)",
-    "timecode": "02:28",
-    "timeSec": 148.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_148.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1500",
+    "id": "WASHER_IMG_0883_MOV_01500",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13176,10 +8732,10 @@ const shots = [
     "timecode": "02:30",
     "timeSec": 150.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_150.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01500.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1520",
+    "id": "WASHER_IMG_0883_MOV_01520",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13187,21 +8743,10 @@ const shots = [
     "timecode": "02:32",
     "timeSec": 152.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_152.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01520.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:32)",
-    "timecode": "02:32",
-    "timeSec": 152.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_152.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1540",
+    "id": "WASHER_IMG_0883_MOV_01540",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13209,10 +8754,10 @@ const shots = [
     "timecode": "02:34",
     "timeSec": 154.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_154.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01540.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1560",
+    "id": "WASHER_IMG_0883_MOV_01560",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13220,21 +8765,10 @@ const shots = [
     "timecode": "02:36",
     "timeSec": 156.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_156.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01560.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:36)",
-    "timecode": "02:36",
-    "timeSec": 156.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_156.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1580",
+    "id": "WASHER_IMG_0883_MOV_01580",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13242,10 +8776,10 @@ const shots = [
     "timecode": "02:38",
     "timeSec": 158.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_158.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01580.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1600",
+    "id": "WASHER_IMG_0883_MOV_01600",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13253,21 +8787,10 @@ const shots = [
     "timecode": "02:40",
     "timeSec": 160.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_160.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01600.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:40)",
-    "timecode": "02:40",
-    "timeSec": 160.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_160.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1620",
+    "id": "WASHER_IMG_0883_MOV_01620",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13275,10 +8798,10 @@ const shots = [
     "timecode": "02:42",
     "timeSec": 162.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_162.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01620.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1640",
+    "id": "WASHER_IMG_0883_MOV_01640",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13286,21 +8809,10 @@ const shots = [
     "timecode": "02:44",
     "timeSec": 164.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_164.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01640.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:44)",
-    "timecode": "02:44",
-    "timeSec": 164.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_164.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1660",
+    "id": "WASHER_IMG_0883_MOV_01660",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13308,10 +8820,10 @@ const shots = [
     "timecode": "02:46",
     "timeSec": 166.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_166.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01660.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1680",
+    "id": "WASHER_IMG_0883_MOV_01680",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13319,21 +8831,10 @@ const shots = [
     "timecode": "02:48",
     "timeSec": 168.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_168.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01680.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:48)",
-    "timecode": "02:48",
-    "timeSec": 168.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_168.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1700",
+    "id": "WASHER_IMG_0883_MOV_01700",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13341,10 +8842,10 @@ const shots = [
     "timecode": "02:50",
     "timeSec": 170.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_170.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01700.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1720",
+    "id": "WASHER_IMG_0883_MOV_01720",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13352,21 +8853,10 @@ const shots = [
     "timecode": "02:52",
     "timeSec": 172.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_172.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01720.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:52)",
-    "timecode": "02:52",
-    "timeSec": 172.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_172.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1740",
+    "id": "WASHER_IMG_0883_MOV_01740",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13374,10 +8864,10 @@ const shots = [
     "timecode": "02:54",
     "timeSec": 174.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_174.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01740.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1760",
+    "id": "WASHER_IMG_0883_MOV_01760",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13385,21 +8875,10 @@ const shots = [
     "timecode": "02:56",
     "timeSec": 176.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_176.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01760.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (02:56)",
-    "timecode": "02:56",
-    "timeSec": 176.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_176.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1780",
+    "id": "WASHER_IMG_0883_MOV_01780",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13407,10 +8886,10 @@ const shots = [
     "timecode": "02:58",
     "timeSec": 178.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_178.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01780.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1800",
+    "id": "WASHER_IMG_0883_MOV_01800",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13418,21 +8897,10 @@ const shots = [
     "timecode": "03:00",
     "timeSec": 180.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_180.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01800.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (03:00)",
-    "timecode": "03:00",
-    "timeSec": 180.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_180.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1820",
+    "id": "WASHER_IMG_0883_MOV_01820",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13440,10 +8908,10 @@ const shots = [
     "timecode": "03:02",
     "timeSec": 182.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_182.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01820.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1840",
+    "id": "WASHER_IMG_0883_MOV_01840",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13451,21 +8919,10 @@ const shots = [
     "timecode": "03:04",
     "timeSec": 184.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_184.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01840.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (03:04)",
-    "timecode": "03:04",
-    "timeSec": 184.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_184.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1860",
+    "id": "WASHER_IMG_0883_MOV_01860",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13473,10 +8930,10 @@ const shots = [
     "timecode": "03:06",
     "timeSec": 186.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_186.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01860.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1880",
+    "id": "WASHER_IMG_0883_MOV_01880",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13484,21 +8941,10 @@ const shots = [
     "timecode": "03:08",
     "timeSec": 188.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_188.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01880.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (03:08)",
-    "timecode": "03:08",
-    "timeSec": 188.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_188.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0883_MOV_1900",
+    "id": "WASHER_IMG_0883_MOV_01900",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13506,10 +8952,10 @@ const shots = [
     "timecode": "03:10",
     "timeSec": 190.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_190.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01900.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1920",
+    "id": "WASHER_IMG_0883_MOV_01920",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0883.MOV",
@@ -13517,21 +8963,10 @@ const shots = [
     "timecode": "03:12",
     "timeSec": 192.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_192.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_01920.jpg"
   },
   {
-    "id": "WASHER_IMG_0883_MOV_1920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0883.MOV",
-    "title": "IMG_0883.MOV (03:12)",
-    "timecode": "03:12",
-    "timeSec": 192.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0883_MOV/frame_192.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0886_MOV_0000",
+    "id": "WASHER_IMG_0886_MOV_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0886.MOV",
@@ -13539,21 +8974,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_00000.jpg"
   },
   {
-    "id": "WASHER_IMG_0886_MOV_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0886.MOV",
-    "title": "IMG_0886.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0886_MOV_0020",
+    "id": "WASHER_IMG_0886_MOV_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0886.MOV",
@@ -13561,21 +8985,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_00020.jpg"
   },
   {
-    "id": "WASHER_IMG_0886_MOV_0020",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0886.MOV",
-    "title": "IMG_0886.MOV (00:02)",
-    "timecode": "00:02",
-    "timeSec": 2.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_02.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0886_MOV_0040",
+    "id": "WASHER_IMG_0886_MOV_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0886.MOV",
@@ -13583,21 +8996,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_00040.jpg"
   },
   {
-    "id": "WASHER_IMG_0886_MOV_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0886.MOV",
-    "title": "IMG_0886.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0886_MOV_0060",
+    "id": "WASHER_IMG_0886_MOV_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0886.MOV",
@@ -13605,21 +9007,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_00060.jpg"
   },
   {
-    "id": "WASHER_IMG_0886_MOV_0060",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0886.MOV",
-    "title": "IMG_0886.MOV (00:06)",
-    "timecode": "00:06",
-    "timeSec": 6.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_06.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0886_MOV_0080",
+    "id": "WASHER_IMG_0886_MOV_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0886.MOV",
@@ -13627,21 +9018,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_00080.jpg"
   },
   {
-    "id": "WASHER_IMG_0886_MOV_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0886.MOV",
-    "title": "IMG_0886.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0886_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0889_MOV_0000",
+    "id": "WASHER_IMG_0889_MOV_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0889.MOV",
@@ -13649,21 +9029,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_00000.jpg"
   },
   {
-    "id": "WASHER_IMG_0889_MOV_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0889.MOV",
-    "title": "IMG_0889.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0889_MOV_0020",
+    "id": "WASHER_IMG_0889_MOV_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0889.MOV",
@@ -13671,21 +9040,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_00020.jpg"
   },
   {
-    "id": "WASHER_IMG_0889_MOV_0020",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0889.MOV",
-    "title": "IMG_0889.MOV (00:02)",
-    "timecode": "00:02",
-    "timeSec": 2.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_02.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0889_MOV_0040",
+    "id": "WASHER_IMG_0889_MOV_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0889.MOV",
@@ -13693,21 +9051,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_00040.jpg"
   },
   {
-    "id": "WASHER_IMG_0889_MOV_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0889.MOV",
-    "title": "IMG_0889.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0889_MOV_0060",
+    "id": "WASHER_IMG_0889_MOV_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0889.MOV",
@@ -13715,21 +9062,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_00060.jpg"
   },
   {
-    "id": "WASHER_IMG_0889_MOV_0060",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0889.MOV",
-    "title": "IMG_0889.MOV (00:06)",
-    "timecode": "00:06",
-    "timeSec": 6.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_06.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0889_MOV_0080",
+    "id": "WASHER_IMG_0889_MOV_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0889.MOV",
@@ -13737,21 +9073,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_00080.jpg"
   },
   {
-    "id": "WASHER_IMG_0889_MOV_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0889.MOV",
-    "title": "IMG_0889.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0889_MOV_0100",
+    "id": "WASHER_IMG_0889_MOV_00100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0889.MOV",
@@ -13759,21 +9084,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_00100.jpg"
   },
   {
-    "id": "WASHER_IMG_0889_MOV_0100",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0889.MOV",
-    "title": "IMG_0889.MOV (00:10)",
-    "timecode": "00:10",
-    "timeSec": 10.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0889_MOV/frame_10.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0890_MOV_0000",
+    "id": "WASHER_IMG_0890_MOV_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0890.MOV",
@@ -13781,21 +9095,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00000.jpg"
   },
   {
-    "id": "WASHER_IMG_0890_MOV_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0890.MOV",
-    "title": "IMG_0890.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0890_MOV_0020",
+    "id": "WASHER_IMG_0890_MOV_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0890.MOV",
@@ -13803,21 +9106,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00020.jpg"
   },
   {
-    "id": "WASHER_IMG_0890_MOV_0020",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0890.MOV",
-    "title": "IMG_0890.MOV (00:02)",
-    "timecode": "00:02",
-    "timeSec": 2.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_02.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0890_MOV_0040",
+    "id": "WASHER_IMG_0890_MOV_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0890.MOV",
@@ -13825,21 +9117,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00040.jpg"
   },
   {
-    "id": "WASHER_IMG_0890_MOV_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0890.MOV",
-    "title": "IMG_0890.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0890_MOV_0060",
+    "id": "WASHER_IMG_0890_MOV_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0890.MOV",
@@ -13847,21 +9128,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00060.jpg"
   },
   {
-    "id": "WASHER_IMG_0890_MOV_0060",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0890.MOV",
-    "title": "IMG_0890.MOV (00:06)",
-    "timecode": "00:06",
-    "timeSec": 6.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_06.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0890_MOV_0080",
+    "id": "WASHER_IMG_0890_MOV_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0890.MOV",
@@ -13869,21 +9139,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00080.jpg"
   },
   {
-    "id": "WASHER_IMG_0890_MOV_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0890.MOV",
-    "title": "IMG_0890.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0890_MOV_0100",
+    "id": "WASHER_IMG_0890_MOV_00100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0890.MOV",
@@ -13891,21 +9150,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00100.jpg"
   },
   {
-    "id": "WASHER_IMG_0890_MOV_0100",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0890.MOV",
-    "title": "IMG_0890.MOV (00:10)",
-    "timecode": "00:10",
-    "timeSec": 10.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_10.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0890_MOV_0120",
+    "id": "WASHER_IMG_0890_MOV_00120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0890.MOV",
@@ -13913,21 +9161,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_00120.jpg"
   },
   {
-    "id": "WASHER_IMG_0890_MOV_0120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0890.MOV",
-    "title": "IMG_0890.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0890_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0000",
+    "id": "WASHER_IMG_0892_MOV_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -13935,21 +9172,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00000.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0020",
+    "id": "WASHER_IMG_0892_MOV_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -13957,10 +9183,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00020.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0040",
+    "id": "WASHER_IMG_0892_MOV_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -13968,21 +9194,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00040.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0060",
+    "id": "WASHER_IMG_0892_MOV_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -13990,10 +9205,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00060.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0080",
+    "id": "WASHER_IMG_0892_MOV_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14001,21 +9216,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00080.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0100",
+    "id": "WASHER_IMG_0892_MOV_00100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14023,10 +9227,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00100.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0120",
+    "id": "WASHER_IMG_0892_MOV_00120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14034,21 +9238,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00120.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0140",
+    "id": "WASHER_IMG_0892_MOV_00140",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14056,10 +9249,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_14.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00140.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0160",
+    "id": "WASHER_IMG_0892_MOV_00160",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14067,21 +9260,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_16.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00160.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_16.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0180",
+    "id": "WASHER_IMG_0892_MOV_00180",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14089,10 +9271,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_18.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00180.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0200",
+    "id": "WASHER_IMG_0892_MOV_00200",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14100,21 +9282,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_20.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00200.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_20.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0220",
+    "id": "WASHER_IMG_0892_MOV_00220",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14122,10 +9293,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_22.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00220.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0240",
+    "id": "WASHER_IMG_0892_MOV_00240",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14133,21 +9304,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_24.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00240.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0260",
+    "id": "WASHER_IMG_0892_MOV_00260",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14155,10 +9315,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_26.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00260.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0280",
+    "id": "WASHER_IMG_0892_MOV_00280",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14166,21 +9326,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_28.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00280.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:28)",
-    "timecode": "00:28",
-    "timeSec": 28.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_28.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0300",
+    "id": "WASHER_IMG_0892_MOV_00300",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14188,10 +9337,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_30.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00300.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0320",
+    "id": "WASHER_IMG_0892_MOV_00320",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14199,21 +9348,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_32.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00320.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:32)",
-    "timecode": "00:32",
-    "timeSec": 32.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_32.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0340",
+    "id": "WASHER_IMG_0892_MOV_00340",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14221,10 +9359,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_34.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00340.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0360",
+    "id": "WASHER_IMG_0892_MOV_00360",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14232,21 +9370,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_36.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00360.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_36.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0380",
+    "id": "WASHER_IMG_0892_MOV_00380",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14254,10 +9381,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_38.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00380.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0400",
+    "id": "WASHER_IMG_0892_MOV_00400",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14265,21 +9392,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_40.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00400.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:40)",
-    "timecode": "00:40",
-    "timeSec": 40.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_40.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0420",
+    "id": "WASHER_IMG_0892_MOV_00420",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14287,10 +9403,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_42.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00420.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0440",
+    "id": "WASHER_IMG_0892_MOV_00440",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14298,21 +9414,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_44.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00440.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:44)",
-    "timecode": "00:44",
-    "timeSec": 44.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_44.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0460",
+    "id": "WASHER_IMG_0892_MOV_00460",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14320,10 +9425,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_46.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00460.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0480",
+    "id": "WASHER_IMG_0892_MOV_00480",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14331,21 +9436,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_48.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00480.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_48.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0500",
+    "id": "WASHER_IMG_0892_MOV_00500",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14353,10 +9447,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_50.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00500.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0520",
+    "id": "WASHER_IMG_0892_MOV_00520",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14364,21 +9458,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_52.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00520.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:52)",
-    "timecode": "00:52",
-    "timeSec": 52.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_52.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0540",
+    "id": "WASHER_IMG_0892_MOV_00540",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14386,10 +9469,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_54.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00540.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0560",
+    "id": "WASHER_IMG_0892_MOV_00560",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14397,21 +9480,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_56.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00560.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (00:56)",
-    "timecode": "00:56",
-    "timeSec": 56.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_56.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0580",
+    "id": "WASHER_IMG_0892_MOV_00580",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14419,10 +9491,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_58.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00580.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0600",
+    "id": "WASHER_IMG_0892_MOV_00600",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14430,21 +9502,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_60.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00600.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_60.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0620",
+    "id": "WASHER_IMG_0892_MOV_00620",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14452,10 +9513,10 @@ const shots = [
     "timecode": "01:02",
     "timeSec": 62.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_62.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00620.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0640",
+    "id": "WASHER_IMG_0892_MOV_00640",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14463,21 +9524,10 @@ const shots = [
     "timecode": "01:04",
     "timeSec": 64.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_64.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00640.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:04)",
-    "timecode": "01:04",
-    "timeSec": 64.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_64.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0660",
+    "id": "WASHER_IMG_0892_MOV_00660",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14485,10 +9535,10 @@ const shots = [
     "timecode": "01:06",
     "timeSec": 66.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_66.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00660.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0680",
+    "id": "WASHER_IMG_0892_MOV_00680",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14496,21 +9546,10 @@ const shots = [
     "timecode": "01:08",
     "timeSec": 68.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_68.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00680.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:08)",
-    "timecode": "01:08",
-    "timeSec": 68.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_68.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0700",
+    "id": "WASHER_IMG_0892_MOV_00700",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14518,10 +9557,10 @@ const shots = [
     "timecode": "01:10",
     "timeSec": 70.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_70.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00700.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0720",
+    "id": "WASHER_IMG_0892_MOV_00720",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14529,21 +9568,10 @@ const shots = [
     "timecode": "01:12",
     "timeSec": 72.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_72.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00720.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_72.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0740",
+    "id": "WASHER_IMG_0892_MOV_00740",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14551,10 +9579,10 @@ const shots = [
     "timecode": "01:14",
     "timeSec": 74.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_74.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00740.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0760",
+    "id": "WASHER_IMG_0892_MOV_00760",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14562,21 +9590,10 @@ const shots = [
     "timecode": "01:16",
     "timeSec": 76.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_76.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00760.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:16)",
-    "timecode": "01:16",
-    "timeSec": 76.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_76.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0780",
+    "id": "WASHER_IMG_0892_MOV_00780",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14584,10 +9601,10 @@ const shots = [
     "timecode": "01:18",
     "timeSec": 78.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_78.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00780.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0800",
+    "id": "WASHER_IMG_0892_MOV_00800",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14595,21 +9612,10 @@ const shots = [
     "timecode": "01:20",
     "timeSec": 80.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_80.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00800.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:20)",
-    "timecode": "01:20",
-    "timeSec": 80.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_80.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0820",
+    "id": "WASHER_IMG_0892_MOV_00820",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14617,10 +9623,10 @@ const shots = [
     "timecode": "01:22",
     "timeSec": 82.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_82.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00820.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0840",
+    "id": "WASHER_IMG_0892_MOV_00840",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14628,21 +9634,10 @@ const shots = [
     "timecode": "01:24",
     "timeSec": 84.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_84.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00840.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_84.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0860",
+    "id": "WASHER_IMG_0892_MOV_00860",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14650,10 +9645,10 @@ const shots = [
     "timecode": "01:26",
     "timeSec": 86.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_86.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00860.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0880",
+    "id": "WASHER_IMG_0892_MOV_00880",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14661,21 +9656,10 @@ const shots = [
     "timecode": "01:28",
     "timeSec": 88.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_88.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00880.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:28)",
-    "timecode": "01:28",
-    "timeSec": 88.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_88.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0900",
+    "id": "WASHER_IMG_0892_MOV_00900",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14683,10 +9667,10 @@ const shots = [
     "timecode": "01:30",
     "timeSec": 90.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_90.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00900.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0920",
+    "id": "WASHER_IMG_0892_MOV_00920",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14694,21 +9678,10 @@ const shots = [
     "timecode": "01:32",
     "timeSec": 92.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_92.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00920.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:32)",
-    "timecode": "01:32",
-    "timeSec": 92.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_92.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0940",
+    "id": "WASHER_IMG_0892_MOV_00940",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14716,10 +9689,10 @@ const shots = [
     "timecode": "01:34",
     "timeSec": 94.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_94.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00940.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0960",
+    "id": "WASHER_IMG_0892_MOV_00960",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14727,21 +9700,10 @@ const shots = [
     "timecode": "01:36",
     "timeSec": 96.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_96.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00960.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_0960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:36)",
-    "timecode": "01:36",
-    "timeSec": 96.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_96.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_0980",
+    "id": "WASHER_IMG_0892_MOV_00980",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14749,10 +9711,10 @@ const shots = [
     "timecode": "01:38",
     "timeSec": 98.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_98.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_00980.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1000",
+    "id": "WASHER_IMG_0892_MOV_01000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14760,21 +9722,10 @@ const shots = [
     "timecode": "01:40",
     "timeSec": 100.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_100.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01000.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:40)",
-    "timecode": "01:40",
-    "timeSec": 100.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_100.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1020",
+    "id": "WASHER_IMG_0892_MOV_01020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14782,10 +9733,10 @@ const shots = [
     "timecode": "01:42",
     "timeSec": 102.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_102.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01020.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1040",
+    "id": "WASHER_IMG_0892_MOV_01040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14793,21 +9744,10 @@ const shots = [
     "timecode": "01:44",
     "timeSec": 104.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_104.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01040.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:44)",
-    "timecode": "01:44",
-    "timeSec": 104.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_104.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1060",
+    "id": "WASHER_IMG_0892_MOV_01060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14815,10 +9755,10 @@ const shots = [
     "timecode": "01:46",
     "timeSec": 106.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_106.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01060.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1080",
+    "id": "WASHER_IMG_0892_MOV_01080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14826,21 +9766,10 @@ const shots = [
     "timecode": "01:48",
     "timeSec": 108.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_108.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01080.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:48)",
-    "timecode": "01:48",
-    "timeSec": 108.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_108.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1100",
+    "id": "WASHER_IMG_0892_MOV_01100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14848,10 +9777,10 @@ const shots = [
     "timecode": "01:50",
     "timeSec": 110.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_110.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01100.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1120",
+    "id": "WASHER_IMG_0892_MOV_01120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14859,21 +9788,10 @@ const shots = [
     "timecode": "01:52",
     "timeSec": 112.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_112.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01120.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:52)",
-    "timecode": "01:52",
-    "timeSec": 112.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_112.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1140",
+    "id": "WASHER_IMG_0892_MOV_01140",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14881,10 +9799,10 @@ const shots = [
     "timecode": "01:54",
     "timeSec": 114.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_114.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01140.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1160",
+    "id": "WASHER_IMG_0892_MOV_01160",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14892,21 +9810,10 @@ const shots = [
     "timecode": "01:56",
     "timeSec": 116.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_116.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01160.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (01:56)",
-    "timecode": "01:56",
-    "timeSec": 116.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_116.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1180",
+    "id": "WASHER_IMG_0892_MOV_01180",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14914,10 +9821,10 @@ const shots = [
     "timecode": "01:58",
     "timeSec": 118.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_118.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01180.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1200",
+    "id": "WASHER_IMG_0892_MOV_01200",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14925,21 +9832,10 @@ const shots = [
     "timecode": "02:00",
     "timeSec": 120.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_120.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01200.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (02:00)",
-    "timecode": "02:00",
-    "timeSec": 120.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_120.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1220",
+    "id": "WASHER_IMG_0892_MOV_01220",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14947,10 +9843,10 @@ const shots = [
     "timecode": "02:02",
     "timeSec": 122.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_122.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01220.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1240",
+    "id": "WASHER_IMG_0892_MOV_01240",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14958,21 +9854,10 @@ const shots = [
     "timecode": "02:04",
     "timeSec": 124.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_124.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01240.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (02:04)",
-    "timecode": "02:04",
-    "timeSec": 124.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_124.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1260",
+    "id": "WASHER_IMG_0892_MOV_01260",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14980,10 +9865,10 @@ const shots = [
     "timecode": "02:06",
     "timeSec": 126.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_126.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01260.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1280",
+    "id": "WASHER_IMG_0892_MOV_01280",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -14991,21 +9876,10 @@ const shots = [
     "timecode": "02:08",
     "timeSec": 128.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_128.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01280.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (02:08)",
-    "timecode": "02:08",
-    "timeSec": 128.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_128.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1300",
+    "id": "WASHER_IMG_0892_MOV_01300",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -15013,10 +9887,10 @@ const shots = [
     "timecode": "02:10",
     "timeSec": 130.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_130.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01300.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1320",
+    "id": "WASHER_IMG_0892_MOV_01320",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -15024,21 +9898,10 @@ const shots = [
     "timecode": "02:12",
     "timeSec": 132.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_132.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01320.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (02:12)",
-    "timecode": "02:12",
-    "timeSec": 132.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_132.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0892_MOV_1340",
+    "id": "WASHER_IMG_0892_MOV_01340",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -15046,10 +9909,10 @@ const shots = [
     "timecode": "02:14",
     "timeSec": 134.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_134.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01340.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1360",
+    "id": "WASHER_IMG_0892_MOV_01360",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0892.MOV",
@@ -15057,21 +9920,10 @@ const shots = [
     "timecode": "02:16",
     "timeSec": 136.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_136.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_01360.jpg"
   },
   {
-    "id": "WASHER_IMG_0892_MOV_1360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0892.MOV",
-    "title": "IMG_0892.MOV (02:16)",
-    "timecode": "02:16",
-    "timeSec": 136.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0892_MOV/frame_136.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0000",
+    "id": "WASHER_IMG_0894_MOV_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15079,21 +9931,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00000.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0020",
+    "id": "WASHER_IMG_0894_MOV_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15101,21 +9942,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00020.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0020",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:02)",
-    "timecode": "00:02",
-    "timeSec": 2.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_02.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0040",
+    "id": "WASHER_IMG_0894_MOV_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15123,21 +9953,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00040.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0060",
+    "id": "WASHER_IMG_0894_MOV_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15145,21 +9964,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00060.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0060",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:06)",
-    "timecode": "00:06",
-    "timeSec": 6.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_06.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0080",
+    "id": "WASHER_IMG_0894_MOV_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15167,21 +9975,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00080.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0100",
+    "id": "WASHER_IMG_0894_MOV_00100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15189,21 +9986,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00100.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0100",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:10)",
-    "timecode": "00:10",
-    "timeSec": 10.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_10.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0120",
+    "id": "WASHER_IMG_0894_MOV_00120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15211,21 +9997,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_12.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00120.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0140",
+    "id": "WASHER_IMG_0894_MOV_00140",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15233,21 +10008,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_14.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00140.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0140",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:14)",
-    "timecode": "00:14",
-    "timeSec": 14.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_14.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0160",
+    "id": "WASHER_IMG_0894_MOV_00160",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15255,21 +10019,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_16.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00160.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_16.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0180",
+    "id": "WASHER_IMG_0894_MOV_00180",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15277,21 +10030,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_18.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00180.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0180",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:18)",
-    "timecode": "00:18",
-    "timeSec": 18.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_18.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0200",
+    "id": "WASHER_IMG_0894_MOV_00200",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15299,21 +10041,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_20.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00200.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_20.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0220",
+    "id": "WASHER_IMG_0894_MOV_00220",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15321,21 +10052,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_22.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00220.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0220",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:22)",
-    "timecode": "00:22",
-    "timeSec": 22.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_22.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0240",
+    "id": "WASHER_IMG_0894_MOV_00240",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15343,21 +10063,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_24.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00240.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_0894_MOV_0260",
+    "id": "WASHER_IMG_0894_MOV_00260",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_0894.MOV",
@@ -15365,21 +10074,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_26.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_00260.jpg"
   },
   {
-    "id": "WASHER_IMG_0894_MOV_0260",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_0894.MOV",
-    "title": "IMG_0894.MOV (00:26)",
-    "timecode": "00:26",
-    "timeSec": 26.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_0894_MOV/frame_26.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_1244_MOV_0000",
+    "id": "WASHER_IMG_1244_MOV_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_1244.MOV",
@@ -15387,21 +10085,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_00000.jpg"
   },
   {
-    "id": "WASHER_IMG_1244_MOV_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_1244.MOV",
-    "title": "IMG_1244.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_1244_MOV_0020",
+    "id": "WASHER_IMG_1244_MOV_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_1244.MOV",
@@ -15409,21 +10096,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_00020.jpg"
   },
   {
-    "id": "WASHER_IMG_1244_MOV_0020",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_1244.MOV",
-    "title": "IMG_1244.MOV (00:02)",
-    "timecode": "00:02",
-    "timeSec": 2.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_02.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_1244_MOV_0040",
+    "id": "WASHER_IMG_1244_MOV_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_1244.MOV",
@@ -15431,21 +10107,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_00040.jpg"
   },
   {
-    "id": "WASHER_IMG_1244_MOV_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_1244.MOV",
-    "title": "IMG_1244.MOV (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_1244_MOV_0060",
+    "id": "WASHER_IMG_1244_MOV_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_1244.MOV",
@@ -15453,21 +10118,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_00060.jpg"
   },
   {
-    "id": "WASHER_IMG_1244_MOV_0060",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_1244.MOV",
-    "title": "IMG_1244.MOV (00:06)",
-    "timecode": "00:06",
-    "timeSec": 6.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_06.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_1244_MOV_0080",
+    "id": "WASHER_IMG_1244_MOV_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_1244.MOV",
@@ -15475,21 +10129,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_00080.jpg"
   },
   {
-    "id": "WASHER_IMG_1244_MOV_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_1244.MOV",
-    "title": "IMG_1244.MOV (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_IMG_1244_MOV_0100",
+    "id": "WASHER_IMG_1244_MOV_00100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "IMG_1244.MOV",
@@ -15497,21 +10140,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_10.0s.jpg"
+    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_00100.jpg"
   },
   {
-    "id": "WASHER_IMG_1244_MOV_0100",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "IMG_1244.MOV",
-    "title": "IMG_1244.MOV (00:10)",
-    "timecode": "00:10",
-    "timeSec": 10.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/IMG_1244_MOV/frame_10.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0000",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15519,21 +10151,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00000.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0020",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15541,21 +10162,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00020.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0030",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:03)",
-    "timecode": "00:03",
-    "timeSec": 3.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_03.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0040",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15563,10 +10173,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00040.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0060",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15574,21 +10184,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00060.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0060",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:06)",
-    "timecode": "00:06",
-    "timeSec": 6.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_06.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0080",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15596,21 +10195,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00080.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0090",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:09)",
-    "timecode": "00:09",
-    "timeSec": 9.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_09.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0100",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15618,10 +10206,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_10.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00100.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0120",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15629,21 +10217,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_12.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00120.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_12.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0140",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00140",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15651,21 +10228,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_14.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00140.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0150",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:15)",
-    "timecode": "00:15",
-    "timeSec": 15.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_15.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0160",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00160",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15673,10 +10239,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_16.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00160.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0180",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00180",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15684,21 +10250,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_18.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00180.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0180",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:18)",
-    "timecode": "00:18",
-    "timeSec": 18.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_18.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0200",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00200",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15706,21 +10261,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_20.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00200.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0210",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:21)",
-    "timecode": "00:21",
-    "timeSec": 21.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_21.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0220",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00220",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15728,10 +10272,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_22.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00220.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0240",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00240",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15739,21 +10283,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_24.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00240.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_24.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0260",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00260",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15761,21 +10294,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_26.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00260.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0270",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:27)",
-    "timecode": "00:27",
-    "timeSec": 27.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_27.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0280",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00280",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15783,10 +10305,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_28.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00280.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0300",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00300",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15794,21 +10316,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_30.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00300.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0300",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:30)",
-    "timecode": "00:30",
-    "timeSec": 30.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_30.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0320",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00320",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15816,21 +10327,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_32.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00320.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0330",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:33)",
-    "timecode": "00:33",
-    "timeSec": 33.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_33.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0340",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00340",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15838,10 +10338,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_34.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00340.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0360",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00360",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15849,21 +10349,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_36.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00360.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_36.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0380",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00380",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15871,21 +10360,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_38.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00380.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0390",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:39)",
-    "timecode": "00:39",
-    "timeSec": 39.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_39.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0400",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00400",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15893,10 +10371,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_40.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00400.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0420",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00420",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15904,21 +10382,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_42.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00420.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0420",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:42)",
-    "timecode": "00:42",
-    "timeSec": 42.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_42.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0440",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00440",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15926,21 +10393,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_44.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00440.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0450",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:45)",
-    "timecode": "00:45",
-    "timeSec": 45.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_45.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0460",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00460",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15948,10 +10404,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_46.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00460.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0480",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00480",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15959,21 +10415,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_48.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00480.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_48.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0500",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00500",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -15981,21 +10426,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_50.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00500.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0510",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:51)",
-    "timecode": "00:51",
-    "timeSec": 51.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_51.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0520",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00520",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -16003,10 +10437,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_52.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00520.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0540",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00540",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -16014,21 +10448,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_54.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00540.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0540",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:54)",
-    "timecode": "00:54",
-    "timeSec": 54.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_54.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0560",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00560",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -16036,21 +10459,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_56.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00560.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0570",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (00:57)",
-    "timecode": "00:57",
-    "timeSec": 57.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_57.0s.jpg"
-  },
-  {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0580",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00580",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -16058,10 +10470,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_58.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00580.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0600",
+    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_00600",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
@@ -16069,21 +10481,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_60.0s.jpg"
+    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00600.jpg"
   },
   {
-    "id": "WASHER_copy_D8AB3069-50A7-4563-A258-0AD704688414_mov_0600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov",
-    "title": "copy_D8AB3069-50A7-4563-A258-0AD704688414.mov (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_60.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0000",
+    "id": "WASHER_VID_20260731_203124_mp4_00000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16091,21 +10492,10 @@ const shots = [
     "timecode": "00:00",
     "timeSec": 0.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00000.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0020",
+    "id": "WASHER_VID_20260731_203124_mp4_00020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16113,10 +10503,10 @@ const shots = [
     "timecode": "00:02",
     "timeSec": 2.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_02.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00020.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0040",
+    "id": "WASHER_VID_20260731_203124_mp4_00040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16124,21 +10514,10 @@ const shots = [
     "timecode": "00:04",
     "timeSec": 4.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_04.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00040.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0060",
+    "id": "WASHER_VID_20260731_203124_mp4_00060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16146,10 +10525,10 @@ const shots = [
     "timecode": "00:06",
     "timeSec": 6.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_06.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00060.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0080",
+    "id": "WASHER_VID_20260731_203124_mp4_00080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16157,21 +10536,10 @@ const shots = [
     "timecode": "00:08",
     "timeSec": 8.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_08.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00080.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0100",
+    "id": "WASHER_VID_20260731_203124_mp4_00100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16179,10 +10547,10 @@ const shots = [
     "timecode": "00:10",
     "timeSec": 10.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_10.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00100.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0120",
+    "id": "WASHER_VID_20260731_203124_mp4_00120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16190,21 +10558,10 @@ const shots = [
     "timecode": "00:12",
     "timeSec": 12.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_12.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00120.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_12.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0140",
+    "id": "WASHER_VID_20260731_203124_mp4_00140",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16212,10 +10569,10 @@ const shots = [
     "timecode": "00:14",
     "timeSec": 14.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_14.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00140.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0160",
+    "id": "WASHER_VID_20260731_203124_mp4_00160",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16223,21 +10580,10 @@ const shots = [
     "timecode": "00:16",
     "timeSec": 16.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_16.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00160.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_16.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0180",
+    "id": "WASHER_VID_20260731_203124_mp4_00180",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16245,10 +10591,10 @@ const shots = [
     "timecode": "00:18",
     "timeSec": 18.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_18.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00180.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0200",
+    "id": "WASHER_VID_20260731_203124_mp4_00200",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16256,21 +10602,10 @@ const shots = [
     "timecode": "00:20",
     "timeSec": 20.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_20.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00200.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_20.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0220",
+    "id": "WASHER_VID_20260731_203124_mp4_00220",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16278,10 +10613,10 @@ const shots = [
     "timecode": "00:22",
     "timeSec": 22.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_22.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00220.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0240",
+    "id": "WASHER_VID_20260731_203124_mp4_00240",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16289,21 +10624,10 @@ const shots = [
     "timecode": "00:24",
     "timeSec": 24.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_24.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00240.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_24.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0260",
+    "id": "WASHER_VID_20260731_203124_mp4_00260",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16311,10 +10635,10 @@ const shots = [
     "timecode": "00:26",
     "timeSec": 26.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_26.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00260.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0280",
+    "id": "WASHER_VID_20260731_203124_mp4_00280",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16322,21 +10646,10 @@ const shots = [
     "timecode": "00:28",
     "timeSec": 28.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_28.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00280.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:28)",
-    "timecode": "00:28",
-    "timeSec": 28.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_28.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0300",
+    "id": "WASHER_VID_20260731_203124_mp4_00300",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16344,10 +10657,10 @@ const shots = [
     "timecode": "00:30",
     "timeSec": 30.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_30.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00300.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0320",
+    "id": "WASHER_VID_20260731_203124_mp4_00320",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16355,21 +10668,10 @@ const shots = [
     "timecode": "00:32",
     "timeSec": 32.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_32.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00320.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:32)",
-    "timecode": "00:32",
-    "timeSec": 32.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_32.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0340",
+    "id": "WASHER_VID_20260731_203124_mp4_00340",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16377,10 +10679,10 @@ const shots = [
     "timecode": "00:34",
     "timeSec": 34.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_34.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00340.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0360",
+    "id": "WASHER_VID_20260731_203124_mp4_00360",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16388,21 +10690,10 @@ const shots = [
     "timecode": "00:36",
     "timeSec": 36.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_36.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00360.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_36.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0380",
+    "id": "WASHER_VID_20260731_203124_mp4_00380",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16410,10 +10701,10 @@ const shots = [
     "timecode": "00:38",
     "timeSec": 38.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_38.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00380.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0400",
+    "id": "WASHER_VID_20260731_203124_mp4_00400",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16421,21 +10712,10 @@ const shots = [
     "timecode": "00:40",
     "timeSec": 40.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_40.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00400.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:40)",
-    "timecode": "00:40",
-    "timeSec": 40.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_40.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0420",
+    "id": "WASHER_VID_20260731_203124_mp4_00420",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16443,10 +10723,10 @@ const shots = [
     "timecode": "00:42",
     "timeSec": 42.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_42.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00420.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0440",
+    "id": "WASHER_VID_20260731_203124_mp4_00440",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16454,21 +10734,10 @@ const shots = [
     "timecode": "00:44",
     "timeSec": 44.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_44.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00440.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:44)",
-    "timecode": "00:44",
-    "timeSec": 44.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_44.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0460",
+    "id": "WASHER_VID_20260731_203124_mp4_00460",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16476,10 +10745,10 @@ const shots = [
     "timecode": "00:46",
     "timeSec": 46.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_46.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00460.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0480",
+    "id": "WASHER_VID_20260731_203124_mp4_00480",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16487,21 +10756,10 @@ const shots = [
     "timecode": "00:48",
     "timeSec": 48.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_48.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00480.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_48.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0500",
+    "id": "WASHER_VID_20260731_203124_mp4_00500",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16509,10 +10767,10 @@ const shots = [
     "timecode": "00:50",
     "timeSec": 50.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_50.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00500.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0520",
+    "id": "WASHER_VID_20260731_203124_mp4_00520",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16520,21 +10778,10 @@ const shots = [
     "timecode": "00:52",
     "timeSec": 52.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_52.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00520.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:52)",
-    "timecode": "00:52",
-    "timeSec": 52.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_52.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0540",
+    "id": "WASHER_VID_20260731_203124_mp4_00540",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16542,10 +10789,10 @@ const shots = [
     "timecode": "00:54",
     "timeSec": 54.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_54.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00540.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0560",
+    "id": "WASHER_VID_20260731_203124_mp4_00560",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16553,21 +10800,10 @@ const shots = [
     "timecode": "00:56",
     "timeSec": 56.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_56.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00560.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (00:56)",
-    "timecode": "00:56",
-    "timeSec": 56.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_56.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0580",
+    "id": "WASHER_VID_20260731_203124_mp4_00580",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16575,10 +10811,10 @@ const shots = [
     "timecode": "00:58",
     "timeSec": 58.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_58.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00580.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0600",
+    "id": "WASHER_VID_20260731_203124_mp4_00600",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16586,21 +10822,10 @@ const shots = [
     "timecode": "01:00",
     "timeSec": 60.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_60.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00600.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_60.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0620",
+    "id": "WASHER_VID_20260731_203124_mp4_00620",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16608,10 +10833,10 @@ const shots = [
     "timecode": "01:02",
     "timeSec": 62.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_62.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00620.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0640",
+    "id": "WASHER_VID_20260731_203124_mp4_00640",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16619,21 +10844,10 @@ const shots = [
     "timecode": "01:04",
     "timeSec": 64.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_64.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00640.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:04)",
-    "timecode": "01:04",
-    "timeSec": 64.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_64.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0660",
+    "id": "WASHER_VID_20260731_203124_mp4_00660",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16641,10 +10855,10 @@ const shots = [
     "timecode": "01:06",
     "timeSec": 66.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_66.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00660.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0680",
+    "id": "WASHER_VID_20260731_203124_mp4_00680",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16652,21 +10866,10 @@ const shots = [
     "timecode": "01:08",
     "timeSec": 68.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_68.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00680.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:08)",
-    "timecode": "01:08",
-    "timeSec": 68.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_68.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0700",
+    "id": "WASHER_VID_20260731_203124_mp4_00700",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16674,10 +10877,10 @@ const shots = [
     "timecode": "01:10",
     "timeSec": 70.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_70.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00700.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0720",
+    "id": "WASHER_VID_20260731_203124_mp4_00720",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16685,21 +10888,10 @@ const shots = [
     "timecode": "01:12",
     "timeSec": 72.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_72.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00720.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_72.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0740",
+    "id": "WASHER_VID_20260731_203124_mp4_00740",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16707,10 +10899,10 @@ const shots = [
     "timecode": "01:14",
     "timeSec": 74.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_74.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00740.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0760",
+    "id": "WASHER_VID_20260731_203124_mp4_00760",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16718,21 +10910,10 @@ const shots = [
     "timecode": "01:16",
     "timeSec": 76.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_76.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00760.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:16)",
-    "timecode": "01:16",
-    "timeSec": 76.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_76.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0780",
+    "id": "WASHER_VID_20260731_203124_mp4_00780",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16740,10 +10921,10 @@ const shots = [
     "timecode": "01:18",
     "timeSec": 78.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_78.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00780.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0800",
+    "id": "WASHER_VID_20260731_203124_mp4_00800",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16751,21 +10932,10 @@ const shots = [
     "timecode": "01:20",
     "timeSec": 80.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_80.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00800.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:20)",
-    "timecode": "01:20",
-    "timeSec": 80.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_80.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0820",
+    "id": "WASHER_VID_20260731_203124_mp4_00820",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16773,10 +10943,10 @@ const shots = [
     "timecode": "01:22",
     "timeSec": 82.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_82.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00820.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0840",
+    "id": "WASHER_VID_20260731_203124_mp4_00840",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16784,21 +10954,10 @@ const shots = [
     "timecode": "01:24",
     "timeSec": 84.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_84.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00840.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_84.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0860",
+    "id": "WASHER_VID_20260731_203124_mp4_00860",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16806,10 +10965,10 @@ const shots = [
     "timecode": "01:26",
     "timeSec": 86.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_86.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00860.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0880",
+    "id": "WASHER_VID_20260731_203124_mp4_00880",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16817,21 +10976,10 @@ const shots = [
     "timecode": "01:28",
     "timeSec": 88.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_88.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00880.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:28)",
-    "timecode": "01:28",
-    "timeSec": 88.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_88.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0900",
+    "id": "WASHER_VID_20260731_203124_mp4_00900",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16839,10 +10987,10 @@ const shots = [
     "timecode": "01:30",
     "timeSec": 90.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_90.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00900.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0920",
+    "id": "WASHER_VID_20260731_203124_mp4_00920",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16850,21 +10998,10 @@ const shots = [
     "timecode": "01:32",
     "timeSec": 92.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_92.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00920.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:32)",
-    "timecode": "01:32",
-    "timeSec": 92.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_92.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0940",
+    "id": "WASHER_VID_20260731_203124_mp4_00940",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16872,10 +11009,10 @@ const shots = [
     "timecode": "01:34",
     "timeSec": 94.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_94.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00940.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0960",
+    "id": "WASHER_VID_20260731_203124_mp4_00960",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16883,21 +11020,10 @@ const shots = [
     "timecode": "01:36",
     "timeSec": 96.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_96.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00960.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_0960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:36)",
-    "timecode": "01:36",
-    "timeSec": 96.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_96.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_0980",
+    "id": "WASHER_VID_20260731_203124_mp4_00980",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16905,10 +11031,10 @@ const shots = [
     "timecode": "01:38",
     "timeSec": 98.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_98.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_00980.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1000",
+    "id": "WASHER_VID_20260731_203124_mp4_01000",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16916,21 +11042,10 @@ const shots = [
     "timecode": "01:40",
     "timeSec": 100.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_100.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01000.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:40)",
-    "timecode": "01:40",
-    "timeSec": 100.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_100.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1020",
+    "id": "WASHER_VID_20260731_203124_mp4_01020",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16938,10 +11053,10 @@ const shots = [
     "timecode": "01:42",
     "timeSec": 102.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_102.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01020.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1040",
+    "id": "WASHER_VID_20260731_203124_mp4_01040",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16949,21 +11064,10 @@ const shots = [
     "timecode": "01:44",
     "timeSec": 104.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_104.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01040.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:44)",
-    "timecode": "01:44",
-    "timeSec": 104.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_104.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1060",
+    "id": "WASHER_VID_20260731_203124_mp4_01060",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16971,10 +11075,10 @@ const shots = [
     "timecode": "01:46",
     "timeSec": 106.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_106.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01060.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1080",
+    "id": "WASHER_VID_20260731_203124_mp4_01080",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -16982,21 +11086,10 @@ const shots = [
     "timecode": "01:48",
     "timeSec": 108.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_108.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01080.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:48)",
-    "timecode": "01:48",
-    "timeSec": 108.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_108.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1100",
+    "id": "WASHER_VID_20260731_203124_mp4_01100",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17004,10 +11097,10 @@ const shots = [
     "timecode": "01:50",
     "timeSec": 110.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_110.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01100.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1120",
+    "id": "WASHER_VID_20260731_203124_mp4_01120",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17015,21 +11108,10 @@ const shots = [
     "timecode": "01:52",
     "timeSec": 112.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_112.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01120.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:52)",
-    "timecode": "01:52",
-    "timeSec": 112.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_112.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1140",
+    "id": "WASHER_VID_20260731_203124_mp4_01140",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17037,10 +11119,10 @@ const shots = [
     "timecode": "01:54",
     "timeSec": 114.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_114.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01140.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1160",
+    "id": "WASHER_VID_20260731_203124_mp4_01160",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17048,21 +11130,10 @@ const shots = [
     "timecode": "01:56",
     "timeSec": 116.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_116.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01160.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (01:56)",
-    "timecode": "01:56",
-    "timeSec": 116.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_116.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1180",
+    "id": "WASHER_VID_20260731_203124_mp4_01180",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17070,10 +11141,10 @@ const shots = [
     "timecode": "01:58",
     "timeSec": 118.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_118.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01180.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1200",
+    "id": "WASHER_VID_20260731_203124_mp4_01200",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17081,21 +11152,10 @@ const shots = [
     "timecode": "02:00",
     "timeSec": 120.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_120.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01200.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:00)",
-    "timecode": "02:00",
-    "timeSec": 120.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_120.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1220",
+    "id": "WASHER_VID_20260731_203124_mp4_01220",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17103,10 +11163,10 @@ const shots = [
     "timecode": "02:02",
     "timeSec": 122.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_122.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01220.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1240",
+    "id": "WASHER_VID_20260731_203124_mp4_01240",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17114,21 +11174,10 @@ const shots = [
     "timecode": "02:04",
     "timeSec": 124.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_124.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01240.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:04)",
-    "timecode": "02:04",
-    "timeSec": 124.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_124.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1260",
+    "id": "WASHER_VID_20260731_203124_mp4_01260",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17136,10 +11185,10 @@ const shots = [
     "timecode": "02:06",
     "timeSec": 126.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_126.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01260.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1280",
+    "id": "WASHER_VID_20260731_203124_mp4_01280",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17147,21 +11196,10 @@ const shots = [
     "timecode": "02:08",
     "timeSec": 128.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_128.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01280.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:08)",
-    "timecode": "02:08",
-    "timeSec": 128.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_128.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1300",
+    "id": "WASHER_VID_20260731_203124_mp4_01300",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17169,10 +11207,10 @@ const shots = [
     "timecode": "02:10",
     "timeSec": 130.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_130.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01300.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1320",
+    "id": "WASHER_VID_20260731_203124_mp4_01320",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17180,21 +11218,10 @@ const shots = [
     "timecode": "02:12",
     "timeSec": 132.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_132.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01320.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:12)",
-    "timecode": "02:12",
-    "timeSec": 132.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_132.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1340",
+    "id": "WASHER_VID_20260731_203124_mp4_01340",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17202,10 +11229,10 @@ const shots = [
     "timecode": "02:14",
     "timeSec": 134.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_134.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01340.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1360",
+    "id": "WASHER_VID_20260731_203124_mp4_01360",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17213,21 +11240,10 @@ const shots = [
     "timecode": "02:16",
     "timeSec": 136.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_136.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01360.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:16)",
-    "timecode": "02:16",
-    "timeSec": 136.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_136.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1380",
+    "id": "WASHER_VID_20260731_203124_mp4_01380",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17235,10 +11251,10 @@ const shots = [
     "timecode": "02:18",
     "timeSec": 138.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_138.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01380.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1400",
+    "id": "WASHER_VID_20260731_203124_mp4_01400",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17246,21 +11262,10 @@ const shots = [
     "timecode": "02:20",
     "timeSec": 140.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_140.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01400.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:20)",
-    "timecode": "02:20",
-    "timeSec": 140.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_140.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1420",
+    "id": "WASHER_VID_20260731_203124_mp4_01420",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17268,10 +11273,10 @@ const shots = [
     "timecode": "02:22",
     "timeSec": 142.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_142.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01420.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1440",
+    "id": "WASHER_VID_20260731_203124_mp4_01440",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17279,21 +11284,10 @@ const shots = [
     "timecode": "02:24",
     "timeSec": 144.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_144.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01440.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:24)",
-    "timecode": "02:24",
-    "timeSec": 144.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_144.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1460",
+    "id": "WASHER_VID_20260731_203124_mp4_01460",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17301,10 +11295,10 @@ const shots = [
     "timecode": "02:26",
     "timeSec": 146.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_146.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01460.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1480",
+    "id": "WASHER_VID_20260731_203124_mp4_01480",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17312,32 +11306,21 @@ const shots = [
     "timecode": "02:28",
     "timeSec": 148.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_148.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01480.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1480",
+    "id": "WASHER_VID_20260731_203124_mp4_01500",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:28)",
-    "timecode": "02:28",
-    "timeSec": 148.0,
+    "title": "VID_20260731_203124.mp4 (02:30)",
+    "timecode": "02:30",
+    "timeSec": 150.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_148.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01500.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (02:32)",
-    "timecode": "02:32",
-    "timeSec": 152.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_152.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1520",
+    "id": "WASHER_VID_20260731_203124_mp4_01520",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17345,10 +11328,21 @@ const shots = [
     "timecode": "02:32",
     "timeSec": 152.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_152.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01520.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1560",
+    "id": "WASHER_VID_20260731_203124_mp4_01540",
+    "product": "washer",
+    "productName": "เครื่องซักผ้า KASHIWA",
+    "filename": "VID_20260731_203124.mp4",
+    "title": "VID_20260731_203124.mp4 (02:34)",
+    "timecode": "02:34",
+    "timeSec": 154.0,
+    "duration": "2.0 วินาที",
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01540.jpg"
+  },
+  {
+    "id": "WASHER_VID_20260731_203124_mp4_01560",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17356,10 +11350,21 @@ const shots = [
     "timecode": "02:36",
     "timeSec": 156.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_156.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01560.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1600",
+    "id": "WASHER_VID_20260731_203124_mp4_01580",
+    "product": "washer",
+    "productName": "เครื่องซักผ้า KASHIWA",
+    "filename": "VID_20260731_203124.mp4",
+    "title": "VID_20260731_203124.mp4 (02:38)",
+    "timecode": "02:38",
+    "timeSec": 158.0,
+    "duration": "2.0 วินาที",
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01580.jpg"
+  },
+  {
+    "id": "WASHER_VID_20260731_203124_mp4_01600",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17367,10 +11372,21 @@ const shots = [
     "timecode": "02:40",
     "timeSec": 160.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_160.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01600.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1640",
+    "id": "WASHER_VID_20260731_203124_mp4_01620",
+    "product": "washer",
+    "productName": "เครื่องซักผ้า KASHIWA",
+    "filename": "VID_20260731_203124.mp4",
+    "title": "VID_20260731_203124.mp4 (02:42)",
+    "timecode": "02:42",
+    "timeSec": 162.0,
+    "duration": "2.0 วินาที",
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01620.jpg"
+  },
+  {
+    "id": "WASHER_VID_20260731_203124_mp4_01640",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17378,10 +11394,21 @@ const shots = [
     "timecode": "02:44",
     "timeSec": 164.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_164.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01640.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1680",
+    "id": "WASHER_VID_20260731_203124_mp4_01660",
+    "product": "washer",
+    "productName": "เครื่องซักผ้า KASHIWA",
+    "filename": "VID_20260731_203124.mp4",
+    "title": "VID_20260731_203124.mp4 (02:46)",
+    "timecode": "02:46",
+    "timeSec": 166.0,
+    "duration": "2.0 วินาที",
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01660.jpg"
+  },
+  {
+    "id": "WASHER_VID_20260731_203124_mp4_01680",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17389,10 +11416,21 @@ const shots = [
     "timecode": "02:48",
     "timeSec": 168.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_168.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01680.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1720",
+    "id": "WASHER_VID_20260731_203124_mp4_01700",
+    "product": "washer",
+    "productName": "เครื่องซักผ้า KASHIWA",
+    "filename": "VID_20260731_203124.mp4",
+    "title": "VID_20260731_203124.mp4 (02:50)",
+    "timecode": "02:50",
+    "timeSec": 170.0,
+    "duration": "2.0 วินาที",
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01700.jpg"
+  },
+  {
+    "id": "WASHER_VID_20260731_203124_mp4_01720",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17400,10 +11438,21 @@ const shots = [
     "timecode": "02:52",
     "timeSec": 172.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_172.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01720.jpg"
   },
   {
-    "id": "WASHER_VID_20260731_203124_mp4_1760",
+    "id": "WASHER_VID_20260731_203124_mp4_01740",
+    "product": "washer",
+    "productName": "เครื่องซักผ้า KASHIWA",
+    "filename": "VID_20260731_203124.mp4",
+    "title": "VID_20260731_203124.mp4 (02:54)",
+    "timecode": "02:54",
+    "timeSec": 174.0,
+    "duration": "2.0 วินาที",
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01740.jpg"
+  },
+  {
+    "id": "WASHER_VID_20260731_203124_mp4_01760",
     "product": "washer",
     "productName": "เครื่องซักผ้า KASHIWA",
     "filename": "VID_20260731_203124.mp4",
@@ -17411,2690 +11460,6 @@ const shots = [
     "timecode": "02:56",
     "timeSec": 176.0,
     "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_176.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:00)",
-    "timecode": "03:00",
-    "timeSec": 180.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_180.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:04)",
-    "timecode": "03:04",
-    "timeSec": 184.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_184.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:08)",
-    "timecode": "03:08",
-    "timeSec": 188.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_188.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:12)",
-    "timecode": "03:12",
-    "timeSec": 192.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_192.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_1960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:16)",
-    "timecode": "03:16",
-    "timeSec": 196.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_196.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:20)",
-    "timecode": "03:20",
-    "timeSec": 200.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_200.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:24)",
-    "timecode": "03:24",
-    "timeSec": 204.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_204.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:28)",
-    "timecode": "03:28",
-    "timeSec": 208.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_208.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:32)",
-    "timecode": "03:32",
-    "timeSec": 212.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_212.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:36)",
-    "timecode": "03:36",
-    "timeSec": 216.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_216.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:40)",
-    "timecode": "03:40",
-    "timeSec": 220.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_220.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:44)",
-    "timecode": "03:44",
-    "timeSec": 224.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_224.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:48)",
-    "timecode": "03:48",
-    "timeSec": 228.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_228.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:52)",
-    "timecode": "03:52",
-    "timeSec": 232.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_232.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (03:56)",
-    "timecode": "03:56",
-    "timeSec": 236.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_236.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:00)",
-    "timecode": "04:00",
-    "timeSec": 240.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_240.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:04)",
-    "timecode": "04:04",
-    "timeSec": 244.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_244.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:08)",
-    "timecode": "04:08",
-    "timeSec": 248.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_248.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:12)",
-    "timecode": "04:12",
-    "timeSec": 252.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_252.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:16)",
-    "timecode": "04:16",
-    "timeSec": 256.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_256.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:20)",
-    "timecode": "04:20",
-    "timeSec": 260.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_260.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:24)",
-    "timecode": "04:24",
-    "timeSec": 264.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_264.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:28)",
-    "timecode": "04:28",
-    "timeSec": 268.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_268.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:32)",
-    "timecode": "04:32",
-    "timeSec": 272.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_272.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:36)",
-    "timecode": "04:36",
-    "timeSec": 276.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_276.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:40)",
-    "timecode": "04:40",
-    "timeSec": 280.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_280.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:44)",
-    "timecode": "04:44",
-    "timeSec": 284.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_284.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:48)",
-    "timecode": "04:48",
-    "timeSec": 288.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_288.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:52)",
-    "timecode": "04:52",
-    "timeSec": 292.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_292.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_2960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (04:56)",
-    "timecode": "04:56",
-    "timeSec": 296.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_296.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:00)",
-    "timecode": "05:00",
-    "timeSec": 300.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_300.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:04)",
-    "timecode": "05:04",
-    "timeSec": 304.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_304.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:08)",
-    "timecode": "05:08",
-    "timeSec": 308.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_308.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:12)",
-    "timecode": "05:12",
-    "timeSec": 312.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_312.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:16)",
-    "timecode": "05:16",
-    "timeSec": 316.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_316.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:20)",
-    "timecode": "05:20",
-    "timeSec": 320.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_320.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:24)",
-    "timecode": "05:24",
-    "timeSec": 324.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_324.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:28)",
-    "timecode": "05:28",
-    "timeSec": 328.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_328.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:32)",
-    "timecode": "05:32",
-    "timeSec": 332.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_332.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:36)",
-    "timecode": "05:36",
-    "timeSec": 336.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_336.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:40)",
-    "timecode": "05:40",
-    "timeSec": 340.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_340.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:44)",
-    "timecode": "05:44",
-    "timeSec": 344.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_344.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:48)",
-    "timecode": "05:48",
-    "timeSec": 348.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_348.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:52)",
-    "timecode": "05:52",
-    "timeSec": 352.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_352.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (05:56)",
-    "timecode": "05:56",
-    "timeSec": 356.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_356.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:00)",
-    "timecode": "06:00",
-    "timeSec": 360.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_360.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:04)",
-    "timecode": "06:04",
-    "timeSec": 364.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_364.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:08)",
-    "timecode": "06:08",
-    "timeSec": 368.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_368.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:12)",
-    "timecode": "06:12",
-    "timeSec": 372.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_372.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:16)",
-    "timecode": "06:16",
-    "timeSec": 376.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_376.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:20)",
-    "timecode": "06:20",
-    "timeSec": 380.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_380.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:24)",
-    "timecode": "06:24",
-    "timeSec": 384.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_384.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:28)",
-    "timecode": "06:28",
-    "timeSec": 388.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_388.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:32)",
-    "timecode": "06:32",
-    "timeSec": 392.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_392.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_3960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:36)",
-    "timecode": "06:36",
-    "timeSec": 396.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_396.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:40)",
-    "timecode": "06:40",
-    "timeSec": 400.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_400.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:44)",
-    "timecode": "06:44",
-    "timeSec": 404.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_404.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:48)",
-    "timecode": "06:48",
-    "timeSec": 408.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_408.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:52)",
-    "timecode": "06:52",
-    "timeSec": 412.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_412.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (06:56)",
-    "timecode": "06:56",
-    "timeSec": 416.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_416.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:00)",
-    "timecode": "07:00",
-    "timeSec": 420.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_420.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:04)",
-    "timecode": "07:04",
-    "timeSec": 424.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_424.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:08)",
-    "timecode": "07:08",
-    "timeSec": 428.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_428.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:12)",
-    "timecode": "07:12",
-    "timeSec": 432.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_432.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:16)",
-    "timecode": "07:16",
-    "timeSec": 436.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_436.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:20)",
-    "timecode": "07:20",
-    "timeSec": 440.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_440.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:24)",
-    "timecode": "07:24",
-    "timeSec": 444.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_444.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:28)",
-    "timecode": "07:28",
-    "timeSec": 448.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_448.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:32)",
-    "timecode": "07:32",
-    "timeSec": 452.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_452.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:36)",
-    "timecode": "07:36",
-    "timeSec": 456.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_456.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:40)",
-    "timecode": "07:40",
-    "timeSec": 460.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_460.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:44)",
-    "timecode": "07:44",
-    "timeSec": 464.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_464.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:48)",
-    "timecode": "07:48",
-    "timeSec": 468.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_468.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:52)",
-    "timecode": "07:52",
-    "timeSec": 472.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_472.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (07:56)",
-    "timecode": "07:56",
-    "timeSec": 476.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_476.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (08:00)",
-    "timecode": "08:00",
-    "timeSec": 480.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_480.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (08:04)",
-    "timecode": "08:04",
-    "timeSec": 484.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_484.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_203124_mp4_4880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_203124.mp4",
-    "title": "VID_20260731_203124.mp4 (08:08)",
-    "timecode": "08:08",
-    "timeSec": 488.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_488.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_00.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_04.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:08)",
-    "timecode": "00:08",
-    "timeSec": 8.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_08.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_12.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:16)",
-    "timecode": "00:16",
-    "timeSec": 16.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_16.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:20)",
-    "timecode": "00:20",
-    "timeSec": 20.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_20.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_24.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:28)",
-    "timecode": "00:28",
-    "timeSec": 28.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_28.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:32)",
-    "timecode": "00:32",
-    "timeSec": 32.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_32.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_36.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:40)",
-    "timecode": "00:40",
-    "timeSec": 40.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_40.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:44)",
-    "timecode": "00:44",
-    "timeSec": 44.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_44.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_48.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:52)",
-    "timecode": "00:52",
-    "timeSec": 52.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_52.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (00:56)",
-    "timecode": "00:56",
-    "timeSec": 56.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_56.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_60.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:04)",
-    "timecode": "01:04",
-    "timeSec": 64.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_64.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:08)",
-    "timecode": "01:08",
-    "timeSec": 68.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_68.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_72.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:16)",
-    "timecode": "01:16",
-    "timeSec": 76.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_76.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:20)",
-    "timecode": "01:20",
-    "timeSec": 80.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_80.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_84.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:28)",
-    "timecode": "01:28",
-    "timeSec": 88.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_88.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:32)",
-    "timecode": "01:32",
-    "timeSec": 92.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_92.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_0960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:36)",
-    "timecode": "01:36",
-    "timeSec": 96.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_96.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:40)",
-    "timecode": "01:40",
-    "timeSec": 100.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_100.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:44)",
-    "timecode": "01:44",
-    "timeSec": 104.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_104.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:48)",
-    "timecode": "01:48",
-    "timeSec": 108.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_108.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:52)",
-    "timecode": "01:52",
-    "timeSec": 112.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_112.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (01:56)",
-    "timecode": "01:56",
-    "timeSec": 116.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_116.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:00)",
-    "timecode": "02:00",
-    "timeSec": 120.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_120.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:04)",
-    "timecode": "02:04",
-    "timeSec": 124.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_124.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:08)",
-    "timecode": "02:08",
-    "timeSec": 128.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_128.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:12)",
-    "timecode": "02:12",
-    "timeSec": 132.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_132.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:16)",
-    "timecode": "02:16",
-    "timeSec": 136.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_136.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:20)",
-    "timecode": "02:20",
-    "timeSec": 140.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_140.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:24)",
-    "timecode": "02:24",
-    "timeSec": 144.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_144.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:28)",
-    "timecode": "02:28",
-    "timeSec": 148.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_148.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:32)",
-    "timecode": "02:32",
-    "timeSec": 152.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_152.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:36)",
-    "timecode": "02:36",
-    "timeSec": 156.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_156.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:40)",
-    "timecode": "02:40",
-    "timeSec": 160.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_160.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:44)",
-    "timecode": "02:44",
-    "timeSec": 164.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_164.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:48)",
-    "timecode": "02:48",
-    "timeSec": 168.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_168.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:52)",
-    "timecode": "02:52",
-    "timeSec": 172.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_172.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (02:56)",
-    "timecode": "02:56",
-    "timeSec": 176.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_176.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:00)",
-    "timecode": "03:00",
-    "timeSec": 180.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_180.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:04)",
-    "timecode": "03:04",
-    "timeSec": 184.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_184.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:08)",
-    "timecode": "03:08",
-    "timeSec": 188.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_188.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:12)",
-    "timecode": "03:12",
-    "timeSec": 192.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_192.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_1960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:16)",
-    "timecode": "03:16",
-    "timeSec": 196.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_196.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:20)",
-    "timecode": "03:20",
-    "timeSec": 200.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_200.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:24)",
-    "timecode": "03:24",
-    "timeSec": 204.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_204.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:28)",
-    "timecode": "03:28",
-    "timeSec": 208.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_208.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:32)",
-    "timecode": "03:32",
-    "timeSec": 212.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_212.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:36)",
-    "timecode": "03:36",
-    "timeSec": 216.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_216.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:40)",
-    "timecode": "03:40",
-    "timeSec": 220.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_220.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:44)",
-    "timecode": "03:44",
-    "timeSec": 224.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_224.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:48)",
-    "timecode": "03:48",
-    "timeSec": 228.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_228.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:52)",
-    "timecode": "03:52",
-    "timeSec": 232.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_232.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (03:56)",
-    "timecode": "03:56",
-    "timeSec": 236.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_236.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:00)",
-    "timecode": "04:00",
-    "timeSec": 240.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_240.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:04)",
-    "timecode": "04:04",
-    "timeSec": 244.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_244.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:08)",
-    "timecode": "04:08",
-    "timeSec": 248.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_248.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:12)",
-    "timecode": "04:12",
-    "timeSec": 252.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_252.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:16)",
-    "timecode": "04:16",
-    "timeSec": 256.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_256.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:20)",
-    "timecode": "04:20",
-    "timeSec": 260.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_260.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:24)",
-    "timecode": "04:24",
-    "timeSec": 264.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_264.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:28)",
-    "timecode": "04:28",
-    "timeSec": 268.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_268.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:32)",
-    "timecode": "04:32",
-    "timeSec": 272.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_272.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:36)",
-    "timecode": "04:36",
-    "timeSec": 276.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_276.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:40)",
-    "timecode": "04:40",
-    "timeSec": 280.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_280.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:44)",
-    "timecode": "04:44",
-    "timeSec": 284.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_284.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:48)",
-    "timecode": "04:48",
-    "timeSec": 288.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_288.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:52)",
-    "timecode": "04:52",
-    "timeSec": 292.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_292.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_2960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (04:56)",
-    "timecode": "04:56",
-    "timeSec": 296.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_296.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:00)",
-    "timecode": "05:00",
-    "timeSec": 300.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_300.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:04)",
-    "timecode": "05:04",
-    "timeSec": 304.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_304.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:08)",
-    "timecode": "05:08",
-    "timeSec": 308.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_308.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:12)",
-    "timecode": "05:12",
-    "timeSec": 312.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_312.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:16)",
-    "timecode": "05:16",
-    "timeSec": 316.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_316.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:20)",
-    "timecode": "05:20",
-    "timeSec": 320.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_320.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:24)",
-    "timecode": "05:24",
-    "timeSec": 324.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_324.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:28)",
-    "timecode": "05:28",
-    "timeSec": 328.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_328.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:32)",
-    "timecode": "05:32",
-    "timeSec": 332.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_332.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:36)",
-    "timecode": "05:36",
-    "timeSec": 336.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_336.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:40)",
-    "timecode": "05:40",
-    "timeSec": 340.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_340.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:44)",
-    "timecode": "05:44",
-    "timeSec": 344.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_344.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:48)",
-    "timecode": "05:48",
-    "timeSec": 348.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_348.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:52)",
-    "timecode": "05:52",
-    "timeSec": 352.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_352.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (05:56)",
-    "timecode": "05:56",
-    "timeSec": 356.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_356.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:00)",
-    "timecode": "06:00",
-    "timeSec": 360.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_360.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:04)",
-    "timecode": "06:04",
-    "timeSec": 364.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_364.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:08)",
-    "timecode": "06:08",
-    "timeSec": 368.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_368.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:12)",
-    "timecode": "06:12",
-    "timeSec": 372.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_372.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:16)",
-    "timecode": "06:16",
-    "timeSec": 376.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_376.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:20)",
-    "timecode": "06:20",
-    "timeSec": 380.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_380.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:24)",
-    "timecode": "06:24",
-    "timeSec": 384.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_384.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:28)",
-    "timecode": "06:28",
-    "timeSec": 388.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_388.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:32)",
-    "timecode": "06:32",
-    "timeSec": 392.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_392.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_3960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:36)",
-    "timecode": "06:36",
-    "timeSec": 396.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_396.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:40)",
-    "timecode": "06:40",
-    "timeSec": 400.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_400.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:44)",
-    "timecode": "06:44",
-    "timeSec": 404.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_404.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:48)",
-    "timecode": "06:48",
-    "timeSec": 408.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_408.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4120",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:52)",
-    "timecode": "06:52",
-    "timeSec": 412.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_412.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4160",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (06:56)",
-    "timecode": "06:56",
-    "timeSec": 416.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_416.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4200",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:00)",
-    "timecode": "07:00",
-    "timeSec": 420.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_420.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4240",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:04)",
-    "timecode": "07:04",
-    "timeSec": 424.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_424.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4280",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:08)",
-    "timecode": "07:08",
-    "timeSec": 428.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_428.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4320",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:12)",
-    "timecode": "07:12",
-    "timeSec": 432.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_432.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4360",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:16)",
-    "timecode": "07:16",
-    "timeSec": 436.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_436.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4400",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:20)",
-    "timecode": "07:20",
-    "timeSec": 440.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_440.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4440",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:24)",
-    "timecode": "07:24",
-    "timeSec": 444.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_444.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4480",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:28)",
-    "timecode": "07:28",
-    "timeSec": 448.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_448.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4520",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:32)",
-    "timecode": "07:32",
-    "timeSec": 452.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_452.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4560",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:36)",
-    "timecode": "07:36",
-    "timeSec": 456.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_456.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4600",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:40)",
-    "timecode": "07:40",
-    "timeSec": 460.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_460.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4640",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:44)",
-    "timecode": "07:44",
-    "timeSec": 464.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_464.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4680",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:48)",
-    "timecode": "07:48",
-    "timeSec": 468.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_468.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4720",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:52)",
-    "timecode": "07:52",
-    "timeSec": 472.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_472.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4760",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (07:56)",
-    "timecode": "07:56",
-    "timeSec": 476.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_476.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4800",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (08:00)",
-    "timecode": "08:00",
-    "timeSec": 480.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_480.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4840",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (08:04)",
-    "timecode": "08:04",
-    "timeSec": 484.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_484.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4880",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (08:08)",
-    "timecode": "08:08",
-    "timeSec": 488.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_488.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4920",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (08:12)",
-    "timecode": "08:12",
-    "timeSec": 492.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_492.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_4960",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (08:16)",
-    "timecode": "08:16",
-    "timeSec": 496.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_496.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_5000",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (08:20)",
-    "timecode": "08:20",
-    "timeSec": 500.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_500.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_5040",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (08:24)",
-    "timecode": "08:24",
-    "timeSec": 504.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_504.0s.jpg"
-  },
-  {
-    "id": "WASHER_VID_20260731_205108_mp4_5080",
-    "product": "washer",
-    "productName": "เครื่องซักผ้า KASHIWA",
-    "filename": "VID_20260731_205108.mp4",
-    "title": "VID_20260731_205108.mp4 (08:28)",
-    "timecode": "08:28",
-    "timeSec": 508.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/washer/VID_20260731_205108_mp4/frame_508.0s.jpg"
-  },
-  {
-    "id": "LIGHT_C0135_MP4_0000",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "C0135.MP4",
-    "title": "C0135.MP4 (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/C0135_MP4/frame_00.0s.jpg"
-  },
-  {
-    "id": "LIGHT_C0135_MP4_0020",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "C0135.MP4",
-    "title": "C0135.MP4 (00:02)",
-    "timecode": "00:02",
-    "timeSec": 2.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/C0135_MP4/frame_02.0s.jpg"
-  },
-  {
-    "id": "LIGHT_C0135_MP4_0040",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "C0135.MP4",
-    "title": "C0135.MP4 (00:04)",
-    "timecode": "00:04",
-    "timeSec": 4.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/C0135_MP4/frame_04.0s.jpg"
-  },
-  {
-    "id": "LIGHT_C0136_MP4_0000",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "C0136.MP4",
-    "title": "C0136.MP4 (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/C0136_MP4/frame_00.0s.jpg"
-  },
-  {
-    "id": "LIGHT_C0136_MP4_0020",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "C0136.MP4",
-    "title": "C0136.MP4 (00:02)",
-    "timecode": "00:02",
-    "timeSec": 2.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/C0136_MP4/frame_02.0s.jpg"
-  },
-  {
-    "id": "LIGHT_C0139_MP4_0000",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "C0139.MP4",
-    "title": "C0139.MP4 (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/C0139_MP4/frame_00.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0000",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:00)",
-    "timecode": "00:00",
-    "timeSec": 0.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_00.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0030",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:03)",
-    "timecode": "00:03",
-    "timeSec": 3.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_03.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0060",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:06)",
-    "timecode": "00:06",
-    "timeSec": 6.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_06.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0090",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:09)",
-    "timecode": "00:09",
-    "timeSec": 9.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_09.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0120",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:12)",
-    "timecode": "00:12",
-    "timeSec": 12.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_12.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0150",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:15)",
-    "timecode": "00:15",
-    "timeSec": 15.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_15.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0180",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:18)",
-    "timecode": "00:18",
-    "timeSec": 18.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_18.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0210",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:21)",
-    "timecode": "00:21",
-    "timeSec": 21.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_21.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0240",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:24)",
-    "timecode": "00:24",
-    "timeSec": 24.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_24.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0270",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:27)",
-    "timecode": "00:27",
-    "timeSec": 27.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_27.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0300",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:30)",
-    "timecode": "00:30",
-    "timeSec": 30.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_30.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0330",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:33)",
-    "timecode": "00:33",
-    "timeSec": 33.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_33.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0360",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:36)",
-    "timecode": "00:36",
-    "timeSec": 36.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_36.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0390",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:39)",
-    "timecode": "00:39",
-    "timeSec": 39.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_39.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0420",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:42)",
-    "timecode": "00:42",
-    "timeSec": 42.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_42.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0450",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:45)",
-    "timecode": "00:45",
-    "timeSec": 45.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_45.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0480",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:48)",
-    "timecode": "00:48",
-    "timeSec": 48.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_48.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0510",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:51)",
-    "timecode": "00:51",
-    "timeSec": 51.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_51.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0540",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:54)",
-    "timecode": "00:54",
-    "timeSec": 54.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_54.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0570",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (00:57)",
-    "timecode": "00:57",
-    "timeSec": 57.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_57.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0600",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:00)",
-    "timecode": "01:00",
-    "timeSec": 60.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_60.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0630",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:03)",
-    "timecode": "01:03",
-    "timeSec": 63.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_63.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0660",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:06)",
-    "timecode": "01:06",
-    "timeSec": 66.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_66.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0690",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:09)",
-    "timecode": "01:09",
-    "timeSec": 69.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_69.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0720",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:12)",
-    "timecode": "01:12",
-    "timeSec": 72.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_72.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0750",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:15)",
-    "timecode": "01:15",
-    "timeSec": 75.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_75.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0780",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:18)",
-    "timecode": "01:18",
-    "timeSec": 78.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_78.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0810",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:21)",
-    "timecode": "01:21",
-    "timeSec": 81.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_81.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0840",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:24)",
-    "timecode": "01:24",
-    "timeSec": 84.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_84.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0870",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:27)",
-    "timecode": "01:27",
-    "timeSec": 87.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_87.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0900",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:30)",
-    "timecode": "01:30",
-    "timeSec": 90.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_90.0s.jpg"
-  },
-  {
-    "id": "LIGHT_MVI_0075_MOV_0930",
-    "product": "light",
-    "productName": "ไฟกระพริบ",
-    "filename": "MVI_0075.MOV",
-    "title": "MVI_0075.MOV (01:33)",
-    "timecode": "01:33",
-    "timeSec": 93.0,
-    "duration": "2.0 วินาที",
-    "image": "assets/thumbs/light/MVI_0075_MOV/frame_93.0s.jpg"
+    "image": "assets/thumbs/washer/VID_20260731_203124_mp4/frame_01760.jpg"
   }
 ];

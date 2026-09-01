@@ -279,21 +279,23 @@ h1 span { color: var(--accent); }
 /* Floating Bottom Action Bar */
 #floating-bar {
   position: fixed;
-  bottom: 12px;
+  bottom: calc(12px + env(safe-area-inset-bottom, 0px));
   left: 50%;
-  transform: translateX(-50%) translateY(160px);
-  background: #141724;
+  transform: translateX(-50%) translateY(220px);
+  background: rgba(18, 22, 34, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 2px solid var(--accent);
-  border-radius: 14px;
-  padding: 10px 16px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.9);
-  z-index: 1000;
+  border-radius: 16px;
+  padding: 12px 16px;
+  box-shadow: 0 12px 45px rgba(0,0,0,0.95), 0 0 20px rgba(255, 204, 0, 0.25);
+  z-index: 99999;
   display: flex;
   align-items: center;
-  gap: 10px;
-  transition: transform 0.25s ease;
+  gap: 8px;
+  transition: transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   width: 94vw;
-  max-width: 650px;
+  max-width: 600px;
   flex-wrap: wrap;
 }
 #floating-bar.show {

@@ -26,12 +26,13 @@ function toggleRangeMode() {
 }
 
 function switchTab(prodCode) {
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => {
+    b.classList.remove('active');
+    if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(`'${prodCode}'`)) {
+      b.classList.add('active');
+    }
+  });
   document.querySelectorAll('.prod-section').forEach(s => s.classList.remove('active'));
-  
-  if (event && event.target) {
-    event.target.classList.add('active');
-  }
   const targetSec = document.getElementById('sec_' + prodCode);
   if (targetSec) targetSec.classList.add('active');
 }
