@@ -17335,7 +17335,13 @@
     <div>ช่วง: <span id="sel-range">-</span></div>
     <div>ความยาว: <span id="sel-dur">0s</span></div>
   </div>
-  <input type="text" id="comment-input" class="comment-input" placeholder="💬 พิมพ์ความคิดเห็น / สั่งการตัดต่อสำหรับช็อตนี้ (ถ้ามี)...">
+  <div class="comment-input-wrap">
+    <input type="text" id="comment-input" class="comment-input" placeholder="💬 พิมพ์ความคิดเห็น หรือกดไมค์ 🎙️ เพื่อพูดสั่งการ...">
+    <button type="button" class="btn-mic" id="btn-mic" onclick="toggleSpeechRecognition()" title="แตะเพื่อเปิดไมค์พูดสั่งการภาษาไทย">
+      <span class="mic-icon">🎙️</span>
+      <span class="mic-label">พูดด้วยเสียง</span>
+    </button>
+  </div>
   <div class="action-buttons">
     <button class="btn-action btn-approve" onclick="applyTagToSelection('APPROVED')">
       ✅ เอา (Keep)

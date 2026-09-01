@@ -501,3 +501,95 @@ function showToast(msg) {
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 2000);
 }
+
+// ==========================================
+// Speech Recognition (Voice-to-Text ภาษาไทย)
+// ==========================================
+let recognition = null;
+let isRecording = false;
+
+function initSpeechRecognition() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    alert('เบราว์เซอร์นี้ไม่รองรับ Web Speech API กรุณาเปิดผ่าน Google Chrome, Edge หรือ Safari บนมือถือครับ');
+    return null;
+  }
+  const rec = new SpeechRecognition();
+  rec.lang = 'th-TH';
+  rec.continuous = true;
+  rec.interimResults = true;
+  
+  rec.onstart = () => {
+    isRecording = true;
+    const btn = document.getElementById('btn-mic');
+    if (btn) {
+      btn.classList.add('recording');
+      btn.innerHTML = '<span class="mic-icon">🔴</span><span class="mic-label">กำลังฟัง...</span>';
+    }
+    showToast('🎙️ กำลังฟังเสียงพูดภาษาไทย... พูดได้เลยครับ');
+  };
+  
+  rec.onresult = (event) => {
+    let finalTranscript = '';
+    let interimTranscript = '';
+    for (let i = 0; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        finalTranscript += event.results[i][0].transcript;
+      } else {
+        interimTranscript += event.results[i][0].transcript;
+      }
+    }
+    const input = document.getElementById('comment-input');
+    if (input) {
+      input.value = (finalTranscript || interimTranscript).trim();
+    }
+  };
+  
+  rec.onerror = (event) => {
+    console.warn('Speech recognition error:', event.error);
+    stopSpeechRecognition();
+    if (event.error === 'not-allowed') {
+      alert('กรุณากดอนุญาตให้เบราว์เซอร์เข้าถึงไมโครโฟน (Microphone Permission) เพื่อพูดสั่งการครับ');
+    } else if (event.error !== 'no-speech') {
+      showToast('เกิดข้อผิดพลาดในการฟังเสียง: ' + event.error);
+    }
+  };
+  
+  rec.onend = () => {
+    stopSpeechRecognition();
+  };
+  
+  return rec;
+}
+
+function toggleSpeechRecognition() {
+  if (isRecording) {
+    stopSpeechRecognition();
+  } else {
+    startSpeechRecognition();
+  }
+}
+
+function startSpeechRecognition() {
+  if (!recognition) {
+    recognition = initSpeechRecognition();
+  }
+  if (!recognition) return;
+  try {
+    recognition.start();
+  } catch (e) {
+    console.warn(e);
+  }
+}
+
+function stopSpeechRecognition() {
+  isRecording = false;
+  if (recognition) {
+    try { recognition.stop(); } catch(e) {}
+  }
+  const btn = document.getElementById('btn-mic');
+  if (btn) {
+    btn.classList.remove('recording');
+    btn.innerHTML = '<span class="mic-icon">🎙️</span><span class="mic-label">พูดด้วยเสียง</span>';
+  }
+}
