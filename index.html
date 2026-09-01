@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260901_v6">
+<link rel="stylesheet" href="styles.css?v=20260901_pro_v9">
 </head>
 <body>
 
@@ -17331,29 +17331,36 @@
 <!-- Floating Bottom Action Bar on Mobile / Desktop -->
 <div id="floating-bar">
   <div class="selection-summary">
-    <div>เลือกอยู่: <span><b id="sel-count">0</b> ช็อต</span></div>
-    <div>ช่วง: <span id="sel-range">-</span></div>
-    <div>ความยาว: <span id="sel-dur">0s</span></div>
+    <div class="stat-pill">เลือกอยู่: <span class="stat-highlight"><b id="sel-count">0</b> ช็อต</span></div>
+    <div class="stat-pill">ช่วง: <span class="stat-highlight" id="sel-range">-</span></div>
+    <div class="stat-pill">ความยาว: <span class="stat-highlight" id="sel-dur">0s</span></div>
   </div>
-  <div class="comment-input-wrap">
-    <input type="text" id="comment-input" class="comment-input" placeholder="💬 พิมพ์ความคิดเห็น หรือกดไมค์ 🎙️ เพื่อพูดสั่งการ...">
-    <button type="button" class="btn-mic" id="btn-mic" onclick="toggleSpeechRecognition()" title="แตะเพื่อเปิดไมค์พูดสั่งการภาษาไทย">
-      <span class="mic-icon">🎙️</span>
-      <span class="mic-label">พูดด้วยเสียง</span>
+  
+  <div class="unified-input-bar" id="unified-input-bar">
+    <span class="input-prefix-icon">💬</span>
+    <input type="text" id="comment-input" class="comment-input-field" placeholder="พิมพ์ความคิดเห็น หรือกดไมค์เพื่อพูดสั่งการ..." autocomplete="off">
+    <button type="button" class="mic-toggle-btn" id="btn-mic" onclick="toggleSpeechRecognition()" title="เปิดไมค์เพื่อพูดเป็นตัวหนังสือภาษาไทย">
+      <span class="mic-svg-icon">🎙️</span>
+      <span class="mic-text">พูดสั่งการ</span>
     </button>
   </div>
-  <div class="action-buttons">
-    <button class="btn-action btn-approve" onclick="applyTagToSelection('APPROVED')">
-      ✅ เอา (Keep)
+
+  <div class="action-buttons-grid">
+    <button class="btn-action-pro btn-approve-pro" onclick="applyTagToSelection('APPROVED')">
+      <span class="btn-icon">✅</span>
+      <span>เอา (Keep)</span>
     </button>
-    <button class="btn-action btn-ban" onclick="applyTagToSelection('BANNED')">
-      🚫 แบน (Ban)
+    <button class="btn-action-pro btn-ban-pro" onclick="applyTagToSelection('BANNED')">
+      <span class="btn-icon">🚫</span>
+      <span>แบน (Ban)</span>
     </button>
-    <button class="btn-action btn-unmark" onclick="removeTagFromSelection()">
-      🧹 ลบมาร์ก
+    <button class="btn-action-pro btn-unmark-pro" onclick="removeTagFromSelection()">
+      <span class="btn-icon">🧹</span>
+      <span>ลบมาร์ก</span>
     </button>
-    <button class="btn-action btn-clear" onclick="clearActiveSelection()">
-      ✕ ยกเลิก
+    <button class="btn-action-pro btn-clear-pro" onclick="clearActiveSelection()">
+      <span class="btn-icon">✕</span>
+      <span>ยกเลิก</span>
     </button>
   </div>
 </div>
@@ -17369,13 +17376,13 @@
     <div id="basket-list"></div>
   </div>
   <div class="basket-footer">
-    <button class="btn-action btn-approve" onclick="copyCuratedPrompt()" style="flex:2;">
+    <button class="btn-action-pro btn-approve-pro" onclick="copyCuratedPrompt()" style="flex:2;">
       📋 คัดลอกคำสั่งส่ง AI
     </button>
-    <button class="btn-action btn-json" onclick="downloadJSON()" style="flex:1;">
+    <button class="btn-action-pro btn-unmark-pro" onclick="downloadJSON()" style="flex:1;">
       💾 JSON
     </button>
-    <button class="btn-action btn-clear" onclick="clearAllMarks()" style="flex:1;">
+    <button class="btn-action-pro btn-clear-pro" onclick="clearAllMarks()" style="flex:1;">
       🗑️ ล้างหมด
     </button>
   </div>
@@ -17394,7 +17401,7 @@
 
 <div id="toast"></div>
 
-<script src="shots.js?v=20260901_v4"></script>
-<script src="app.js?v=20260901_v4"></script>
+<script src="shots.js?v=20260901_pro_v9"></script>
+<script src="app.js?v=20260901_pro_v9"></script>
 </body>
 </html>

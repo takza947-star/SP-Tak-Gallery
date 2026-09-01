@@ -276,129 +276,218 @@ h1 span { color: var(--accent); }
   border-radius: 3px;
 }
 
-/* Floating Bottom Action Bar */
+/* Floating Bottom Action Bar - Professional Responsive Design */
 #floating-bar {
   position: fixed;
-  bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
   left: 50%;
-  transform: translateX(-50%) translateY(220px);
-  background: rgba(18, 22, 34, 0.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 2px solid var(--accent);
-  border-radius: 16px;
-  padding: 12px 16px;
-  box-shadow: 0 12px 45px rgba(0,0,0,0.95), 0 0 20px rgba(255, 204, 0, 0.25);
+  transform: translateX(-50%) translateY(260px);
+  background: rgba(13, 16, 26, 0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1.5px solid rgba(255, 204, 0, 0.6);
+  border-radius: 18px;
+  padding: 14px 18px;
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.9), 0 0 30px rgba(255, 204, 0, 0.15);
   z-index: 99999;
   display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  width: 94vw;
-  max-width: 600px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  width: min(94vw, 760px);
+  box-sizing: border-box;
 }
+
 #floating-bar.show {
   transform: translateX(-50%) translateY(0);
 }
+
 .selection-summary {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff;
-  width: 100%;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
-.selection-summary span { color: var(--accent); }
 
-.action-buttons { display: flex; gap: 6px; width: 100%; align-items: center; }
-.btn-action {
-  border: none;
-  padding: 8px 12px;
-  border-radius: 8px;
+.stat-pill {
+  font-family: 'JetBrains Mono', 'Prompt', monospace;
   font-size: 12px;
-  font-weight: 700;
-  cursor: pointer;
-  flex: 1;
-  text-align: center;
-  font-family: 'Prompt', sans-serif;
-  transition: all 0.15s;
+  color: #a0aec0;
+  font-weight: 500;
 }
-.btn-approve { background: var(--accent-green); color: #000; }
-.btn-ban { background: var(--accent-red); color: #fff; }
-.btn-unmark { background: #2f364a; color: #ff9f43; border: 1px solid rgba(255, 159, 67, 0.4); }
-.btn-unmark:hover { background: #ff9f43; color: #000; }
-.btn-json { background: #2a3144; color: var(--accent-blue); border: 1px solid rgba(0,210,255,0.3); }
-.btn-clear { background: #2a3144; color: var(--text-muted); flex: 0 0 auto; }
+.stat-highlight {
+  color: #ffcc00;
+  font-weight: 700;
+}
+
+/* Unified Modern Input Bar */
+.unified-input-bar {
+  display: flex;
+  align-items: center;
+  background: #080a10;
+  border: 1.5px solid #23293c;
+  border-radius: 12px;
+  padding: 4px 6px 4px 12px;
+  gap: 8px;
+  transition: all 0.25s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.unified-input-bar:focus-within {
+  border-color: #00d2ff;
+  box-shadow: 0 0 15px rgba(0, 210, 255, 0.3);
+  background: #0b0e17;
+}
+
+.unified-input-bar.recording-active {
+  border-color: #ff4757;
+  box-shadow: 0 0 20px rgba(255, 71, 87, 0.5);
+  background: #150a0e;
+}
+
+.input-prefix-icon {
+  font-size: 16px;
+  opacity: 0.8;
+  flex-shrink: 0;
+}
+
+.comment-input-field {
+  flex: 1;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  color: #ffffff !important;
+  font-family: 'Prompt', sans-serif !important;
+  font-size: 13.5px !important;
+  min-width: 0 !important;
+  padding: 6px 0 !important;
+  box-shadow: none !important;
+}
+.comment-input-field::placeholder {
+  color: #64748b;
+  font-size: 13px;
+}
+
+/* Sleek Dark Theme Mic Button */
+.mic-toggle-btn {
+  background: #181d2e !important;
+  border: 1px solid #2e3852 !important;
+  color: #38bdf8 !important;
+  padding: 6px 12px !important;
+  border-radius: 8px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  font-family: 'Prompt', sans-serif !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  transition: all 0.2s ease !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+}
+
+.mic-toggle-btn:hover {
+  background: #232a42 !important;
+  border-color: #38bdf8 !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.35) !important;
+}
+
+.mic-toggle-btn.recording {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%) !important;
+  color: #ffffff !important;
+  border-color: #f43f5e !important;
+  box-shadow: 0 0 20px rgba(225, 29, 72, 0.75) !important;
+  animation: pulse-glow 1.2s infinite ease-in-out !important;
+}
+
+@keyframes pulse-glow {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+
+/* Action Buttons Grid */
+.action-buttons-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1.2fr 1fr 0.9fr;
+  gap: 8px;
+  width: 100%;
+}
+
+@media (max-width: 540px) {
+  .action-buttons-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.btn-action-pro {
+  border: none;
+  outline: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Prompt', sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.18s ease;
+  box-sizing: border-box;
+}
+
+.btn-approve-pro {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+}
+.btn-approve-pro:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.55);
+}
+
+.btn-ban-pro {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.35);
+}
+.btn-ban-pro:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.55);
+}
+
+.btn-unmark-pro {
+  background: #1e2436;
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+.btn-unmark-pro:hover {
+  background: #2a334d;
+  color: #ffffff;
+  border-color: #fbbf24;
+}
+
+.btn-clear-pro {
+  background: #181d2c;
+  color: #94a3b8;
+  border: 1px solid #2d3748;
+}
+.btn-clear-pro:hover {
+  background: #22293e;
+  color: #ffffff;
+}
+
 .btn-mini-danger { background: rgba(255, 71, 87, 0.15) !important; color: #ff4757 !important; border: 1px solid rgba(255, 71, 87, 0.3) !important; }
 .btn-mini-danger:hover { background: #ff4757 !important; color: #fff !important; }
-
-.comment-input-wrap {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  width: 100%;
-  margin-bottom: 6px;
-  position: relative;
-}
-
-.comment-input {
-  background: #0a0c12;
-  border: 1px solid var(--border-color);
-  color: #fff;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 13px;
-  font-family: 'Prompt', sans-serif;
-  flex: 1;
-  min-width: 0;
-  transition: all 0.2s;
-}
-.comment-input:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: 0 0 10px rgba(255, 204, 0, 0.3);
-}
-
-.btn-mic {
-  background: linear-gradient(135deg, #1e2538 0%, #151a28 100%);
-  border: 1px solid rgba(0, 210, 255, 0.4);
-  color: #00d2ff;
-  padding: 8px 14px;
-  border-radius: 8px;
-  font-size: 12px;
-  font-weight: 700;
-  font-family: 'Prompt', sans-serif;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  white-space: nowrap;
-  flex-shrink: 0;
-  transition: all 0.2s;
-}
-.btn-mic:hover {
-  background: #00d2ff;
-  color: #000;
-  box-shadow: 0 0 15px rgba(0, 210, 255, 0.5);
-}
-
-.btn-mic.recording {
-  background: linear-gradient(135deg, #ff4757 0%, #c0392b 100%) !important;
-  color: #fff !important;
-  border-color: #ff4757 !important;
-  box-shadow: 0 0 20px rgba(255, 71, 87, 0.8) !important;
-  animation: pulse-mic 1.2s infinite ease-in-out;
-}
-
-@keyframes pulse-mic {
-  0% { transform: scale(1); box-shadow: 0 0 10px rgba(255, 71, 87, 0.6); }
-  50% { transform: scale(1.04); box-shadow: 0 0 25px rgba(255, 71, 87, 0.95); }
-  100% { transform: scale(1); box-shadow: 0 0 10px rgba(255, 71, 87, 0.6); }
-}
 
 /* Drawer Modal */
 #basket-modal {

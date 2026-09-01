@@ -522,9 +522,13 @@ function initSpeechRecognition() {
   rec.onstart = () => {
     isRecording = true;
     const btn = document.getElementById('btn-mic');
+    const bar = document.getElementById('unified-input-bar');
     if (btn) {
       btn.classList.add('recording');
-      btn.innerHTML = '<span class="mic-icon">🔴</span><span class="mic-label">กำลังฟัง...</span>';
+      btn.innerHTML = '<span class="mic-svg-icon">🔴</span><span class="mic-text">กำลังฟัง...</span>';
+    }
+    if (bar) {
+      bar.classList.add('recording-active');
     }
     showToast('🎙️ กำลังฟังเสียงพูดภาษาไทย... พูดได้เลยครับ');
   };
@@ -588,8 +592,12 @@ function stopSpeechRecognition() {
     try { recognition.stop(); } catch(e) {}
   }
   const btn = document.getElementById('btn-mic');
+  const bar = document.getElementById('unified-input-bar');
   if (btn) {
     btn.classList.remove('recording');
-    btn.innerHTML = '<span class="mic-icon">🎙️</span><span class="mic-label">พูดด้วยเสียง</span>';
+    btn.innerHTML = '<span class="mic-svg-icon">🎙️</span><span class="mic-text">พูดสั่งการ</span>';
+  }
+  if (bar) {
+    bar.classList.remove('recording-active');
   }
 }
