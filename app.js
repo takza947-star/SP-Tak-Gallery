@@ -1,319 +1,400 @@
-const STORAGE_KEY = "sp-tak-gallery-review-v1";
+let selectedFrames = [];
+let lastClickedFrame = null;
+let rangeModeActive = false;
+let rangeStartFrame = null;
+let marks = JSON.parse(localStorage.getItem('sp_tak_gallery_marks') || '{}');
 
-// `shots` is provided by shots.js
-if (typeof shots === "undefined") {
-  window.shots = [];
-}
+window.addEventListener('DOMContentLoaded', () => {
+  restoreMarksUI();
+  updateBasketBadge();
+});
 
-const filters = {
-  product: "all",
-  status: "all",
-  search: "",
-};
-
-let review = loadReview();
-let toastTimer;
-
-const elements = {
-  gallery: document.querySelector("#gallery"),
-  emptyState: document.querySelector("#emptyState"),
-  shotTemplate: document.querySelector("#shotTemplate"),
-  searchInput: document.querySelector("#searchInput"),
-  productFilters: document.querySelector("#productFilters"),
-  statusFilters: document.querySelector("#statusFilters"),
-  selectedCount: document.querySelector("#selectedCount"),
-  totalStat: document.querySelector("#totalStat"),
-  keepStat: document.querySelector("#keepStat"),
-  banStat: document.querySelector("#banStat"),
-  pendingStat: document.querySelector("#pendingStat"),
-  summaryDialog: document.querySelector("#summaryDialog"),
-  summaryContent: document.querySelector("#summaryContent"),
-  previewDialog: document.querySelector("#previewDialog"),
-  previewImage: document.querySelector("#previewImage"),
-  previewProduct: document.querySelector("#previewProduct"),
-  previewTitle: document.querySelector("#previewTitle"),
-  previewTimecode: document.querySelector("#previewTimecode"),
-  toast: document.querySelector("#toast"),
-};
-
-function emptyDecision() {
-  return { status: "", note: "" };
-}
-
-function loadReview() {
-  try {
-    const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-    return shots.reduce((result, shot) => {
-      const saved = parsed[shot.id];
-      result[shot.id] = {
-        status: saved?.status === "keep" || saved?.status === "ban" ? saved.status : "",
-        note: typeof saved?.note === "string" ? saved.note.slice(0, 120) : "",
-      };
-      return result;
-    }, {});
-  } catch {
-    return Object.fromEntries(shots.map((shot) => [shot.id, emptyDecision()]));
+function toggleRangeMode() {
+  rangeModeActive = !rangeModeActive;
+  rangeStartFrame = null;
+  const btn = document.getElementById('btn-range-mode');
+  const status = document.getElementById('range-status');
+  
+  if (rangeModeActive) {
+    btn.classList.add('active');
+    status.innerText = 'เปิด (แตะเริ่ม ➔ แตะจบ)';
+  } else {
+    btn.classList.remove('active');
+    status.innerText = 'ปิด';
+    document.querySelectorAll('.range-anchor').forEach(el => el.classList.remove('range-anchor'));
   }
 }
 
-function saveReview() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(review));
-}
-
-function matchesFilters(shot) {
-  const decision = review[shot.id] || emptyDecision();
-  const status = decision.status || "pending";
-  const searchText = `${shot.id} ${shot.productName} ${shot.title} ${decision.note}`.toLocaleLowerCase("th");
-  return (filters.product === "all" || shot.product === filters.product)
-    && (filters.status === "all" || status === filters.status)
-    && (!filters.search || searchText.includes(filters.search));
-}
-
-function render() {
-  elements.gallery.replaceChildren();
-  const visibleShots = shots.filter(matchesFilters);
-
-  visibleShots.forEach((shot) => {
-    const card = elements.shotTemplate.content.firstElementChild.cloneNode(true);
-    const decision = review[shot.id] || emptyDecision();
-    const image = card.querySelector(".shot-image");
-    const keepButton = card.querySelector(".keep-button");
-    const banButton = card.querySelector(".ban-button");
-    const noteInput = card.querySelector(".note-input");
-
-    card.dataset.shotId = shot.id;
-    card.dataset.state = decision.status;
-    const imgEl = image.querySelector(".shot-thumb");
-    if (imgEl) {
-      imgEl.src = shot.image;
-      imgEl.alt = shot.title;
-    }
-    image.querySelector(".timecode").textContent = shot.timecode;
-    card.querySelector(".product-name").textContent = shot.productName;
-    card.querySelector(".shot-title").textContent = shot.title;
-    card.querySelector(".shot-meta").textContent = `${shot.id} · ${shot.duration}`;
-    card.querySelector(".status-dot").ariaLabel = decision.status === "keep"
-      ? "เก็บแล้ว"
-      : decision.status === "ban" ? "แบนแล้ว" : "รอตรวจ";
-    noteInput.value = decision.note;
-    keepButton.classList.toggle("is-active", decision.status === "keep");
-    banButton.classList.toggle("is-active", decision.status === "ban");
-    keepButton.setAttribute("aria-pressed", String(decision.status === "keep"));
-    banButton.setAttribute("aria-pressed", String(decision.status === "ban"));
-
-    image.addEventListener("click", () => openPreview(shot));
-    keepButton.addEventListener("click", () => setStatus(shot.id, "keep"));
-    banButton.addEventListener("click", () => setStatus(shot.id, "ban"));
-    noteInput.addEventListener("input", (event) => {
-      review[shot.id].note = event.target.value;
-      saveReview();
-    });
-
-    elements.gallery.append(card);
-  });
-
-  elements.emptyState.hidden = visibleShots.length !== 0;
-  updateStats();
-  refreshIcons();
-}
-
-function updateStats() {
-  const keep = shots.filter((shot) => review[shot.id]?.status === "keep").length;
-  const ban = shots.filter((shot) => review[shot.id]?.status === "ban").length;
-  elements.totalStat.textContent = String(shots.length);
-  elements.keepStat.textContent = String(keep);
-  elements.banStat.textContent = String(ban);
-  elements.pendingStat.textContent = String(shots.length - keep - ban);
-  elements.selectedCount.textContent = String(keep + ban);
-}
-
-function setStatus(shotId, nextStatus) {
-  const current = review[shotId]?.status || "";
-  review[shotId].status = current === nextStatus ? "" : nextStatus;
-  saveReview();
-  render();
-}
-
-function setSegment(container, button) {
-  container.querySelectorAll(".segment").forEach((segment) => {
-    const active = segment === button;
-    segment.classList.toggle("is-active", active);
-    segment.setAttribute("aria-selected", String(active));
-  });
-}
-
-function buildExport() {
-  const reviewedAt = new Date().toISOString();
-  return {
-    version: 1,
-    source: "SP Tak Gallery demo",
-    reviewedAt,
-    keep: shots.filter((shot) => review[shot.id].status === "keep").map(exportShot),
-    ban: shots.filter((shot) => review[shot.id].status === "ban").map(exportShot),
-    pending: shots.filter((shot) => !review[shot.id].status).map(exportShot),
-  };
-}
-
-function exportShot(shot) {
-  return {
-    id: shot.id,
-    product: shot.productName,
-    title: shot.title,
-    timecode: shot.timecode,
-    note: review[shot.id].note.trim(),
-  };
-}
-
-function exportAsText(data) {
-  const lines = ["# 🎬 สรุปผลการคัดเลือกช็อต (SP Tak Shot Review)", ""];
-  if (data.keep.length > 0) {
-    lines.push(`## ✅ ช็อตที่เลือกใช้ (Keep: ${data.keep.length} ช็อต)`);
-    data.keep.forEach((item) => {
-      lines.push(`- [${item.product}] ${item.id} @ ${item.timecode} | ${item.title}${item.note ? ` (หมายเหตุ: ${item.note})` : ""}`);
-    });
-    lines.push("");
+function switchTab(prodCode) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.prod-section').forEach(s => s.classList.remove('active'));
+  
+  if (event && event.target) {
+    event.target.classList.add('active');
   }
-  if (data.ban.length > 0) {
-    lines.push(`## ❌ ช็อตที่สั่งแบน (Ban: ${data.ban.length} ช็อต)`);
-    data.ban.forEach((item) => {
-      lines.push(`- [${item.product}] ${item.id} @ ${item.timecode} | ${item.title}${item.note ? ` (เหตุผล: ${item.note})` : ""}`);
-    });
-    lines.push("");
-  }
-  if (data.pending.length > 0) {
-    lines.push(`## ⏳ ช็อตที่รอตรวจ (${data.pending.length} ช็อต)`);
-    data.pending.forEach((item) => {
-      lines.push(`- [${item.product}] ${item.id} @ ${item.timecode} | ${item.title}`);
-    });
-    lines.push("");
-  }
-  return lines.join("\n").trim();
+  const targetSec = document.getElementById('sec_' + prodCode);
+  if (targetSec) targetSec.classList.add('active');
 }
 
-function renderSummary() {
-  const data = buildExport();
-  elements.summaryContent.replaceChildren();
-  [["เก็บ (Keep)", data.keep, "keep"], ["แบน (Ban)", data.ban, "ban"], ["รอตรวจ", data.pending, "pending"]]
-    .forEach(([label, items, state]) => {
-      const section = document.createElement("section");
-      section.className = "summary-block";
-      const heading = document.createElement("h3");
-      heading.textContent = `${label} (${items.length})`;
-      section.append(heading);
-
-      if (!items.length) {
-        const empty = document.createElement("p");
-        empty.className = "summary-empty";
-        empty.textContent = "ไม่มีรายการ";
-        section.append(empty);
-      } else {
-        const list = document.createElement("ul");
-        items.forEach((item) => {
-          const listItem = document.createElement("li");
-          const details = document.createElement("span");
-          const title = document.createElement("strong");
-          const timecode = document.createElement("span");
-          title.textContent = `${item.id} · ${item.title}`;
-          timecode.textContent = item.timecode;
-          details.append(title);
-          if (item.note) {
-            const note = document.createElement("span");
-            note.className = "summary-note";
-            note.textContent = item.note;
-            details.append(note);
-          }
-          listItem.dataset.state = state;
-          listItem.append(details, timecode);
-          list.append(listItem);
-        });
-        section.append(list);
+function handleFrameClick(e, prod, folder, sec, label, idx) {
+  const el = e.currentTarget;
+  
+  // 1. Mobile Range Mode
+  if (rangeModeActive) {
+    if (!rangeStartFrame || rangeStartFrame.dataset.folder !== folder) {
+      document.querySelectorAll('.range-anchor').forEach(c => c.classList.remove('range-anchor'));
+      rangeStartFrame = el;
+      el.classList.add('range-anchor');
+      if (!selectedFrames.includes(el)) {
+        selectedFrames.push(el);
+        el.classList.add('selected');
       }
-      elements.summaryContent.append(section);
-    });
+    } else {
+      const startIdx = parseInt(rangeStartFrame.dataset.idx);
+      const endIdx = idx;
+      const minI = Math.min(startIdx, endIdx);
+      const maxI = Math.max(startIdx, endIdx);
+      
+      const grid = el.parentElement;
+      const allCards = Array.from(grid.querySelectorAll('.frame-item'));
+      
+      for (let i = minI; i <= maxI; i++) {
+        const card = allCards[i];
+        if (!selectedFrames.includes(card)) {
+          selectedFrames.push(card);
+          card.classList.add('selected');
+        }
+      }
+      rangeStartFrame.classList.remove('range-anchor');
+      rangeStartFrame = null;
+    }
+    updateFloatingBar();
+    return;
+  }
+  
+  // 2. PC Shift + Click
+  if (e.shiftKey && lastClickedFrame && lastClickedFrame.dataset.folder === folder) {
+    const startIdx = parseInt(lastClickedFrame.dataset.idx);
+    const endIdx = idx;
+    const minI = Math.min(startIdx, endIdx);
+    const maxI = Math.max(startIdx, endIdx);
+    
+    const grid = el.parentElement;
+    const allCards = Array.from(grid.querySelectorAll('.frame-item'));
+    
+    for (let i = minI; i <= maxI; i++) {
+      const card = allCards[i];
+      if (!selectedFrames.includes(card)) {
+        selectedFrames.push(card);
+        card.classList.add('selected');
+      }
+    }
+  } else {
+    // Single Click toggle
+    if (selectedFrames.includes(el)) {
+      selectedFrames = selectedFrames.filter(item => item !== el);
+      el.classList.remove('selected');
+    } else {
+      selectedFrames.push(el);
+      el.classList.add('selected');
+    }
+  }
+  
+  lastClickedFrame = el;
+  updateFloatingBar();
 }
 
-function openPreview(shot) {
-  elements.previewImage.innerHTML = `<img src="${shot.image}" alt="${shot.title}">`;
-  elements.previewProduct.textContent = shot.productName;
-  elements.previewTitle.textContent = shot.title;
-  elements.previewTimecode.textContent = shot.timecode;
-  elements.previewDialog.showModal();
+function updateFloatingBar() {
+  const bar = document.getElementById('floating-bar');
+  const countEl = document.getElementById('sel-count');
+  const rangeEl = document.getElementById('sel-range');
+  const durEl = document.getElementById('sel-dur');
+  
+  if (selectedFrames.length === 0) {
+    bar.classList.remove('show');
+    return;
+  }
+  
+  selectedFrames.sort((a, b) => parseFloat(a.dataset.sec) - parseFloat(b.dataset.sec));
+  const first = selectedFrames[0];
+  const last = selectedFrames[selectedFrames.length - 1];
+  
+  const minSec = parseFloat(first.dataset.sec);
+  const maxSec = parseFloat(last.dataset.sec);
+  const totalDur = (maxSec - minSec + 2.0).toFixed(1);
+  
+  countEl.innerText = selectedFrames.length;
+  rangeEl.innerText = `${first.dataset.label} - ${last.dataset.label}`;
+  durEl.innerText = `${totalDur}s`;
+  
+  bar.classList.add('show');
 }
 
-async function copySummary() {
-  const text = exportAsText(buildExport());
-  try {
-    await navigator.clipboard.writeText(text);
-    showToast("คัดลอกสรุปสำหรับส่งให้ AI แล้ว");
-  } catch {
-    showToast("ไม่สามารถคัดลอกได้อัตโนมัติ");
+function selectAllInFile(prod, folder) {
+  const cardId = `${prod}_${folder}`;
+  const grid = document.getElementById(`grid_${cardId}`);
+  if (!grid) return;
+  
+  grid.querySelectorAll('.frame-item').forEach(card => {
+    if (!selectedFrames.includes(card)) {
+      selectedFrames.push(card);
+      card.classList.add('selected');
+    }
+  });
+  updateFloatingBar();
+}
+
+function clearFileSelection(prod, folder) {
+  const cardId = `${prod}_${folder}`;
+  const grid = document.getElementById(`grid_${cardId}`);
+  if (!grid) return;
+  
+  grid.querySelectorAll('.frame-item').forEach(card => {
+    selectedFrames = selectedFrames.filter(c => c !== card);
+    card.classList.remove('selected');
+  });
+  updateFloatingBar();
+}
+
+function clearActiveSelection() {
+  selectedFrames.forEach(el => el.classList.remove('selected', 'range-anchor'));
+  selectedFrames = [];
+  lastClickedFrame = null;
+  rangeStartFrame = null;
+  updateFloatingBar();
+}
+
+function applyTagToSelection(type) {
+  if (selectedFrames.length === 0) return;
+  const comment = document.getElementById('comment-input').value.trim();
+  
+  selectedFrames.sort((a, b) => parseFloat(a.dataset.sec) - parseFloat(b.dataset.sec));
+  const first = selectedFrames[0];
+  const last = selectedFrames[selectedFrames.length - 1];
+  const prod = first.dataset.prod;
+  const prodName = first.dataset.prodname;
+  const file = first.dataset.file;
+  const folder = first.dataset.folder;
+  
+  const startSec = parseFloat(first.dataset.sec);
+  const endSec = parseFloat(last.dataset.sec);
+  const key = `${prod}__${folder}__${startSec}_${endSec}`;
+  
+  marks[key] = {
+    id: key,
+    prod: prod,
+    prodName: prodName,
+    file: file,
+    folder: folder,
+    start: startSec,
+    end: endSec,
+    startLabel: first.dataset.label,
+    endLabel: last.dataset.label,
+    duration: parseFloat((endSec - startSec + 2.0).toFixed(1)),
+    type: type, // APPROVED or BANNED
+    comment: comment,
+    frameIds: selectedFrames.map(el => el.id)
+  };
+  
+  localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
+  
+  selectedFrames.forEach(el => {
+    el.classList.remove('marked-approved', 'marked-banned', 'range-anchor');
+    el.classList.add(type === 'APPROVED' ? 'marked-approved' : 'marked-banned');
+    
+    el.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
+    
+    const tagBadge = document.createElement('div');
+    tagBadge.className = `tag-badge ${type.toLowerCase()}`;
+    tagBadge.innerText = type === 'APPROVED' ? '✅ เอา' : '❌ แบน';
+    el.appendChild(tagBadge);
+    
+    if (comment) {
+      const cBadge = document.createElement('div');
+      cBadge.className = 'comment-bubble';
+      cBadge.innerText = '💬';
+      cBadge.title = comment;
+      el.appendChild(cBadge);
+    }
+  });
+  
+  document.getElementById('comment-input').value = '';
+  clearActiveSelection();
+  updateBasketBadge();
+  renderBasketList();
+  showToast(type === 'APPROVED' ? 'บันทึกช็อตที่เลือก (Keep) แล้ว' : 'บันทึกช็อตที่สั่งแบน (Ban) แล้ว');
+}
+
+function restoreMarksUI() {
+  Object.values(marks).forEach(m => {
+    if (m.frameIds) {
+      m.frameIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.classList.add(m.type === 'APPROVED' ? 'marked-approved' : 'marked-banned');
+          
+          const tagBadge = document.createElement('div');
+          tagBadge.className = `tag-badge ${m.type.toLowerCase()}`;
+          tagBadge.innerText = m.type === 'APPROVED' ? '✅ เอา' : '❌ แบน';
+          el.appendChild(tagBadge);
+          
+          if (m.comment) {
+            const cBadge = document.createElement('div');
+            cBadge.className = 'comment-bubble';
+            cBadge.innerText = '💬';
+            cBadge.title = m.comment;
+            el.appendChild(cBadge);
+          }
+        }
+      });
+    }
+  });
+}
+
+function toggleBasket() {
+  const modal = document.getElementById('basket-modal');
+  const backdrop = document.getElementById('backdrop');
+  modal.classList.toggle('open');
+  backdrop.classList.toggle('show');
+  if (modal.classList.contains('open')) {
+    renderBasketList();
   }
 }
 
-function downloadSummary() {
-  const data = buildExport();
+function updateBasketBadge() {
+  const total = Object.keys(marks).length;
+  document.getElementById('total-marked-badge').innerText = total;
+}
+
+function renderBasketList() {
+  const container = document.getElementById('basket-list');
+  const items = Object.values(marks);
+  
+  if (items.length === 0) {
+    container.innerHTML = '<div style="color:var(--text-muted); text-align:center; padding:40px 0; font-size:13px;">ยังไม่มีช็อตที่มาร์กไว้<br>แตะเลือกรูปแล้วกด "มาร์กเป็น เอา/แบน" ได้เลยครับ</div>';
+    return;
+  }
+  
+  let html = '';
+  items.forEach(m => {
+    const typeLabel = m.type === 'APPROVED' ? '✅ เอา (Keep)' : '❌ แบน (Banned)';
+    const typeClass = m.type === 'APPROVED' ? 'approved' : 'banned';
+    
+    html += `
+      <div class="curated-item ${typeClass}">
+        <button class="btn-remove-item" onclick="removeMark('${m.id}')">✕</button>
+        <div class="curated-title">${typeLabel} - ${m.file}</div>
+        <div class="curated-meta">⏱️ ช่วง: ${m.startLabel} ➔ ${m.endLabel} (~${m.duration}s) | ${m.prodName || m.prod}</div>
+        ${m.comment ? `<div class="curated-comment">💬 หมายเหตุ: ${m.comment}</div>` : ''}
+      </div>
+    `;
+  });
+  container.innerHTML = html;
+}
+
+function removeMark(id) {
+  const m = marks[id];
+  if (m) {
+    if (m.frameIds) {
+      m.frameIds.forEach(fid => {
+        const el = document.getElementById(fid);
+        if (el) {
+          el.classList.remove('marked-approved', 'marked-banned');
+          el.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
+        }
+      });
+    }
+    delete marks[id];
+    localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
+    updateBasketBadge();
+    renderBasketList();
+  }
+}
+
+function clearAllMarks() {
+  if (!confirm('ต้องการล้างรายการที่มาร์กไว้ทั้งหมดใช่หรือไม่?')) return;
+  marks = {};
+  localStorage.removeItem('sp_tak_gallery_marks');
+  document.querySelectorAll('.frame-item').forEach(el => {
+    el.classList.remove('marked-approved', 'marked-banned');
+    el.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
+  });
+  updateBasketBadge();
+  renderBasketList();
+  showToast('ล้างรายการทั้งหมดเรียบร้อย');
+}
+
+function copyCuratedPrompt() {
+  const items = Object.values(marks);
+  if (items.length === 0) {
+    alert('ยังไม่มีรายการที่มาร์กไว้ครับ');
+    return;
+  }
+  
+  let prompt = `# 🎬 คำสั่งเลือกและแบนช็อตฟุตเทจ (SP Tak Curation)\n\n`;
+  
+  const approved = items.filter(i => i.type === 'APPROVED');
+  const banned = items.filter(i => i.type === 'BANNED');
+  
+  if (approved.length > 0) {
+    prompt += `## ✅ [ช็อตที่เลือกใช้ (Approved Shots)]:\n`;
+    approved.forEach((a, idx) => {
+      prompt += `${idx + 1}. ไฟล์: ${a.file} | ช่วง: ${a.start}s - ${a.end}s (~${a.duration}s)${a.comment ? ` | คำสั่ง: ${a.comment}` : ''}\n`;
+    });
+    prompt += `\n`;
+  }
+  
+  if (banned.length > 0) {
+    prompt += `## ❌ [ช็อตที่สั่งแบน ห้ามใช้เด็ดขาด (Banned Shots)]:\n`;
+    banned.forEach((b, idx) => {
+      prompt += `${idx + 1}. ไฟล์: ${b.file} | ช่วง: ${b.start}s - ${b.end}s${b.comment ? ` | เหตุผล: ${b.comment}` : ''}\n`;
+    });
+  }
+  
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(prompt).then(() => {
+      showToast('คัดลอกคำสั่งสำหรับส่งให้ AI เรียบร้อย!');
+    });
+  } else {
+    alert(prompt);
+  }
+}
+
+function downloadJSON() {
+  const items = Object.values(marks);
+  const data = {
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    items: items
+  };
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement("a");
   anchor.href = url;
-  anchor.download = `sp-tak-review-${new Date().toISOString().slice(0, 10)}.json`;
+  anchor.download = `sp-tak-curation-${new Date().toISOString().slice(0, 10)}.json`;
   anchor.click();
   URL.revokeObjectURL(url);
 }
 
-function resetReview() {
-  if (!window.confirm("ล้างผลการคัดและหมายเหตุทั้งหมดหรือไม่")) return;
-  review = Object.fromEntries(shots.map((shot) => [shot.id, emptyDecision()]));
-  saveReview();
-  renderSummary();
-  render();
-  showToast("ล้างผลการตรวจแล้ว");
+function openZoom(src, title, time) {
+  const modal = document.getElementById('preview-modal');
+  const img = document.getElementById('preview-img');
+  const titleEl = document.getElementById('preview-meta-title');
+  const timeEl = document.getElementById('preview-meta-time');
+  
+  img.src = src;
+  titleEl.innerText = title;
+  timeEl.innerText = time;
+  modal.classList.add('show');
 }
 
-function showToast(message) {
-  window.clearTimeout(toastTimer);
-  elements.toast.textContent = message;
-  elements.toast.classList.add("is-visible");
-  toastTimer = window.setTimeout(() => elements.toast.classList.remove("is-visible"), 1800);
+function closePreview(e) {
+  document.getElementById('preview-modal').classList.remove('show');
 }
 
-function refreshIcons() {
-  if (window.lucide) window.lucide.createIcons();
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.innerText = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
 }
-
-elements.productFilters.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-product]");
-  if (!button) return;
-  filters.product = button.dataset.product;
-  setSegment(elements.productFilters, button);
-  render();
-});
-
-elements.statusFilters.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-status]");
-  if (!button) return;
-  filters.status = button.dataset.status;
-  setSegment(elements.statusFilters, button);
-  render();
-});
-
-elements.searchInput.addEventListener("input", (event) => {
-  filters.search = event.target.value.trim().toLocaleLowerCase("th");
-  render();
-});
-
-document.querySelector("#openSummary").addEventListener("click", () => {
-  renderSummary();
-  elements.summaryDialog.showModal();
-});
-document.querySelector("#copyReview").addEventListener("click", copySummary);
-document.querySelector("#downloadReview").addEventListener("click", downloadSummary);
-document.querySelector("#resetReview").addEventListener("click", resetReview);
-
-[elements.summaryDialog, elements.previewDialog].forEach((dialog) => {
-  dialog.addEventListener("click", (event) => {
-    if (event.target === dialog) dialog.close();
-  });
-});
-
-render();
