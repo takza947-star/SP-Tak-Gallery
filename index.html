@@ -71,6 +71,7 @@
           <button class="segment" type="button" data-product="fridge" aria-selected="false">ตู้เย็น TCL</button>
           <button class="segment" type="button" data-product="rack" aria-selected="false">ชั้นวาง 5 ชั้น</button>
           <button class="segment" type="button" data-product="washer" aria-selected="false">เครื่องซักผ้า KASHIWA</button>
+          <button class="segment" type="button" data-product="light" aria-selected="false">ไฟกระพริบ</button>
         </div>
       </div>
       <div class="filter-group">
@@ -94,7 +95,7 @@
   <template id="shotTemplate">
     <article class="shot-card">
       <button class="shot-image" type="button" aria-label="เปิดภาพขนาดใหญ่">
-        <span class="demo-badge">DEMO</span>
+        <img class="shot-thumb" src="" alt="" loading="lazy">
         <span class="timecode"></span>
       </button>
       <div class="shot-body">
@@ -169,6 +170,7 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="shots.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

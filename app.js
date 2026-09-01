@@ -1,61 +1,9 @@
 const STORAGE_KEY = "sp-tak-gallery-review-v1";
 
-const shots = [
-  {
-    id: "DEMO_FRIDGE_001",
-    product: "fridge",
-    productName: "ตู้เย็น TCL",
-    title: "ตัวเครื่องมุมตรง",
-    timecode: "00:08",
-    duration: "2.0 วินาที",
-    sprite: "sprite-fridge-closed",
-  },
-  {
-    id: "DEMO_FRIDGE_002",
-    product: "fridge",
-    productName: "ตู้เย็น TCL",
-    title: "ไฟภายในและชั้นวาง",
-    timecode: "00:24",
-    duration: "2.0 วินาที",
-    sprite: "sprite-fridge-open",
-  },
-  {
-    id: "DEMO_RACK_001",
-    product: "rack",
-    productName: "ชั้นวาง 5 ชั้น",
-    title: "กางชั้นวางเต็มตัว",
-    timecode: "00:12",
-    duration: "2.0 วินาที",
-    sprite: "sprite-rack-open",
-  },
-  {
-    id: "DEMO_RACK_002",
-    product: "rack",
-    productName: "ชั้นวาง 5 ชั้น",
-    title: "รายละเอียดล้อและตัวล็อก",
-    timecode: "00:31",
-    duration: "2.0 วินาที",
-    sprite: "sprite-rack-lock",
-  },
-  {
-    id: "DEMO_WASHER_001",
-    product: "washer",
-    productName: "เครื่องซักผ้า KASHIWA",
-    title: "ตัวเครื่องและแผงควบคุม",
-    timecode: "00:06",
-    duration: "2.0 วินาที",
-    sprite: "sprite-washer-open",
-  },
-  {
-    id: "DEMO_WASHER_002",
-    product: "washer",
-    productName: "เครื่องซักผ้า KASHIWA",
-    title: "น้ำวนภายในถัง",
-    timecode: "00:18",
-    duration: "2.0 วินาที",
-    sprite: "sprite-washer-spin",
-  },
-];
+// `shots` is provided by shots.js
+if (typeof shots === "undefined") {
+  window.shots = [];
+}
 
 const filters = {
   product: "all",
@@ -135,7 +83,11 @@ function render() {
 
     card.dataset.shotId = shot.id;
     card.dataset.state = decision.status;
-    image.classList.add(shot.sprite);
+    const imgEl = image.querySelector(".shot-thumb");
+    if (imgEl) {
+      imgEl.src = shot.image;
+      imgEl.alt = shot.title;
+    }
     image.querySelector(".timecode").textContent = shot.timecode;
     card.querySelector(".product-name").textContent = shot.productName;
     card.querySelector(".shot-title").textContent = shot.title;
@@ -281,7 +233,7 @@ function renderSummary() {
 }
 
 function openPreview(shot) {
-  elements.previewImage.className = `preview-image ${shot.sprite}`;
+  elements.previewImage.innerHTML = `<img src="${shot.image}" alt="${shot.title}">`;
   elements.previewProduct.textContent = shot.productName;
   elements.previewTitle.textContent = shot.title;
   elements.previewTimecode.textContent = shot.timecode;
