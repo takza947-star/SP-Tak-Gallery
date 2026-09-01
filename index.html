@@ -9,14 +9,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260901_v4">
+<link rel="stylesheet" href="styles.css?v=20260901_v6">
 </head>
 <body>
 
 <header>
   <div class="brand-group">
     <h1>🎬 <span>SP Tak</span> Shot Review Gallery</h1>
-    <p class="desc">สกัดทุก <b>2 วินาที</b> รวม <b>1204</b> ช็อตละเอียด | แตะรูปเลือก ➔ พิมพ์คอมเมนต์ / มาร์ก <b>เอา / แบน</b></p>
+    <p class="desc">สกัดทุก <b>2 วินาที</b> รวม <b>1204</b> ช็อตละเอียด | แตะรูปเลือก ➔ พิมพ์คอมเมนต์ / มาร์ก <b>เอา / แบน / ลบมาร์ก</b></p>
   </div>
   <div class="header-actions">
     <button class="btn-range-mode" id="btn-range-mode" onclick="toggleRangeMode()" title="แตะรูปเริ่มต้นแล้วแตะรูปสุดท้ายเพื่อเลือกลากทั้งช่วง">
@@ -24,6 +24,9 @@
     </button>
     <button class="btn-basket" onclick="toggleBasket()">
       📋 สรุปรายการ <span class="badge-count" id="total-marked-badge">0</span>
+    </button>
+    <button class="btn-mini-danger" style="padding: 8px 14px; border-radius: 8px; font-weight: 700; cursor: pointer;" onclick="clearAllMarks()" title="ล้างรายการที่มาร์กทั้งหมด">
+      🗑️ ล้างทั้งหมด
     </button>
   </div>
 </header>
@@ -51,7 +54,7 @@
           <span class="file-badge badge-accent">🎞️ 183 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('rack', 'IMG_1465_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('rack', 'IMG_1465_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('rack', 'IMG_1465_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -2634,7 +2637,7 @@
           <span class="file-badge badge-accent">🎞️ 65 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('rack', 'IMG_1466_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('rack', 'IMG_1466_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('rack', 'IMG_1466_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -3565,7 +3568,7 @@
           <span class="file-badge badge-accent">🎞️ 142 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('rack', 'IMG_1467_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('rack', 'IMG_1467_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('rack', 'IMG_1467_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -5574,7 +5577,7 @@
           <span class="file-badge badge-accent">🎞️ 33 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('rack', 'IMG_1468_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('rack', 'IMG_1468_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('rack', 'IMG_1468_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -6060,7 +6063,7 @@
           <span class="file-badge badge-accent">🎞️ 295 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('fridge', 'IMG_1271_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('fridge', 'IMG_1271_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('fridge', 'IMG_1271_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -10214,7 +10217,7 @@
           <span class="file-badge badge-accent">🎞️ 97 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'IMG_0883_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'IMG_0883_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'IMG_0883_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -11593,7 +11596,7 @@
           <span class="file-badge badge-accent">🎞️ 5 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'IMG_0886_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'IMG_0886_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'IMG_0886_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -11684,7 +11687,7 @@
           <span class="file-badge badge-accent">🎞️ 6 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'IMG_0889_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'IMG_0889_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'IMG_0889_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -11789,7 +11792,7 @@
           <span class="file-badge badge-accent">🎞️ 7 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'IMG_0890_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'IMG_0890_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'IMG_0890_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -11908,7 +11911,7 @@
           <span class="file-badge badge-accent">🎞️ 69 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'IMG_0892_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'IMG_0892_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'IMG_0892_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -12895,7 +12898,7 @@
           <span class="file-badge badge-accent">🎞️ 14 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'IMG_0894_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'IMG_0894_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'IMG_0894_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -13112,7 +13115,7 @@
           <span class="file-badge badge-accent">🎞️ 6 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'IMG_1244_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'IMG_1244_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'IMG_1244_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -13217,7 +13220,7 @@
           <span class="file-badge badge-accent">🎞️ 31 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'copy_D8AB3069-50A7-4563-A258-0AD704688414_mov')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'copy_D8AB3069-50A7-4563-A258-0AD704688414_mov')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'copy_D8AB3069-50A7-4563-A258-0AD704688414_mov')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -13672,7 +13675,7 @@
           <span class="file-badge badge-accent">🎞️ 89 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('washer', 'VID_20260731_203124_mp4')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('washer', 'VID_20260731_203124_mp4')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('washer', 'VID_20260731_203124_mp4')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -14942,7 +14945,7 @@
           <span class="file-badge badge-accent">🎞️ 3 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('light', 'C0135_MP4')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('light', 'C0135_MP4')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('light', 'C0135_MP4')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -15005,7 +15008,7 @@
           <span class="file-badge badge-accent">🎞️ 2 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('light', 'C0136_MP4')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('light', 'C0136_MP4')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('light', 'C0136_MP4')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -15054,7 +15057,7 @@
           <span class="file-badge badge-accent">🎞️ 1 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('light', 'C0139_MP4')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('light', 'C0139_MP4')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('light', 'C0139_MP4')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -15089,7 +15092,7 @@
           <span class="file-badge badge-accent">🎞️ 48 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('light', 'MVI_0075_MOV')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('light', 'MVI_0075_MOV')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('light', 'MVI_0075_MOV')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -15782,7 +15785,7 @@
           <span class="file-badge badge-accent">🎞️ 17 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('light', '0707_mp4')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('light', '0707_mp4')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('light', '0707_mp4')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -16041,7 +16044,7 @@
           <span class="file-badge badge-accent">🎞️ 91 เฟรม (ทุก 2 วิ)</span>
           <div class="file-controls">
             <button class="btn-mini" onclick="selectAllInFile('light', 'C0140_MP4')">เลือกทั้งหมด</button>
-            <button class="btn-mini" onclick="clearFileSelection('light', 'C0140_MP4')">ล้าง</button>
+            <button class="btn-mini btn-mini-danger" onclick="clearFileMarks('light', 'C0140_MP4')">🧹 ล้างมาร์กในไฟล์นี้</button>
           </div>
         </div>
       </div>
@@ -17340,8 +17343,11 @@
     <button class="btn-action btn-ban" onclick="applyTagToSelection('BANNED')">
       🚫 แบน (Ban)
     </button>
+    <button class="btn-action btn-unmark" onclick="removeTagFromSelection()">
+      🧹 ลบมาร์ก
+    </button>
     <button class="btn-action btn-clear" onclick="clearActiveSelection()">
-      ✕ ล้าง
+      ✕ ยกเลิก
     </button>
   </div>
 </div>

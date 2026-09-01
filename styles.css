@@ -329,8 +329,12 @@ h1 span { color: var(--accent); }
 }
 .btn-approve { background: var(--accent-green); color: #000; }
 .btn-ban { background: var(--accent-red); color: #fff; }
+.btn-unmark { background: #2f364a; color: #ff9f43; border: 1px solid rgba(255, 159, 67, 0.4); }
+.btn-unmark:hover { background: #ff9f43; color: #000; }
 .btn-json { background: #2a3144; color: var(--accent-blue); border: 1px solid rgba(0,210,255,0.3); }
 .btn-clear { background: #2a3144; color: var(--text-muted); flex: 0 0 auto; }
+.btn-mini-danger { background: rgba(255, 71, 87, 0.15) !important; color: #ff4757 !important; border: 1px solid rgba(255, 71, 87, 0.3) !important; }
+.btn-mini-danger:hover { background: #ff4757 !important; color: #fff !important; }
 
 .comment-input {
   background: #0a0c12;

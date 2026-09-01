@@ -152,9 +152,35 @@ function clearFileSelection(prod, folder) {
   
   grid.querySelectorAll('.frame-item').forEach(card => {
     selectedFrames = selectedFrames.filter(c => c !== card);
-    card.classList.remove('selected');
+    card.classList.remove('selected', 'range-anchor');
   });
   updateFloatingBar();
+}
+
+function clearFileMarks(prod, folder) {
+  const cardId = `${prod}_${folder}`;
+  const grid = document.getElementById(`grid_${cardId}`);
+  if (!grid) return;
+  
+  // Remove from marks dictionary
+  Object.keys(marks).forEach(k => {
+    if (marks[k].folder === folder && marks[k].prod === prod) {
+      delete marks[k];
+    }
+  });
+  localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
+  
+  // Remove visual classes and tags
+  grid.querySelectorAll('.frame-item').forEach(card => {
+    selectedFrames = selectedFrames.filter(c => c !== card);
+    card.classList.remove('selected', 'marked-approved', 'marked-banned', 'range-anchor');
+    card.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
+  });
+  
+  updateFloatingBar();
+  updateBasketBadge();
+  renderBasketList();
+  showToast(`ล้างมาร์กใน ${folder} เรียบร้อย`);
 }
 
 function clearActiveSelection() {
@@ -163,6 +189,47 @@ function clearActiveSelection() {
   lastClickedFrame = null;
   rangeStartFrame = null;
   updateFloatingBar();
+}
+
+function removeTagFromSelection() {
+  if (selectedFrames.length === 0) return;
+  
+  const selectedIds = new Set(selectedFrames.map(el => el.id));
+  
+  // Remove from marks dictionary
+  Object.keys(marks).forEach(key => {
+    const m = marks[key];
+    const hasOverlap = (m.frameIds && m.frameIds.some(fid => selectedIds.has(fid))) ||
+      selectedFrames.some(el => {
+        const sec = parseFloat(el.dataset.sec);
+        return el.dataset.folder === m.folder && sec >= m.start && sec <= m.end;
+      });
+      
+    if (hasOverlap) {
+      if (m.frameIds) {
+        m.frameIds.forEach(fid => {
+          const el = document.getElementById(fid);
+          if (el) {
+            el.classList.remove('marked-approved', 'marked-banned');
+            el.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
+          }
+        });
+      }
+      delete marks[key];
+    }
+  });
+  
+  // Clean DOM on selected elements
+  selectedFrames.forEach(el => {
+    el.classList.remove('marked-approved', 'marked-banned');
+    el.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
+  });
+  
+  localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
+  clearActiveSelection();
+  updateBasketBadge();
+  renderBasketList();
+  showToast('🧹 ลบมาร์กของช็อตที่เลือกเรียบร้อย');
 }
 
 function applyTagToSelection(type) {
@@ -207,7 +274,7 @@ function applyTagToSelection(type) {
     
     const tagBadge = document.createElement('div');
     tagBadge.className = `tag-badge ${type.toLowerCase()}`;
-    tagBadge.innerText = type === 'APPROVED' ? '✅ เอา' : '❌ แบน';
+    tagBadge.innerText = type === 'APPROVED' ? '✅ เอา' : '🚫 แบน';
     el.appendChild(tagBadge);
     
     if (comment) {
@@ -228,28 +295,46 @@ function applyTagToSelection(type) {
 
 function restoreMarksUI() {
   Object.values(marks).forEach(m => {
-    if (m.frameIds) {
+    if (m.frameIds && m.frameIds.length > 0) {
       m.frameIds.forEach(id => {
         const el = document.getElementById(id);
         if (el) {
-          el.classList.add(m.type === 'APPROVED' ? 'marked-approved' : 'marked-banned');
-          
-          const tagBadge = document.createElement('div');
-          tagBadge.className = `tag-badge ${m.type.toLowerCase()}`;
-          tagBadge.innerText = m.type === 'APPROVED' ? '✅ เอา' : '❌ แบน';
-          el.appendChild(tagBadge);
-          
-          if (m.comment) {
-            const cBadge = document.createElement('div');
-            cBadge.className = 'comment-bubble';
-            cBadge.innerText = '💬';
-            cBadge.title = m.comment;
-            el.appendChild(cBadge);
-          }
+          applyMarkToElement(el, m);
         }
       });
     }
+    // Fallback if IDs changed
+    if (m.folder && m.start !== undefined && m.end !== undefined) {
+      const folderEl = document.getElementById(`grid_${m.prod}_${m.folder}`);
+      if (folderEl) {
+        folderEl.querySelectorAll('.frame-item').forEach(el => {
+          const sec = parseFloat(el.dataset.sec);
+          if (sec >= m.start && sec <= m.end) {
+            applyMarkToElement(el, m);
+          }
+        });
+      }
+    }
   });
+}
+
+function applyMarkToElement(el, m) {
+  el.classList.remove('marked-approved', 'marked-banned');
+  el.classList.add(m.type === 'APPROVED' ? 'marked-approved' : 'marked-banned');
+  el.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
+  
+  const tagBadge = document.createElement('div');
+  tagBadge.className = `tag-badge ${m.type.toLowerCase()}`;
+  tagBadge.innerText = m.type === 'APPROVED' ? '✅ เอา' : '🚫 แบน';
+  el.appendChild(tagBadge);
+  
+  if (m.comment) {
+    const cBadge = document.createElement('div');
+    cBadge.className = 'comment-bubble';
+    cBadge.innerText = '💬';
+    cBadge.title = m.comment;
+    el.appendChild(cBadge);
+  }
 }
 
 function toggleBasket() {
@@ -278,7 +363,7 @@ function renderBasketList() {
   
   let html = '';
   items.forEach(m => {
-    const typeLabel = m.type === 'APPROVED' ? '✅ เอา (Keep)' : '❌ แบน (Banned)';
+    const typeLabel = m.type === 'APPROVED' ? '✅ เอา (Keep)' : '🚫 แบน (Banned)';
     const typeClass = m.type === 'APPROVED' ? 'approved' : 'banned';
     
     html += `
@@ -305,10 +390,23 @@ function removeMark(id) {
         }
       });
     }
+    if (m.folder && m.start !== undefined && m.end !== undefined) {
+      const folderEl = document.getElementById(`grid_${m.prod}_${m.folder}`);
+      if (folderEl) {
+        folderEl.querySelectorAll('.frame-item').forEach(el => {
+          const sec = parseFloat(el.dataset.sec);
+          if (sec >= m.start && sec <= m.end) {
+            el.classList.remove('marked-approved', 'marked-banned');
+            el.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
+          }
+        });
+      }
+    }
     delete marks[id];
     localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
     updateBasketBadge();
     renderBasketList();
+    showToast('ลบรายการมาร์กออกแล้ว');
   }
 }
 
@@ -317,12 +415,16 @@ function clearAllMarks() {
   marks = {};
   localStorage.removeItem('sp_tak_gallery_marks');
   document.querySelectorAll('.frame-item').forEach(el => {
-    el.classList.remove('marked-approved', 'marked-banned');
+    el.classList.remove('selected', 'marked-approved', 'marked-banned', 'range-anchor');
     el.querySelectorAll('.tag-badge, .comment-bubble').forEach(b => b.remove());
   });
+  selectedFrames = [];
+  lastClickedFrame = null;
+  rangeStartFrame = null;
+  updateFloatingBar();
   updateBasketBadge();
   renderBasketList();
-  showToast('ล้างรายการทั้งหมดเรียบร้อย');
+  showToast('🗑️ ล้างรายการมาร์กทั้งหมดเรียบร้อย');
 }
 
 function copyCuratedPrompt() {
