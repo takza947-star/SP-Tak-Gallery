@@ -2,8 +2,34 @@ let selectedFrames = [];
 let lastClickedFrame = null;
 let rangeModeActive = false;
 let rangeStartFrame = null;
-const savedMarks = localStorage.getItem('sp_tak_gallery_marks');
-let marks = savedMarks ? JSON.parse(savedMarks) : Object.assign({}, window.DEFAULT_MASTER_MARKS || {});
+
+let marks = {};
+try {
+  const savedMarks = localStorage.getItem('sp_tak_gallery_marks');
+  marks = savedMarks ? JSON.parse(savedMarks) : {};
+} catch(e) {
+  marks = {};
+}
+
+// Auto-populate with Master Curation if local marks are empty
+if (Object.keys(marks).length === 0 && window.DEFAULT_MASTER_MARKS) {
+  marks = Object.assign({}, window.DEFAULT_MASTER_MARKS);
+}
+
+function loadDefaultMasterMarks() {
+  if (!window.DEFAULT_MASTER_MARKS) {
+    showToast('⚠️ ไม่พบข้อมูล Master Curation ในระบบ');
+    return;
+  }
+  if (confirm('ต้องการโหลดข้อมูล Master Curation ทั้งหมด (101 ช่วงที่คัดไว้) มาทับรายการปัจจุบันใช่หรือไม่?')) {
+    marks = Object.assign({}, window.DEFAULT_MASTER_MARKS);
+    localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
+    restoreMarksUI();
+    updateBasketBadge();
+    renderBasketList();
+    showToast('✅ โหลดข้อมูล Master Curation ครบถ้วนแล้ว');
+  }
+}
 
 window.addEventListener('DOMContentLoaded', () => {
   restoreMarksUI();
