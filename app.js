@@ -2,7 +2,8 @@ let selectedFrames = [];
 let lastClickedFrame = null;
 let rangeModeActive = false;
 let rangeStartFrame = null;
-let marks = JSON.parse(localStorage.getItem('sp_tak_gallery_marks') || '{}');
+const savedMarks = localStorage.getItem('sp_tak_gallery_marks');
+let marks = savedMarks ? JSON.parse(savedMarks) : Object.assign({}, window.DEFAULT_MASTER_MARKS || {});
 
 window.addEventListener('DOMContentLoaded', () => {
   restoreMarksUI();
