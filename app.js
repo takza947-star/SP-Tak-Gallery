@@ -2,33 +2,71 @@ let selectedFrames = [];
 let lastClickedFrame = null;
 let rangeModeActive = false;
 let rangeStartFrame = null;
+const MASTER_CURATION_VERSION = '20260905_v10';
+const savedVersion = localStorage.getItem('sp_tak_master_version');
+const savedMarks = localStorage.getItem('sp_tak_gallery_marks');
 
 let marks = {};
 try {
-  const savedMarks = localStorage.getItem('sp_tak_gallery_marks');
-  marks = savedMarks ? JSON.parse(savedMarks) : {};
+  // If version changed, or local marks are missing or empty, auto-populate with Master Curation
+  if (savedVersion !== MASTER_CURATION_VERSION || !savedMarks || savedMarks === '{}' || savedMarks === '[]') {
+    marks = Object.assign({}, window.DEFAULT_MASTER_MARKS || {});
+    localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
+    localStorage.setItem('sp_tak_master_version', MASTER_CURATION_VERSION);
+  } else {
+    marks = JSON.parse(savedMarks);
+    if (Object.keys(marks).length === 0 && window.DEFAULT_MASTER_MARKS) {
+      marks = Object.assign({}, window.DEFAULT_MASTER_MARKS);
+    }
+  }
 } catch(e) {
-  marks = {};
-}
-
-// Auto-populate with Master Curation if local marks are empty
-if (Object.keys(marks).length === 0 && window.DEFAULT_MASTER_MARKS) {
-  marks = Object.assign({}, window.DEFAULT_MASTER_MARKS);
+  marks = Object.assign({}, window.DEFAULT_MASTER_MARKS || {});
 }
 
 function loadDefaultMasterMarks() {
-  if (!window.DEFAULT_MASTER_MARKS) {
+  if (!window.DEFAULT_MASTER_MARKS || Object.keys(window.DEFAULT_MASTER_MARKS).length === 0) {
     showToast('⚠️ ไม่พบข้อมูล Master Curation ในระบบ');
     return;
   }
-  if (confirm('ต้องการโหลดข้อมูล Master Curation ทั้งหมด (101 ช่วงที่คัดไว้) มาทับรายการปัจจุบันใช่หรือไม่?')) {
+  const count = Object.keys(window.DEFAULT_MASTER_MARKS).length;
+  if (confirm(`ต้องการโหลดข้อมูล Master Curation ทั้งหมด (${count} ช่วงที่คัดไว้) มาทับรายการในเครื่องนี้ใช่หรือไม่?`)) {
     marks = Object.assign({}, window.DEFAULT_MASTER_MARKS);
     localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
+    localStorage.setItem('sp_tak_master_version', MASTER_CURATION_VERSION);
     restoreMarksUI();
     updateBasketBadge();
     renderBasketList();
-    showToast('✅ โหลดข้อมูล Master Curation ครบถ้วนแล้ว');
+    showToast(`✅ โหลดข้อมูล Master Curation (${count} ช่วง) เรียบร้อยแล้ว`);
   }
+}
+
+function importJSON() {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = '.json,application/json';
+  input.onchange = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      try {
+        const imported = JSON.parse(event.target.result);
+        if (typeof imported !== 'object' || imported === null) {
+          throw new Error('รูปแบบไฟล์ไม่ถูกต้อง');
+        }
+        marks = imported;
+        localStorage.setItem('sp_tak_gallery_marks', JSON.stringify(marks));
+        restoreMarksUI();
+        updateBasketBadge();
+        renderBasketList();
+        showToast(`✅ นำเข้าข้อมูลมาร์กสำเร็จ (${Object.keys(marks).length} รายการ)`);
+      } catch(err) {
+        alert('เกิดข้อผิดพลาดในการอ่านไฟล์ JSON: ' + err.message);
+      }
+    };
+    reader.readAsText(file);
+  };
+  input.click();
 }
 
 window.addEventListener('DOMContentLoaded', () => {

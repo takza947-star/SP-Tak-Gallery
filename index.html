@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260901_pro_v9">
+<link rel="stylesheet" href="styles.css?v=20260905_v10">
 </head>
 <body>
 
@@ -21,6 +21,9 @@
   <div class="header-actions">
     <button class="btn-range-mode" id="btn-range-mode" onclick="toggleRangeMode()" title="แตะรูปเริ่มต้นแล้วแตะรูปสุดท้ายเพื่อเลือกลากทั้งช่วง">
       📏 โหมดเลือกช่วง: <b id="range-status">ปิด</b>
+    </button>
+    <button class="btn-range-mode" onclick="loadDefaultMasterMarks()" style="border-color:#38ef7d; color:#38ef7d;" title="ซิงค์และโหลดข้อมูล Master Curation 101 ช่วงล่าสุดข้ามเครื่อง">
+      🔄 ซิงค์ Master
     </button>
     <button class="btn-basket" onclick="toggleBasket()">
       📋 สรุปรายการ <span class="badge-count" id="total-marked-badge">0</span>
@@ -21246,14 +21249,17 @@
   <div class="basket-body">
     <div id="basket-list"></div>
   </div>
-  <div class="basket-footer">
-    <button class="btn-action-pro btn-approve-pro" onclick="copyCuratedPrompt()" style="flex:2;">
+  <div class="basket-footer" style="flex-wrap:wrap; gap:8px;">
+    <button class="btn-action-pro btn-approve-pro" onclick="copyCuratedPrompt()" style="flex:2; min-width:140px;">
       📋 คัดลอกคำสั่งส่ง AI
     </button>
-    <button class="btn-action-pro btn-unmark-pro" onclick="downloadJSON()" style="flex:1;">
-      💾 JSON
+    <button class="btn-action-pro btn-unmark-pro" onclick="downloadJSON()" style="flex:1;" title="ดาวน์โหลดไฟล์ JSON เก็บไว้">
+      💾 ส่งออก
     </button>
-    <button class="btn-action-pro btn-clear-pro" onclick="loadDefaultMasterMarks()" style="flex:1;" title="โหลดข้อมูล Master Curation 101 ช่วง">
+    <button class="btn-action-pro btn-unmark-pro" onclick="importJSON()" style="flex:1;" title="นำเข้าไฟล์ JSON จากเครื่องอื่น">
+      📥 นำเข้า
+    </button>
+    <button class="btn-action-pro btn-clear-pro" onclick="loadDefaultMasterMarks()" style="flex:1;" title="ซิงค์และโหลดข้อมูล Master Curation 101 ช่วง">
       🔄 Master
     </button>
     <button class="btn-action-pro btn-clear-pro" onclick="clearAllMarks()" style="flex:1;">
@@ -21275,8 +21281,8 @@
 
 <div id="toast"></div>
 
-<script src="shots.js?v=20260901_pro_v9"></script>
-<script src="curation_default.js?v=20260901_pro_v9"></script>
-<script src="app.js?v=20260901_pro_v9"></script>
+<script src="shots.js?v=20260905_v10"></script>
+<script src="curation_default.js?v=20260905_v10"></script>
+<script src="app.js?v=20260905_v10"></script>
 </body>
 </html>
