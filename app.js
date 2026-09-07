@@ -988,13 +988,42 @@ function renderCanonicalCards() {
 }
 
 function setCanonicalStatus(canonicalShotId, newStatus) {
+  // 1. Ensure canonicalCatalog is loaded from LocalStorage
+  if (!canonicalCatalog || canonicalCatalog.length === 0) {
+    try {
+      const raw = localStorage.getItem(CANONICAL_STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          canonicalCatalog = parsed;
+        }
+      }
+    } catch(e) {}
+  }
+  if (!canonicalCatalog || canonicalCatalog.length === 0) {
+    if (window.KASHIWA_CANONICAL_CATALOG_V2 && Array.isArray(window.KASHIWA_CANONICAL_CATALOG_V2)) {
+      canonicalCatalog = JSON.parse(JSON.stringify(window.KASHIWA_CANONICAL_CATALOG_V2));
+    }
+  }
+
   const item = canonicalCatalog.find(s => s.canonical_shot_id === canonicalShotId);
-  if (!item) return;
+  if (!item) {
+    console.warn('Canonical item not found:', canonicalShotId);
+    return;
+  }
 
   // Strict: only update human_status and reviewed_at, never overwrite migrated_status
   item.human_status = newStatus;
   item.reviewed_at = (newStatus === 'APPROVED' || newStatus === 'BANNED') ? new Date().toISOString() : null;
-  saveCanonicalCuration(false);
+
+  // Immediate LocalStorage persistence
+  try {
+    localStorage.setItem(CANONICAL_STORAGE_KEY, JSON.stringify(canonicalCatalog));
+  } catch(e) {
+    console.error('Failed to save canonical curation to localStorage:', e);
+  }
+
+  renderCanonicalDashboardCounts();
   renderCanonicalCards();
 
   const toastMsg = newStatus === 'APPROVED' ? `✅ ช็อต [${canonicalShotId}] ได้รับการตรวจยืนยัน: เอา (APPROVED)` :
@@ -1104,7 +1133,30 @@ function resetKashiwaCurationToDefault() {
 }
 
 function exportHumanCuratedCatalog() {
-  if (!canonicalCatalog || canonicalCatalog.length === 0) {
+  // CRITICAL: Always read current state directly from LocalStorage
+  let sourceCatalog = [];
+  try {
+    const raw = localStorage.getItem(CANONICAL_STORAGE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        sourceCatalog = parsed;
+        canonicalCatalog = parsed; // sync in-memory catalog
+      }
+    }
+  } catch(e) {
+    console.error('Error reading from localStorage during export:', e);
+  }
+
+  if (sourceCatalog.length === 0 && canonicalCatalog && canonicalCatalog.length > 0) {
+    sourceCatalog = canonicalCatalog;
+  }
+
+  if (sourceCatalog.length === 0 && window.KASHIWA_CANONICAL_CATALOG_V2 && Array.isArray(window.KASHIWA_CANONICAL_CATALOG_V2)) {
+    sourceCatalog = JSON.parse(JSON.stringify(window.KASHIWA_CANONICAL_CATALOG_V2));
+  }
+
+  if (sourceCatalog.length === 0) {
     alert('ไม่มีข้อมูลช็อต Canonical ที่จะส่งออกครับ');
     return;
   }
@@ -1118,7 +1170,7 @@ function exportHumanCuratedCatalog() {
     semantic_conflicts: 0
   };
 
-  const curatedSegments = canonicalCatalog.map(seg => {
+  const curatedSegments = sourceCatalog.map(seg => {
     const st = seg.human_status || 'UNREVIEWED';
     const mig = seg.migrated_status || 'UNREVIEWED';
 
