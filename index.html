@@ -10241,20 +10241,32 @@
         <button class="c-filter-btn active" id="c-btn-filter-ALL" onclick="setCanonicalFilter('ALL')">
           ทั้งหมด <span class="c-badge-pill" id="c-count-all">32</span>
         </button>
-        <button class="c-filter-btn filter-app" id="c-btn-filter-APPROVED" onclick="setCanonicalFilter('APPROVED')">
-          ✅ เอาแล้ว (Approved) <span class="c-badge-pill" id="c-count-app">17</span>
+        <button class="c-filter-btn filter-app" id="c-btn-filter-CUR_APPROVED" onclick="setCanonicalFilter('CUR_APPROVED')" title="ช็อตที่ผู้ใช้ตรวจยืนยันใหม่ในรอบนี้ (มีสิทธิ์เข้า Stage 5)">
+          ✅ เอาแล้ว (APPROVED) <span class="c-badge-pill" id="c-count-cur-app">0</span>
         </button>
-        <button class="c-filter-btn filter-ban" id="c-btn-filter-BANNED" onclick="setCanonicalFilter('BANNED')">
-          🚫 แบนแล้ว (Banned) <span class="c-badge-pill" id="c-count-ban">3</span>
+        <button class="c-filter-btn filter-ban" id="c-btn-filter-CUR_BANNED" onclick="setCanonicalFilter('CUR_BANNED')" title="ช็อตที่ผู้ใช้สั่งแบนใหม่ในรอบนี้ (Hard Exclusion)">
+          🚫 แบนแล้ว (BANNED) <span class="c-badge-pill" id="c-count-cur-ban">0</span>
         </button>
-        <button class="c-filter-btn filter-unrev" id="c-btn-filter-UNREVIEWED" onclick="setCanonicalFilter('UNREVIEWED')">
-          ⏳ ยังไม่ตรวจ (Unreviewed) <span class="c-badge-pill" id="c-count-unrev">12</span>
+        <button class="c-filter-btn" id="c-btn-filter-MIG_APPROVED" onclick="setCanonicalFilter('MIG_APPROVED')" title="ช็อตที่มาร์กเดิมเคยเลือกไว้ (รอตรวจยืนยัน)">
+          🏷️ มาร์กเดิม: เอา <span class="c-badge-pill" id="c-count-mig-app">17</span>
+        </button>
+        <button class="c-filter-btn" id="c-btn-filter-MIG_BANNED" onclick="setCanonicalFilter('MIG_BANNED')" title="ช็อตที่มาร์กเดิมเคยสั่งแบน (รอตรวจยืนยัน)">
+          🏷️ มาร์กเดิม: แบน <span class="c-badge-pill" id="c-count-mig-ban">3</span>
+        </button>
+        <button class="c-filter-btn filter-unrev" id="c-btn-filter-UNREVIEWED" onclick="setCanonicalFilter('UNREVIEWED')" title="ช็อตที่ยังไม่เคยตรวจ">
+          ⏳ ยังไม่ตรวจ <span class="c-badge-pill" id="c-count-unrev">12</span>
+        </button>
+        <button class="c-filter-btn" id="c-btn-filter-CONFLICTS" onclick="setCanonicalFilter('CONFLICTS')" style="border-color:#e67e22; color:#e67e22;" title="ช็อตที่โน้ตเดิมขัดแย้งกับภาพจริง ต้องตรวจใหม่">
+          ⚠️ ขัดแย้ง <span class="c-badge-pill" id="c-count-conflicts">5</span>
         </button>
       </div>
       <div class="canonical-search-box">
         <span class="search-icon">🔍</span>
         <input type="text" id="canonical-search-input" placeholder="ค้นหา Shot ID, แท็ก (เช่น unboxing, wash), หรือชื่อไฟล์..." oninput="onCanonicalSearch(this.value)">
       </div>
+    
+    <div class="c-local-storage-notice">
+      ℹ️ <b>ข้อแนะนำการใช้งาน:</b> ผลการ Curation จะถูกบันทึกใน <b>LocalStorage ของเบราว์เซอร์ในเครื่องนี้เท่านั้น</b> (ไม่ซิงค์ข้ามมือถือ/PC อัตโนมัติ) เพื่อนำผลการตรวจเข้าสู่ AI Video Pipeline V3 กรุณากดปุ่ม <b>"📥 ส่งออก human_curated_catalog.json"</b> เมื่อตรวจเสร็จ
     </div>
   </div>
 

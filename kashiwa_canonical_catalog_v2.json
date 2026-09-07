@@ -17,8 +17,13 @@
     ],
     "actual_visual_action": "Presenter unboxing the washing machine from brown cardboard carton in room",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0883_MOV/frame_00020.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_unboxing_box_open_01.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'มึงชอบเอาหน้ากูมาลงเดี๋ยวกูไม่เอากูไม่โอ')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'มึงชอบเอาหน้ากูมาลงเดี๋ยวกูไม่เอากูไม่โอ')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -40,8 +45,13 @@
     ],
     "actual_visual_action": "Lifting machine out of box, placing on floor, opening top lid to inspect tub",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0883_MOV/frame_00760.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_unboxing_lift_out_02.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'ช่วงเปลี่ยนมุม / มุมกล้องไม่สวย')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'ช่วงเปลี่ยนมุม / มุมกล้องไม่สวย')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -62,8 +72,13 @@
     ],
     "actual_visual_action": "Rotating machine to inspect side cord hooks and drain pipe holder",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0883_MOV/frame_01360.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_product_side_inspect_01.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'อันนี้จะเป็นช่วงที่เออแกะออกมาให้เห็นว่า')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'อันนี้จะเป็นช่วงที่เออแกะออกมาให้เห็นว่า')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -84,8 +99,13 @@
     ],
     "actual_visual_action": "Hero beauty shot: Presenter sitting beside full body of machine in living area",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0883_MOV/frame_01720.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_hero_overview_01.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'ช่วงวางกล้อง / เปลี่ยนท่าทาง')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'ช่วงวางกล้อง / เปลี่ยนท่าทาง')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -106,9 +126,14 @@
     ],
     "actual_visual_action": "Close-up of hand holding and inspecting the white water inlet hose adapter (Misnamed in legacy)",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0886_MOV/frame_00020.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็ท่อน้ำทิ้งไว้แหละเวลาน้ำไหลออกก็แบบนี้แหละเอาไว้ insert",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_inlet_hose_inspect_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็ท่อน้ำทิ้งไว้แหละเวลาน้ำไหลออกก็แบบนี้แหละเอาไว้ insert",
+    "semantic_conflict": true,
+    "conflict_reason": "Note mentions 'ท่อน้ำทิ้ง' (drain hose) but visual is 'หัวต่อสายน้ำเข้า' (inlet hose adapter).",
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_wash_vortex_high_angle_01",
@@ -128,9 +153,14 @@
     ],
     "actual_visual_action": "High-angle static shot of machine running with thick white soapy foam in bathroom corner (Misnamed in legacy)",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0889_MOV/frame_00020.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็คือปั่นแรงตีฟองหนานุ่มเลยนะงานดีอยู่นะ",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_wash_vortex_high_angle_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็คือปั่นแรงตีฟองหนานุ่มเลยนะงานดีอยู่นะ",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_timer_knob_turn_01",
@@ -149,9 +179,14 @@
     ],
     "actual_visual_action": "Hand turning timer knob on panel to start cycle",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0890_MOV/frame_00000.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_timer_knob_turn_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
+    "semantic_conflict": true,
+    "conflict_reason": "Note describes water vortex and washing socks ('ปั่นแรงเห็นถุงเท้า') but visual is turning timer knob.",
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_water_vortex_power_02",
@@ -171,9 +206,14 @@
     ],
     "actual_visual_action": "High-speed water vortex agitating clothes vigorously with soap bubbles in open tub",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0890_MOV/frame_00040.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_water_vortex_power_02.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_wash_vortex_side_angle_03",
@@ -192,9 +232,14 @@
     ],
     "actual_visual_action": "Slightly pulled back side angle of machine continuing active wash cycle",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0890_MOV/frame_00100.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_wash_vortex_side_angle_03.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_soaking_wet_clothes_01",
@@ -213,9 +258,14 @@
     ],
     "actual_visual_action": "Washed wet clothes soaking inside tub prior to spin basket setup",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0892_MOV/frame_00020.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็คือเราแบบเราปั่นแล้วนะเรากำลังเอาน้ำออกเอาน้ำออกแล้วมันก็เหลือประมาณนี้เราปล่อยน้ำออกมันก็เป็นแบบนี้",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_soaking_wet_clothes_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็คือเราแบบเราปั่นแล้วนะเรากำลังเอาน้ำออกเอาน้ำออกแล้วมันก็เหลือประมาณนี้เราปล่อยน้ำออกมันก็เป็นแบบนี้",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_spin_basket_setup_01",
@@ -235,8 +285,13 @@
     ],
     "actual_visual_action": "Inserting plastic spin basket into tub, loading clothes inside basket, pressing safety disc",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0892_MOV/frame_00220.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_spin_basket_setup_01.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'นี่เราก็จะเอาใส่ตะกร้าแล้วก็ใส่ในถังแบบน')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'นี่เราก็จะเอาใส่ตะกร้าแล้วก็ใส่ในถังแบบน')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -257,9 +312,14 @@
     ],
     "actual_visual_action": "Hand turning the top timer knob to start spin drying cycle",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0892_MOV/frame_00480.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "เนื้อจะเป็นใส่แล้วก็หมุนแหละมันจะมีหมุนปุ่มหมุนอ่าฝั่งซ้ายมือก็คือหมุนเป็นปรับเวลาอันที่ 2 ก็คือเลือกฝั่งขวาฝั่งขวาจะเป็นเลือกโหมดโหมดซักหรือว่าโหมดปั่นหมาด",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_spin_basket_turn_and_spin_02.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "เนื้อจะเป็นใส่แล้วก็หมุนแหละมันจะมีหมุนปุ่มหมุนอ่าฝั่งซ้ายมือก็คือหมุนเป็นปรับเวลาอันที่ 2 ก็คือเลือกฝั่งขวาฝั่งขวาจะเป็นเลือกโหมดโหมดซักหรือว่าโหมดปั่นหมาด",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_spin_basket_centrifugal_fast_03",
@@ -278,8 +338,13 @@
     ],
     "actual_visual_action": "High speed centrifugal spin drying in progress",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0892_MOV/frame_00560.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_spin_basket_centrifugal_fast_03.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'อันนี้ก็คือให้ดูความแรงของของการปั่นแค่น')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'อันนี้ก็คือให้ดูความแรงของของการปั่นแค่น')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -299,8 +364,13 @@
     ],
     "actual_visual_action": "Top-down view of machine tub and control panel (Misnamed in legacy; no handle carry)",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0894_MOV/frame_00020.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_control_panel_topdown_01.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'เฟรมเปิด')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'เฟรมเปิด')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -321,9 +391,14 @@
     ],
     "actual_visual_action": "Close-up of hand turning the lower program selector knob on control panel",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0894_MOV/frame_00080.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็จะเป็นช่วงโค้ดอัพช่วงโค้ดอัพก็เอาไว้ insert insert ตอนที่บอกว่าหมุนปุ่มอะไรอย่างนี้นี่เวลาหมุนปุ่มก็ต้องนี่เลย",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_program_knob_closeup_02.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็จะเป็นช่วงโค้ดอัพช่วงโค้ดอัพก็เอาไว้ insert insert ตอนที่บอกว่าหมุนปุ่มอะไรอย่างนี้นี่เวลาหมุนปุ่มก็ต้องนี่เลย",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_timer_knob_touch_adjust_03",
@@ -342,9 +417,14 @@
     ],
     "actual_visual_action": "Hand adjusting and touching the top timer knob and panel stickers",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0894_MOV/frame_00160.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "นี่ก็หมุนผมแล้วก็ปิดถังแค่นั้นแหละ",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_timer_knob_touch_adjust_03.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "นี่ก็หมุนผมแล้วก็ปิดถังแค่นั้นแหละ",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_lid_hand_rest_01",
@@ -363,9 +443,14 @@
     ],
     "actual_visual_action": "Hand resting on machine lid (Misnamed in legacy; no side spec label)",
     "preview_thumbnail": "assets/thumbs/washer/IMG_1244_MOV/frame_00000.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_lid_hand_rest_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
+    "semantic_conflict": true,
+    "conflict_reason": "Note describes wash water agitation and moving machine, but visual is hand resting on machine lid.",
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_water_vortex_hero_01",
@@ -386,9 +471,14 @@
     ],
     "actual_visual_action": "Hand lifting lid, revealing soapy swirling wash cycle with dark clothes inside",
     "preview_thumbnail": "assets/thumbs/washer/IMG_1244_MOV/frame_00040.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_water_vortex_hero_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_lid_close_down_03",
@@ -407,9 +497,14 @@
     ],
     "actual_visual_action": "Hand closing the machine lid down",
     "preview_thumbnail": "assets/thumbs/washer/IMG_1244_MOV/frame_00100.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_lid_close_down_03.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_soapy_vortex_closeup_01",
@@ -428,8 +523,13 @@
     ],
     "actual_visual_action": "Close-up of soapy wash water swirling inside tub",
     "preview_thumbnail": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00020.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_soapy_vortex_closeup_01.mp4",
     "human_status": "UNREVIEWED",
+    "migrated_status": "UNREVIEWED",
     "human_note_original": "",
+    "migrated_human_note_original": "",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -450,8 +550,13 @@
     ],
     "actual_visual_action": "Showing spin basket and inner lid being removed and held up for camera",
     "preview_thumbnail": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00080.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_spin_basket_parts_show_01.mp4",
     "human_status": "UNREVIEWED",
+    "migrated_status": "UNREVIEWED",
     "human_note_original": "",
+    "migrated_human_note_original": "",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -472,9 +577,14 @@
     ],
     "actual_visual_action": "Presenter lifting and carrying machine by handle in room",
     "preview_thumbnail": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00240.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้ก็นี่เห็นไหมให้ดูมกชัดๆเห็นไหมมันมีมอก",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_carry_room_handle_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้ก็นี่เห็นไหมให้ดูมกชัดๆเห็นไหมมันมีมอก",
+    "semantic_conflict": true,
+    "conflict_reason": "Note mentions 'ให้ดู มอก. ชัดๆ' (TISI spec mark) but visual is lifting/carrying machine by handle.",
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_carry_portable_01",
@@ -494,9 +604,14 @@
     ],
     "actual_visual_action": "Presenter carrying machine into bathroom doorway and setting it down",
     "preview_thumbnail": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00320.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้คือใช้งานง่ายสามารถเอาไปในห้องน้ำแล้วก็เสียบกับก๊อกแล้วเปิดน้ำก๊อกใส่แล้วก็หมุนได้เลยหมุนสะดวกสบายมากเคลื่อนย้ายไปไหนสะดวก",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_carry_portable_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้คือใช้งานง่ายสามารถเอาไปในห้องน้ำแล้วก็เสียบกับก๊อกแล้วเปิดน้ำก๊อกใส่แล้วก็หมุนได้เลยหมุนสะดวกสบายมากเคลื่อนย้ายไปไหนสะดวก",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_detergent_pour_01",
@@ -516,9 +631,14 @@
     ],
     "actual_visual_action": "Machine placed in bathroom corner, pouring detergent into laundry inside tub",
     "preview_thumbnail": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00360.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้คือใช้งานง่ายสามารถเอาไปในห้องน้ำแล้วก็เสียบกับก๊อกแล้วเปิดน้ำก๊อกใส่แล้วก็หมุนได้เลยหมุนสะดวกสบายมากเคลื่อนย้ายไปไหนสะดวก",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_detergent_pour_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้คือใช้งานง่ายสามารถเอาไปในห้องน้ำแล้วก็เสียบกับก๊อกแล้วเปิดน้ำก๊อกใส่แล้วก็หมุนได้เลยหมุนสะดวกสบายมากเคลื่อนย้ายไปไหนสะดวก",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_bathroom_corner_start_knob_01",
@@ -537,9 +657,14 @@
     ],
     "actual_visual_action": "Hand turning control knob to start washing in bathroom corner",
     "preview_thumbnail": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00460.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "อันนี้คือเติมน้ำยาซักผ้าหลังจากที่เราหยิบผ้าเสร็จแล้วเติมใส่น้ำยาซักผ้า",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_bathroom_corner_start_knob_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "อันนี้คือเติมน้ำยาซักผ้าหลังจากที่เราหยิบผ้าเสร็จแล้วเติมใส่น้ำยาซักผ้า",
+    "semantic_conflict": true,
+    "conflict_reason": "Note mentions 'เติมน้ำยาซักผ้า' (detergent pour) but visual is turning control knob.",
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_bathroom_corner_active_wash_01",
@@ -559,9 +684,14 @@
     ],
     "actual_visual_action": "Washing machine actively washing with thick white foam in bathroom corner",
     "preview_thumbnail": "assets/thumbs/washer/copy_D8AB3069-50A7-4563-A258-0AD704688414_mov/frame_00520.jpg",
-    "human_status": "APPROVED",
-    "human_note_original": "แล้วก็หมุนโหมดซักแล้วก็ตั้งเวลาแล้วก็เห็นไหมความแรงนี้ตั้งแต่เริ่มต้นหมุนแค่นั้นแหละอันนี้",
-    "reviewed_at": "2026-09-05T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_bathroom_corner_active_wash_01.mp4",
+    "human_status": "MIGRATED_APPROVED",
+    "migrated_status": "MIGRATED_APPROVED",
+    "human_note_original": "",
+    "migrated_human_note_original": "แล้วก็หมุนโหมดซักแล้วก็ตั้งเวลาแล้วก็เห็นไหมความแรงนี้ตั้งแต่เริ่มต้นหมุนแค่นั้นแหละอันนี้",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_rejected_tripod_long_01",
@@ -580,9 +710,14 @@
     ],
     "actual_visual_action": "Continuous stationary top-down recording of washing machine running with closed lid on polka-dot tiles",
     "preview_thumbnail": "assets/thumbs/washer/file09_10/frame_file09.jpg",
-    "human_status": "BANNED",
-    "human_note_original": "Audited exclusion: Tripod legs and unboxing cardboard clutter visible in background; static take",
-    "reviewed_at": "2026-09-07T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_rejected_tripod_long_01.mp4",
+    "human_status": "MIGRATED_BANNED",
+    "migrated_status": "MIGRATED_BANNED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Audited exclusion: Tripod legs and unboxing cardboard clutter visible in background; static take",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_rejected_tripod_loading_01",
@@ -601,9 +736,14 @@
     ],
     "actual_visual_action": "Top-down view of hand loading blue cloth into open tub",
     "preview_thumbnail": "assets/thumbs/washer/file09_10/frame_file10_seg01.jpg",
-    "human_status": "BANNED",
-    "human_note_original": "Audited exclusion: Tripod leg obstruction in frame",
-    "reviewed_at": "2026-09-07T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_rejected_tripod_loading_01.mp4",
+    "human_status": "MIGRATED_BANNED",
+    "migrated_status": "MIGRATED_BANNED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Audited exclusion: Tripod leg obstruction in frame",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_rejected_tripod_vortex_02",
@@ -622,9 +762,14 @@
     ],
     "actual_visual_action": "Water vortex agitation spinning inside tub through transparent inner lid",
     "preview_thumbnail": "assets/thumbs/washer/file09_10/frame_file10_seg02.jpg",
-    "human_status": "BANNED",
-    "human_note_original": "Audited exclusion: Tripod leg obstruction in frame; better coverage exists in file 04 and 07",
-    "reviewed_at": "2026-09-07T12:00:00.000Z"
+    "preview_video": "assets/previews/washer/kashiwa_rejected_tripod_vortex_02.mp4",
+    "human_status": "MIGRATED_BANNED",
+    "migrated_status": "MIGRATED_BANNED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Audited exclusion: Tripod leg obstruction in frame; better coverage exists in file 04 and 07",
+    "semantic_conflict": false,
+    "conflict_reason": null,
+    "reviewed_at": null
   },
   {
     "canonical_shot_id": "kashiwa_bathroom_cramped_01",
@@ -644,8 +789,13 @@
     ],
     "actual_visual_action": "Presenter crouching in tight bathroom doorway setting up the washing machine",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0884_MOV/frame_00520.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_bathroom_cramped_01.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -666,8 +816,13 @@
     ],
     "actual_visual_action": "Presenter demonstrating inlet water hose connection to bathroom faucet and power plug",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0884_MOV/frame_01220.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_bathroom_hose_connect_01.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   },
   {
@@ -688,8 +843,13 @@
     ],
     "actual_visual_action": "Adding clothes and detergent inside bathroom and starting the wash",
     "preview_thumbnail": "assets/thumbs/washer/IMG_0884_MOV/frame_03820.jpg",
+    "preview_video": "assets/previews/washer/kashiwa_bathroom_load_and_pour_01.mp4",
     "human_status": "UNREVIEWED",
-    "human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+    "migrated_status": "UNREVIEWED",
+    "human_note_original": "",
+    "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+    "semantic_conflict": false,
+    "conflict_reason": null,
     "reviewed_at": null
   }
 ]

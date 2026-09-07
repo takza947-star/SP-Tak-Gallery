@@ -675,9 +675,9 @@ function stopSpeechRecognition() {
 
 
 // ==========================================================================
-// Kashiwa Canonical Shot Catalog v2 & Curation Manager
-// ==========================================================================
-const CANONICAL_STORAGE_KEY = 'sp_tak_canonical_curation_kashiwa_v2';
+
+// Kashiwa Canonical Shot Catalog v2 & Curation Manager (Separated Migrated vs Current Review)
+const CANONICAL_STORAGE_KEY = 'sp_tak_canonical_curation_kashiwa_v3';
 let canonicalCatalog = [];
 let canonicalActiveFilter = 'ALL';
 let canonicalSearchQuery = '';
@@ -719,31 +719,44 @@ function saveCanonicalCuration(notify = true) {
 
 function renderCanonicalDashboardCounts() {
   if (!canonicalCatalog || canonicalCatalog.length === 0) return;
-  let approved = 0;
-  let banned = 0;
+  let curApproved = 0;
+  let curBanned = 0;
+  let migApproved = 0;
+  let migBanned = 0;
   let unreviewed = 0;
+  let conflicts = 0;
 
   canonicalCatalog.forEach(s => {
     const st = s.human_status || 'UNREVIEWED';
-    if (st === 'APPROVED') approved++;
-    else if (st === 'BANNED') banned++;
-    else unreviewed++;
+    const mig = s.migrated_status || 'UNREVIEWED';
+
+    if (st === 'APPROVED') curApproved++;
+    else if (st === 'BANNED') curBanned++;
+
+    if (mig === 'MIGRATED_APPROVED') migApproved++;
+    else if (mig === 'MIGRATED_BANNED') migBanned++;
+    else if (mig === 'UNREVIEWED') unreviewed++;
+
+    if (s.semantic_conflict) conflicts++;
   });
 
-  const elAll = document.getElementById('c-count-all');
-  const elApp = document.getElementById('c-count-app');
-  const elBan = document.getElementById('c-count-ban');
-  const elUnrev = document.getElementById('c-count-unrev');
+  const setEl = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.innerText = val;
+  };
 
-  if (elAll) elAll.innerText = canonicalCatalog.length;
-  if (elApp) elApp.innerText = approved;
-  if (elBan) elBan.innerText = banned;
-  if (elUnrev) elUnrev.innerText = unreviewed;
+  setEl('c-count-all', canonicalCatalog.length);
+  setEl('c-count-cur-app', curApproved);
+  setEl('c-count-cur-ban', curBanned);
+  setEl('c-count-mig-app', migApproved);
+  setEl('c-count-mig-ban', migBanned);
+  setEl('c-count-unrev', unreviewed);
+  setEl('c-count-conflicts', conflicts);
 }
 
 function setCanonicalFilter(filter) {
   canonicalActiveFilter = filter;
-  ['ALL', 'APPROVED', 'BANNED', 'UNREVIEWED'].forEach(f => {
+  ['ALL', 'CUR_APPROVED', 'CUR_BANNED', 'MIG_APPROVED', 'MIG_BANNED', 'UNREVIEWED', 'CONFLICTS'].forEach(f => {
     const btn = document.getElementById('c-btn-filter-' + f);
     if (btn) {
       if (f === filter) btn.classList.add('active');
@@ -769,9 +782,18 @@ function renderCanonicalCards() {
 
   const filtered = canonicalCatalog.filter(s => {
     // 1. Status Filter
-    if (canonicalActiveFilter !== 'ALL') {
-      const st = s.human_status || 'UNREVIEWED';
-      if (st !== canonicalActiveFilter) return false;
+    if (canonicalActiveFilter === 'CUR_APPROVED') {
+      if (s.human_status !== 'APPROVED') return false;
+    } else if (canonicalActiveFilter === 'CUR_BANNED') {
+      if (s.human_status !== 'BANNED') return false;
+    } else if (canonicalActiveFilter === 'MIG_APPROVED') {
+      if (s.migrated_status !== 'MIGRATED_APPROVED') return false;
+    } else if (canonicalActiveFilter === 'MIG_BANNED') {
+      if (s.migrated_status !== 'MIGRATED_BANNED') return false;
+    } else if (canonicalActiveFilter === 'UNREVIEWED') {
+      if (s.human_status !== 'UNREVIEWED' && s.migrated_status !== 'UNREVIEWED') return false;
+    } else if (canonicalActiveFilter === 'CONFLICTS') {
+      if (!s.semantic_conflict) return false;
     }
 
     // 2. Search Query Filter
@@ -781,7 +803,9 @@ function renderCanonicalCards() {
       const fileMatch = (s.source_file || '').toLowerCase().includes(canonicalSearchQuery);
       const tagMatch = Array.isArray(s.semantic_tags) && s.semantic_tags.some(t => t.toLowerCase().includes(canonicalSearchQuery));
       const noteMatch = (s.human_note_original || '').toLowerCase().includes(canonicalSearchQuery);
-      if (!idMatch && !actionMatch && !fileMatch && !tagMatch && !noteMatch) return false;
+      const oldNoteMatch = (s.migrated_human_note_original || '').toLowerCase().includes(canonicalSearchQuery);
+      const reasonMatch = (s.conflict_reason || '').toLowerCase().includes(canonicalSearchQuery);
+      if (!idMatch && !actionMatch && !fileMatch && !tagMatch && !noteMatch && !oldNoteMatch && !reasonMatch) return false;
     }
     return true;
   });
@@ -798,24 +822,85 @@ function renderCanonicalCards() {
   let html = '';
   filtered.forEach(s => {
     const status = s.human_status || 'UNREVIEWED';
-    const statusClass = status.toLowerCase();
-    let statusLabel = '⏳ ยังไม่ตรวจ';
-    if (status === 'APPROVED') statusLabel = '✅ เอา (Approved)';
-    else if (status === 'BANNED') statusLabel = '🚫 แบน (Banned)';
+    const migStatus = s.migrated_status || 'UNREVIEWED';
+    const isCurApproved = status === 'APPROVED';
+    const isCurBanned = status === 'BANNED';
+
+    let statusLabel = '⏳ ยังไม่ตรวจยืนยัน';
+    let statusClass = 'unreviewed';
+    if (isCurApproved) {
+      statusLabel = '✅ ตรวจแล้ว: เอา (APPROVED)';
+      statusClass = 'approved';
+    } else if (isCurBanned) {
+      statusLabel = '🚫 ตรวจแล้ว: แบน (BANNED)';
+      statusClass = 'banned';
+    } else if (migStatus === 'MIGRATED_APPROVED') {
+      statusLabel = '🏷️ มาร์กเดิม: เคยเลือกไว้ (รอตรวจยืนยัน)';
+      statusClass = 'mig-approved';
+    } else if (migStatus === 'MIGRATED_BANNED') {
+      statusLabel = '🚫 มาร์กเดิม: เคยสั่งแบน (รอตรวจยืนยัน)';
+      statusClass = 'mig-banned';
+    }
+
+    let migPillHtml = '';
+    if (migStatus === 'MIGRATED_APPROVED') {
+      migPillHtml = '<span class="c-migrated-pill migrated_approved">🏷️ มาร์กเดิม: MIGRATED_APPROVED (Prior Evidence)</span>';
+    } else if (migStatus === 'MIGRATED_BANNED') {
+      migPillHtml = '<span class="c-migrated-pill migrated_banned">⚠️ มาร์กเดิม: MIGRATED_BANNED (คำเตือน: ห้ามใช้จนกว่าจะตรวจใหม่)</span>';
+    } else {
+      migPillHtml = '<span class="c-migrated-pill unreviewed">🏷️ มาร์กเดิม: UNREVIEWED (ยังไม่เคยตรวจ)</span>';
+    }
 
     const tagsHtml = (s.semantic_tags || []).map(t => `<span class="c-tag">#${escapeHtml(t)}</span>`).join('');
     const shaShort = (s.source_sha256 || '').slice(0, 10);
     const startStr = Number(s.source_start).toFixed(2);
     const endStr = Number(s.source_end).toFixed(2);
     const durStr = Number(s.source_duration).toFixed(1);
-    const noteVal = s.human_note_original ? escapeHtml(s.human_note_original) : '';
-    const reviewedTimeStr = s.reviewed_at ? `<span style="font-size:10px; color:var(--text-muted);" title="ตรวจเมื่อ: ${escapeHtml(s.reviewed_at)}">🕒 ${new Date(s.reviewed_at).toLocaleDateString('th-TH')}</span>` : '';
+    const curNoteVal = s.human_note_original ? escapeHtml(s.human_note_original) : '';
+    const oldNoteVal = s.migrated_human_note_original ? escapeHtml(s.migrated_human_note_original) : '';
+
+    const reviewedTimeStr = s.reviewed_at ? `<span style="font-size:10px; color:#2ecc71;" title="ตรวจเมื่อ: ${escapeHtml(s.reviewed_at)}">🕒 ตรวจยืนยันแล้ว: ${new Date(s.reviewed_at).toLocaleTimeString('th-TH')}</span>` : '';
+
+    // Semantic Conflict Alert Box
+    let conflictHtml = '';
+    if (s.semantic_conflict) {
+      conflictHtml = `
+        <div class="c-conflict-alert">
+          <div class="c-conflict-header">
+            <span class="c-conflict-icon">⚠️</span>
+            <b>ข้อมูลเดิมกับภาพที่ตรวจล่าสุดไม่ตรงกัน กรุณาตรวจใหม่</b>
+          </div>
+          <div class="c-conflict-desc">${escapeHtml(s.conflict_reason || 'Human Note ไม่สอดคล้องกับ Actual Visual Action')}</div>
+        </div>
+      `;
+    }
+
+    // Old Migrated Human Note Box
+    let oldNoteHtml = '';
+    if (oldNoteVal) {
+      oldNoteHtml = `
+        <div class="c-old-note-box">
+          <div class="c-old-note-label">📜 โน้ตเดิม (Migrated Human Note):</div>
+          <div class="c-old-note-content">${oldNoteVal}</div>
+        </div>
+      `;
+    }
+
+    const cardStatusBorderClass = isCurApproved ? 'status-approved' : (isCurBanned ? 'status-banned' : (s.semantic_conflict ? 'status-conflict' : (migStatus === 'MIGRATED_BANNED' ? 'status-mig-banned' : 'status-unreviewed')));
 
     html += `
-      <div class="canonical-card status-${statusClass}" id="card_${s.canonical_shot_id}">
-        <!-- Thumbnail & Preview -->
-        <div class="c-card-thumb-wrap" onclick="openZoom('${s.preview_thumbnail}', '${escapeHtml(s.canonical_shot_id)}', '${startStr}s - ${endStr}s (${durStr}s)')" title="แตะเพื่อดูภาพขยาย">
-          <img src="${s.preview_thumbnail}" alt="${escapeHtml(s.canonical_shot_id)}" loading="lazy">
+      <div class="canonical-card ${cardStatusBorderClass}" id="card_${s.canonical_shot_id}">
+        <!-- Video Player & Preview -->
+        <div class="c-card-media-wrap">
+          <video id="vid_${s.canonical_shot_id}"
+                 poster="${s.preview_thumbnail}"
+                 preload="none"
+                 playsinline
+                 controls
+                 loop
+                 muted
+                 src="${s.preview_video || `assets/previews/washer/${s.canonical_shot_id}.mp4`}">
+          </video>
           <div class="c-badge-top-left">${s.framing || 'shot'} • ${s.quality || 'HD'}</div>
           <div class="c-status-badge ${statusClass}">${statusLabel}</div>
           <div class="c-badge-bottom-bar">
@@ -831,7 +916,11 @@ function renderCanonicalCards() {
             <span class="c-seg-id">${escapeHtml(s.segment_id || '')}</span>
           </div>
 
-          <div class="c-card-action">${escapeHtml(s.actual_visual_action || '')}</div>
+          <div class="c-migrated-row">
+            ${migPillHtml}
+          </div>
+
+          <div class="c-card-action"><b>🎬 ภาพจริง:</b> ${escapeHtml(s.actual_visual_action || '')}</div>
 
           <div class="c-card-tags">
             ${tagsHtml}
@@ -844,17 +933,23 @@ function renderCanonicalCards() {
             <span class="c-sha-tag" title="SHA-256: ${escapeHtml(s.source_sha256)}">${shaShort}...</span>
           </div>
 
-          <!-- Human Note & Voice-to-Text -->
+          <!-- Conflict Warning Alert (If any) -->
+          ${conflictHtml}
+
+          <!-- Old Human Note (Separated) -->
+          ${oldNoteHtml}
+
+          <!-- Current Human Note & Voice-to-Text -->
           <div class="c-note-box">
             <div class="c-note-label">
-              <span>💬 บันทึกเสียง / โน้ตมนุษย์:</span>
+              <span>💬 โน้ตใหม่จากการตรวจรอบนี้ (human_note_original):</span>
               ${reviewedTimeStr}
             </div>
             <div class="c-note-input-row">
               <input type="text" 
                      class="c-note-input" 
                      id="note_${s.canonical_shot_id}" 
-                     value="${noteVal}" 
+                     value="${curNoteVal}" 
                      placeholder="พิมพ์สั่งการ หรือกดไมค์เพื่อพูดภาษาไทย..." 
                      onchange="updateCanonicalNote('${s.canonical_shot_id}', this.value)"
                      autocomplete="off">
@@ -868,19 +963,19 @@ function renderCanonicalCards() {
             </div>
           </div>
 
-          <!-- Quick Action Buttons -->
+          <!-- Action Buttons -->
           <div class="c-actions-row">
-            <button class="c-btn-status btn-approve ${status === 'APPROVED' ? 'active' : ''}" 
+            <button class="c-btn-status btn-approve ${isCurApproved ? 'active' : ''}" 
                     onclick="setCanonicalStatus('${s.canonical_shot_id}', 'APPROVED')" 
-                    title="อนุมัติให้ระบบดึงช็อตนี้ไปใช้ได้">
+                    title="อนุมัติให้ระบบดึงช็อตนี้ไปใช้ได้ (Eligible for Stage 5)">
               ✅ เอา (Approve)
             </button>
-            <button class="c-btn-status btn-ban ${status === 'BANNED' ? 'active' : ''}" 
+            <button class="c-btn-status btn-ban ${isCurBanned ? 'active' : ''}" 
                     onclick="setCanonicalStatus('${s.canonical_shot_id}', 'BANNED')" 
                     title="สั่งแบน ห้ามหยิบช็อตนี้ไปใช้เด็ดขาด (Hard Exclusion)">
               🚫 แบน (Ban)
             </button>
-            <button class="c-btn-status btn-unrev ${status === 'UNREVIEWED' ? 'active' : ''}" 
+            <button class="c-btn-status btn-unrev ${(!isCurApproved && !isCurBanned) ? 'active' : ''}" 
                     onclick="setCanonicalStatus('${s.canonical_shot_id}', 'UNREVIEWED')" 
                     title="ยังไม่ตรวจ (ห้ามหยิบไปใช้จนกว่าจะได้รับการตรวจ)">
               ⏳ ยังไม่ตรวจ
@@ -899,35 +994,13 @@ function setCanonicalStatus(canonicalShotId, newStatus) {
   if (!item) return;
 
   item.human_status = newStatus;
-  item.reviewed_at = new Date().toISOString();
+  item.reviewed_at = (newStatus === 'APPROVED' || newStatus === 'BANNED') ? new Date().toISOString() : null;
   saveCanonicalCuration(false);
+  renderCanonicalCards();
 
-  // Update card in DOM if visible
-  const card = document.getElementById('card_' + canonicalShotId);
-  if (card) {
-    card.classList.remove('status-approved', 'status-banned', 'status-unreviewed');
-    card.classList.add('status-' + newStatus.toLowerCase());
-
-    const badge = card.querySelector('.c-status-badge');
-    if (badge) {
-      badge.className = 'c-status-badge ' + newStatus.toLowerCase();
-      let label = '⏳ ยังไม่ตรวจ';
-      if (newStatus === 'APPROVED') label = '✅ เอา (Approved)';
-      else if (newStatus === 'BANNED') label = '🚫 แบน (Banned)';
-      badge.innerText = label;
-    }
-
-    const btnApp = card.querySelector('.btn-approve');
-    const btnBan = card.querySelector('.btn-ban');
-    const btnUnrev = card.querySelector('.btn-unrev');
-    if (btnApp) btnApp.classList.toggle('active', newStatus === 'APPROVED');
-    if (btnBan) btnBan.classList.toggle('active', newStatus === 'BANNED');
-    if (btnUnrev) btnUnrev.classList.toggle('active', newStatus === 'UNREVIEWED');
-  }
-
-  const toastMsg = newStatus === 'APPROVED' ? `✅ ช็อต [${canonicalShotId}] อนุมัติแล้ว` :
-                   newStatus === 'BANNED'   ? `🚫 สั่งแบนช็อต [${canonicalShotId}] แล้ว` :
-                                              `⏳ ตั้งสถานะ [${canonicalShotId}] เป็นยังไม่ตรวจ`;
+  const toastMsg = newStatus === 'APPROVED' ? `✅ ช็อต [${canonicalShotId}] ได้รับการตรวจยืนยัน: เอา (APPROVED)` :
+                   newStatus === 'BANNED'   ? `🚫 ช็อต [${canonicalShotId}] ได้รับการตรวจยืนยัน: แบน (BANNED)` :
+                                              `⏳ รีเซ็ต [${canonicalShotId}] เป็นยังไม่ตรวจยืนยัน`;
   showToast(toastMsg);
 }
 
@@ -938,7 +1011,7 @@ function updateCanonicalNote(canonicalShotId, newNote) {
   item.human_note_original = (newNote || '').trim();
   item.reviewed_at = new Date().toISOString();
   saveCanonicalCuration(false);
-  showToast(`💾 บันทึกหมายเหตุ [${canonicalShotId}] เรียบร้อย`);
+  showToast(`💾 บันทึกโน้ตใหม่ [${canonicalShotId}] เรียบร้อย`);
 }
 
 function toggleCardVoiceRecord(canonicalShotId) {
@@ -1022,7 +1095,7 @@ function resetKashiwaCurationToDefault() {
     return;
   }
   const count = window.KASHIWA_CANONICAL_CATALOG_V2.length;
-  if (confirm(`ต้องการรีเซ็ตผลการ Curation ของ Kashiwa ทั้งหมด (${count} ช็อต) กลับเป็นค่าเริ่มต้นที่ Migrate มา (17 เอา / 3 แบน / 12 ยังไม่ตรวจ) ใช่หรือไม่?`)) {
+  if (confirm(`ต้องการรีเซ็ตผลการ Curation ของ Kashiwa ทั้งหมด (${count} ช็อต) กลับเป็นค่าเริ่มต้นที่ Migrate มา (17 มาร์กเดิมเอา / 3 มาร์กเดิมแบน / 12 ยังไม่ตรวจ) ใช่หรือไม่?`)) {
     canonicalCatalog = JSON.parse(JSON.stringify(window.KASHIWA_CANONICAL_CATALOG_V2));
     saveCanonicalCuration(false);
     renderCanonicalDashboardCounts();
@@ -1037,12 +1110,27 @@ function exportHumanCuratedCatalog() {
     return;
   }
 
-  const counts = { approved: 0, banned: 0, unreviewed: 0 };
+  const summary = {
+    current_approved: 0,
+    current_banned: 0,
+    migrated_approved: 0,
+    migrated_banned: 0,
+    unreviewed: 0,
+    semantic_conflicts: 0
+  };
+
   const curatedSegments = canonicalCatalog.map(seg => {
     const st = seg.human_status || 'UNREVIEWED';
-    if (st === 'APPROVED') counts.approved++;
-    else if (st === 'BANNED') counts.banned++;
-    else counts.unreviewed++;
+    const mig = seg.migrated_status || 'UNREVIEWED';
+
+    if (st === 'APPROVED') summary.current_approved++;
+    else if (st === 'BANNED') summary.current_banned++;
+
+    if (mig === 'MIGRATED_APPROVED') summary.migrated_approved++;
+    else if (mig === 'MIGRATED_BANNED') summary.migrated_banned++;
+    else if (mig === 'UNREVIEWED') summary.unreviewed++;
+
+    if (seg.semantic_conflict) summary.semantic_conflicts++;
 
     return {
       canonical_shot_id: seg.canonical_shot_id,
@@ -1051,7 +1139,11 @@ function exportHumanCuratedCatalog() {
       source_start: seg.source_start,
       source_end: seg.source_end,
       human_status: st,
+      migrated_status: mig,
       human_note_original: seg.human_note_original || '',
+      migrated_human_note_original: seg.migrated_human_note_original || '',
+      semantic_conflict: Boolean(seg.semantic_conflict),
+      conflict_reason: seg.conflict_reason || null,
       reviewed_at: seg.reviewed_at || null
     };
   });
@@ -1060,7 +1152,7 @@ function exportHumanCuratedCatalog() {
     catalog_version: 'Kashiwa Canonical Shot Catalog v2',
     exported_at: new Date().toISOString(),
     total_segments: curatedSegments.length,
-    summary: counts,
+    summary: summary,
     curated_shot_segments: curatedSegments
   };
 
@@ -1075,7 +1167,7 @@ function exportHumanCuratedCatalog() {
   document.body.removeChild(anchor);
   URL.revokeObjectURL(url);
 
-  showToast(`📥 ส่งออก human_curated_catalog.json สำเร็จ (${curatedSegments.length} ช็อต | เอา ${counts.approved} / แบน ${counts.banned} / ยังไม่ตรวจ ${counts.unreviewed})`);
+  showToast(`📥 ส่งออก human_curated_catalog.json สำเร็จ (${curatedSegments.length} ช็อต | ตรวจเอา ${summary.current_approved} / ตรวจแบน ${summary.current_banned} / มาร์กเดิมเอา ${summary.migrated_approved})`);
 }
 
 function escapeHtml(str) {

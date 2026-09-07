@@ -1,11 +1,14 @@
 {
   "catalog_version": "Kashiwa Canonical Shot Catalog v2",
-  "exported_at": "2026-09-07T15:03:36.118095+00:00",
+  "exported_at": "2026-09-07T15:17:56.694168+00:00",
   "total_segments": 32,
   "summary": {
-    "approved": 17,
-    "banned": 3,
-    "unreviewed": 12
+    "current_approved": 0,
+    "current_banned": 0,
+    "migrated_approved": 17,
+    "migrated_banned": 3,
+    "unreviewed": 12,
+    "semantic_conflicts": 5
   },
   "curated_shot_segments": [
     {
@@ -15,7 +18,11 @@
       "source_start": 0.0,
       "source_end": 75.0,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'มึงชอบเอาหน้ากูมาลงเดี๋ยวกูไม่เอากูไม่โอ')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'มึงชอบเอาหน้ากูมาลงเดี๋ยวกูไม่เอากูไม่โอ')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -25,7 +32,11 @@
       "source_start": 75.0,
       "source_end": 135.0,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'ช่วงเปลี่ยนมุม / มุมกล้องไม่สวย')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'ช่วงเปลี่ยนมุม / มุมกล้องไม่สวย')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -35,7 +46,11 @@
       "source_start": 135.0,
       "source_end": 170.0,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'อันนี้จะเป็นช่วงที่เออแกะออกมาให้เห็นว่า')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'อันนี้จะเป็นช่วงที่เออแกะออกมาให้เห็นว่า')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -45,7 +60,11 @@
       "source_start": 170.0,
       "source_end": 192.13,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'ช่วงวางกล้อง / เปลี่ยนท่าทาง')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'ช่วงวางกล้อง / เปลี่ยนท่าทาง')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -54,9 +73,13 @@
       "source_sha256": "8c9841e158f000305d2c5ae0486c9973273e97f48e24449b8089c20492cb262f",
       "source_start": 0.0,
       "source_end": 8.65,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็ท่อน้ำทิ้งไว้แหละเวลาน้ำไหลออกก็แบบนี้แหละเอาไว้ insert",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็ท่อน้ำทิ้งไว้แหละเวลาน้ำไหลออกก็แบบนี้แหละเอาไว้ insert",
+      "semantic_conflict": true,
+      "conflict_reason": "Note mentions 'ท่อน้ำทิ้ง' (drain hose) but visual is 'หัวต่อสายน้ำเข้า' (inlet hose adapter).",
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_wash_vortex_high_angle_01",
@@ -64,9 +87,13 @@
       "source_sha256": "104c2d628dbc3e26bb5c68ffaa57c7d1e1f744e8bc9e961956795f7438260b0c",
       "source_start": 0.0,
       "source_end": 11.29,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็คือปั่นแรงตีฟองหนานุ่มเลยนะงานดีอยู่นะ",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็คือปั่นแรงตีฟองหนานุ่มเลยนะงานดีอยู่นะ",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_timer_knob_turn_01",
@@ -74,9 +101,13 @@
       "source_sha256": "9bac3dfa020ee95f5a617d05649a81a27b156fa186777f29093ba7ac1142fbfe",
       "source_start": 0.0,
       "source_end": 2.0,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
+      "semantic_conflict": true,
+      "conflict_reason": "Note describes water vortex and washing socks ('ปั่นแรงเห็นถุงเท้า') but visual is turning timer knob.",
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_water_vortex_power_02",
@@ -84,9 +115,13 @@
       "source_sha256": "9bac3dfa020ee95f5a617d05649a81a27b156fa186777f29093ba7ac1142fbfe",
       "source_start": 2.0,
       "source_end": 8.0,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_wash_vortex_side_angle_03",
@@ -94,9 +129,13 @@
       "source_sha256": "9bac3dfa020ee95f5a617d05649a81a27b156fa186777f29093ba7ac1142fbfe",
       "source_start": 8.0,
       "source_end": 12.3,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็คือปั่นแรงเห็นไหมปั่นแรงปั่นเห็นถุงเท้าสำหรับสายแบบเออถุงเท้าผ้าเช็ดมือหรือว่าผ้าเช็ดเท้าพรมเช็ดเท้าหรือว่าผ้าเช็ดเช็ดโต๊ะเช็ดข้าวของอะไรต่างๆที่มันสกปรกอ่ะอันนี้ก็คือ Pain Point อย่างนึงเลยก็คือประมาณนั้นก็คือใครไม่อยากเอามาขยี้มือซักเองอย่างเงี้ยอันนี้สามารถใส่ได้ประมาณนี้คือปั่นแรงมากสะอาดเลยเออ",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_soaking_wet_clothes_01",
@@ -104,9 +143,13 @@
       "source_sha256": "9a5289b4b95e6d5c0c8b1131117c8165d35ceac3e89e269ca5fe1c795a377316",
       "source_start": 0.0,
       "source_end": 20.0,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็คือเราแบบเราปั่นแล้วนะเรากำลังเอาน้ำออกเอาน้ำออกแล้วมันก็เหลือประมาณนี้เราปล่อยน้ำออกมันก็เป็นแบบนี้",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็คือเราแบบเราปั่นแล้วนะเรากำลังเอาน้ำออกเอาน้ำออกแล้วมันก็เหลือประมาณนี้เราปล่อยน้ำออกมันก็เป็นแบบนี้",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_spin_basket_setup_01",
@@ -115,7 +158,11 @@
       "source_start": 20.0,
       "source_end": 45.0,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'นี่เราก็จะเอาใส่ตะกร้าแล้วก็ใส่ในถังแบบน')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'นี่เราก็จะเอาใส่ตะกร้าแล้วก็ใส่ในถังแบบน')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -124,9 +171,13 @@
       "source_sha256": "9a5289b4b95e6d5c0c8b1131117c8165d35ceac3e89e269ca5fe1c795a377316",
       "source_start": 45.0,
       "source_end": 55.0,
-      "human_status": "APPROVED",
-      "human_note_original": "เนื้อจะเป็นใส่แล้วก็หมุนแหละมันจะมีหมุนปุ่มหมุนอ่าฝั่งซ้ายมือก็คือหมุนเป็นปรับเวลาอันที่ 2 ก็คือเลือกฝั่งขวาฝั่งขวาจะเป็นเลือกโหมดโหมดซักหรือว่าโหมดปั่นหมาด",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "เนื้อจะเป็นใส่แล้วก็หมุนแหละมันจะมีหมุนปุ่มหมุนอ่าฝั่งซ้ายมือก็คือหมุนเป็นปรับเวลาอันที่ 2 ก็คือเลือกฝั่งขวาฝั่งขวาจะเป็นเลือกโหมดโหมดซักหรือว่าโหมดปั่นหมาด",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_spin_basket_centrifugal_fast_03",
@@ -135,7 +186,11 @@
       "source_start": 55.0,
       "source_end": 136.8,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'อันนี้ก็คือให้ดูความแรงของของการปั่นแค่น')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'อันนี้ก็คือให้ดูความแรงของของการปั่นแค่น')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -145,7 +200,11 @@
       "source_start": 0.0,
       "source_end": 5.0,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: 'เฟรมเปิด')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: 'เฟรมเปิด')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -154,9 +213,13 @@
       "source_sha256": "0e14bad5936b5568929d7c125dcf42754541c859c2bf3107c37a82dd3ce3199d",
       "source_start": 5.0,
       "source_end": 15.0,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็จะเป็นช่วงโค้ดอัพช่วงโค้ดอัพก็เอาไว้ insert insert ตอนที่บอกว่าหมุนปุ่มอะไรอย่างนี้นี่เวลาหมุนปุ่มก็ต้องนี่เลย",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็จะเป็นช่วงโค้ดอัพช่วงโค้ดอัพก็เอาไว้ insert insert ตอนที่บอกว่าหมุนปุ่มอะไรอย่างนี้นี่เวลาหมุนปุ่มก็ต้องนี่เลย",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_timer_knob_touch_adjust_03",
@@ -164,9 +227,13 @@
       "source_sha256": "0e14bad5936b5568929d7c125dcf42754541c859c2bf3107c37a82dd3ce3199d",
       "source_start": 15.0,
       "source_end": 26.44,
-      "human_status": "APPROVED",
-      "human_note_original": "นี่ก็หมุนผมแล้วก็ปิดถังแค่นั้นแหละ",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "นี่ก็หมุนผมแล้วก็ปิดถังแค่นั้นแหละ",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_lid_hand_rest_01",
@@ -174,9 +241,13 @@
       "source_sha256": "b17474324caefdabbe897060b09e474ff3211384ea3309bca79a02609629be9c",
       "source_start": 0.0,
       "source_end": 1.8,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
+      "semantic_conflict": true,
+      "conflict_reason": "Note describes wash water agitation and moving machine, but visual is hand resting on machine lid.",
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_water_vortex_hero_01",
@@ -184,9 +255,13 @@
       "source_sha256": "b17474324caefdabbe897060b09e474ff3211384ea3309bca79a02609629be9c",
       "source_start": 1.8,
       "source_end": 8.2,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_lid_close_down_03",
@@ -194,9 +269,13 @@
       "source_sha256": "b17474324caefdabbe897060b09e474ff3211384ea3309bca79a02609629be9c",
       "source_start": 8.2,
       "source_end": 10.02,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็ตรงๆเลยให้เห็นความแรงของการปั่นปั่นล้างเสื้อผ้าปั่นซักเสื้อผ้าเออแล้วก็เราสามารถเอาย้ายมันไปไว้ไหนก็ได้ประมาณนี้ก็คือนอกห้องน้ำในห้องน้ำหรือว่าระเบียงก็ได้ไม่ลำบากอะไรประมาณเนี้ยอันเล็กนะอันแค่นี้เองอันประมาณนี้ขนาดไม่ใหญ่ย้ายง่ายอะไรอย่างนี้",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_soapy_vortex_closeup_01",
@@ -205,7 +284,11 @@
       "source_start": 0.0,
       "source_end": 7.0,
       "human_status": "UNREVIEWED",
+      "migrated_status": "UNREVIEWED",
       "human_note_original": "",
+      "migrated_human_note_original": "",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -215,7 +298,11 @@
       "source_start": 7.0,
       "source_end": 22.0,
       "human_status": "UNREVIEWED",
+      "migrated_status": "UNREVIEWED",
       "human_note_original": "",
+      "migrated_human_note_original": "",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -224,9 +311,13 @@
       "source_sha256": "1006774574b5c2dd02161baaba620c170eaa4525d1d57a0b7df49ec6b1718b02",
       "source_start": 22.0,
       "source_end": 29.0,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้ก็นี่เห็นไหมให้ดูมกชัดๆเห็นไหมมันมีมอก",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้ก็นี่เห็นไหมให้ดูมกชัดๆเห็นไหมมันมีมอก",
+      "semantic_conflict": true,
+      "conflict_reason": "Note mentions 'ให้ดู มอก. ชัดๆ' (TISI spec mark) but visual is lifting/carrying machine by handle.",
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_carry_portable_01",
@@ -234,9 +325,13 @@
       "source_sha256": "1006774574b5c2dd02161baaba620c170eaa4525d1d57a0b7df49ec6b1718b02",
       "source_start": 29.0,
       "source_end": 33.0,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้คือใช้งานง่ายสามารถเอาไปในห้องน้ำแล้วก็เสียบกับก๊อกแล้วเปิดน้ำก๊อกใส่แล้วก็หมุนได้เลยหมุนสะดวกสบายมากเคลื่อนย้ายไปไหนสะดวก",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้คือใช้งานง่ายสามารถเอาไปในห้องน้ำแล้วก็เสียบกับก๊อกแล้วเปิดน้ำก๊อกใส่แล้วก็หมุนได้เลยหมุนสะดวกสบายมากเคลื่อนย้ายไปไหนสะดวก",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_detergent_pour_01",
@@ -244,9 +339,13 @@
       "source_sha256": "1006774574b5c2dd02161baaba620c170eaa4525d1d57a0b7df49ec6b1718b02",
       "source_start": 33.0,
       "source_end": 44.0,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้คือใช้งานง่ายสามารถเอาไปในห้องน้ำแล้วก็เสียบกับก๊อกแล้วเปิดน้ำก๊อกใส่แล้วก็หมุนได้เลยหมุนสะดวกสบายมากเคลื่อนย้ายไปไหนสะดวก",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้คือใช้งานง่ายสามารถเอาไปในห้องน้ำแล้วก็เสียบกับก๊อกแล้วเปิดน้ำก๊อกใส่แล้วก็หมุนได้เลยหมุนสะดวกสบายมากเคลื่อนย้ายไปไหนสะดวก",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_bathroom_corner_start_knob_01",
@@ -254,9 +353,13 @@
       "source_sha256": "1006774574b5c2dd02161baaba620c170eaa4525d1d57a0b7df49ec6b1718b02",
       "source_start": 44.0,
       "source_end": 50.0,
-      "human_status": "APPROVED",
-      "human_note_original": "อันนี้คือเติมน้ำยาซักผ้าหลังจากที่เราหยิบผ้าเสร็จแล้วเติมใส่น้ำยาซักผ้า",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "อันนี้คือเติมน้ำยาซักผ้าหลังจากที่เราหยิบผ้าเสร็จแล้วเติมใส่น้ำยาซักผ้า",
+      "semantic_conflict": true,
+      "conflict_reason": "Note mentions 'เติมน้ำยาซักผ้า' (detergent pour) but visual is turning control knob.",
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_bathroom_corner_active_wash_01",
@@ -264,9 +367,13 @@
       "source_sha256": "1006774574b5c2dd02161baaba620c170eaa4525d1d57a0b7df49ec6b1718b02",
       "source_start": 50.0,
       "source_end": 60.97,
-      "human_status": "APPROVED",
-      "human_note_original": "แล้วก็หมุนโหมดซักแล้วก็ตั้งเวลาแล้วก็เห็นไหมความแรงนี้ตั้งแต่เริ่มต้นหมุนแค่นั้นแหละอันนี้",
-      "reviewed_at": "2026-09-05T12:00:00.000Z"
+      "human_status": "MIGRATED_APPROVED",
+      "migrated_status": "MIGRATED_APPROVED",
+      "human_note_original": "",
+      "migrated_human_note_original": "แล้วก็หมุนโหมดซักแล้วก็ตั้งเวลาแล้วก็เห็นไหมความแรงนี้ตั้งแต่เริ่มต้นหมุนแค่นั้นแหละอันนี้",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_rejected_tripod_long_01",
@@ -274,9 +381,13 @@
       "source_sha256": "123dd7401ee2d7cf7d41f71fec19d6750711aa750bb86256f6fb052a901ffcbe",
       "source_start": 0.0,
       "source_end": 489.19,
-      "human_status": "BANNED",
-      "human_note_original": "Audited exclusion: Tripod legs and unboxing cardboard clutter visible in background; static take",
-      "reviewed_at": "2026-09-07T12:00:00.000Z"
+      "human_status": "MIGRATED_BANNED",
+      "migrated_status": "MIGRATED_BANNED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Audited exclusion: Tripod legs and unboxing cardboard clutter visible in background; static take",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_rejected_tripod_loading_01",
@@ -284,9 +395,13 @@
       "source_sha256": "0f1a39f45d901614f2e6e3c9ec437be9d9685a3c942baef4e6e6a1d48c8b4185",
       "source_start": 0.0,
       "source_end": 60.0,
-      "human_status": "BANNED",
-      "human_note_original": "Audited exclusion: Tripod leg obstruction in frame",
-      "reviewed_at": "2026-09-07T12:00:00.000Z"
+      "human_status": "MIGRATED_BANNED",
+      "migrated_status": "MIGRATED_BANNED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Audited exclusion: Tripod leg obstruction in frame",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_rejected_tripod_vortex_02",
@@ -294,9 +409,13 @@
       "source_sha256": "0f1a39f45d901614f2e6e3c9ec437be9d9685a3c942baef4e6e6a1d48c8b4185",
       "source_start": 120.0,
       "source_end": 260.0,
-      "human_status": "BANNED",
-      "human_note_original": "Audited exclusion: Tripod leg obstruction in frame; better coverage exists in file 04 and 07",
-      "reviewed_at": "2026-09-07T12:00:00.000Z"
+      "human_status": "MIGRATED_BANNED",
+      "migrated_status": "MIGRATED_BANNED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Audited exclusion: Tripod leg obstruction in frame; better coverage exists in file 04 and 07",
+      "semantic_conflict": false,
+      "conflict_reason": null,
+      "reviewed_at": null
     },
     {
       "canonical_shot_id": "kashiwa_bathroom_cramped_01",
@@ -305,7 +424,11 @@
       "source_start": 50.0,
       "source_end": 120.0,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -315,7 +438,11 @@
       "source_start": 120.0,
       "source_end": 300.0,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     },
     {
@@ -325,7 +452,11 @@
       "source_start": 380.0,
       "source_end": 460.0,
       "human_status": "UNREVIEWED",
-      "human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+      "migrated_status": "UNREVIEWED",
+      "human_note_original": "",
+      "migrated_human_note_original": "Needs review (overlaps both Approved & Banned marks: '')",
+      "semantic_conflict": false,
+      "conflict_reason": null,
       "reviewed_at": null
     }
   ]
