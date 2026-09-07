@@ -676,8 +676,8 @@ function stopSpeechRecognition() {
 
 // ==========================================================================
 
-// Kashiwa Canonical Shot Catalog v2 & Curation Manager (Separated Migrated vs Current Review)
-const CANONICAL_STORAGE_KEY = 'sp_tak_canonical_curation_kashiwa_v3';
+// Kashiwa Canonical Shot Catalog v2 & Curation Manager (Clean Status Contract)
+const CANONICAL_STORAGE_KEY = 'sp_tak_canonical_curation_kashiwa_v5';
 let canonicalCatalog = [];
 let canonicalActiveFilter = 'ALL';
 let canonicalSearchQuery = '';
@@ -721,9 +721,9 @@ function renderCanonicalDashboardCounts() {
   if (!canonicalCatalog || canonicalCatalog.length === 0) return;
   let curApproved = 0;
   let curBanned = 0;
+  let curUnreviewed = 0;
   let migApproved = 0;
   let migBanned = 0;
-  let unreviewed = 0;
   let conflicts = 0;
 
   canonicalCatalog.forEach(s => {
@@ -732,10 +732,10 @@ function renderCanonicalDashboardCounts() {
 
     if (st === 'APPROVED') curApproved++;
     else if (st === 'BANNED') curBanned++;
+    else curUnreviewed++;
 
     if (mig === 'MIGRATED_APPROVED') migApproved++;
     else if (mig === 'MIGRATED_BANNED') migBanned++;
-    else if (mig === 'UNREVIEWED') unreviewed++;
 
     if (s.semantic_conflict) conflicts++;
   });
@@ -748,15 +748,15 @@ function renderCanonicalDashboardCounts() {
   setEl('c-count-all', canonicalCatalog.length);
   setEl('c-count-cur-app', curApproved);
   setEl('c-count-cur-ban', curBanned);
+  setEl('c-count-cur-unrev', curUnreviewed);
   setEl('c-count-mig-app', migApproved);
   setEl('c-count-mig-ban', migBanned);
-  setEl('c-count-unrev', unreviewed);
   setEl('c-count-conflicts', conflicts);
 }
 
 function setCanonicalFilter(filter) {
   canonicalActiveFilter = filter;
-  ['ALL', 'CUR_APPROVED', 'CUR_BANNED', 'MIG_APPROVED', 'MIG_BANNED', 'UNREVIEWED', 'CONFLICTS'].forEach(f => {
+  ['ALL', 'CUR_APPROVED', 'CUR_BANNED', 'CUR_UNREVIEWED', 'MIG_APPROVED', 'MIG_BANNED', 'CONFLICTS'].forEach(f => {
     const btn = document.getElementById('c-btn-filter-' + f);
     if (btn) {
       if (f === filter) btn.classList.add('active');
@@ -781,17 +781,20 @@ function renderCanonicalCards() {
   }
 
   const filtered = canonicalCatalog.filter(s => {
+    const st = s.human_status || 'UNREVIEWED';
+    const mig = s.migrated_status || 'UNREVIEWED';
+
     // 1. Status Filter
     if (canonicalActiveFilter === 'CUR_APPROVED') {
-      if (s.human_status !== 'APPROVED') return false;
+      if (st !== 'APPROVED') return false;
     } else if (canonicalActiveFilter === 'CUR_BANNED') {
-      if (s.human_status !== 'BANNED') return false;
+      if (st !== 'BANNED') return false;
+    } else if (canonicalActiveFilter === 'CUR_UNREVIEWED') {
+      if (st !== 'UNREVIEWED') return false;
     } else if (canonicalActiveFilter === 'MIG_APPROVED') {
-      if (s.migrated_status !== 'MIGRATED_APPROVED') return false;
+      if (mig !== 'MIGRATED_APPROVED') return false;
     } else if (canonicalActiveFilter === 'MIG_BANNED') {
-      if (s.migrated_status !== 'MIGRATED_BANNED') return false;
-    } else if (canonicalActiveFilter === 'UNREVIEWED') {
-      if (s.human_status !== 'UNREVIEWED' && s.migrated_status !== 'UNREVIEWED') return false;
+      if (mig !== 'MIGRATED_BANNED') return false;
     } else if (canonicalActiveFilter === 'CONFLICTS') {
       if (!s.semantic_conflict) return false;
     }
@@ -821,12 +824,13 @@ function renderCanonicalCards() {
 
   let html = '';
   filtered.forEach(s => {
-    const status = s.human_status || 'UNREVIEWED';
+    const curStatus = s.human_status || 'UNREVIEWED';
     const migStatus = s.migrated_status || 'UNREVIEWED';
-    const isCurApproved = status === 'APPROVED';
-    const isCurBanned = status === 'BANNED';
+    const isCurApproved = curStatus === 'APPROVED';
+    const isCurBanned = curStatus === 'BANNED';
+    const isCurUnreviewed = curStatus === 'UNREVIEWED';
 
-    let statusLabel = '⏳ ยังไม่ตรวจยืนยัน';
+    let statusLabel = '⏳ ยังไม่ตรวจ (UNREVIEWED)';
     let statusClass = 'unreviewed';
     if (isCurApproved) {
       statusLabel = '✅ ตรวจแล้ว: เอา (APPROVED)';
@@ -834,21 +838,15 @@ function renderCanonicalCards() {
     } else if (isCurBanned) {
       statusLabel = '🚫 ตรวจแล้ว: แบน (BANNED)';
       statusClass = 'banned';
-    } else if (migStatus === 'MIGRATED_APPROVED') {
-      statusLabel = '🏷️ มาร์กเดิม: เคยเลือกไว้ (รอตรวจยืนยัน)';
-      statusClass = 'mig-approved';
-    } else if (migStatus === 'MIGRATED_BANNED') {
-      statusLabel = '🚫 มาร์กเดิม: เคยสั่งแบน (รอตรวจยืนยัน)';
-      statusClass = 'mig-banned';
     }
 
     let migPillHtml = '';
     if (migStatus === 'MIGRATED_APPROVED') {
-      migPillHtml = '<span class="c-migrated-pill migrated_approved">🏷️ มาร์กเดิม: MIGRATED_APPROVED (Prior Evidence)</span>';
+      migPillHtml = '<span class="c-migrated-pill migrated_approved">📜 ประวัติเดิม: MIGRATED_APPROVED (Prior Evidence เท่านั้น)</span>';
     } else if (migStatus === 'MIGRATED_BANNED') {
-      migPillHtml = '<span class="c-migrated-pill migrated_banned">⚠️ มาร์กเดิม: MIGRATED_BANNED (คำเตือน: ห้ามใช้จนกว่าจะตรวจใหม่)</span>';
+      migPillHtml = '<span class="c-migrated-pill migrated_banned">⚠️ ประวัติเดิม: MIGRATED_BANNED (คำเตือน: ติดขาตั้งกล้อง/ของรก)</span>';
     } else {
-      migPillHtml = '<span class="c-migrated-pill unreviewed">🏷️ มาร์กเดิม: UNREVIEWED (ยังไม่เคยตรวจ)</span>';
+      migPillHtml = '<span class="c-migrated-pill unreviewed">📜 ประวัติเดิม: UNREVIEWED (ยังไม่เคยตรวจ)</span>';
     }
 
     const tagsHtml = (s.semantic_tags || []).map(t => `<span class="c-tag">#${escapeHtml(t)}</span>`).join('');
@@ -886,7 +884,7 @@ function renderCanonicalCards() {
       `;
     }
 
-    const cardStatusBorderClass = isCurApproved ? 'status-approved' : (isCurBanned ? 'status-banned' : (s.semantic_conflict ? 'status-conflict' : (migStatus === 'MIGRATED_BANNED' ? 'status-mig-banned' : 'status-unreviewed')));
+    const cardStatusBorderClass = isCurApproved ? 'status-approved' : (isCurBanned ? 'status-banned' : (s.semantic_conflict ? 'status-conflict' : 'status-unreviewed'));
 
     html += `
       <div class="canonical-card ${cardStatusBorderClass}" id="card_${s.canonical_shot_id}">
@@ -975,7 +973,7 @@ function renderCanonicalCards() {
                     title="สั่งแบน ห้ามหยิบช็อตนี้ไปใช้เด็ดขาด (Hard Exclusion)">
               🚫 แบน (Ban)
             </button>
-            <button class="c-btn-status btn-unrev ${(!isCurApproved && !isCurBanned) ? 'active' : ''}" 
+            <button class="c-btn-status btn-unrev ${isCurUnreviewed ? 'active' : ''}" 
                     onclick="setCanonicalStatus('${s.canonical_shot_id}', 'UNREVIEWED')" 
                     title="ยังไม่ตรวจ (ห้ามหยิบไปใช้จนกว่าจะได้รับการตรวจ)">
               ⏳ ยังไม่ตรวจ
@@ -993,6 +991,7 @@ function setCanonicalStatus(canonicalShotId, newStatus) {
   const item = canonicalCatalog.find(s => s.canonical_shot_id === canonicalShotId);
   if (!item) return;
 
+  // Strict: only update human_status and reviewed_at, never overwrite migrated_status
   item.human_status = newStatus;
   item.reviewed_at = (newStatus === 'APPROVED' || newStatus === 'BANNED') ? new Date().toISOString() : null;
   saveCanonicalCuration(false);
@@ -1000,7 +999,7 @@ function setCanonicalStatus(canonicalShotId, newStatus) {
 
   const toastMsg = newStatus === 'APPROVED' ? `✅ ช็อต [${canonicalShotId}] ได้รับการตรวจยืนยัน: เอา (APPROVED)` :
                    newStatus === 'BANNED'   ? `🚫 ช็อต [${canonicalShotId}] ได้รับการตรวจยืนยัน: แบน (BANNED)` :
-                                              `⏳ รีเซ็ต [${canonicalShotId}] เป็นยังไม่ตรวจยืนยัน`;
+                                              `⏳ รีเซ็ต [${canonicalShotId}] เป็นยังไม่ตรวจ (UNREVIEWED)`;
   showToast(toastMsg);
 }
 
@@ -1095,7 +1094,7 @@ function resetKashiwaCurationToDefault() {
     return;
   }
   const count = window.KASHIWA_CANONICAL_CATALOG_V2.length;
-  if (confirm(`ต้องการรีเซ็ตผลการ Curation ของ Kashiwa ทั้งหมด (${count} ช็อต) กลับเป็นค่าเริ่มต้นที่ Migrate มา (17 มาร์กเดิมเอา / 3 มาร์กเดิมแบน / 12 ยังไม่ตรวจ) ใช่หรือไม่?`)) {
+  if (confirm(`ต้องการรีเซ็ตผลการ Curation ของ Kashiwa ทั้งหมด (${count} ช็อต) กลับเป็นค่าเริ่มต้น (Current Unreviewed: 32 ช็อต / ประวัติเดิมเอา: 17 / ประวัติเดิมแบน: 3) ใช่หรือไม่?`)) {
     canonicalCatalog = JSON.parse(JSON.stringify(window.KASHIWA_CANONICAL_CATALOG_V2));
     saveCanonicalCuration(false);
     renderCanonicalDashboardCounts();
@@ -1113,9 +1112,9 @@ function exportHumanCuratedCatalog() {
   const summary = {
     current_approved: 0,
     current_banned: 0,
+    current_unreviewed: 0,
     migrated_approved: 0,
     migrated_banned: 0,
-    unreviewed: 0,
     semantic_conflicts: 0
   };
 
@@ -1125,10 +1124,10 @@ function exportHumanCuratedCatalog() {
 
     if (st === 'APPROVED') summary.current_approved++;
     else if (st === 'BANNED') summary.current_banned++;
+    else summary.current_unreviewed++;
 
     if (mig === 'MIGRATED_APPROVED') summary.migrated_approved++;
     else if (mig === 'MIGRATED_BANNED') summary.migrated_banned++;
-    else if (mig === 'UNREVIEWED') summary.unreviewed++;
 
     if (seg.semantic_conflict) summary.semantic_conflicts++;
 
@@ -1167,7 +1166,7 @@ function exportHumanCuratedCatalog() {
   document.body.removeChild(anchor);
   URL.revokeObjectURL(url);
 
-  showToast(`📥 ส่งออก human_curated_catalog.json สำเร็จ (${curatedSegments.length} ช็อต | ตรวจเอา ${summary.current_approved} / ตรวจแบน ${summary.current_banned} / มาร์กเดิมเอา ${summary.migrated_approved})`);
+  showToast(`📥 ส่งออก human_curated_catalog.json สำเร็จ (ตรวจเอา ${summary.current_approved} / ตรวจแบน ${summary.current_banned} / ยังไม่ตรวจ ${summary.current_unreviewed})`);
 }
 
 function escapeHtml(str) {

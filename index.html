@@ -10238,25 +10238,32 @@
     <!-- Quick Status Dashboard & Filters -->
     <div class="canonical-dashboard-row">
       <div class="canonical-filter-pills">
+        <!-- Main All -->
         <button class="c-filter-btn active" id="c-btn-filter-ALL" onclick="setCanonicalFilter('ALL')">
           ทั้งหมด <span class="c-badge-pill" id="c-count-all">32</span>
         </button>
-        <button class="c-filter-btn filter-app" id="c-btn-filter-CUR_APPROVED" onclick="setCanonicalFilter('CUR_APPROVED')" title="ช็อตที่ผู้ใช้ตรวจยืนยันใหม่ในรอบนี้ (มีสิทธิ์เข้า Stage 5)">
-          ✅ เอาแล้ว (APPROVED) <span class="c-badge-pill" id="c-count-cur-app">0</span>
+
+        <!-- Current Review Group -->
+        <button class="c-filter-btn filter-app" id="c-btn-filter-CUR_APPROVED" onclick="setCanonicalFilter('CUR_APPROVED')" title="Current Approved: ช็อตที่ตรวจยืนยันใหม่แล้ว (มีสิทธิ์เข้า Stage 5)">
+          ✅ เอาแล้ว (Approved) <span class="c-badge-pill" id="c-count-cur-app">0</span>
         </button>
-        <button class="c-filter-btn filter-ban" id="c-btn-filter-CUR_BANNED" onclick="setCanonicalFilter('CUR_BANNED')" title="ช็อตที่ผู้ใช้สั่งแบนใหม่ในรอบนี้ (Hard Exclusion)">
-          🚫 แบนแล้ว (BANNED) <span class="c-badge-pill" id="c-count-cur-ban">0</span>
+        <button class="c-filter-btn filter-ban" id="c-btn-filter-CUR_BANNED" onclick="setCanonicalFilter('CUR_BANNED')" title="Current Banned: ช็อตที่สั่งแบนใหม่ในรอบนี้ (Hard Exclusion)">
+          🚫 แบนแล้ว (Banned) <span class="c-badge-pill" id="c-count-cur-ban">0</span>
         </button>
-        <button class="c-filter-btn" id="c-btn-filter-MIG_APPROVED" onclick="setCanonicalFilter('MIG_APPROVED')" title="ช็อตที่มาร์กเดิมเคยเลือกไว้ (รอตรวจยืนยัน)">
-          🏷️ มาร์กเดิม: เอา <span class="c-badge-pill" id="c-count-mig-app">17</span>
+        <button class="c-filter-btn filter-unrev" id="c-btn-filter-CUR_UNREVIEWED" onclick="setCanonicalFilter('CUR_UNREVIEWED')" title="Current Unreviewed: ช็อตที่ยังไม่เคยตรวจใหม่">
+          ⏳ ยังไม่ตรวจ <span class="c-badge-pill" id="c-count-cur-unrev">32</span>
         </button>
-        <button class="c-filter-btn" id="c-btn-filter-MIG_BANNED" onclick="setCanonicalFilter('MIG_BANNED')" title="ช็อตที่มาร์กเดิมเคยสั่งแบน (รอตรวจยืนยัน)">
-          🏷️ มาร์กเดิม: แบน <span class="c-badge-pill" id="c-count-mig-ban">3</span>
+
+        <!-- History Group -->
+        <button class="c-filter-btn filter-history" id="c-btn-filter-MIG_APPROVED" onclick="setCanonicalFilter('MIG_APPROVED')" title="History: มาร์กเดิมเคยเลือกไว้ (Prior Evidence เท่านั้น ยังไม่มีสิทธิ์เข้า Stage 5 จนกว่าจะตรวจใหม่)">
+          📜 ประวัติเดิม: เอา <span class="c-badge-pill" id="c-count-mig-app">17</span>
         </button>
-        <button class="c-filter-btn filter-unrev" id="c-btn-filter-UNREVIEWED" onclick="setCanonicalFilter('UNREVIEWED')" title="ช็อตที่ยังไม่เคยตรวจ">
-          ⏳ ยังไม่ตรวจ <span class="c-badge-pill" id="c-count-unrev">12</span>
+        <button class="c-filter-btn filter-history" id="c-btn-filter-MIG_BANNED" onclick="setCanonicalFilter('MIG_BANNED')" title="History: มาร์กเดิมเคยสั่งแบน (ติดขาตั้งกล้อง/ของรก)">
+          📜 ประวัติเดิม: แบน <span class="c-badge-pill" id="c-count-mig-ban">3</span>
         </button>
-        <button class="c-filter-btn" id="c-btn-filter-CONFLICTS" onclick="setCanonicalFilter('CONFLICTS')" style="border-color:#e67e22; color:#e67e22;" title="ช็อตที่โน้ตเดิมขัดแย้งกับภาพจริง ต้องตรวจใหม่">
+
+        <!-- Semantic Conflict Group -->
+        <button class="c-filter-btn filter-conflict" id="c-btn-filter-CONFLICTS" onclick="setCanonicalFilter('CONFLICTS')" title="Semantic Conflict: โน้ตเดิมขัดแย้งกับภาพจริง ต้องตรวจใหม่">
           ⚠️ ขัดแย้ง <span class="c-badge-pill" id="c-count-conflicts">5</span>
         </button>
       </div>
