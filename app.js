@@ -72,6 +72,9 @@ function importJSON() {
 window.addEventListener('DOMContentLoaded', () => {
   restoreMarksUI();
   updateBasketBadge();
+  if (typeof initCanonicalCuration === 'function') {
+    initCanonicalCuration();
+  }
 });
 
 function toggleRangeMode() {
@@ -100,6 +103,9 @@ function switchTab(prodCode) {
   document.querySelectorAll('.prod-section').forEach(s => s.classList.remove('active'));
   const targetSec = document.getElementById('sec_' + prodCode);
   if (targetSec) targetSec.classList.add('active');
+  if (prodCode === 'washer' && typeof renderCanonicalCards === 'function') {
+    renderCanonicalCards();
+  }
 }
 
 function handleFrameClick(e, prod, folder, sec, label, idx) {
@@ -665,4 +671,418 @@ function stopSpeechRecognition() {
   if (bar) {
     bar.classList.remove('recording-active');
   }
+}
+
+
+// ==========================================================================
+// Kashiwa Canonical Shot Catalog v2 & Curation Manager
+// ==========================================================================
+const CANONICAL_STORAGE_KEY = 'sp_tak_canonical_curation_kashiwa_v2';
+let canonicalCatalog = [];
+let canonicalActiveFilter = 'ALL';
+let canonicalSearchQuery = '';
+let cardVoiceRec = null;
+let activeVoiceShotId = null;
+
+function initCanonicalCuration() {
+  try {
+    const saved = localStorage.getItem(CANONICAL_STORAGE_KEY);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        canonicalCatalog = parsed;
+      }
+    }
+  } catch(e) {
+    console.warn('Error reading canonical curation from localStorage:', e);
+  }
+
+  if (!canonicalCatalog || canonicalCatalog.length === 0) {
+    if (window.KASHIWA_CANONICAL_CATALOG_V2 && Array.isArray(window.KASHIWA_CANONICAL_CATALOG_V2)) {
+      canonicalCatalog = JSON.parse(JSON.stringify(window.KASHIWA_CANONICAL_CATALOG_V2));
+      saveCanonicalCuration(false);
+    }
+  }
+
+  renderCanonicalDashboardCounts();
+  renderCanonicalCards();
+}
+
+function saveCanonicalCuration(notify = true) {
+  try {
+    localStorage.setItem(CANONICAL_STORAGE_KEY, JSON.stringify(canonicalCatalog));
+  } catch(e) {
+    console.error('Failed to save canonical curation to localStorage:', e);
+  }
+  renderCanonicalDashboardCounts();
+}
+
+function renderCanonicalDashboardCounts() {
+  if (!canonicalCatalog || canonicalCatalog.length === 0) return;
+  let approved = 0;
+  let banned = 0;
+  let unreviewed = 0;
+
+  canonicalCatalog.forEach(s => {
+    const st = s.human_status || 'UNREVIEWED';
+    if (st === 'APPROVED') approved++;
+    else if (st === 'BANNED') banned++;
+    else unreviewed++;
+  });
+
+  const elAll = document.getElementById('c-count-all');
+  const elApp = document.getElementById('c-count-app');
+  const elBan = document.getElementById('c-count-ban');
+  const elUnrev = document.getElementById('c-count-unrev');
+
+  if (elAll) elAll.innerText = canonicalCatalog.length;
+  if (elApp) elApp.innerText = approved;
+  if (elBan) elBan.innerText = banned;
+  if (elUnrev) elUnrev.innerText = unreviewed;
+}
+
+function setCanonicalFilter(filter) {
+  canonicalActiveFilter = filter;
+  ['ALL', 'APPROVED', 'BANNED', 'UNREVIEWED'].forEach(f => {
+    const btn = document.getElementById('c-btn-filter-' + f);
+    if (btn) {
+      if (f === filter) btn.classList.add('active');
+      else btn.classList.remove('active');
+    }
+  });
+  renderCanonicalCards();
+}
+
+function onCanonicalSearch(query) {
+  canonicalSearchQuery = (query || '').toLowerCase().trim();
+  renderCanonicalCards();
+}
+
+function renderCanonicalCards() {
+  const container = document.getElementById('canonical-washer-grid');
+  if (!container) return;
+
+  if (!canonicalCatalog || canonicalCatalog.length === 0) {
+    container.innerHTML = '<div style="color:var(--text-muted); text-align:center; padding:40px; grid-column:1/-1;">กำลังโหลดข้อมูล Canonical Catalog v2...</div>';
+    return;
+  }
+
+  const filtered = canonicalCatalog.filter(s => {
+    // 1. Status Filter
+    if (canonicalActiveFilter !== 'ALL') {
+      const st = s.human_status || 'UNREVIEWED';
+      if (st !== canonicalActiveFilter) return false;
+    }
+
+    // 2. Search Query Filter
+    if (canonicalSearchQuery) {
+      const idMatch = (s.canonical_shot_id || '').toLowerCase().includes(canonicalSearchQuery);
+      const actionMatch = (s.actual_visual_action || '').toLowerCase().includes(canonicalSearchQuery);
+      const fileMatch = (s.source_file || '').toLowerCase().includes(canonicalSearchQuery);
+      const tagMatch = Array.isArray(s.semantic_tags) && s.semantic_tags.some(t => t.toLowerCase().includes(canonicalSearchQuery));
+      const noteMatch = (s.human_note_original || '').toLowerCase().includes(canonicalSearchQuery);
+      if (!idMatch && !actionMatch && !fileMatch && !tagMatch && !noteMatch) return false;
+    }
+    return true;
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="color:var(--text-muted); text-align:center; padding:50px 20px; grid-column:1/-1; background:#151822; border-radius:12px; border:1px solid #262b3d;">
+      <div style="font-size:24px; margin-bottom:10px;">🔍</div>
+      <div style="font-size:14px; font-weight:600; color:#fff;">ไม่พบช็อตฟุตเทจที่ตรงกับตัวกรอง</div>
+      <div style="font-size:12px; margin-top:4px;">ลองเปลี่ยนตัวกรองสถานะ หรือล้างคำค้นหาดูครับ</div>
+    </div>`;
+    return;
+  }
+
+  let html = '';
+  filtered.forEach(s => {
+    const status = s.human_status || 'UNREVIEWED';
+    const statusClass = status.toLowerCase();
+    let statusLabel = '⏳ ยังไม่ตรวจ';
+    if (status === 'APPROVED') statusLabel = '✅ เอา (Approved)';
+    else if (status === 'BANNED') statusLabel = '🚫 แบน (Banned)';
+
+    const tagsHtml = (s.semantic_tags || []).map(t => `<span class="c-tag">#${escapeHtml(t)}</span>`).join('');
+    const shaShort = (s.source_sha256 || '').slice(0, 10);
+    const startStr = Number(s.source_start).toFixed(2);
+    const endStr = Number(s.source_end).toFixed(2);
+    const durStr = Number(s.source_duration).toFixed(1);
+    const noteVal = s.human_note_original ? escapeHtml(s.human_note_original) : '';
+    const reviewedTimeStr = s.reviewed_at ? `<span style="font-size:10px; color:var(--text-muted);" title="ตรวจเมื่อ: ${escapeHtml(s.reviewed_at)}">🕒 ${new Date(s.reviewed_at).toLocaleDateString('th-TH')}</span>` : '';
+
+    html += `
+      <div class="canonical-card status-${statusClass}" id="card_${s.canonical_shot_id}">
+        <!-- Thumbnail & Preview -->
+        <div class="c-card-thumb-wrap" onclick="openZoom('${s.preview_thumbnail}', '${escapeHtml(s.canonical_shot_id)}', '${startStr}s - ${endStr}s (${durStr}s)')" title="แตะเพื่อดูภาพขยาย">
+          <img src="${s.preview_thumbnail}" alt="${escapeHtml(s.canonical_shot_id)}" loading="lazy">
+          <div class="c-badge-top-left">${s.framing || 'shot'} • ${s.quality || 'HD'}</div>
+          <div class="c-status-badge ${statusClass}">${statusLabel}</div>
+          <div class="c-badge-bottom-bar">
+            <span>⏱️ ${startStr}s ➔ ${endStr}s</span>
+            <span>ความยาว ${durStr}s</span>
+          </div>
+        </div>
+
+        <!-- Details & Metadata -->
+        <div class="c-card-body">
+          <div class="c-card-id-row">
+            <span class="c-card-id">${escapeHtml(s.canonical_shot_id)}</span>
+            <span class="c-seg-id">${escapeHtml(s.segment_id || '')}</span>
+          </div>
+
+          <div class="c-card-action">${escapeHtml(s.actual_visual_action || '')}</div>
+
+          <div class="c-card-tags">
+            ${tagsHtml}
+          </div>
+
+          <!-- Secondary Physical Master Info -->
+          <div class="c-card-source" title="Physical Master: ${escapeHtml(s.source_file)} (${escapeHtml(s.source_sha256)})">
+            <span>📁</span>
+            <span class="c-source-filename">${escapeHtml(s.source_file)}</span>
+            <span class="c-sha-tag" title="SHA-256: ${escapeHtml(s.source_sha256)}">${shaShort}...</span>
+          </div>
+
+          <!-- Human Note & Voice-to-Text -->
+          <div class="c-note-box">
+            <div class="c-note-label">
+              <span>💬 บันทึกเสียง / โน้ตมนุษย์:</span>
+              ${reviewedTimeStr}
+            </div>
+            <div class="c-note-input-row">
+              <input type="text" 
+                     class="c-note-input" 
+                     id="note_${s.canonical_shot_id}" 
+                     value="${noteVal}" 
+                     placeholder="พิมพ์สั่งการ หรือกดไมค์เพื่อพูดภาษาไทย..." 
+                     onchange="updateCanonicalNote('${s.canonical_shot_id}', this.value)"
+                     autocomplete="off">
+              <button type="button" 
+                      class="c-btn-mic" 
+                      id="mic_${s.canonical_shot_id}" 
+                      onclick="toggleCardVoiceRecord('${s.canonical_shot_id}')" 
+                      title="กดไมค์เพื่อพูดบันทึกเสียงภาษาไทยลงช่องนี้ทันที">
+                🎙️
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="c-actions-row">
+            <button class="c-btn-status btn-approve ${status === 'APPROVED' ? 'active' : ''}" 
+                    onclick="setCanonicalStatus('${s.canonical_shot_id}', 'APPROVED')" 
+                    title="อนุมัติให้ระบบดึงช็อตนี้ไปใช้ได้">
+              ✅ เอา (Approve)
+            </button>
+            <button class="c-btn-status btn-ban ${status === 'BANNED' ? 'active' : ''}" 
+                    onclick="setCanonicalStatus('${s.canonical_shot_id}', 'BANNED')" 
+                    title="สั่งแบน ห้ามหยิบช็อตนี้ไปใช้เด็ดขาด (Hard Exclusion)">
+              🚫 แบน (Ban)
+            </button>
+            <button class="c-btn-status btn-unrev ${status === 'UNREVIEWED' ? 'active' : ''}" 
+                    onclick="setCanonicalStatus('${s.canonical_shot_id}', 'UNREVIEWED')" 
+                    title="ยังไม่ตรวจ (ห้ามหยิบไปใช้จนกว่าจะได้รับการตรวจ)">
+              ⏳ ยังไม่ตรวจ
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+}
+
+function setCanonicalStatus(canonicalShotId, newStatus) {
+  const item = canonicalCatalog.find(s => s.canonical_shot_id === canonicalShotId);
+  if (!item) return;
+
+  item.human_status = newStatus;
+  item.reviewed_at = new Date().toISOString();
+  saveCanonicalCuration(false);
+
+  // Update card in DOM if visible
+  const card = document.getElementById('card_' + canonicalShotId);
+  if (card) {
+    card.classList.remove('status-approved', 'status-banned', 'status-unreviewed');
+    card.classList.add('status-' + newStatus.toLowerCase());
+
+    const badge = card.querySelector('.c-status-badge');
+    if (badge) {
+      badge.className = 'c-status-badge ' + newStatus.toLowerCase();
+      let label = '⏳ ยังไม่ตรวจ';
+      if (newStatus === 'APPROVED') label = '✅ เอา (Approved)';
+      else if (newStatus === 'BANNED') label = '🚫 แบน (Banned)';
+      badge.innerText = label;
+    }
+
+    const btnApp = card.querySelector('.btn-approve');
+    const btnBan = card.querySelector('.btn-ban');
+    const btnUnrev = card.querySelector('.btn-unrev');
+    if (btnApp) btnApp.classList.toggle('active', newStatus === 'APPROVED');
+    if (btnBan) btnBan.classList.toggle('active', newStatus === 'BANNED');
+    if (btnUnrev) btnUnrev.classList.toggle('active', newStatus === 'UNREVIEWED');
+  }
+
+  const toastMsg = newStatus === 'APPROVED' ? `✅ ช็อต [${canonicalShotId}] อนุมัติแล้ว` :
+                   newStatus === 'BANNED'   ? `🚫 สั่งแบนช็อต [${canonicalShotId}] แล้ว` :
+                                              `⏳ ตั้งสถานะ [${canonicalShotId}] เป็นยังไม่ตรวจ`;
+  showToast(toastMsg);
+}
+
+function updateCanonicalNote(canonicalShotId, newNote) {
+  const item = canonicalCatalog.find(s => s.canonical_shot_id === canonicalShotId);
+  if (!item) return;
+
+  item.human_note_original = (newNote || '').trim();
+  item.reviewed_at = new Date().toISOString();
+  saveCanonicalCuration(false);
+  showToast(`💾 บันทึกหมายเหตุ [${canonicalShotId}] เรียบร้อย`);
+}
+
+function toggleCardVoiceRecord(canonicalShotId) {
+  if (activeVoiceShotId === canonicalShotId && cardVoiceRec) {
+    stopCardVoiceRecord();
+    return;
+  }
+
+  if (cardVoiceRec) {
+    stopCardVoiceRecord();
+  }
+
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    alert('เบราว์เซอร์นี้ไม่รองรับ Web Speech API กรุณาเปิดผ่าน Google Chrome หรือ Edge ครับ');
+    return;
+  }
+
+  cardVoiceRec = new SpeechRecognition();
+  cardVoiceRec.lang = 'th-TH';
+  cardVoiceRec.continuous = false;
+  cardVoiceRec.interimResults = true;
+  activeVoiceShotId = canonicalShotId;
+
+  const micBtn = document.getElementById('mic_' + canonicalShotId);
+  const inputEl = document.getElementById('note_' + canonicalShotId);
+
+  cardVoiceRec.onstart = () => {
+    if (micBtn) micBtn.classList.add('recording');
+    showToast(`🎙️ กำลังฟังเสียงสำหรับ [${canonicalShotId}]... พูดได้เลยครับ`);
+  };
+
+  cardVoiceRec.onresult = (event) => {
+    let transcript = '';
+    for (let i = 0; i < event.results.length; ++i) {
+      transcript += event.results[i][0].transcript;
+    }
+    if (inputEl) {
+      inputEl.value = transcript.trim();
+    }
+  };
+
+  cardVoiceRec.onerror = (event) => {
+    console.warn('Voice recording error:', event.error);
+    stopCardVoiceRecord();
+    if (event.error === 'not-allowed') {
+      alert('กรุณาอนุญาตให้เบราว์เซอร์เข้าถึงไมโครโฟนเพื่อบันทึกเสียงครับ');
+    }
+  };
+
+  cardVoiceRec.onend = () => {
+    if (inputEl && activeVoiceShotId) {
+      updateCanonicalNote(activeVoiceShotId, inputEl.value);
+    }
+    stopCardVoiceRecord();
+  };
+
+  try {
+    cardVoiceRec.start();
+  } catch(err) {
+    console.error('Failed to start voice recognition:', err);
+    stopCardVoiceRecord();
+  }
+}
+
+function stopCardVoiceRecord() {
+  if (cardVoiceRec) {
+    try { cardVoiceRec.stop(); } catch(e) {}
+    cardVoiceRec = null;
+  }
+  if (activeVoiceShotId) {
+    const micBtn = document.getElementById('mic_' + activeVoiceShotId);
+    if (micBtn) micBtn.classList.remove('recording');
+    activeVoiceShotId = null;
+  }
+}
+
+function resetKashiwaCurationToDefault() {
+  if (!window.KASHIWA_CANONICAL_CATALOG_V2 || !Array.isArray(window.KASHIWA_CANONICAL_CATALOG_V2)) {
+    alert('ไม่พบข้อมูล KASHIWA_CANONICAL_CATALOG_V2 ในระบบ');
+    return;
+  }
+  const count = window.KASHIWA_CANONICAL_CATALOG_V2.length;
+  if (confirm(`ต้องการรีเซ็ตผลการ Curation ของ Kashiwa ทั้งหมด (${count} ช็อต) กลับเป็นค่าเริ่มต้นที่ Migrate มา (17 เอา / 3 แบน / 12 ยังไม่ตรวจ) ใช่หรือไม่?`)) {
+    canonicalCatalog = JSON.parse(JSON.stringify(window.KASHIWA_CANONICAL_CATALOG_V2));
+    saveCanonicalCuration(false);
+    renderCanonicalDashboardCounts();
+    renderCanonicalCards();
+    showToast(`✅ รีเซ็ตผล Curation เป็นค่าตั้งต้นเรียบร้อย (${count} ช็อต)`);
+  }
+}
+
+function exportHumanCuratedCatalog() {
+  if (!canonicalCatalog || canonicalCatalog.length === 0) {
+    alert('ไม่มีข้อมูลช็อต Canonical ที่จะส่งออกครับ');
+    return;
+  }
+
+  const counts = { approved: 0, banned: 0, unreviewed: 0 };
+  const curatedSegments = canonicalCatalog.map(seg => {
+    const st = seg.human_status || 'UNREVIEWED';
+    if (st === 'APPROVED') counts.approved++;
+    else if (st === 'BANNED') counts.banned++;
+    else counts.unreviewed++;
+
+    return {
+      canonical_shot_id: seg.canonical_shot_id,
+      source_file: seg.source_file,
+      source_sha256: seg.source_sha256,
+      source_start: seg.source_start,
+      source_end: seg.source_end,
+      human_status: st,
+      human_note_original: seg.human_note_original || '',
+      reviewed_at: seg.reviewed_at || null
+    };
+  });
+
+  const exportPayload = {
+    catalog_version: 'Kashiwa Canonical Shot Catalog v2',
+    exported_at: new Date().toISOString(),
+    total_segments: curatedSegments.length,
+    summary: counts,
+    curated_shot_segments: curatedSegments
+  };
+
+  const jsonStr = JSON.stringify(exportPayload, null, 2);
+  const blob = new Blob([jsonStr], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement('a');
+  anchor.href = url;
+  anchor.download = 'human_curated_catalog.json';
+  document.body.appendChild(anchor);
+  anchor.click();
+  document.body.removeChild(anchor);
+  URL.revokeObjectURL(url);
+
+  showToast(`📥 ส่งออก human_curated_catalog.json สำเร็จ (${curatedSegments.length} ช็อต | เอา ${counts.approved} / แบน ${counts.banned} / ยังไม่ตรวจ ${counts.unreviewed})`);
+}
+
+function escapeHtml(str) {
+  if (typeof str !== 'string') return '';
+  return str.replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
 }
