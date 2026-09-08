@@ -72,7 +72,9 @@ function importJSON() {
 window.addEventListener('DOMContentLoaded', () => {
   restoreMarksUI();
   updateBasketBadge();
-  if (typeof initCanonicalCuration === 'function') {
+  if (typeof initIntervalCuration === 'function') {
+    initIntervalCuration();
+  } else if (typeof initCanonicalCuration === 'function') {
     initCanonicalCuration();
   }
 });
@@ -103,8 +105,12 @@ function switchTab(prodCode) {
   document.querySelectorAll('.prod-section').forEach(s => s.classList.remove('active'));
   const targetSec = document.getElementById('sec_' + prodCode);
   if (targetSec) targetSec.classList.add('active');
-  if (prodCode === 'washer' && typeof renderCanonicalCards === 'function') {
-    renderCanonicalCards();
+  if (prodCode === 'washer') {
+    if (typeof renderIntervalCards === 'function') {
+      renderIntervalCards();
+    } else if (typeof renderCanonicalCards === 'function') {
+      renderCanonicalCards();
+    }
   }
 }
 
@@ -675,6 +681,612 @@ function stopSpeechRecognition() {
 
 
 // ==========================================================================
+
+
+// ==========================================================================
+// Kashiwa 2-Second Review Intervals Workbench (Human Decision Authority)
+// ==========================================================================
+const INTERVAL_STORAGE_KEY = 'sp_tak_interval_curation_kashiwa_v1';
+let intervalCatalog = [];
+let intervalFileFilter = 'ALL';
+let intervalStatusFilter = 'ALL';
+let intervalSearchQuery = '';
+let intervalCurrentPage = 1;
+let intervalPageSize = 60;
+let activeIntervalVoiceId = null;
+let intervalVoiceRec = null;
+let activePlayingVideo = null;
+
+function initIntervalCuration() {
+  try {
+    const raw = localStorage.getItem(INTERVAL_STORAGE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        intervalCatalog = parsed;
+      }
+    }
+  } catch(e) {
+    console.warn('Error reading interval curation from localStorage:', e);
+  }
+
+  if (!intervalCatalog || intervalCatalog.length === 0) {
+    if (window.KASHIWA_REVIEW_INTERVALS_V1 && Array.isArray(window.KASHIWA_REVIEW_INTERVALS_V1)) {
+      intervalCatalog = JSON.parse(JSON.stringify(window.KASHIWA_REVIEW_INTERVALS_V1));
+      try {
+        localStorage.setItem(INTERVAL_STORAGE_KEY, JSON.stringify(intervalCatalog));
+      } catch(e) {}
+    }
+  }
+
+  renderIntervalDashboardCounts();
+  renderIntervalCards();
+}
+
+function saveIntervalCuration(notify = false) {
+  try {
+    localStorage.setItem(INTERVAL_STORAGE_KEY, JSON.stringify(intervalCatalog));
+  } catch(e) {
+    console.error('Failed to save interval curation to localStorage:', e);
+  }
+  renderIntervalDashboardCounts();
+}
+
+function renderIntervalDashboardCounts() {
+  if (!intervalCatalog || intervalCatalog.length === 0) return;
+
+  let approved = 0;
+  let banned = 0;
+  let unreviewed = 0;
+  let hasNote = 0;
+  let oldOverlap = 0;
+
+  intervalCatalog.forEach(it => {
+    const st = it.current_status || 'UNREVIEWED';
+    if (st === 'APPROVED') approved++;
+    else if (st === 'BANNED') banned++;
+    else unreviewed++;
+
+    if (it.human_note_original && it.human_note_original.trim() !== '') hasNote++;
+    if (it.historical_curation_hint && it.historical_curation_hint !== 'NONE') oldOverlap++;
+  });
+
+  const total = intervalCatalog.length;
+  const reviewed = approved + banned;
+  const pct = total > 0 ? ((reviewed / total) * 100).toFixed(1) : '0.0';
+
+  const setEl = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.innerText = val;
+  };
+
+  setEl('int-count-all', total);
+  setEl('int-count-app', approved);
+  setEl('int-count-ban', banned);
+  setEl('int-count-unrev', unreviewed);
+  setEl('int-count-note', hasNote);
+  setEl('int-count-old', oldOverlap);
+
+  const progText = document.getElementById('int-progress-text');
+  if (progText) progText.innerText = `📊 ความคืบหน้าการตรวจ: ${reviewed} / ${total} ช่วง (${pct}%)`;
+
+  const remText = document.getElementById('int-remaining-text');
+  if (remText) remText.innerText = `เหลืออีก ${unreviewed} ช่วง`;
+
+  const barApp = document.getElementById('int-progress-bar-app');
+  if (barApp) barApp.style.width = total > 0 ? `${(approved / total) * 100}%` : '0%';
+
+  const barBan = document.getElementById('int-progress-bar-ban');
+  if (barBan) barBan.style.width = total > 0 ? `${(banned / total) * 100}%` : '0%';
+}
+
+function setIntervalStatus(intervalId, newStatus) {
+  if (!intervalCatalog || intervalCatalog.length === 0) {
+    initIntervalCuration();
+  }
+  const item = intervalCatalog.find(it => it.review_interval_id === intervalId);
+  if (!item) return;
+
+  item.current_status = newStatus;
+  item.reviewed_at = (newStatus === 'APPROVED' || newStatus === 'BANNED') ? new Date().toISOString() : null;
+
+  try {
+    localStorage.setItem(INTERVAL_STORAGE_KEY, JSON.stringify(intervalCatalog));
+  } catch(e) {
+    console.error('Failed to save to localStorage:', e);
+  }
+
+  renderIntervalDashboardCounts();
+
+  // Update card in DOM if rendered
+  const card = document.getElementById(`card_${intervalId}`);
+  if (card) {
+    card.classList.remove('status-approved', 'status-banned', 'status-unreviewed');
+    const badge = document.getElementById(`badge_${intervalId}`);
+    const btnApp = card.querySelector('.btn-int-approve');
+    const btnBan = card.querySelector('.btn-int-ban');
+    const btnUnrev = card.querySelector('.btn-int-unrev');
+
+    if (btnApp) btnApp.classList.remove('active');
+    if (btnBan) btnBan.classList.remove('active');
+    if (btnUnrev) btnUnrev.classList.remove('active');
+
+    if (newStatus === 'APPROVED') {
+      card.classList.add('status-approved');
+      if (badge) {
+        badge.className = 'interval-status-badge badge-approved';
+        badge.innerText = '✅ เอาแล้ว';
+      }
+      if (btnApp) btnApp.classList.add('active');
+    } else if (newStatus === 'BANNED') {
+      card.classList.add('status-banned');
+      if (badge) {
+        badge.className = 'interval-status-badge badge-banned';
+        badge.innerText = '🚫 แบนแล้ว';
+      }
+      if (btnBan) btnBan.classList.add('active');
+    } else {
+      card.classList.add('status-unreviewed');
+      if (badge) {
+        badge.className = 'interval-status-badge badge-unreviewed';
+        badge.innerText = '⏳ ยังไม่ตรวจ';
+      }
+      if (btnUnrev) btnUnrev.classList.add('active');
+    }
+  }
+
+  const msg = newStatus === 'APPROVED' ? `✅ มาร์ก [${intervalId}] เอา (Approved)` :
+              (newStatus === 'BANNED' ? `🚫 มาร์ก [${intervalId}] แบน (Banned)` : `⏳ รีเซ็ต [${intervalId}] เป็น ยังไม่ตรวจ`);
+  showToast(msg);
+}
+
+function saveIntervalNote(intervalId, noteText) {
+  if (!intervalCatalog || intervalCatalog.length === 0) initIntervalCuration();
+  const item = intervalCatalog.find(it => it.review_interval_id === intervalId);
+  if (!item) return;
+
+  item.human_note_original = (noteText || '').trim();
+  try {
+    localStorage.setItem(INTERVAL_STORAGE_KEY, JSON.stringify(intervalCatalog));
+  } catch(e) {}
+  renderIntervalDashboardCounts();
+}
+
+function playIntervalPreview(intervalId) {
+  const item = intervalCatalog.find(it => it.review_interval_id === intervalId);
+  if (!item) return;
+
+  const mediaWrap = document.getElementById(`media_${intervalId}`);
+  if (!mediaWrap) return;
+
+  // Pause previous video if playing
+  if (activePlayingVideo && activePlayingVideo !== mediaWrap.querySelector('video')) {
+    activePlayingVideo.pause();
+    activePlayingVideo.style.display = 'none';
+    const prevWrap = activePlayingVideo.parentElement;
+    if (prevWrap) {
+      const prevImg = prevWrap.querySelector('.interval-thumb');
+      if (prevImg) prevImg.style.display = 'block';
+      const prevBtn = prevWrap.querySelector('.btn-play-preview');
+      if (prevBtn) prevBtn.innerText = '▶ ดูวิดีโอ 2 วิ';
+    }
+  }
+
+  let vid = mediaWrap.querySelector('video');
+  const img = mediaWrap.querySelector('.interval-thumb');
+  const btn = mediaWrap.querySelector('.btn-play-preview');
+
+  if (!vid) {
+    vid = document.createElement('video');
+    vid.id = `v_${intervalId}`;
+    vid.className = 'interval-video';
+    vid.playsInline = true;
+    vid.preload = 'none';
+    vid.src = item.proxy_video;
+    mediaWrap.appendChild(vid);
+  }
+
+  activePlayingVideo = vid;
+  if (img) img.style.display = 'none';
+  vid.style.display = 'block';
+
+  // Seek strictly to interval_start
+  vid.currentTime = item.interval_start;
+  vid.play().catch(e => console.warn('Play interrupted:', e));
+  if (btn) btn.innerText = '⏸️ กำลังเล่น...';
+
+  // Strict boundary: Pause at interval_end
+  const onTimeUpdate = () => {
+    if (vid.currentTime >= item.interval_end) {
+      vid.pause();
+      vid.removeEventListener('timeupdate', onTimeUpdate);
+      vid.currentTime = item.interval_start;
+      if (btn) btn.innerText = '🔄 เล่นซ้ำ 2 วิ';
+    }
+  };
+
+  vid.addEventListener('timeupdate', onTimeUpdate);
+}
+
+function toggleIntervalVoice(intervalId) {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    alert('เบราว์เซอร์นี้ไม่รองรับ Web Speech API กรุณาเปิดบน Chrome หรือ Safari ครับ');
+    return;
+  }
+
+  const btn = document.getElementById(`mic_${intervalId}`);
+  const input = document.getElementById(`note_${intervalId}`);
+
+  if (intervalVoiceRec && activeIntervalVoiceId === intervalId) {
+    try { intervalVoiceRec.stop(); } catch(e) {}
+    intervalVoiceRec = null;
+    activeIntervalVoiceId = null;
+    if (btn) btn.classList.remove('recording');
+    return;
+  }
+
+  if (intervalVoiceRec) {
+    try { intervalVoiceRec.stop(); } catch(e) {}
+    if (activeIntervalVoiceId) {
+      const prevBtn = document.getElementById(`mic_${activeIntervalVoiceId}`);
+      if (prevBtn) prevBtn.classList.remove('recording');
+    }
+  }
+
+  activeIntervalVoiceId = intervalId;
+  intervalVoiceRec = new SpeechRecognition();
+  intervalVoiceRec.lang = 'th-TH';
+  intervalVoiceRec.continuous = false;
+  intervalVoiceRec.interimResults = true;
+
+  intervalVoiceRec.onstart = () => {
+    if (btn) btn.classList.add('recording');
+    showToast('🎙️ กำลังฟังเสียงภาษาไทย... พูดโน้ตได้เลยครับ');
+  };
+
+  intervalVoiceRec.onresult = (e) => {
+    let result = '';
+    for (let i = 0; i < e.results.length; i++) {
+      result += e.results[i][0].transcript;
+    }
+    if (input) {
+      input.value = result.trim();
+      saveIntervalNote(intervalId, result.trim());
+    }
+  };
+
+  intervalVoiceRec.onerror = (e) => {
+    console.warn('Speech error:', e);
+    if (btn) btn.classList.remove('recording');
+  };
+
+  intervalVoiceRec.onend = () => {
+    if (btn) btn.classList.remove('recording');
+    activeIntervalVoiceId = null;
+    intervalVoiceRec = null;
+  };
+
+  try {
+    intervalVoiceRec.start();
+  } catch(e) {
+    console.warn('Speech start error:', e);
+  }
+}
+
+function onIntervalFileFilterChange(val) {
+  intervalFileFilter = val;
+  intervalCurrentPage = 1;
+  renderIntervalCards();
+}
+
+function setIntervalFilter(filter) {
+  intervalStatusFilter = filter;
+  ['ALL', 'APPROVED', 'BANNED', 'UNREVIEWED', 'HAS_NOTE', 'OLD_OVERLAP'].forEach(f => {
+    const btn = document.getElementById('int-btn-filter-' + f);
+    if (btn) {
+      if (f === filter) btn.classList.add('active');
+      else btn.classList.remove('active');
+    }
+  });
+  intervalCurrentPage = 1;
+  renderIntervalCards();
+}
+
+function onIntervalSearch(val) {
+  intervalSearchQuery = (val || '').toLowerCase().trim();
+  intervalCurrentPage = 1;
+  renderIntervalCards();
+}
+
+function changeIntervalPage(delta) {
+  intervalCurrentPage += delta;
+  renderIntervalCards();
+  window.scrollTo({ top: 350, behavior: 'smooth' });
+}
+
+function changeIntervalPageSize(val) {
+  intervalPageSize = val === 'ALL' ? 99999 : parseInt(val);
+  intervalCurrentPage = 1;
+  renderIntervalCards();
+}
+
+function renderIntervalCards() {
+  const container = document.getElementById('interval-washer-grid');
+  if (!container) return;
+
+  if (!intervalCatalog || intervalCatalog.length === 0) {
+    container.innerHTML = '<div style="color:var(--text-muted); text-align:center; padding:40px; grid-column:1/-1;">กำลังโหลดข้อมูล 2-Second Review Intervals...</div>';
+    return;
+  }
+
+  // Filter
+  const filtered = intervalCatalog.filter(it => {
+    // 1. File filter
+    if (intervalFileFilter !== 'ALL') {
+      if (it.file_index !== parseInt(intervalFileFilter)) return false;
+    }
+
+    // 2. Status filter
+    const st = it.current_status || 'UNREVIEWED';
+    if (intervalStatusFilter === 'APPROVED') {
+      if (st !== 'APPROVED') return false;
+    } else if (intervalStatusFilter === 'BANNED') {
+      if (st !== 'BANNED') return false;
+    } else if (intervalStatusFilter === 'UNREVIEWED') {
+      if (st !== 'UNREVIEWED') return false;
+    } else if (intervalStatusFilter === 'HAS_NOTE') {
+      if (!it.human_note_original || it.human_note_original.trim() === '') return false;
+    } else if (intervalStatusFilter === 'OLD_OVERLAP') {
+      if (!it.historical_curation_hint || it.historical_curation_hint === 'NONE') return false;
+    }
+
+    // 3. Search query
+    if (intervalSearchQuery) {
+      const q = intervalSearchQuery;
+      const sStart = `${it.interval_start}`;
+      const sEnd = `${it.interval_end}`;
+      const idMatch = (it.review_interval_id || '').toLowerCase().includes(q);
+      const fileMatch = (it.source_file || '').toLowerCase().includes(q);
+      const semMatch = (it.semantic_hint || '').toLowerCase().includes(q);
+      const noteMatch = (it.human_note_original || '').toLowerCase().includes(q);
+      const histMatch = (it.historical_note || '').toLowerCase().includes(q);
+      const tagMatch = Array.isArray(it.semantic_tags) && it.semantic_tags.some(t => t.toLowerCase().includes(q));
+      if (!idMatch && !fileMatch && !semMatch && !noteMatch && !histMatch && !tagMatch && !sStart.includes(q) && !sEnd.includes(q)) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+
+  const totalCount = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(totalCount / intervalPageSize));
+  if (intervalCurrentPage > totalPages) intervalCurrentPage = totalPages;
+  if (intervalCurrentPage < 1) intervalCurrentPage = 1;
+
+  // Pagination UI Update
+  const prevBtn = document.getElementById('btn-page-prev');
+  const nextBtn = document.getElementById('btn-page-next');
+  const pageInd = document.getElementById('interval-page-indicator');
+  if (prevBtn) prevBtn.disabled = (intervalCurrentPage <= 1);
+  if (nextBtn) nextBtn.disabled = (intervalCurrentPage >= totalPages);
+  if (pageInd) pageInd.innerText = `หน้า ${intervalCurrentPage} / ${totalPages} (${totalCount} ช่วง)`;
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div style="color:var(--text-muted); text-align:center; padding:50px 20px; grid-column:1/-1; background:#141722; border-radius:12px; border:1px solid #23283a;">
+        <div style="font-size:26px; margin-bottom:10px;">🔍</div>
+        <div style="font-size:15px; font-weight:700; color:#fff;">ไม่พบช่วงเวลาที่ตรงกับเงื่อนไขการค้นหา</div>
+        <div style="font-size:12px; margin-top:6px; color:#8c98b3;">ลองเปลี่ยนตัวกรองไฟล์ หรือล้างคำค้นหาดูครับ</div>
+      </div>
+    `;
+    return;
+  }
+
+  // Slice for page
+  const startIdx = (intervalCurrentPage - 1) * intervalPageSize;
+  const pageItems = filtered.slice(startIdx, startIdx + intervalPageSize);
+
+  let html = '';
+  pageItems.forEach(it => {
+    const st = it.current_status || 'UNREVIEWED';
+    const isApp = (st === 'APPROVED');
+    const isBan = (st === 'BANNED');
+
+    const cardClass = isApp ? 'status-approved' : (isBan ? 'status-banned' : 'status-unreviewed');
+    const badgeClass = isApp ? 'badge-approved' : (isBan ? 'badge-banned' : 'badge-unreviewed');
+    const badgeText = isApp ? '✅ เอาแล้ว' : (isBan ? '🚫 แบนแล้ว' : '⏳ ยังไม่ตรวจ');
+
+    const sMin = Math.floor(it.interval_start / 60);
+    const sSec = Math.floor(it.interval_start % 60);
+    const eMin = Math.floor(it.interval_end / 60);
+    const eSec = Math.floor(it.interval_end % 60);
+    const timeRangeStr = `${String(sMin).padStart(2, '0')}:${String(sSec).padStart(2, '0')} ➔ ${String(eMin).padStart(2, '0')}:${String(eSec).padStart(2, '0')}`;
+
+    // Semantic hint box
+    let semHtml = '';
+    if (it.semantic_hint || (it.semantic_tags && it.semantic_tags.length > 0)) {
+      const tagsStr = (it.semantic_tags || []).map(t => `#${escapeHtml(t)}`).join(' ');
+      semHtml = `
+        <div class="interval-semantic-hint">
+          <span class="hint-label">🎬 Semantic Hint:</span>
+          <span>${escapeHtml(it.semantic_hint || '')} ${tagsStr ? `<span style="color:var(--accent-blue); font-size:10.5px;">${tagsStr}</span>` : ''}</span>
+        </div>
+      `;
+    }
+
+    // Historical hint box
+    let histHtml = '';
+    if (it.historical_curation_hint && it.historical_curation_hint !== 'NONE') {
+      const isOldApp = (it.historical_curation_hint === 'OLD_APPROVED_OVERLAP');
+      const pillClass = isOldApp ? 'pill-old-app' : 'pill-old-ban';
+      const pillText = isOldApp ? '📜 ประวัติเดิม: เอา' : '📜 ประวัติเดิม: แบน';
+      histHtml = `
+        <div class="interval-history-hint">
+          <span class="history-pill ${pillClass}">${pillText}</span>
+          <span>${escapeHtml(it.historical_note || '')}</span>
+        </div>
+      `;
+    }
+
+    const curNoteVal = escapeHtml(it.human_note_original || '');
+
+    html += `
+      <div class="interval-card ${cardClass}" id="card_${it.review_interval_id}">
+        <!-- Media Container -->
+        <div class="interval-media-wrap" id="media_${it.review_interval_id}">
+          <div class="interval-timecode-badge">⏱️ ${timeRangeStr} (${it.interval_duration.toFixed(1)}s)</div>
+          <div class="interval-status-badge ${badgeClass}" id="badge_${it.review_interval_id}">${badgeText}</div>
+          <img class="interval-thumb" src="${it.thumbnail}" alt="${it.review_interval_id}" loading="lazy">
+          <button type="button" class="btn-play-preview" onclick="playIntervalPreview('${it.review_interval_id}')">
+            ▶ ดูวิดีโอ 2 วิ
+          </button>
+        </div>
+
+        <!-- Body & Controls -->
+        <div class="interval-card-body">
+          <div class="interval-btn-group">
+            <button type="button" class="btn-int-action btn-int-approve ${isApp ? 'active' : ''}" onclick="setIntervalStatus('${it.review_interval_id}', 'APPROVED')">
+              ✅ เอา
+            </button>
+            <button type="button" class="btn-int-action btn-int-ban ${isBan ? 'active' : ''}" onclick="setIntervalStatus('${it.review_interval_id}', 'BANNED')">
+              🚫 แบน
+            </button>
+            <button type="button" class="btn-int-action btn-int-unrev ${(!isApp && !isBan) ? 'active' : ''}" onclick="setIntervalStatus('${it.review_interval_id}', 'UNREVIEWED')">
+              ⏳ ยังไม่ตรวจ
+            </button>
+          </div>
+
+          ${semHtml}
+          ${histHtml}
+
+          <div class="interval-source-info" title="${escapeHtml(it.source_file)}">
+            <span>📁 ไฟล์ ${String(it.file_index).padStart(2, '0')}: ${escapeHtml(it.source_file)}</span>
+          </div>
+
+          <!-- Note & Speech-to-Text -->
+          <div class="interval-note-row">
+            <input type="text" 
+                   class="interval-note-input" 
+                   id="note_${it.review_interval_id}" 
+                   placeholder="พิมพ์โน้ต หรือกดไมค์พูดไทย..." 
+                   value="${curNoteVal}" 
+                   onchange="saveIntervalNote('${it.review_interval_id}', this.value)">
+            <button type="button" 
+                    class="btn-int-mic" 
+                    id="mic_${it.review_interval_id}" 
+                    onclick="toggleIntervalVoice('${it.review_interval_id}')" 
+                    title="เปิดไมค์เพื่อพูดโน้ตเป็นภาษาไทย">
+              🎙️
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+}
+
+function exportHumanCuratedIntervals() {
+  // CRITICAL: Always read current state directly from LocalStorage
+  let sourceCatalog = [];
+  try {
+    const raw = localStorage.getItem(INTERVAL_STORAGE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        sourceCatalog = parsed;
+        intervalCatalog = parsed;
+      }
+    }
+  } catch(e) {
+    console.error('Error reading interval LocalStorage:', e);
+  }
+
+  if (sourceCatalog.length === 0 && intervalCatalog && intervalCatalog.length > 0) {
+    sourceCatalog = intervalCatalog;
+  }
+
+  if (sourceCatalog.length === 0 && window.KASHIWA_REVIEW_INTERVALS_V1) {
+    sourceCatalog = JSON.parse(JSON.stringify(window.KASHIWA_REVIEW_INTERVALS_V1));
+  }
+
+  if (sourceCatalog.length === 0) {
+    alert('ไม่มีข้อมูลช่วงเวลา Review Intervals ที่จะส่งออกครับ');
+    return;
+  }
+
+  const summary = {
+    total_intervals: sourceCatalog.length,
+    approved: 0,
+    banned: 0,
+    unreviewed: 0
+  };
+
+  const curatedIntervals = sourceCatalog.map(it => {
+    const st = it.current_status || 'UNREVIEWED';
+    if (st === 'APPROVED') summary.approved++;
+    else if (st === 'BANNED') summary.banned++;
+    else summary.unreviewed++;
+
+    return {
+      review_interval_id: it.review_interval_id,
+      source_file: it.source_file,
+      source_sha256: it.source_sha256,
+      interval_start: it.interval_start,
+      interval_end: it.interval_end,
+      interval_duration: it.interval_duration,
+      human_status: st,
+      human_note_original: it.human_note_original || '',
+      reviewed_at: it.reviewed_at || null
+    };
+  });
+
+  const exportPayload = {
+    catalog_version: 'Kashiwa 2-Second Review Intervals v1',
+    exported_at: new Date().toISOString(),
+    total_intervals: curatedIntervals.length,
+    summary: summary,
+    curated_intervals: curatedIntervals
+  };
+
+  const jsonStr = JSON.stringify(exportPayload, null, 2);
+  const blob = new Blob([jsonStr], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement('a');
+  anchor.href = url;
+  anchor.download = 'human_curated_intervals.json';
+  document.body.appendChild(anchor);
+  anchor.click();
+  document.body.removeChild(anchor);
+  URL.revokeObjectURL(url);
+
+  showToast(`📥 ส่งออก human_curated_intervals.json สำเร็จ (เอา ${summary.approved} / แบน ${summary.banned} / ยังไม่ตรวจ ${summary.unreviewed})`);
+}
+
+function resetKashiwaIntervalCuration() {
+  if (!confirm('ต้องการรีเซ็ตผลการตรวจ 2-Second Review Intervals ทั้งหมด 1,010 ช่วงกลับเป็น [UNREVIEWED] ใช่หรือไม่?')) {
+    return;
+  }
+  if (window.KASHIWA_REVIEW_INTERVALS_V1) {
+    intervalCatalog = JSON.parse(JSON.stringify(window.KASHIWA_REVIEW_INTERVALS_V1));
+  } else {
+    intervalCatalog.forEach(it => {
+      it.current_status = 'UNREVIEWED';
+      it.human_note_original = '';
+      it.reviewed_at = null;
+    });
+  }
+  try {
+    localStorage.setItem(INTERVAL_STORAGE_KEY, JSON.stringify(intervalCatalog));
+  } catch(e) {}
+  renderIntervalDashboardCounts();
+  renderIntervalCards();
+  showToast('🔄 รีเซ็ตผลการตรวจทั้งหมดเป็น UNREVIEWED เรียบร้อย');
+}
+
 
 // Kashiwa Canonical Shot Catalog v2 & Curation Manager (Clean Status Contract)
 const CANONICAL_STORAGE_KEY = 'sp_tak_canonical_curation_kashiwa_v5';

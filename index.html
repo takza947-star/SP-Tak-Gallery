@@ -10209,76 +10209,111 @@
   </section>
 
 <section class="prod-section " id="sec_washer">
-  <!-- Canonical Catalog v2 Header & Control Panel -->
+  <!-- 2-Second Review Intervals Header & Control Panel -->
   <div class="canonical-header-card">
     <div class="canonical-header-top">
       <div class="canonical-header-info">
         <div class="canonical-badge-row">
           <span class="canonical-tag-gold">🧺 Kashiwa Master Footage</span>
           <span class="canonical-tag-blue">Contract V3.0-FROZEN</span>
-          <span class="canonical-tag-purple">Physical Master Files Only</span>
+          <span class="canonical-tag-purple">Fixed 2-Second Review Intervals</span>
         </div>
-        <h2 class="canonical-title">Kashiwa Canonical Shot Catalog v2</h2>
+        <h2 class="canonical-title">Kashiwa 2-Second Interval Review Workbench</h2>
         <p class="canonical-subtitle">
-          สกัดจาก 11 ไฟล์จริงใน <code>D:\ฟุตเทจ SP\01_เครื่องซักผ้ามินิ_KASHIWA\</code> รวม <b>32 ช่วงมาตรฐาน</b> | แตะปุ่มเพื่อเลือก <b>เอา (Approved)</b> / <b>แบน (Banned)</b> / <b>ยังไม่ตรวจ (Unreviewed)</b> พร้อมบันทึกเสียงสั่งการภาษาไทย
+          สกัดจาก 11 Physical Master Files รวม <b>1,010 ช่วง (ทุก 2.0 วินาทีแบบ deterministic)</b> | มนุษย์เป็นผู้ตัดสิน 100% (AI ห้ามกำหนด Boundary) | แต่ละการ์ดมีภาพ Midpoint Thumbnail และกดเล่น Proxy Video 2 วินาทีได้จริง
         </p>
       </div>
       <div class="canonical-header-actions">
-        <button class="btn-canonical-export" onclick="exportHumanCuratedCatalog()" title="ส่งออก human_curated_catalog.json ตาม Schema V3 เพื่อส่งให้ระบบตัดต่ออัตโนมัติ">
+        <button class="btn-canonical-export" onclick="exportHumanCuratedIntervals()" title="ส่งออก human_curated_intervals.json ตามสัญญา">
           <span class="btn-icon">📥</span>
-          <span>ส่งออก human_curated_catalog.json</span>
+          <span>ส่งออก human_curated_intervals.json</span>
         </button>
-        <button class="btn-canonical-reset" onclick="resetKashiwaCurationToDefault()" title="โหลดค่ามาตรฐานที่ย้ายมาจาก Master Curation เดิม (17 เอา / 3 แบน / 12 ยังไม่ตรวจ)">
+        <button class="btn-canonical-reset" onclick="resetKashiwaIntervalCuration()" title="รีเซ็ตสถานะการตรวจทั้งหมดให้กลับเป็น UNREVIEWED 1010 ช่วง">
           <span class="btn-icon">🔄</span>
-          <span>รีเซ็ตค่าตั้งต้น (Migrated 52 Marks)</span>
+          <span>รีเซ็ตผลตรวจ (UNREVIEWED ทั้งหมด)</span>
         </button>
       </div>
     </div>
 
-    <!-- Quick Status Dashboard & Filters -->
+    <!-- Progress Card -->
+    <div class="interval-progress-card">
+      <div class="interval-progress-header">
+        <span id="int-progress-text">📊 ความคืบหน้าการตรวจ: 0 / 1,010 ช่วง (0.0%)</span>
+        <span id="int-remaining-text" style="color:var(--text-muted); font-size:12px;">เหลืออีก 1,010 ช่วง</span>
+      </div>
+      <div class="interval-progress-track">
+        <div class="interval-progress-fill-app" id="int-progress-bar-app" style="width: 0%;"></div>
+        <div class="interval-progress-fill-ban" id="int-progress-bar-ban" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Navigation & Filters -->
     <div class="canonical-dashboard-row">
+      <div class="interval-nav-controls" style="width:100%;">
+        <!-- Filter by Master File -->
+        <select class="interval-file-select" id="interval-file-filter" onchange="onIntervalFileFilterChange(this.value)">
+          <option value="ALL">📁 ไฟล์ทั้งหมด (11 ไฟล์ • 1,010 ช่วง)</option>
+          <option value="1">ไฟล์ 01: ภาพรวมตัวเครื่อง_ดีไซน์ (97 ช่วง)</option>
+          <option value="2">ไฟล์ 02: การใส่น้ำยาซักผ้า_เปิดปิดฝาบน (5 ช่วง)</option>
+          <option value="3">ไฟล์ 03: โคลสอัพหมุนปุ่มตั้งเวลา (6 ช่วง)</option>
+          <option value="4">ไฟล์ 04: การใส่ผ้า_ระบบน้ำวนพลังซัก (7 ช่วง)</option>
+          <option value="5">ไฟล์ 05: ตะกร้าปั่นหมาด_การทำงาน (69 ช่วง)</option>
+          <option value="6">ไฟล์ 06: หูหิ้วตัวเครื่อง_ยกเคลื่อนย้าย (14 ช่วง)</option>
+          <option value="7">ไฟล์ 07: มุมมองด้านข้าง_ป้ายสเปก (6 ช่วง)</option>
+          <option value="8">ไฟล์ 08: ฟุตเทจเสริม_รีวิวอุปกรณ์ (31 ช่วง)</option>
+          <option value="9">ไฟล์ 09: วิดีโอยาว_ทดสอบซักจริง1 (245 ช่วง)</option>
+          <option value="10">ไฟล์ 10: วิดีโอยาว_ทดสอบซักจริง2 (255 ช่วง)</option>
+          <option value="11">ไฟล์ 11: รีวิวและทดสอบการใช้งาน (275 ช่วง)</option>
+        </select>
+
+        <div class="canonical-search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="interval-search-input" placeholder="ค้นหาเวลา (เช่น 00:24), คำสำคัญ, แท็ก, หรือ Note..." oninput="onIntervalSearch(this.value)">
+        </div>
+      </div>
+
       <div class="canonical-filter-pills">
-        <!-- Main All -->
-        <button class="c-filter-btn active" id="c-btn-filter-ALL" onclick="setCanonicalFilter('ALL')">
-          ทั้งหมด <span class="c-badge-pill" id="c-count-all">32</span>
+        <button class="c-filter-btn active" id="int-btn-filter-ALL" onclick="setIntervalFilter('ALL')">
+          ทั้งหมด <span class="c-badge-pill" id="int-count-all">1010</span>
         </button>
-
-        <!-- Current Review Group -->
-        <button class="c-filter-btn filter-app" id="c-btn-filter-CUR_APPROVED" onclick="setCanonicalFilter('CUR_APPROVED')" title="Current Approved: ช็อตที่ตรวจยืนยันใหม่แล้ว (มีสิทธิ์เข้า Stage 5)">
-          ✅ เอาแล้ว (Approved) <span class="c-badge-pill" id="c-count-cur-app">0</span>
+        <button class="c-filter-btn filter-app" id="int-btn-filter-APPROVED" onclick="setIntervalFilter('APPROVED')">
+          ✅ เอาแล้ว <span class="c-badge-pill" id="int-count-app">0</span>
         </button>
-        <button class="c-filter-btn filter-ban" id="c-btn-filter-CUR_BANNED" onclick="setCanonicalFilter('CUR_BANNED')" title="Current Banned: ช็อตที่สั่งแบนใหม่ในรอบนี้ (Hard Exclusion)">
-          🚫 แบนแล้ว (Banned) <span class="c-badge-pill" id="c-count-cur-ban">0</span>
+        <button class="c-filter-btn filter-ban" id="int-btn-filter-BANNED" onclick="setIntervalFilter('BANNED')">
+          🚫 แบนแล้ว <span class="c-badge-pill" id="int-count-ban">0</span>
         </button>
-        <button class="c-filter-btn filter-unrev" id="c-btn-filter-CUR_UNREVIEWED" onclick="setCanonicalFilter('CUR_UNREVIEWED')" title="Current Unreviewed: ช็อตที่ยังไม่เคยตรวจใหม่">
-          ⏳ ยังไม่ตรวจ <span class="c-badge-pill" id="c-count-cur-unrev">32</span>
+        <button class="c-filter-btn filter-unrev" id="int-btn-filter-UNREVIEWED" onclick="setIntervalFilter('UNREVIEWED')">
+          ⏳ ยังไม่ตรวจ <span class="c-badge-pill" id="int-count-unrev">1010</span>
         </button>
-
-        <!-- History Group -->
-        <button class="c-filter-btn filter-history" id="c-btn-filter-MIG_APPROVED" onclick="setCanonicalFilter('MIG_APPROVED')" title="History: มาร์กเดิมเคยเลือกไว้ (Prior Evidence เท่านั้น ยังไม่มีสิทธิ์เข้า Stage 5 จนกว่าจะตรวจใหม่)">
-          📜 ประวัติเดิม: เอา <span class="c-badge-pill" id="c-count-mig-app">17</span>
+        <button class="c-filter-btn" id="int-btn-filter-HAS_NOTE" onclick="setIntervalFilter('HAS_NOTE')">
+          💬 มีโน้ต <span class="c-badge-pill" id="int-count-note">0</span>
         </button>
-        <button class="c-filter-btn filter-history" id="c-btn-filter-MIG_BANNED" onclick="setCanonicalFilter('MIG_BANNED')" title="History: มาร์กเดิมเคยสั่งแบน (ติดขาตั้งกล้อง/ของรก)">
-          📜 ประวัติเดิม: แบน <span class="c-badge-pill" id="c-count-mig-ban">3</span>
-        </button>
-
-        <!-- Semantic Conflict Group -->
-        <button class="c-filter-btn filter-conflict" id="c-btn-filter-CONFLICTS" onclick="setCanonicalFilter('CONFLICTS')" title="Semantic Conflict: โน้ตเดิมขัดแย้งกับภาพจริง ต้องตรวจใหม่">
-          ⚠️ ขัดแย้ง <span class="c-badge-pill" id="c-count-conflicts">5</span>
+        <button class="c-filter-btn filter-history" id="int-btn-filter-OLD_OVERLAP" onclick="setIntervalFilter('OLD_OVERLAP')">
+          📜 มีประวัติเดิม <span class="c-badge-pill" id="int-count-old">734</span>
         </button>
       </div>
-      <div class="canonical-search-box">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="canonical-search-input" placeholder="ค้นหา Shot ID, แท็ก (เช่น unboxing, wash), หรือชื่อไฟล์..." oninput="onCanonicalSearch(this.value)">
+
+      <div class="c-local-storage-notice">
+        ℹ️ <b>ระบบความจำเบราว์เซอร์:</b> ผลการเลือก [เอา/แบน/โน้ต] จะถูกบันทึกใน LocalStorage คีย์ <code>sp_tak_interval_curation_kashiwa_v1</code> อัตโนมัติทันทีที่แตะปุ่ม และส่งออกเป็น <code>human_curated_intervals.json</code>
       </div>
-    
-    <div class="c-local-storage-notice">
-      ℹ️ <b>ข้อแนะนำการใช้งาน:</b> ผลการ Curation จะถูกบันทึกใน <b>LocalStorage ของเบราว์เซอร์ในเครื่องนี้เท่านั้น</b> (ไม่ซิงค์ข้ามมือถือ/PC อัตโนมัติ) เพื่อนำผลการตรวจเข้าสู่ AI Video Pipeline V3 กรุณากดปุ่ม <b>"📥 ส่งออก human_curated_catalog.json"</b> เมื่อตรวจเสร็จ
     </div>
   </div>
 
-  <!-- Dynamic Grid for 32 Canonical Cards -->
-  <div class="canonical-grid" id="canonical-washer-grid"></div>
+  <!-- Dynamic Grid for 2-Second Review Intervals -->
+  <div class="interval-grid" id="interval-washer-grid"></div>
+
+  <!-- Pagination Controls -->
+  <div class="interval-pagination" id="interval-pagination">
+    <button class="btn-page-nav" id="btn-page-prev" onclick="changeIntervalPage(-1)">◀ ก่อนหน้า</button>
+    <span class="page-indicator" id="interval-page-indicator">หน้า 1 / 17</span>
+    <button class="btn-page-nav" id="btn-page-next" onclick="changeIntervalPage(1)">ถัดไป ▶</button>
+    <select class="interval-file-select" id="interval-page-size" style="min-width:140px;" onchange="changeIntervalPageSize(this.value)">
+      <option value="60">60 รายการ / หน้า</option>
+      <option value="120">120 รายการ / หน้า</option>
+      <option value="300">300 รายการ / หน้า</option>
+      <option value="ALL">แสดงทั้งหมด</option>
+    </select>
+  </div>
 </section>
 
 <section class="prod-section " id="sec_light">
@@ -12764,6 +12799,7 @@
 <script src="shots.js?v=20260907_v11"></script>
 <script src="curation_default.js?v=20260907_v11"></script>
 <script src="kashiwa_canonical_catalog_v2.js?v=20260907_v13"></script>
-<script src="app.js?v=20260907_v13"></script>
+<script src="kashiwa_review_intervals_v1.js?v=20260908_v1"></script>
+<script src="app.js?v=20260908_v1"></script>
 </body>
 </html>
