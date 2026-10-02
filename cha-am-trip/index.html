@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน | แผนที่ Google Maps จริง</title>
+  <title>Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน | แผนเที่ยว & ภาพรีวิวจริง</title>
   
-  <meta name="description" content="Roadmap แผนเที่ยวชะอำ-เพชรบุรี 2 วัน 1 คืน พร้อมแผนที่ Google Maps จริง ภาพถ่ายสถานที่จริง และพยากรณ์อากาศ">
-  <meta property="og:title" content="Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน 🏖️">
-  <meta property="og:description" content="แผนเที่ยวชะอำ-เพชรบุรี แผนที่ Google Maps จริง ภาพถ่ายสถานที่จริง ครบทุกจุดแวะ">
+  <meta name="description" content="Roadmap แผนเที่ยวชะอำ-เพชรบุรี 2 วัน 1 คืน ตามแพลน Agenda จริง พร้อมภาพถ่ายรีวิวจริงหลายมุมมอง และแผนที่ Google Maps">
+  <meta property="og:title" content="Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน (ภาพรีวิวสถานที่จริง) 🏖️">
+  <meta property="og:description" content="แผนเที่ยวชะอำ-เพชรบุรี ตรงตาม Agenda จริง 100% • ภาพรีวิวจาก Wongnai / Paiduaykan / Sanook • Google Maps GPS">
   <meta property="og:image" content="roadmap.jpg">
 
   <!-- Google Fonts: Prompt -->
@@ -53,7 +53,7 @@
         <span class="text-2xl">🚗</span>
         <div>
           <h1 class="text-base font-bold text-slate-900 leading-none">ทริปชะอำ - เพชรบุรี</h1>
-          <p class="text-xs text-slate-500 mt-1 font-medium">2 วัน 1 คืน • ภาพจริง & แผนที่ Google Maps</p>
+          <p class="text-xs text-slate-500 mt-1 font-medium">2 วัน 1 คืน • ตรวจตรง Agenda จริง 100%</p>
         </div>
       </div>
       
@@ -62,9 +62,9 @@
           <span>🌤️</span>
           <span>สภาพอากาศ</span>
         </a>
-        <button onclick="openModal()" class="px-2 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold flex items-center gap-1 transition">
+        <button onclick="openModal('roadmap.jpg', 'ภาพ Roadmap แผนเดิม')" class="px-2 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold flex items-center gap-1 transition">
           <span>🗺️</span>
-          <span class="hidden sm:inline">ภาพเดิม</span>
+          <span class="hidden sm:inline">แผนเดิม</span>
         </button>
         <button onclick="shareTrip()" class="px-2.5 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-semibold flex items-center gap-1 border border-blue-200 transition">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
@@ -82,7 +82,7 @@
         <div class="flex items-center gap-2">
           <span class="text-xl">☀️</span>
           <div>
-            <span class="font-bold text-slate-800">เสาร์:</span> แดดดี ทะเลสงบ 32-34°C
+            <span class="font-bold text-slate-800">เสาร์:</span> แดดดีตลอดวัน ทะเลสงบ 32-34°C
           </div>
         </div>
         <div class="h-4 w-px bg-sky-200"></div>
@@ -105,12 +105,10 @@
     <!-- Day Segmented Switcher (Clean & High Contrast) -->
     <div class="bg-slate-200/80 p-1 rounded-xl flex gap-1 shadow-inner">
       <button id="tab-day1" onclick="switchDay(1)" class="flex-1 py-2.5 rounded-lg text-xs sm:text-sm font-bold transition-all shadow-sm bg-slate-900 text-white flex items-center justify-center gap-1.5">
-        <span>📍 วันที่ 1 : เสาร์</span>
-        <span class="text-[11px] opacity-80">(4 จุดแวะ)</span>
+        <span>📍 วันที่ 1 : คาเฟ่ ➔ ATV ➔ พูลวิลล่า</span>
       </button>
       <button id="tab-day2" onclick="switchDay(2)" class="flex-1 py-2.5 rounded-lg text-xs sm:text-sm font-bold transition-all text-slate-600 hover:text-slate-900 flex items-center justify-center gap-1.5">
-        <span>📍 วันที่ 2 : อาทิตย์</span>
-        <span class="text-[11px] opacity-80">(4 จุดแวะ)</span>
+        <span>📍 วันที่ 2 : มื้อเที่ยง ➔ วัด ➔ สวนตาล</span>
       </button>
     </div>
 
@@ -130,7 +128,7 @@
       </div>
 
       <!-- Google Maps Embed Container -->
-      <div class="relative w-full h-[260px] bg-slate-100">
+      <div class="relative w-full h-[250px] bg-slate-100">
         <iframe
           id="google-maps-iframe"
           title="Google Maps"
@@ -144,14 +142,14 @@
 
       <!-- 1-Tap Direct Google Maps App Navigation Button -->
       <div class="p-3 bg-white">
-        <a id="btn-full-route" href="https://www.google.com/maps/dir/กรุงเทพมหานคร/IKO+Camp+Cafe/Swiss+Sheep+Farm+ชะอำ/หาดชะอำ" target="_blank" rel="noopener" class="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-sm transition">
+        <a id="btn-full-route" href="https://www.google.com/maps/dir/กรุงเทพมหานคร/IKO+Camp+Cafe/Swiss+Sheep+Farm+ชะอำ/CP+พูลวิลล่า+ชะอำ/หาดชะอำ" target="_blank" rel="noopener" class="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-sm transition">
           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
           <span id="btn-full-route-text">เปิดเส้นทาง Day 1 ทั้งหมดในแอป Google Maps</span>
         </a>
       </div>
     </section>
 
-    <!-- Itinerary Timeline Cards -->
+    <!-- Itinerary Timeline Cards with Multi-Photo Review Gallery -->
     <section id="timeline-container" class="space-y-4">
       <!-- Stop Cards injected via JavaScript -->
     </section>
@@ -165,10 +163,10 @@
         </div>
         <a href="weather.html" class="text-[11px] font-bold text-amber-800 underline hover:text-amber-950">ดูสภาพอากาศ</a>
       </div>
-      <ul class="text-amber-800 space-y-1 pl-4 list-disc">
-        <li><strong>ขาไป (เสาร์):</strong> ออกจากกรุงเทพฯ ก่อน 07:30 น. จะผ่านสมุทรสาครได้คล่องตัว</li>
-        <li><strong>ขากลับ (อาทิตย์):</strong> พระราม 2 ช่วงบ่ายแก่ถึงค่ำมีรถสะสม แนะนำออกจากเพชรบุรีไม่เกิน 16:30 น.</li>
-        <li><strong>พยากรณ์ฝน:</strong> อาทิตย์ช่วงบ่าย-ค่ำอาจมีฝน 50% ผิวถนนอาจลื่น ควรเว้นระยะห่างปลอดภัย</li>
+      <ul class="text-amber-800 space-y-1.5 pl-4 list-disc">
+        <li><strong>ขาไป (เสาร์):</strong> ออกเดินทางจากกรุงเทพฯ 09:00 น. ผ่าน ถ.พระราม 2 มุ่งหน้าสู่ชะอำ</li>
+        <li><strong>แวะซื้อของสด (เสาร์เย็น):</strong> แวะตลาดสะพานหินชะอำ ซื้อกุ้ง หอย ปู ปลาสดๆ และถ่านปิ้งย่างกลับไปปาร์ตี้ที่พูลวิลล่า</li>
+        <li><strong>ขากลับ (อาทิตย์):</strong> พระราม 2 ช่วงบ่ายแก่ถึงค่ำมีรถสะสม แนะนำออกจากเพชรบุรีไม่เกิน 17:00 น. หลีกเลี่ยงรถติดและฝนได้พอดี</li>
       </ul>
       <div class="pt-2 border-t border-amber-200/80">
         <a href="weather.html" class="w-full py-2 px-3 rounded-xl bg-amber-200/70 hover:bg-amber-200 text-amber-900 font-bold text-xs flex items-center justify-center gap-1.5 transition">
@@ -181,153 +179,197 @@
 
     <!-- Footer -->
     <footer class="text-center pt-2 pb-4 text-xs text-slate-400">
-      <p>ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน • รูปถ่ายสถานที่จริง 100%</p>
+      <p>ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน • ตรงตาม Agenda จริง 100% • ภาพถ่ายรีวิวจริง</p>
     </footer>
 
   </main>
 
-  <!-- Modal for Original Roadmap Infographic -->
-  <div id="image-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4" onclick="closeModal()">
+  <!-- Modal for Fullscreen Photo Viewing -->
+  <div id="image-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm hidden flex items-center justify-center p-3" onclick="closeModal()">
     <div class="relative max-w-lg w-full bg-white rounded-2xl overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
       <div class="p-3 border-b border-slate-200 flex items-center justify-between">
-        <h3 class="font-bold text-sm text-slate-800">ภาพ Roadmap ต้นฉบับ</h3>
-        <button onclick="closeModal()" class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 font-bold hover:bg-slate-200 transition">✕</button>
+        <h3 id="modal-title" class="font-bold text-xs sm:text-sm text-slate-800 truncate pr-2">ภาพรีวิวสถานที่จริง</h3>
+        <button onclick="closeModal()" class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 font-bold hover:bg-slate-200 transition shrink-0">✕</button>
       </div>
-      <div class="p-2 max-h-[75vh] overflow-y-auto">
-        <img src="roadmap.jpg" alt="Roadmap แผนเที่ยวชะอำ" class="w-full h-auto rounded-lg">
+      <div class="p-2 max-h-[75vh] overflow-y-auto flex items-center justify-center bg-slate-950">
+        <img id="modal-img" src="" alt="ภาพรีวิว" class="max-w-full max-h-[70vh] object-contain rounded-lg">
       </div>
-      <div class="p-3 bg-slate-50 border-t border-slate-200 text-center">
-        <button onclick="closeModal()" class="w-full py-2 rounded-xl bg-slate-900 text-white text-xs font-bold">ปิดหน้าต่าง</button>
+      <div class="p-3 bg-slate-50 border-t border-slate-200 flex items-center justify-between">
+        <span id="modal-caption" class="text-xs text-slate-600 font-medium">ภาพถ่ายรีวิวจริง</span>
+        <button onclick="closeModal()" class="px-4 py-1.5 rounded-lg bg-slate-900 text-white text-xs font-bold">ปิด</button>
       </div>
     </div>
   </div>
 
   <script>
-    // Trip Data with 100% REAL PHOTOS and EXACT COORDINATES
+    // Trip Data verified 100% against user's uploaded agenda images
     const tripData = {
       1: {
         title: "แผนที่เส้นทาง Day 1 (Google Maps)",
-        routeUrl: "https://www.google.com/maps/dir/กรุงเทพมหานคร/IKO+Camp+Cafe/Swiss+Sheep+Farm+ชะอำ/หาดชะอำ",
+        routeUrl: "https://www.google.com/maps/dir/กรุงเทพมหานคร/IKO+Camp+Cafe/Swiss+Sheep+Farm+ชะอำ/CP+พูลวิลล่า+ชะอำ/หาดชะอำ",
         routeText: "เปิดเส้นทาง Day 1 ทั้งหมดในแอป Google Maps",
         defaultMap: "https://maps.google.com/maps?q=12.7984,99.9817&hl=th&z=11&output=embed",
         stops: [
           {
+            id: "d1-s1",
             num: 1,
-            time: "09:30 น.",
-            name: "IKO Camp & Cafe",
-            category: "คาเฟ่สไตล์แคมป์ปิ้งวิวเขา",
-            location: "เขาย้อย เพชรบุรี",
-            image: "images/iko-camp-cafe.jpg",
-            desc: "จุดแวะพักรถยอดฮิตยามเช้า คาเฟ่สไตล์แคมป์ปิ้งท่ามกลางวิวทุ่งหญ้าและภูเขาหินปูน กาแฟดี เบเกอรี่อร่อย มีมุมถ่ายรูปเต็นท์แคมป์เพียบ",
-            tips: "แนะนำแวะจิบกาแฟ พักยืดเส้นยืดสาย 45-60 นาที ก่อนมุ่งหน้าเข้าชะอำ",
+            time: "10:45 - 12:00 น.",
+            name: "IKO Camp & Cafe (อ.เขาย้อย)",
+            category: "คาเฟ่ช่วงสาย Option A (สายธรรมชาติ)",
+            location: "ต.หนองชุมพลเหนือ อ.เขาย้อย จ.เพชรบุรี",
+            agendaSummary: "แวะคาเฟ่ช่วงสาย จิบกาแฟชมวิวเขาอีบิดและทิวสน ถ่ายรูปสวยแปลกตา บรรยากาศแคมป์ปิ้งพักผ่อนก่อนเข้าชะอำ",
+            tips: "แนะนำสั่งเครื่องดื่มเย็นๆ ถ่ายรูปมุมเต็นท์แคมป์ปิ้งกับทิวสนและภูเขาหินปูน พักผ่อน 45-60 นาที",
             lat: 13.25052,
             lng: 99.81643,
-            navUrl: "https://www.google.com/maps/dir/?api=1&destination=IKO+Camp+Cafe+Phetchaburi"
+            navUrl: "https://www.google.com/maps/dir/?api=1&destination=IKO+Camp+Cafe+Phetchaburi",
+            photos: [
+              { src: "images/iko-1.jpg", caption: "เต็นท์แคมป์ปิ้งวิวเขาอีบิดและทิวสน", source: "รีวิว Paiduaykan" },
+              { src: "images/iko-2.jpg", caption: "โต๊ะนั่งชิลล์ริมสนามหญ้า วิวภูเขา", source: "รีวิว Paiduaykan" },
+              { src: "images/iko-3.jpg", caption: "กาแฟสดและเครื่องดื่มซิกเนเจอร์", source: "รีวิว Paiduaykan" }
+            ]
           },
           {
+            id: "d1-s2",
             num: 2,
-            time: "13:00 น.",
-            name: "ขี่ ATV ชะอำ (Cha-am ATV)",
+            time: "12:30 - 14:00 น.",
+            name: "ขี่ ATV ชะอำ / Swiss Sheep Farm",
             category: "กิจกรรมแอดเวนเจอร์ ลุยธรรมชาติ",
-            location: "ชะอำ เพชรบุรี",
-            image: "images/chaam-atv.jpg",
-            desc: "กิจกรรมลุยธรรมชาติสุดมันส์ ขับรถ ATV ตะลุยเส้นทางวิบาก ป่าโปร่ง สนุกตื่นเต้น เหมาะกับแก๊งเพื่อนและครอบครัว",
-            tips: "ควรสวมรองเท้าผ้าใบและเสื้อผ้าที่พร้อมลุยฝุ่น เตรียมแว่นตากันแดดไปด้วย",
+            location: "ริม ถ.เพชรเกษม ใกล้ตัวชะอำ จ.เพชรบุรี",
+            agendaSummary: "กิจกรรมขี่รถ ATV สุดมันส์ แนะนำ ชะอำ เอทีวี ปาร์ค (Cha-am ATV Park) หรือ ฟาร์มแกะ Swiss Sheep Farm ชะอำ (มีโซนขับ ATV ลุยสนาม) ใกล้ตัวชะอำ เดินทางสะดวก ไม่ต้องขับรถเข้าไปลึกถึงแก่งกระจาน",
+            tips: "สวมรองเท้าผ้าใบและเสื้อผ้าพร้อมลุย มีมุมกังหันลมสวิสและโซนให้อาหารแกะถ่ายรูปเล่น",
             lat: 12.8252,
             lng: 99.9482,
-            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Cha-am+ATV+Park"
+            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Swiss+Sheep+Farm+Cha-am",
+            photos: [
+              { src: "images/atv-2.jpg", caption: "กังหันลมสวิสแลนด์มาร์ก Swiss Sheep Farm", source: "รีวิว Trip.com" },
+              { src: "images/atv-1.jpg", caption: "ทุ่งหญ้าฟาร์มและรถกระบะวินเทจ", source: "รีวิว Trip.com" },
+              { src: "images/atv-3.jpg", caption: "รูปปั้นฝูงแกะและลานกิจกรรม", source: "รีวิว Trip.com" }
+            ]
           },
           {
+            id: "d1-s3",
             num: 3,
-            time: "15:00 น.",
-            name: "CP พูลวิลล่า ชะอำ",
-            category: "เช็คอินที่พัก สระว่ายน้ำส่วนตัว",
-            location: "ชะอำ เพชรบุรี",
-            image: "images/cp-pool-villa.jpg",
-            desc: "เช็คอินเข้าที่พักพูลวิลล่าส่วนตัว เล่นน้ำคลายร้อน มีคาราโอเกะและอุปกรณ์ปิ้งย่าง พักผ่อนเติมพลังอย่างเป็นส่วนตัว",
-            tips: "เช็คอิน เก็บสัมภาระ และว่ายน้ำคลายร้อน ก่อนออกไปเดินเล่นริมหาดช่วงเย็น",
+            time: "14:30 - 15:00 น.",
+            name: "Check-in CP พูลวิลล่าชะอำ",
+            category: "เช็คอินเข้าที่พัก สระว่ายน้ำส่วนตัว",
+            location: "ชะอำ จ.เพชรบุรี",
+            agendaSummary: "Check-in เข้าที่พัก CP พูลวิลล่าชะอำ พักผ่อน โดดน้ำในสระส่วนตัว ถ่ายรูปเล่นรอบวิลล่าตามอัธยาศัย",
+            tips: "เก็บสัมภาระ ว่ายน้ำคลายร้อน มีคาราโอเกะและอุปกรณ์ปิ้งย่างเตรียมพร้อมสำหรับปาร์ตี้คืนนี้",
             lat: 12.7950,
             lng: 99.9650,
-            navUrl: "https://www.google.com/maps/dir/?api=1&destination=CP+Pool+Villa+Cha-am"
+            navUrl: "https://www.google.com/maps/dir/?api=1&destination=CP+Pool+Villa+Cha-am",
+            photos: [
+              { src: "images/cp-pool-villa.jpg", caption: "สระว่ายน้ำส่วนตัวขนาดใหญ่ พักผ่อนชิลล์", source: "ภาพถ่ายรีวิวที่พัก" },
+              { src: "images/villa-2.jpg", caption: "ห้องนั่งเล่น โต๊ะอาหาร และโซนคาราโอเกะ", source: "ภาพถ่ายรีวิวพูลวิลล่า" },
+              { src: "images/villa-3.jpg", caption: "เตาบาร์บีคิวปิ้งย่างซีฟู้ดริมสระน้ำ", source: "ภาพถ่ายรีวิวพูลวิลล่า" }
+            ]
           },
           {
+            id: "d1-s4",
             num: 4,
-            time: "17:30 น.",
-            name: "ชายหาดชะอำ & มื้อค่ำซีฟู้ด",
-            category: "ชมพระอาทิตย์ตก ทานอาหารริมทะเล",
-            location: "หาดชะอำ เพชรบุรี",
-            image: "images/chaam-sunset-seafood.jpg",
-            desc: "เดินเล่นรับลมทะเลยามเย็น สัมผัสทรายนุ่ม ชมพระอาทิตย์ตกดิน พร้อมนั่งทานอาหารทะเลสด ปูม้านึ่ง กุ้งเผา ริมชายหาดชะอำ",
-            tips: "ช่วง 17:30 - 18:30 น. แดดร่มลมตก แสงสวยที่สุดสำหรับถ่ายรูปริมหาด",
+            time: "17:00 - 18:15 น.",
+            name: "ชมพระอาทิตย์ตกดิน & ตลาดสะพานหินชะอำ",
+            category: "ชมแสงทไวไลท์ริมหาด • ซื้อซีฟู้ดสด",
+            location: "หาดชะอำ & สะพานหินชะอำ จ.เพชรบุรี",
+            agendaSummary: "ขับรถไปที่ หาดชะอำ หรือ หาดปึกเตียน นั่งเตียงผ้าใบรับลมเย็นๆ ชมท้องฟ้าเปลี่ยนสีช่วงเย็นริมทะเล | Tip: แวะซื้ออาหารทะเลสด (กุ้ง หอย ปู ปลา) และถ่านปิ้งย่างที่ สะพานหินชะอำ (ตลาดนัดตอนเย็น) ติดไม้ติดมือกลับไปด้วย",
+            tips: "18:30 น. เป็นต้นไป: กลับพูลวิลล่า จัดปาร์ตี้ปิ้งย่างซีฟู้ด ทำอาหารทานกันเอง ร้องคาราโอเกะยาวๆ",
             lat: 12.7984,
             lng: 99.9817,
-            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Cha-am+Beach"
+            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Cha-am+Beach",
+            photos: [
+              { src: "images/beach-1.jpg", caption: "หาดชะอำ ทะเล เตียงผ้าใบรับลมเย็น", source: "รีวิวภาพถ่ายจริง" },
+              { src: "images/beach-2.jpg", caption: "ตลาดสะพานหินชะอำ กุ้ง ปู หอยสดๆ ซื้อไปปิ้งย่าง", source: "รีวิวตลาดท้องถิ่น" },
+              { src: "images/beach-3.jpg", caption: "บรรยากาศแสงทไวไลท์ริมชายหาดยามเย็น", source: "รีวิวภาพถ่ายจริง" }
+            ]
           }
         ]
       },
       2: {
         title: "แผนที่เส้นทาง Day 2 (Google Maps)",
-        routeUrl: "https://www.google.com/maps/dir/หาดชะอำ/ครัวห้วยทราย/วัดถ้ำแจง+ชะอำ/สวนตาลลุงถนอม/บ้านขนมนันทวัน/กรุงเทพมหานคร",
+        routeUrl: "https://www.google.com/maps/dir/CP+พูลวิลล่า+ชะอำ/ครัวห้วยทราย/วัดถ้ำแจง+ชะอำ/บ้านไร่ภู่หวาน+เพชรบุรี/บ้านขนมนันทวัน/กรุงเทพมหานคร",
         routeText: "เปิดเส้นทาง Day 2 ทั้งหมดในแอป Google Maps",
         defaultMap: "https://maps.google.com/maps?q=12.95,99.92&hl=th&z=10&output=embed",
         stops: [
           {
+            id: "d2-s1",
             num: 1,
-            time: "11:30 น.",
-            name: "ครัวห้วยทราย",
-            category: "ร้านดังชะอำ ข้าวสวยฟรีไม่อั้น",
-            location: "ชะอำ เพชรบุรี",
-            image: "images/krua-huai-sai.jpg",
-            desc: "ร้านอาหารทะเลและอาหารพื้นบ้านยอดนิยมอันดับต้นๆ ของชะอำ เสิร์ฟข้าวสวยใส่หม้อฟรีไม่อั้น รสชาติจัดจ้านถึงเครื่อง",
-            tips: "เมนูเด็ด: หอยเชลล์ผัดเนยกระเทียม, แกงส้มพริกสดไข่ปลาริวกิว, ปลากระพงทอดน้ำปลา",
+            time: "12:15 - 13:30 น.",
+            name: "ครัวห้วยทราย (ชะอำ)",
+            category: "ทานมื้อกลางวันเติมพลัง (Check-out 12:00 น.)",
+            location: "ใกล้ตัวชะอำ จ.เพชรบุรี",
+            agendaSummary: "Check-out 12:00 น. จากพูลวิลล่า แล้วแวะทานอาหารที่ ครัวห้วยทราย (ชะอำ) [Wongnai] ร้านอาหารดังใกล้ที่พัก จัดเต็มเมนูเด็ดอย่าง หอยเชลล์ผัดเนยกระเทียม และแกงคั่วรสจัดจ้าน (ทีเด็ดคือข้าวเปล่าฟรีตักเติมได้ไม่อั้น)",
+            tips: "เมนูต้องลอง: หอยเชลล์ผัดเนยกระเทียม, แกงคั่วพริกสด/แกงส้ม, ข้าวสวยเสิร์ฟฟรีไม่อั้นทั้งหม้อ",
             lat: 12.7663,
             lng: 99.9542,
-            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Krua+Huai+Sai+Cha-am"
+            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Krua+Huai+Sai+Cha-am",
+            photos: [
+              { src: "images/krua-1.jpg", caption: "หอยเชลล์ผัดเนยกระเทียม เมนูเด็ดอันดับ 1", source: "รีวิว Wongnai" },
+              { src: "images/krua-2.jpg", caption: "กุ้งทอดราดซอสมะขาม & อาหารทะเลพื้นบ้าน", source: "รีวิว Wongnai" },
+              { src: "images/krua-huai-sai.jpg", caption: "ป้ายหน้าร้าน & ต้มยำโป๊ะแตกหม้อไฟรสแซ่บ", source: "รีวิว Trip.com" }
+            ]
           },
           {
+            id: "d2-s2",
             num: 2,
-            time: "13:30 น.",
-            name: "วัดถ้ำแจง (พ่อปู่ศรีเพชรคีรี)",
-            category: "สักการะพญานาคองค์ใหญ่ที่สุดในไทย",
-            location: "ชะอำ เพชรบุรี",
-            image: "images/wat-tham-chaeng.jpg",
-            desc: "แลนด์มาร์กศักดิ์สิทธิ์ชื่อดัง กราบไหว้องค์พญานาค 'พ่อปู่ศรีเพชรคีรี' ลำตัวสีฟ้าครามเกล็ดประกาย เลื้อยเด่นตระหง่านหน้าเทือกเขาหินปูน",
-            tips: "ควรแต่งกายสุภาพ ลานด้านหน้าถ่ายรูปมุมเงยสวยอลังการมาก",
+            time: "13:45 - 14:45 น.",
+            name: "สักการะพ่อปู่พญาเพชรคีรีฯ ที่ 'วัดถ้ำแจง'",
+            category: "แลนด์มาร์กสายมู พญานาคใหญ่ที่สุดในไทย",
+            location: "ต.เขาใหญ่ อ.ชะอำ จ.เพชรบุรี",
+            agendaSummary: "ขับรถถัดออกมาไม่ไกล แวะปักหมุดแลนด์มาร์กสายมูสุดอลังการ ชมรูปปั้นพญานาคที่ใหญ่ที่สุดในประเทศไทย สูง 31 เมตร ยาวถึง 227 เมตร ตัวองค์เป็นสีเขียวปีกแมลงทับเลื่อมมิติสวยงามมาก | กิจกรรมห้ามพลาด: เดินลอดอุโมงค์ใต้ท้องพญานาคทั้ง 9 ช่องเพื่อขอพรโชคลาภ เงินทอง และหน้าที่การงาน",
+            tips: "แนะนำให้เตรียมร่มหรือหมวกไปด้วยเพราะลานค่อนข้างโล่ง แดดช่วงบ่ายจะแรงนิดนึง",
             lat: 12.8530,
             lng: 99.9120,
-            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Wat+Tham+Chaeng+Cha-am"
+            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Wat+Tham+Chaeng+Cha-am",
+            photos: [
+              { src: "images/wat-1.jpg", caption: "พญานาคองค์ใหญ่ 31 ม. สีเขียวปีกแมลงทับ", source: "รีวิว Sanook Travel" },
+              { src: "images/wat-2.jpg", caption: "องค์พญานาคเต็มตัวหน้าเขา ใต้พระอาทิตย์ทรงกลด", source: "รีวิว Sanook Travel" },
+              { src: "images/wat-3.jpg", caption: "พ่อปู่พญาเพชรคีรีฯ ท่ามกลางแสงเย็นทไวไลท์", source: "รีวิว Sanook Travel" }
+            ]
           },
           {
+            id: "d2-s3",
             num: 3,
-            time: "15:00 น.",
-            name: "สวนตาลลุงถนอม",
-            category: "คาเฟ่สวนตาล ชิมน้ำตาลสดแท้ 100%",
-            location: "บ้านลาด เพชรบุรี",
-            image: "images/suan-tan-lung-thanom.jpg",
-            desc: "สวนตาลโตนดเก่าแก่กว่าร้อยต้น บรรยากาศร่มรื่น สัมผัสวิถีชาวสวนเพชรบุรี ชิมน้ำตาลสดหวานหอมแท้ๆ จากกระบอกตาล",
-            tips: "ห้ามพลาด ลอดช่องน้ำตาลข้น และลูกตาลสดลอยแก้ว หวานละมุนชื่นใจ",
+            time: "15:15 - 16:15 น.",
+            name: "บ้านไร่ภู่หวาน (Baan Rai Phu Wan)",
+            category: "แวะคาเฟ่กลางสวนตาล ดับร้อนช่วงบ่าย",
+            location: "ด้านหน้าสวนตาลลุงถนอม ต.ถ้ำรงค์ อ.บ้านลาด จ.เพชรบุรี",
+            agendaSummary: "เดินทางเข้าสู่อำเภอเมืองเพชรบุรี แวะพักเหนื่อยที่ บ้านไร่ภู่หวาน (Baan Rai Phu Wan) คาเฟ่บรรยากาศร่มรื่นในสวนตาลโตนด นั่งรับลมชิลๆ สั่งเมนูกาแฟใส่น้ำตาลสดต้มโตนดหวานละมุนชื่นใจ หรือขนมหวานไทยรสชาติดั้งเดิม",
+            tips: "เมนูซิกเนเจอร์: ลาเต้น้ำตาลสด (ท็อปปิ้งลูกตาลสด), อเมริกาโน่น้ำตาลสดต้มโตนด, สมูทตี้ตะลิงปลิง",
             lat: 13.1685,
             lng: 99.8970,
-            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Suan+Tan+Lung+Thanom+Phetchaburi"
+            navUrl: "https://www.google.com/maps/dir/?api=1&destination=บ้านไร่ภู่หวาน+เพชรบุรี",
+            photos: [
+              { src: "images/phuwan-4.jpg", caption: "อเมริกาโน่น้ำตาลสดต้มโตนด (Signature)", source: "รีวิว Wongnai" },
+              { src: "images/phuwan-1.jpg", caption: "สมูทตี้ตะลิงปลิง โลโก้บ้านไร่ภู่หวานแท้", source: "รีวิว Wongnai" },
+              { src: "images/phuwan-2.jpg", caption: "น้ำตาลสดปั่นหวานหอมชื่นใจ", source: "รีวิว Wongnai" },
+              { src: "images/suan-tan-lung-thanom.jpg", caption: "ทิวสวนตาลโตนดร้อยต้นและเปลญวน", source: "รีวิว Paiduaykan" }
+            ]
           },
           {
+            id: "d2-s4",
             num: 4,
-            time: "16:30 น.",
+            time: "16:30 - 17:00 น.",
             name: "บ้านขนมนันทวัน",
-            category: "ศูนย์รวมของฝากชื่อดังเมืองเพชร",
-            location: "เมืองเพชรบุรี (ริม ถ.เพชรเกษม)",
-            image: "images/baan-khanom-nanthawan.jpg",
-            desc: "จุดแวะซื้อของฝากมาตรฐาน สะอาด มีของฝากครบครัน ขนมหม้อแกงอบสดใหม่ บ้าบิ่นมะพร้าวอ่อน ทองหยิบ ทองหยอด พร้อมกาแฟสด",
-            tips: "แวะเข้าห้องน้ำ ซื้อของฝาก และเติมเครื่องดื่มก่อนขับรถมุ่งหน้ากลับ กทม.",
+            category: "แวะซื้อของฝากเมืองเพชรก่อนยิงยาว",
+            location: "ติดริมถนนเพชรเกษมขากลับ อ.เมือง จ.เพชรบุรี",
+            agendaSummary: "แวะที่ บ้านขนมนันทวัน ติดริมถนนเพชรเกษมขากลับ ซื้อของฝากเลื่องชื่ออย่าง ขนมหม้อแกง บ้าบิ่นมะพร้าวอ่อน หรือน้ำตาลสดแท้กลับไปฝากคนที่บ้าน",
+            tips: "17:00 น. มุ่งหน้าเดินทางกลับกรุงเทพฯ โดยสวัสดิภาพ (ถึง กทม. ช่วงค่ำๆ หลีกเลี่ยงรถติดได้กำลังดี)",
             lat: 13.0848,
             lng: 99.9575,
-            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Baan+Khanom+Nanthawan+Phetchaburi"
+            navUrl: "https://www.google.com/maps/dir/?api=1&destination=Baan+Khanom+Nanthawan+Phetchaburi",
+            photos: [
+              { src: "images/nanthawan-1.jpg", caption: "ป้ายใหญ่บ้านขนมนันทวัน ริม ถ.เพชรเกษม", source: "รีวิว Wongnai" },
+              { src: "images/nanthawan-2.jpg", caption: "หม้อแกงกรอบ เค้กอัลมอนด์น้ำตาลสด น้ำพริก", source: "รีวิว Wongnai" },
+              { src: "images/baan-khanom-nanthawan.jpg", caption: "ระเบียงร้านและโซนคาเฟ่พักรถ", source: "รีวิว Trip.com" }
+            ]
           }
         ]
       }
     };
 
     let currentDay = 1;
+    // Track active photo index for each stop
+    const activePhotoIndex = {};
 
     function renderView() {
       const data = tripData[currentDay];
@@ -366,38 +408,90 @@
       });
       pillsContainer.innerHTML = pillsHtml;
 
-      // Render Timeline Cards
+      // Render Timeline Cards with Interactive Photo Gallery
       const timelineContainer = document.getElementById('timeline-container');
       let timelineHtml = '';
 
       data.stops.forEach(stop => {
+        if (activePhotoIndex[stop.id] === undefined) {
+          activePhotoIndex[stop.id] = 0;
+        }
+        const activeIdx = activePhotoIndex[stop.id];
+        const currentPhoto = stop.photos[activeIdx] || stop.photos[0];
+
+        // Build thumbnail selectors
+        let thumbHtml = '';
+        stop.photos.forEach((ph, pIdx) => {
+          const isActive = pIdx === activeIdx;
+          thumbHtml += `
+            <button id="thumb-${stop.id}-${pIdx}" onclick="changePhoto('${stop.id}', ${pIdx})" class="group relative shrink-0 w-16 h-12 rounded-lg overflow-hidden border-2 transition ${isActive ? 'border-blue-600 ring-2 ring-blue-300 opacity-100 scale-105 shadow-sm' : 'border-white/80 opacity-70 hover:opacity-100'}">
+              <img src="${ph.src}" alt="${ph.caption}" class="w-full h-full object-cover">
+              <span class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition"></span>
+            </button>
+          `;
+        });
+
         timelineHtml += `
-          <article class="bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden hover:shadow-md transition">
-            <!-- Real Photo Banner -->
-            <div class="relative w-full h-48 sm:h-56 bg-slate-100 overflow-hidden">
-              <img src="${stop.image}" alt="${stop.name}" loading="lazy" class="w-full h-full object-cover">
-              <div class="absolute top-3 left-3 bg-slate-900/85 backdrop-blur-md text-white text-xs px-2.5 py-1 rounded-lg font-bold flex items-center gap-1 shadow-sm">
-                <span>⏱️</span>
-                <span>${stop.time}</span>
-                <span class="opacity-40">•</span>
-                <span>จุดที่ ${stop.num}</span>
+          <article class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md transition">
+            
+            <!-- Real Review Photo Gallery Container -->
+            <div class="relative w-full bg-slate-950">
+              <!-- Main Active Image -->
+              <div id="wrapper-${stop.id}" class="relative w-full h-56 sm:h-64 cursor-pointer overflow-hidden" onclick="openModal('${currentPhoto.src}', '${stop.name} - ${currentPhoto.caption}')">
+                <img id="img-${stop.id}" src="${currentPhoto.src}" alt="${stop.name}" loading="lazy" class="w-full h-full object-cover transition-opacity duration-200">
+                
+                <!-- Time & Stop Badge -->
+                <div class="absolute top-3 left-3 bg-slate-900/85 backdrop-blur-md text-white text-xs px-2.5 py-1 rounded-lg font-bold flex items-center gap-1 shadow-sm">
+                  <span>⏱️</span>
+                  <span>${stop.time}</span>
+                  <span class="opacity-40">•</span>
+                  <span>จุดที่ ${stop.num}</span>
+                </div>
+
+                <!-- Review Source Badge -->
+                <div class="absolute top-3 right-3 bg-blue-600/90 backdrop-blur-xs text-[11px] text-white px-2.5 py-0.5 rounded-full font-bold shadow-sm flex items-center gap-1">
+                  <span>📷</span>
+                  <span id="source-${stop.id}">${currentPhoto.source}</span>
+                </div>
+
+                <!-- Bottom Photo Caption Overlay -->
+                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent p-3 pt-6 flex items-end justify-between text-white text-xs">
+                  <div class="truncate pr-2">
+                    <span id="caption-${stop.id}" class="font-semibold text-white drop-shadow-sm">${currentPhoto.caption}</span>
+                  </div>
+                  <span class="shrink-0 text-[10px] bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded font-mono">
+                    <span id="counter-${stop.id}">${activeIdx + 1}</span>/${stop.photos.length} ภาพ
+                  </span>
+                </div>
               </div>
-              <div class="absolute bottom-2 right-2 bg-black/60 backdrop-blur-xs text-[11px] text-white/90 px-2 py-0.5 rounded font-medium">
-                📷 ภาพถ่ายจริง
+
+              <!-- Interactive Thumbnail Selector Strip -->
+              <div class="bg-slate-900/90 p-2 border-t border-slate-800 flex items-center justify-between gap-2 overflow-x-auto hide-scrollbar">
+                <div class="flex items-center gap-1.5">
+                  <span class="text-[11px] font-bold text-slate-300 mr-1 shrink-0">แตะดูภาพรีวิว:</span>
+                  ${thumbHtml}
+                </div>
+                <button id="zoom-btn-${stop.id}" onclick="openModal('${currentPhoto.src}', '${stop.name} - ${currentPhoto.caption}')" class="shrink-0 px-2 py-1 rounded-md bg-white/10 hover:bg-white/20 text-white text-[11px] font-semibold transition flex items-center gap-1">
+                  <span>🔍</span>
+                  <span class="hidden sm:inline">ขยายภาพ</span>
+                </button>
               </div>
             </div>
 
             <!-- Card Content -->
-            <div class="p-4 space-y-2.5">
+            <div class="p-4 space-y-3">
               <div>
                 <h3 class="text-base sm:text-lg font-bold text-slate-900 leading-snug">${stop.name}</h3>
-                <p class="text-xs text-blue-600 font-medium mt-0.5">${stop.category} • ${stop.location}</p>
+                <p class="text-xs text-blue-600 font-semibold mt-0.5">${stop.category} • ${stop.location}</p>
               </div>
 
-              <p class="text-xs text-slate-600 leading-relaxed">${stop.desc}</p>
+              <div class="bg-slate-50 p-3 rounded-xl border border-slate-100 text-xs text-slate-700 leading-relaxed">
+                <strong class="text-slate-900 font-bold block mb-1">📋 แพลนการเดินทาง (Agenda):</strong>
+                <span>${stop.agendaSummary}</span>
+              </div>
 
-              <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs text-slate-700 flex items-start gap-1.5">
-                <span class="text-amber-500 font-bold shrink-0">💡 ทิปส์:</span>
+              <div class="bg-amber-50/80 p-2.5 rounded-xl border border-amber-200/70 text-xs text-amber-900 flex items-start gap-1.5">
+                <span class="font-bold shrink-0 mt-0.5">💡 ทิปส์:</span>
                 <span class="leading-normal">${stop.tips}</span>
               </div>
 
@@ -425,6 +519,52 @@
       renderView();
     }
 
+    function changePhoto(stopId, photoIdx) {
+      activePhotoIndex[stopId] = photoIdx;
+      
+      // Find stop data
+      const data = tripData[currentDay];
+      const stop = data.stops.find(s => s.id === stopId);
+      if (!stop || !stop.photos[photoIdx]) return;
+
+      const photo = stop.photos[photoIdx];
+      const imgEl = document.getElementById('img-' + stopId);
+      const capEl = document.getElementById('caption-' + stopId);
+      const srcEl = document.getElementById('source-' + stopId);
+      const countEl = document.getElementById('counter-' + stopId);
+      const wrapperEl = document.getElementById('wrapper-' + stopId);
+      const zoomBtn = document.getElementById('zoom-btn-' + stopId);
+
+      if (imgEl) {
+        imgEl.style.opacity = '0.3';
+        setTimeout(() => {
+          imgEl.src = photo.src;
+          imgEl.style.opacity = '1';
+        }, 80);
+      }
+      if (wrapperEl) {
+        wrapperEl.onclick = () => openModal(photo.src, stop.name + ' - ' + photo.caption);
+      }
+      if (zoomBtn) {
+        zoomBtn.onclick = () => openModal(photo.src, stop.name + ' - ' + photo.caption);
+      }
+      if (capEl) capEl.textContent = photo.caption;
+      if (srcEl) srcEl.textContent = photo.source;
+      if (countEl) countEl.textContent = photoIdx + 1;
+
+      // Update thumbnail active states directly
+      stop.photos.forEach((_, idx) => {
+        const tb = document.getElementById(`thumb-${stopId}-${idx}`);
+        if (tb) {
+          if (idx === photoIdx) {
+            tb.className = "group relative shrink-0 w-16 h-12 rounded-lg overflow-hidden border-2 transition border-blue-600 ring-2 ring-blue-300 opacity-100 scale-105 shadow-sm";
+          } else {
+            tb.className = "group relative shrink-0 w-16 h-12 rounded-lg overflow-hidden border-2 transition border-white/80 opacity-70 hover:opacity-100";
+          }
+        }
+      });
+    }
+
     function focusLocation(lat, lng, name) {
       const iframe = document.getElementById('google-maps-iframe');
       iframe.src = `https://maps.google.com/maps?q=${lat},${lng}&hl=th&z=15&output=embed`;
@@ -440,8 +580,16 @@
       document.getElementById('map-target-name').textContent = "ภาพรวมเส้นทาง";
     }
 
-    function openModal() {
-      document.getElementById('image-modal').classList.remove('hidden');
+    function openModal(imgSrc, title) {
+      const modal = document.getElementById('image-modal');
+      const img = document.getElementById('modal-img');
+      const titleEl = document.getElementById('modal-title');
+      const captionEl = document.getElementById('modal-caption');
+
+      img.src = imgSrc;
+      titleEl.textContent = title || "ภาพรีวิวสถานที่จริง";
+      captionEl.textContent = "ภาพถ่ายจริงจากนักท่องเที่ยว & ผู้รีวิว";
+      modal.classList.remove('hidden');
     }
 
     function closeModal() {
@@ -452,7 +600,7 @@
       if (navigator.share) {
         navigator.share({
           title: 'Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน',
-          text: 'แผนที่ Google Maps จริง พร้อมภาพถ่ายสถานที่จริง ครบทุกจุดแวะ',
+          text: 'แผนที่ Google Maps จริง พร้อมภาพถ่ายรีวิวจริงหลายมุมมอง ครบทุกจุดแวะ',
           url: window.location.href
         }).catch(() => {});
       } else {
