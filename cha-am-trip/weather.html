@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>พยากรณ์อากาศ & แผนเที่ยวชะอำ-เพชรบุรี 2 วัน 1 คืน</title>
+  
+  <!-- Google Fonts: Prompt -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Prompt', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- html2canvas for High-Res PNG Export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Prompt', -apple-system, BlinkMacSystemFont, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      background-color: #f1f5f9;
+    }
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; }
+    }
+  </style>
+</head>
+<body class="text-slate-800 antialiased p-2 sm:p-4 selection:bg-blue-600 selection:text-white">
+
+  <!-- Action Bar (Top Navigation & PNG Export) -->
+  <div class="max-w-2xl mx-auto mb-3 flex items-center justify-between gap-2 no-print">
+    <a href="index.html" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white hover:bg-slate-100 text-slate-700 text-xs sm:text-sm font-semibold border border-slate-200 shadow-sm transition">
+      <span>←</span>
+      <span>กลับหน้า Roadmap</span>
+    </a>
+
+    <div class="flex items-center gap-2">
+      <button id="btn-export-png" onclick="exportToPNG()" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs sm:text-sm font-bold shadow-md hover:shadow-lg transition">
+        <span>📸</span>
+        <span>บันทึกเป็น PNG</span>
+      </button>
+
+      <button onclick="shareReport()" class="inline-flex items-center gap-1 px-3 py-2 rounded-xl bg-white hover:bg-slate-100 text-slate-700 text-xs sm:text-sm font-semibold border border-slate-200 shadow-sm transition">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
+        <span>แชร์</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Weather Report Card (Element Captured for PNG Export) -->
+  <main id="weather-report-card" class="max-w-2xl mx-auto bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden">
+    
+    <!-- Card Header Banner -->
+    <header class="p-5 sm:p-6 bg-gradient-to-br from-sky-500 via-blue-600 to-indigo-700 text-white relative">
+      <div class="flex items-center justify-between gap-2">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-white text-xs font-semibold">
+          <span>🏖️</span>
+          <span>ทริป 2 วัน 1 คืน • เสาร์ - อาทิตย์</span>
+        </span>
+        <span class="text-xs bg-white/20 backdrop-blur-md px-2.5 py-1 rounded-full font-medium">
+          ข้อมูลล่าสุด ต.ค. 2026
+        </span>
+      </div>
+
+      <h1 class="text-xl sm:text-2xl font-extrabold mt-3 leading-tight tracking-tight">
+        พยากรณ์อากาศ & วางแผนเที่ยวชะอำ
+      </h1>
+      <p class="text-xs sm:text-sm text-sky-100 mt-1 leading-relaxed">
+        ข้อมูลสภาพอากาศ คลื่นลมทะเล และข้อแนะนำการเดินทางกลับช่วงเย็นวันอาทิตย์
+      </p>
+
+      <!-- Key Stat Strip -->
+      <div class="mt-4 pt-3 border-t border-white/20 flex items-center justify-between text-xs sm:text-sm">
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">🌤️</span>
+          <div>
+            <div class="text-[11px] text-sky-200">อุณหภูมิเฉลี่ย</div>
+            <div class="font-bold">25°C - 33°C</div>
+          </div>
+        </div>
+        <div class="h-6 w-px bg-white/25"></div>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">🌊</span>
+          <div>
+            <div class="text-[11px] text-sky-200">คลื่นลมทะเล</div>
+            <div class="font-bold">0.5 - 1.0 ม. (ปกติ)</div>
+          </div>
+        </div>
+        <div class="h-6 w-px bg-white/25"></div>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">🚗</span>
+          <div>
+            <div class="text-[11px] text-sky-200">พระราม 2</div>
+            <div class="font-bold text-amber-300">ระวังฝนอาทิตย์</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Quick Verdict Banner -->
+    <div class="p-4 sm:p-5 border-b border-slate-100 bg-amber-50/70">
+      <div class="flex items-start gap-3">
+        <span class="text-2xl shrink-0 mt-0.5">💡</span>
+        <div class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+          <strong class="text-amber-900 font-bold">สรุปภาพรวมความพร้อมทริป:</strong> 
+          วันเสาร์อากาศเป็นใจมาก ท้องฟ้าแจ่มใส ทะเลสงบ เหมาะทำกิจกรรมกลางแจ้งและเล่นน้ำทะเลเต็มที่ 
+          <span class="text-rose-700 font-semibold underline">ส่วนวันอาทิตย์ช่วงบ่าย-ค่ำมีโอกาสฝนฟ้าคะนอง 50-60%</span> 
+          แนะนำให้ทำกิจกรรมชายหาดให้เสร็จในช่วงเช้า และออกเดินทางกลับก่อน 16:00 น. เพื่อเลี่ยงถนนพระราม 2 ลื่นครับ
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Filter Controller (Hidden in PNG export) -->
+    <div class="p-3 bg-slate-50 border-b border-slate-200/80 flex gap-1.5 overflow-x-auto text-xs font-bold no-print" id="tab-controls">
+      <button id="btn-tab-overview" onclick="switchReportTab('overview')" class="flex-1 py-2 px-3 rounded-xl bg-slate-900 text-white shadow-xs transition">
+        📊 สภาพอากาศ 2 วัน
+      </button>
+      <button id="btn-tab-timeline" onclick="switchReportTab('timeline')" class="flex-1 py-2 px-3 rounded-xl bg-white text-slate-600 hover:bg-slate-100 border border-slate-200 transition">
+        ⏰ แผนเวลาแนะนำ
+      </button>
+      <button id="btn-tab-checklist" onclick="switchReportTab('checklist')" class="flex-1 py-2 px-3 rounded-xl bg-white text-slate-600 hover:bg-slate-100 border border-slate-200 transition">
+        🎒 เตรียมตัว & ข้อควรระวัง
+      </button>
+      <button id="btn-tab-all" onclick="switchReportTab('all')" class="py-2 px-3 rounded-xl bg-white text-blue-600 hover:bg-blue-50 border border-blue-200 transition shrink-0">
+        📑 แสดงทั้งหมด
+      </button>
+    </div>
+
+    <!-- Content Area -->
+    <div class="p-4 sm:p-6 space-y-6">
+
+      <!-- SECTION 1: Weather Comparison (Saturday vs Sunday) -->
+      <section id="sec-overview" class="report-section space-y-3">
+        <h2 class="text-sm font-bold text-slate-900 flex items-center gap-1.5">
+          <span>📅</span>
+          <span>เปรียบเทียบสภาพอากาศรายวัน (เสาร์ vs อาทิตย์)</span>
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+          <!-- Saturday Card -->
+          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 relative flex flex-col justify-between">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">วันแรก • เดินทางไป</span>
+              <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">✅ เหมาะเที่ยว 100%</span>
+            </div>
+            
+            <div>
+              <h3 class="text-base font-bold text-slate-900">วันเสาร์ (พักค้าง 1 คืน)</h3>
+              <div class="flex items-center gap-3 my-3">
+                <span class="text-4xl">☀️⛅</span>
+                <div>
+                  <div class="text-2xl font-black text-slate-900">33°C <span class="text-xs font-normal text-slate-500">/ 25°C</span></div>
+                  <div class="text-xs text-slate-500">แดดจัดสลับเมฆบางส่วน • ทะเลสงบ</div>
+                </div>
+              </div>
+
+              <div class="space-y-1.5 text-xs">
+                <div class="flex justify-between p-2 rounded-lg bg-white border border-slate-200/60">
+                  <span class="text-slate-500">💧 โอกาสเกิดฝน</span>
+                  <span class="font-bold text-blue-600">~25% (บ่ายสั้นๆ ไม่กระทบ)</span>
+                </div>
+                <div class="flex justify-between p-2 rounded-lg bg-white border border-slate-200/60">
+                  <span class="text-slate-500">🌊 คลื่นลมทะเล</span>
+                  <span class="font-bold text-emerald-600">0.5 - 0.8 ม. (เล่นน้ำได้สบาย)</span>
+                </div>
+                <div class="flex justify-between p-2 rounded-lg bg-white border border-slate-200/60">
+                  <span class="text-slate-500">☀️ ดัชนีรังสี UV</span>
+                  <span class="font-bold text-amber-600">สูงช่วง 11:30 - 14:00 น.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-3 pt-2.5 border-t border-slate-200/70 text-[11px] text-slate-600 leading-snug">
+              🎯 <strong>กิจกรรมแนะนำ:</strong> แวะ IKO Camp คาเฟ่, ลุย ATV ชะอำ, เล่นน้ำพูลวิลล่า, เดินเล่นริมหาดยามเย็น
+            </div>
+          </div>
+
+          <!-- Sunday Card -->
+          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 relative flex flex-col justify-between">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">วันที่สอง • เดินทางกลับ</span>
+              <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-rose-100 text-rose-800">⚠️ บ่าย-เย็นระวังฝน</span>
+            </div>
+            
+            <div>
+              <h3 class="text-base font-bold text-slate-900">วันอาทิตย์ (เดินทางกลับ)</h3>
+              <div class="flex items-center gap-3 my-3">
+                <span class="text-4xl">🌦️⛈️</span>
+                <div>
+                  <div class="text-2xl font-black text-slate-900">31°C <span class="text-xs font-normal text-slate-500">/ 25°C</span></div>
+                  <div class="text-xs text-slate-500">เมฆหนาแน่น • ฝนฟ้าคะนองบ่าย-ค่ำ</div>
+                </div>
+              </div>
+
+              <div class="space-y-1.5 text-xs">
+                <div class="flex justify-between p-2 rounded-lg bg-white border border-slate-200/60">
+                  <span class="text-slate-500">🌧️ โอกาสเกิดฝน</span>
+                  <span class="font-bold text-rose-600">50 - 60% (ลมกระโชกแรง)</span>
+                </div>
+                <div class="flex justify-between p-2 rounded-lg bg-white border border-slate-200/60">
+                  <span class="text-slate-500">🌊 คลื่นลมทะเล</span>
+                  <span class="font-bold text-amber-600">1.0 - 1.5 ม. (งดลงลึกช่วงฝน)</span>
+                </div>
+                <div class="flex justify-between p-2 rounded-lg bg-white border border-slate-200/60">
+                  <span class="text-slate-500">🚗 ถนนพระราม 2</span>
+                  <span class="font-bold text-rose-600">รถหนาแน่น + ถนนลื่น</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-3 pt-2.5 border-t border-slate-200/70 text-[11px] text-slate-600 leading-snug">
+              🎯 <strong>กิจกรรมแนะนำ:</strong> เที่ยวเช้าริมหาด, ทานมื้อเที่ยงครัวห้วยทราย, ไหว้พระวัดถ้ำแจง, ออกเดินทางกลับก่อน 16:00 น.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: Timeline Planner -->
+      <section id="sec-timeline" class="report-section space-y-3">
+        <h2 class="text-sm font-bold text-slate-900 flex items-center gap-1.5">
+          <span>⏰</span>
+          <span>ตารางเวลาเดินทางแนะนำตามสภาพอากาศ (Optimal Timeline)</span>
+        </h2>
+
+        <div class="space-y-3">
+          <!-- Saturday Schedule -->
+          <div class="bg-white rounded-2xl p-4 border border-blue-100 shadow-xs space-y-2">
+            <div class="flex items-center gap-2 font-bold text-xs sm:text-sm text-blue-700">
+              <span>☀️ วันเสาร์:</span>
+              <span>เน้นกิจกรรมริมหาด & แอดเวนเจอร์กลางแจ้ง</span>
+            </div>
+            <div class="space-y-2 text-xs text-slate-600 pl-2 border-l-2 border-blue-400">
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">07:00 - 09:30</span>
+                <span>ออกจาก กทม. เช้าตรู่ อากาศโปร่ง ถนนโล่ง วิ่งสบาย</span>
+              </div>
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">09:30 - 11:30</span>
+                <span>แวะพัก IKO Camp & Cafe ดื่มกาแฟ ถ่ายรูปวิวเขาหินปูน</span>
+              </div>
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">13:00 - 14:30</span>
+                <span>ขี่ ATV ชะอำ ตะลุยธรรมชาติ สนุกตื่นเต้น</span>
+              </div>
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">15:00 - 16:30</span>
+                <span>เช็คอิน CP พูลวิลล่า ชะอำ ว่ายน้ำ พักผ่อนคลายร้อน</span>
+              </div>
+              <div class="flex gap-2 bg-amber-50 p-1.5 rounded-lg text-amber-900">
+                <span class="font-mono font-bold w-24 shrink-0">17:00 - 18:30</span>
+                <span><strong>🌟 ช่วงเวลาทอง:</strong> เดินเล่นหาดชะอำ แดดร่ม ลมทะเลเย็นสบาย แสงสวย</span>
+              </div>
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">19:00 เป็นต้นไป</span>
+                <span>มื้อค่ำอาหารทะเลสดริมหาดชะอำ พักผ่อนสังสรรค์</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sunday Schedule -->
+          <div class="bg-white rounded-2xl p-4 border border-amber-200/80 shadow-xs space-y-2">
+            <div class="flex items-center gap-2 font-bold text-xs sm:text-sm text-amber-800">
+              <span>🌦️ วันอาทิตย์:</span>
+              <span>เช้าเที่ยวฟิน บ่ายเข้าที่ร่ม เย็นออกเดินทางกลับ</span>
+            </div>
+            <div class="space-y-2 text-xs text-slate-600 pl-2 border-l-2 border-amber-400">
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">06:30 - 08:30</span>
+                <span>ชมพระอาทิตย์ขึ้นริมหาด ทานอาหารเช้า อากาศสดชื่น ไม่มีฝน</span>
+              </div>
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">09:00 - 11:00</span>
+                <span>เดินเล่น ถ่ายรูปริมหาดรอบเช้า แล้วกลับมาเก็บของเช็คเอาท์</span>
+              </div>
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">11:30 - 13:00</span>
+                <span>มื้อเที่ยงที่ ครัวห้วยทราย (ร้านในร่ม ข้าวสวยฟรีไม่อั้น)</span>
+              </div>
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">13:30 - 14:30</span>
+                <span>ไหว้พระขอพร วัดถ้ำแจง ชมพญานาคองค์ใหญ่</span>
+              </div>
+              <div class="flex gap-2">
+                <span class="font-mono font-bold text-slate-900 w-24 shrink-0">14:45 - 15:45</span>
+                <span>สวนตาลลุงถนอม (ชิมน้ำตาลสด) & ซื้อของฝาก บ้านขนมนันทวัน</span>
+              </div>
+              <div class="flex gap-2 bg-rose-50 p-1.5 rounded-lg text-rose-900">
+                <span class="font-mono font-bold w-24 shrink-0">16:00 เป็นต้นไป</span>
+                <span><strong>🚗 เวลาแนะนำเริ่มกลับ:</strong> ออกก่อนฝนตกหนักและก่อนรถติดสะสม ถ.พระราม 2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Checklist & Rama 2 Advice -->
+      <section id="sec-checklist" class="report-section space-y-3">
+        <h2 class="text-sm font-bold text-slate-900 flex items-center gap-1.5">
+          <span>🎒</span>
+          <span>สิ่งที่ควรพกติดตัว & คำแนะนำความปลอดภัย</span>
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <!-- Packing List -->
+          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 space-y-2">
+            <h3 class="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+              <span>🎒</span>
+              <span>ของจำเป็นควรพกติดตัว</span>
+            </h3>
+            <ul class="text-xs text-slate-600 space-y-1.5">
+              <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> ร่มพับ หรือเสื้อกันฝนติดรถไว้ (สำคัญมากสำหรับวันอาทิตย์)</li>
+              <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> ครีมกันแดด SPF50+ & แว่นกันแดด (วันเสาร์แดดจัด)</li>
+              <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> ซองกันน้ำสำหรับโทรศัพท์มือถือ</li>
+              <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> รองเท้าแตะหรือรองเท้าแตะยางลุยน้ำได้</li>
+              <li class="flex items-center gap-2"><span class="text-blue-600 font-bold">✓</span> ยาทากันยุงสำหรับช่วงค่ำริมชายหาด</li>
+            </ul>
+          </div>
+
+          <!-- Rama 2 & Driving Advisory -->
+          <div class="bg-amber-50/70 rounded-2xl p-4 border border-amber-200/80 space-y-2">
+            <h3 class="text-xs font-bold text-amber-900 flex items-center gap-1.5">
+              <span>🚗</span>
+              <span>ข้อควรระวัง ถนนพระราม 2</span>
+            </h3>
+            <ul class="text-xs text-amber-800 space-y-1.5">
+              <li class="flex items-start gap-1.5">
+                <span class="font-bold mt-0.5">•</span>
+                <span><strong>ผิวถนนลื่น:</strong> ถนนพระราม 2 มีงานก่อสร้าง หากเจอฝนตกควรเว้นระยะห่างจากคันหน้า 2 เท่า</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <span class="font-bold mt-0.5">•</span>
+                <span><strong>เลี่ยงรถติด:</strong> ช่วงเย็นวันอาทิตย์มักมีรถสะสมช่วงสมุทรสาคร แนะนำออกก่อน 16:00 น.</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <span class="font-bold mt-0.5">•</span>
+                <span><strong>สายด่วน:</strong> ตำรวจทางหลวง 1193 | กรมทางหลวง 1586</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Card Footer -->
+    <footer class="px-5 py-3.5 bg-slate-50 border-t border-slate-200 text-center text-xs text-slate-400">
+      ข้อมูลอ้างอิง: กรมอุตุนิยมวิทยา (TMD) & เรดาร์ตรวจอากาศเพชรบุรี • ขอให้เที่ยวให้สนุกและเดินทางปลอดภัยครับ
+    </footer>
+
+  </main>
+
+  <!-- Download Status Toast -->
+  <div id="export-toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-slate-900 text-white text-xs font-bold px-4 py-2.5 rounded-full shadow-2xl transition opacity-0 pointer-events-none z-50 flex items-center gap-2">
+    <span>✅</span>
+    <span>ดาวน์โหลดรูปภาพ PNG เรียบร้อยแล้ว!</span>
+  </div>
+
+  <script>
+    function switchReportTab(mode) {
+      const secOverview = document.getElementById('sec-overview');
+      const secTimeline = document.getElementById('sec-timeline');
+      const secChecklist = document.getElementById('sec-checklist');
+
+      const btnOverview = document.getElementById('btn-tab-overview');
+      const btnTimeline = document.getElementById('btn-tab-timeline');
+      const btnChecklist = document.getElementById('btn-tab-checklist');
+      const btnAll = document.getElementById('btn-tab-all');
+
+      const defaultBtn = "flex-1 py-2 px-3 rounded-xl bg-white text-slate-600 hover:bg-slate-100 border border-slate-200 transition";
+      const activeBtn = "flex-1 py-2 px-3 rounded-xl bg-slate-900 text-white shadow-xs transition";
+      const activeAllBtn = "py-2 px-3 rounded-xl bg-blue-600 text-white shadow-xs transition shrink-0";
+      const defaultAllBtn = "py-2 px-3 rounded-xl bg-white text-blue-600 hover:bg-blue-50 border border-blue-200 transition shrink-0";
+
+      btnOverview.className = defaultBtn;
+      btnTimeline.className = defaultBtn;
+      btnChecklist.className = defaultBtn;
+      btnAll.className = defaultAllBtn;
+
+      if (mode === 'overview') {
+        secOverview.classList.remove('hidden');
+        secTimeline.classList.add('hidden');
+        secChecklist.classList.add('hidden');
+        btnOverview.className = activeBtn;
+      } else if (mode === 'timeline') {
+        secOverview.classList.add('hidden');
+        secTimeline.classList.remove('hidden');
+        secChecklist.classList.add('hidden');
+        btnTimeline.className = activeBtn;
+      } else if (mode === 'checklist') {
+        secOverview.classList.add('hidden');
+        secTimeline.classList.add('hidden');
+        secChecklist.classList.remove('hidden');
+        btnChecklist.className = activeBtn;
+      } else if (mode === 'all') {
+        secOverview.classList.remove('hidden');
+        secTimeline.classList.remove('hidden');
+        secChecklist.classList.remove('hidden');
+        btnAll.className = activeAllBtn;
+      }
+    }
+
+    // High-Resolution PNG Export via html2canvas
+    async function exportToPNG() {
+      const btn = document.getElementById('btn-export-png');
+      const originalHtml = btn.innerHTML;
+      btn.innerHTML = '<span class="animate-spin inline-block">⏳</span> กำลังประมวลผล...';
+      btn.disabled = true;
+
+      const secOverview = document.getElementById('sec-overview');
+      const secTimeline = document.getElementById('sec-timeline');
+      const secChecklist = document.getElementById('sec-checklist');
+      const tabControls = document.getElementById('tab-controls');
+
+      // Save previous states
+      const prevOverviewHidden = secOverview.classList.contains('hidden');
+      const prevTimelineHidden = secTimeline.classList.contains('hidden');
+      const prevChecklistHidden = secChecklist.classList.contains('hidden');
+
+      // Show ALL sections for complete high-fidelity export
+      secOverview.classList.remove('hidden');
+      secTimeline.classList.remove('hidden');
+      secChecklist.classList.remove('hidden');
+      tabControls.style.display = 'none';
+
+      try {
+        const cardElement = document.getElementById('weather-report-card');
+        
+        // Wait 150ms for DOM layout update
+        await new Promise(resolve => setTimeout(resolve, 150));
+
+        const canvas = await html2canvas(cardElement, {
+          scale: 2, // High resolution (Retina / HD quality)
+          useCORS: true,
+          backgroundColor: '#ffffff',
+          logging: false
+        });
+
+        canvas.toBlob(blob => {
+          if (!blob) {
+            alert('ไม่สามารถสร้างรูปภาพได้');
+            return;
+          }
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+          link.href = url;
+          link.download = 'รายงานสภาพอากาศ_ชะอำ_เพชรบุรี_2วัน1คืน.png';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          setTimeout(() => URL.revokeObjectURL(url), 1500);
+
+          // Show Toast notification
+          showToast();
+        }, 'image/png');
+
+      } catch (err) {
+        console.error('Export PNG failed:', err);
+        alert('เกิดข้อผิดพลาดในการบันทึกภาพ กรุณาลองใหม่อีกครั้ง');
+      } finally {
+        // Restore tab states
+        if (prevOverviewHidden) secOverview.classList.add('hidden');
+        if (prevTimelineHidden) secTimeline.classList.add('hidden');
+        if (prevChecklistHidden) secChecklist.classList.add('hidden');
+        tabControls.style.display = '';
+
+        btn.innerHTML = originalHtml;
+        btn.disabled = false;
+      }
+    }
+
+    function showToast() {
+      const toast = document.getElementById('export-toast');
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 3000);
+    }
+
+    function shareReport() {
+      if (navigator.share) {
+        navigator.share({
+          title: 'รายงานสภาพอากาศ & แผนเที่ยวชะอำ 2 วัน 1 คืน',
+          text: 'สรุปสภาพอากาศชะอำ-เพชรบุรี คลื่นลมทะเล และคำแนะนำเวลาเดินทาง',
+          url: window.location.href
+        }).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert('คัดลอกลิงก์เรียบร้อยแล้ว นำไปแชร์ต่อใน LINE ได้ทันที!');
+      }
+    }
+  </script>
+</body>
+</html>

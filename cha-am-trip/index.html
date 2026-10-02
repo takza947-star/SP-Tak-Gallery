@@ -57,10 +57,14 @@
         </div>
       </div>
       
-      <div class="flex items-center gap-2">
-        <button onclick="openModal()" class="px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold flex items-center gap-1 transition">
+      <div class="flex items-center gap-1.5">
+        <a href="weather.html" class="px-2.5 py-1.5 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-700 text-xs font-semibold flex items-center gap-1 border border-sky-200 transition">
+          <span>🌤️</span>
+          <span>สภาพอากาศ</span>
+        </a>
+        <button onclick="openModal()" class="px-2 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold flex items-center gap-1 transition">
           <span>🗺️</span>
-          <span>ภาพเดิม</span>
+          <span class="hidden sm:inline">ภาพเดิม</span>
         </button>
         <button onclick="shareTrip()" class="px-2.5 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-semibold flex items-center gap-1 border border-blue-200 transition">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
@@ -72,22 +76,31 @@
 
   <main class="max-w-xl mx-auto px-4 pt-4 space-y-4">
 
-    <!-- Compact Weather Strip (Simple & Clean) -->
-    <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex items-center justify-between text-xs">
-      <div class="flex items-center gap-2">
-        <span class="text-xl">☀️</span>
-        <div>
-          <span class="font-bold text-slate-800">เสาร์:</span> แดดดี ทะเลสงบ 32-34°C
+    <!-- Clickable Weather Strip (Links to Weather Report Page) -->
+    <a href="weather.html" class="block bg-gradient-to-r from-sky-50 via-blue-50 to-indigo-50 hover:from-sky-100 hover:to-blue-100 rounded-2xl p-3.5 border border-sky-200 shadow-sm transition group">
+      <div class="flex items-center justify-between text-xs">
+        <div class="flex items-center gap-2">
+          <span class="text-xl">☀️</span>
+          <div>
+            <span class="font-bold text-slate-800">เสาร์:</span> แดดดี ทะเลสงบ 32-34°C
+          </div>
+        </div>
+        <div class="h-4 w-px bg-sky-200"></div>
+        <div class="flex items-center gap-2">
+          <span class="text-xl">🌦️</span>
+          <div>
+            <span class="font-bold text-slate-800">อาทิตย์:</span> บ่ายมีฝน 50% ขับระวัง
+          </div>
         </div>
       </div>
-      <div class="h-4 w-px bg-slate-200"></div>
-      <div class="flex items-center gap-2">
-        <span class="text-xl">🌦️</span>
-        <div>
-          <span class="font-bold text-slate-800">อาทิตย์:</span> บ่ายมีฝน 50% ขับระวัง
-        </div>
+      <div class="mt-2.5 pt-2 border-t border-sky-200/60 flex items-center justify-between text-[11px] text-blue-700 font-semibold">
+        <span class="flex items-center gap-1.5">
+          <span>📊</span>
+          <span>แตะเพื่อดูรายงานสภาพอากาศ & แนะนำเวลาฉบับเต็ม</span>
+        </span>
+        <span class="group-hover:translate-x-1 transition-transform font-bold text-xs">➔</span>
       </div>
-    </div>
+    </a>
 
     <!-- Day Segmented Switcher (Clean & High Contrast) -->
     <div class="bg-slate-200/80 p-1 rounded-xl flex gap-1 shadow-inner">
@@ -145,15 +158,25 @@
 
     <!-- Travel Advice & Rama 2 Alert (Bottom Card) -->
     <section class="bg-amber-50 rounded-2xl p-4 border border-amber-200/70 shadow-sm text-xs space-y-2">
-      <div class="flex items-center gap-2 text-amber-900 font-bold text-sm">
-        <span>⚠️</span>
-        <span>คำแนะนำการเดินทาง & ถนนพระราม 2</span>
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2 text-amber-900 font-bold text-sm">
+          <span>⚠️</span>
+          <span>คำแนะนำการเดินทาง & ถนนพระราม 2</span>
+        </div>
+        <a href="weather.html" class="text-[11px] font-bold text-amber-800 underline hover:text-amber-950">ดูสภาพอากาศ</a>
       </div>
       <ul class="text-amber-800 space-y-1 pl-4 list-disc">
         <li><strong>ขาไป (เสาร์):</strong> ออกจากกรุงเทพฯ ก่อน 07:30 น. จะผ่านสมุทรสาครได้คล่องตัว</li>
         <li><strong>ขากลับ (อาทิตย์):</strong> พระราม 2 ช่วงบ่ายแก่ถึงค่ำมีรถสะสม แนะนำออกจากเพชรบุรีไม่เกิน 16:30 น.</li>
         <li><strong>พยากรณ์ฝน:</strong> อาทิตย์ช่วงบ่าย-ค่ำอาจมีฝน 50% ผิวถนนอาจลื่น ควรเว้นระยะห่างปลอดภัย</li>
       </ul>
+      <div class="pt-2 border-t border-amber-200/80">
+        <a href="weather.html" class="w-full py-2 px-3 rounded-xl bg-amber-200/70 hover:bg-amber-200 text-amber-900 font-bold text-xs flex items-center justify-center gap-1.5 transition">
+          <span>📊</span>
+          <span>เปิดดูรายงานสภาพอากาศ & แผนเวลาฉบับเต็ม</span>
+          <span>➔</span>
+        </a>
+      </div>
     </section>
 
     <!-- Footer -->
