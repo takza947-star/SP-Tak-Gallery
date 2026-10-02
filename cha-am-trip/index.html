@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน | แผนเที่ยว & สภาพอากาศ</title>
+  <title>Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน | แผนที่เส้นทางจริง & สภาพอากาศ</title>
   
   <!-- SEO & Open Graph Meta Tags for LINE / Facebook sharing -->
-  <meta name="description" content="Roadmap แผนเที่ยวชะอำ-เพชรบุรี 2 วัน 1 คืน คาเฟ่ ATV พูลวิลล่า พระอาทิตย์ตกริมทะเล วัดถ้ำแจง คาเฟ่สวนตาล พร้อมพยากรณ์อากาศและพิกัดแผนที่">
-  <meta property="og:title" content="Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน 🏖️">
-  <meta property="og:description" content="แผนเที่ยวฉบับเต็ม คาเฟ่ • ATV • พูลวิลล่า • ปาร์ตี้ซีฟู้ด • วัดถ้ำแจง • คาเฟ่สวนตาล พร้อมข้อมูลสภาพอากาศ">
+  <meta name="description" content="Roadmap การเดินทางทริปชะอำ-เพชรบุรี 2 วัน 1 คืน พร้อมแผนที่ GPS เส้นทางจริง ปักหมุดทุกจุดแวะ ภาพประกอบสถานที่จริง และพยากรณ์อากาศ">
+  <meta property="og:title" content="Roadmap แผนเที่ยวชะอำ - เพชรบุรี 2 วัน 1 คืน 🏖️">
+  <meta property="og:description" content="แผนที่เส้นทางจริง GPS • คาเฟ่ IKO • ATV • CP พูลวิลล่า • ครัวห้วยทราย • วัดถ้ำแจง • คาเฟ่สวนตาล • บ้านขนมนันทวัน">
   <meta property="og:image" content="roadmap.jpg">
   <meta property="og:type" content="website">
 
@@ -16,6 +16,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS & JS for Interactive Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- Tailwind CSS via official CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -33,8 +37,8 @@
               500: '#0284c7',
               600: '#0369a1',
               700: '#075985',
-              sunset: '#f97316',
-              teal: '#0d9488'
+              orange: '#f97316',
+              amber: '#f59e0b'
             }
           }
         }
@@ -47,66 +51,91 @@
       font-family: 'Prompt', sans-serif;
       -webkit-tap-highlight-color: transparent;
     }
-    .glass-card {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(12px);
+    /* Custom Leaflet Pin Styling */
+    .custom-map-pin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 9999px;
+      color: white;
+      font-weight: 800;
+      font-size: 13px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+      border: 2px solid white;
+      transition: transform 0.2s ease;
+    }
+    .custom-map-pin:hover {
+      transform: scale(1.18);
+    }
+    .pin-day1 { background: linear-gradient(135deg, #f97316, #ea580c); }
+    .pin-day2 { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+    .pin-start { background: linear-gradient(135deg, #10b981, #059669); }
+
+    /* Custom Leaflet Popup */
+    .leaflet-popup-content-wrapper {
+      padding: 0;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.25);
+    }
+    .leaflet-popup-content {
+      margin: 0;
+      font-family: 'Prompt', sans-serif;
+    }
+    .leaflet-container {
+      font-family: 'Prompt', sans-serif;
     }
     /* Custom scrollbar */
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #cbd5e1;
-      border-radius: 9999px;
-    }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 9999px; }
   </style>
 </head>
 <body class="bg-slate-100 text-slate-800 min-h-screen flex flex-col antialiased selection:bg-sky-500 selection:text-white">
 
   <!-- Top Announcement Bar -->
   <aside aria-label="แถบแจ้งเตือนสภาพอากาศ" class="bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 text-white text-xs py-2 px-4 shadow-sm">
-    <div class="max-w-5xl mx-auto flex items-center justify-between gap-3">
+    <div class="max-w-6xl mx-auto flex items-center justify-between gap-3">
       <div class="flex items-center gap-2 truncate">
         <span class="animate-pulse">🌤️</span>
-        <span class="font-medium">พยากรณ์อากาศชะอำ: เสาร์เที่ยวสบายแดดดี • อาทิตย์บ่ายระวังฝนฟ้าคะนอง & ถนนลื่น</span>
+        <span class="font-medium">พยากรณ์อากาศชะอำ: เสาร์แดดดีเที่ยวริมหาด • อาทิตย์บ่าย-เย็นระวังฝนฟ้าคะนอง 50-60% & ถนนพระราม 2 ลื่น</span>
       </div>
       <button onclick="switchTab('weather')" class="shrink-0 underline hover:text-sky-100 font-semibold transition">
-        ดูรายละเอียด
+        ดูพยากรณ์
       </button>
     </div>
   </aside>
 
   <!-- Navigation / Header -->
-  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-xs">
-    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <div class="flex items-center gap-2.5">
         <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center text-white text-xl shadow-md">
           🏖️
         </div>
         <div>
-          <h1 class="text-base sm:text-lg font-bold text-slate-900 leading-tight">ทริปชะอำ - เพชรบุรี</h1>
-          <p class="text-xs text-slate-500">2 วัน 1 คืน • ทริปสั้นๆ แต่ความสุขยาวๆ</p>
+          <h1 class="text-base sm:text-lg font-bold text-slate-900 leading-tight">Roadmap ทริปชะอำ - เพชรบุรี</h1>
+          <p class="text-xs text-slate-500">2 วัน 1 คืน • แผนที่เส้นทางจริง & ภาพประกอบสถานที่</p>
         </div>
       </div>
 
       <div class="flex items-center gap-2">
-        <!-- Share Button (Web Share API) -->
         <button onclick="shareTrip()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-50 text-sky-700 hover:bg-sky-100 border border-sky-200 text-xs font-semibold transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
           <span class="hidden sm:inline">แชร์ทริป</span>
         </button>
         <button onclick="openModal('roadmap-modal')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-sky-600 to-blue-600 hover:from-sky-700 hover:to-blue-700 text-white text-xs font-semibold shadow transition">
           <span>🗺️</span>
-          <span>ดู Infographic</span>
+          <span>ภาพ Infographic</span>
         </button>
       </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-b from-sky-50 via-blue-50/50 to-slate-100 pt-8 pb-6 px-4">
-    <div class="max-w-5xl mx-auto text-center space-y-3">
+  <section class="bg-gradient-to-b from-sky-50 via-blue-50/40 to-slate-100 pt-7 pb-4 px-4 border-b border-slate-200">
+    <div class="max-w-6xl mx-auto text-center space-y-2.5">
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-100 text-sky-800 text-xs font-semibold">
         <span>🚗 กรุงเทพฯ</span>
         <span>➔</span>
@@ -118,30 +147,88 @@
       </div>
       
       <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-        Roadmap การเดินทาง 2 วัน 1 คืน
+        แผนที่เส้นทางจริง & รายละเอียดทริป 2 วัน 1 คืน
       </h2>
-      <p class="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto leading-relaxed">
-        คาเฟ่ • ลุย ATV • ปาร์ตี้พูลวิลล่า • พระอาทิตย์ตกริมทะเล • วัดถ้ำแจง • คาเฟ่สวนตาล • ขนมของฝาก
+      <p class="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto">
+        คาเฟ่ • ลุย ATV • พูลวิลล่า • พระอาทิตย์ตกริมทะเล • วัดถ้ำแจง • คาเฟ่สวนตาล • ซื้อของฝาก
       </p>
 
-      <!-- Key Trip Highlights Chips -->
-      <div class="flex flex-wrap justify-center gap-2 pt-2 text-xs">
-        <span class="px-3 py-1 rounded-lg bg-white border border-slate-200 shadow-xs font-medium text-slate-700">☕ IKO Camp & Cafe</span>
-        <span class="px-3 py-1 rounded-lg bg-white border border-slate-200 shadow-xs font-medium text-slate-700">🏎️ ATV Park / Swiss Sheep Farm</span>
-        <span class="px-3 py-1 rounded-lg bg-white border border-slate-200 shadow-xs font-medium text-slate-700">🏊 CP พูลวิลล่า</span>
-        <span class="px-3 py-1 rounded-lg bg-white border border-slate-200 shadow-xs font-medium text-slate-700">🦞 ครัวห้วยทราย</span>
-        <span class="px-3 py-1 rounded-lg bg-white border border-slate-200 shadow-xs font-medium text-slate-700">🐉 วัดถ้ำแจง</span>
-        <span class="px-3 py-1 rounded-lg bg-white border border-slate-200 shadow-xs font-medium text-slate-700">🌴 บ้านไร่ภู่หวาน</span>
+      <!-- Quick Action Jump Buttons -->
+      <div class="flex flex-wrap justify-center items-center gap-2 pt-1 text-xs">
+        <button onclick="scrollToMap()" class="px-3.5 py-1.5 rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-semibold shadow-xs flex items-center gap-1.5 transition">
+          <span>📍</span>
+          <span>เปิดดูแผนที่ปักหมุด GPS</span>
+        </button>
+        <button onclick="switchTab('day1')" class="px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 font-semibold transition">
+          🟠 จุดแวะวันที่ 1
+        </button>
+        <button onclick="switchTab('day2')" class="px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 font-semibold transition">
+          🔵 จุดแวะวันที่ 2
+        </button>
+        <button onclick="switchTab('weather')" class="px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 font-semibold transition">
+          ⛅ สภาพอากาศ
+        </button>
       </div>
     </div>
   </section>
 
-  <!-- Sticky Tab Bar -->
-  <div class="sticky top-[57px] z-30 bg-slate-100/95 backdrop-blur-sm border-b border-slate-200 py-2.5 px-4 shadow-xs">
-    <div class="max-w-5xl mx-auto flex items-center justify-start sm:justify-center gap-2 overflow-x-auto no-scrollbar">
+  <!-- ==================== SECTION: INTERACTIVE REAL MAP ==================== -->
+  <section id="map-section" class="max-w-6xl mx-auto px-4 pt-6 pb-2 w-full">
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-md overflow-hidden">
+      
+      <!-- Map Header & Filter Controls -->
+      <div class="p-4 sm:p-5 border-b border-slate-200 bg-slate-50/70 flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-xl">🗺️</span>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900">แผนที่เส้นทางจริง (Interactive GPS Route)</h3>
+          </div>
+          <p class="text-xs text-slate-500 mt-0.5">คลิกที่หมุดแต่ละจุดบนแผนที่ เพื่อดูรูปภาพจริง เวลา และกดนำทางด้วย Google Maps</p>
+        </div>
+
+        <!-- Route Filter Buttons -->
+        <div class="flex items-center gap-1.5 bg-slate-200/70 p-1 rounded-xl text-xs font-semibold">
+          <button id="filter-all" onclick="filterRoute('all')" class="px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-xs transition">
+            ทั้งหมด
+          </button>
+          <button id="filter-day1" onclick="filterRoute('day1')" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1">
+            <span class="w-2 h-2 rounded-full bg-orange-500"></span> Day 1
+          </button>
+          <button id="filter-day2" onclick="filterRoute('day2')" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1">
+            <span class="w-2 h-2 rounded-full bg-blue-600"></span> Day 2
+          </button>
+          <button onclick="fitAllMarkers()" class="px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-900 transition" title="ซูมพอดีเส้นทางทั้งหมด">
+            🔍 รีเซ็ตซูม
+          </button>
+        </div>
+      </div>
+
+      <!-- Leaflet Map Container -->
+      <div class="relative w-full h-[380px] sm:h-[460px] bg-slate-100">
+        <div id="trip-map" class="w-full h-full z-10"></div>
+        
+        <!-- Map Overlay Guide -->
+        <div class="absolute bottom-3 left-3 z-20 bg-white/90 backdrop-blur-md px-3 py-2 rounded-xl border border-slate-200 shadow-md text-[11px] text-slate-700 hidden sm:flex items-center gap-3">
+          <div class="flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full bg-orange-500"></span>
+            <span>Day 1 (ขาไปชะอำ)</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full bg-blue-600"></span>
+            <span>Day 2 (ขากลับเพชรบุรี)</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sticky Tab Bar for Itinerary & Details -->
+  <div class="sticky top-[57px] z-30 bg-slate-100/95 backdrop-blur-sm border-b border-slate-200 py-2.5 px-4 shadow-xs mt-4">
+    <div class="max-w-6xl mx-auto flex items-center justify-start sm:justify-center gap-2 overflow-x-auto no-scrollbar">
       <button id="tab-btn-day1" onclick="switchTab('day1')" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition shrink-0 bg-sky-600 text-white shadow-sm flex items-center gap-1.5">
         <span>☀️</span>
-        <span>Day 1: ลุยชะอำ & พูลวิลล่า</span>
+        <span>Day 1: แผนเที่ยว & ภาพสถานที่</span>
       </button>
       <button id="tab-btn-day2" onclick="switchTab('day2')" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition shrink-0 bg-white text-slate-600 hover:text-slate-900 border border-slate-200 flex items-center gap-1.5">
         <span>🌊</span>
@@ -153,200 +240,241 @@
       </button>
       <button id="tab-btn-tools" onclick="switchTab('tools')" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition shrink-0 bg-white text-slate-600 hover:text-slate-900 border border-slate-200 flex items-center gap-1.5">
         <span>🧮</span>
-        <span>หารบิล & เช็คลิสต์</span>
+        <span>เครื่องมือหารบิล & เช็คลิสต์</span>
       </button>
     </div>
   </div>
 
-  <!-- Main Content Container -->
-  <main class="max-w-5xl mx-auto px-4 py-6 flex-1 w-full">
+  <!-- Main Content Area -->
+  <main class="max-w-6xl mx-auto px-4 py-6 flex-1 w-full">
 
-    <!-- ==================== TAB 1: DAY 1 ==================== -->
-    <section id="tab-day1" class="space-y-4">
+    <!-- ==================== TAB 1: DAY 1 ITINERARY & PHOTOS ==================== -->
+    <section id="tab-day1" class="space-y-6">
       
-      <!-- Day 1 Header Card -->
-      <div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-md flex flex-wrap items-center justify-between gap-3">
+      <!-- Day 1 Header Banner -->
+      <div class="p-5 rounded-2xl bg-gradient-to-r from-orange-500 via-amber-500 to-amber-600 text-white shadow-md flex flex-wrap items-center justify-between gap-3">
         <div>
-          <div class="text-xs font-bold uppercase tracking-wider text-orange-100">วันที่ 1 • เสาร์</div>
+          <div class="text-xs font-bold uppercase tracking-wider text-orange-100">วันที่ 1 • วันเสาร์ (ออกเดินทางไปชะอำ)</div>
           <h3 class="text-xl sm:text-2xl font-black mt-0.5">คาเฟ่ ➔ ลุย ATV ➔ พูลวิลล่า ➔ พระอาทิตย์ตกริมทะเล</h3>
-          <p class="text-xs sm:text-sm text-orange-50 mt-1">บรรยากาศเปิด แดดดีตลอดวัน เหมาะแก่การทำกิจกรรมกลางแจ้งและถ่ายรูป</p>
+          <p class="text-xs sm:text-sm text-orange-50 mt-1">แดดดีตลอดวัน คลื่นลมสงบ เหมาะกับการทำกิจกรรมกลางแจ้งและปาร์ตี้วิลล่า</p>
         </div>
         <div class="px-3 py-1.5 rounded-xl bg-white/20 backdrop-blur-md text-xs font-semibold">
-          🌡️ 25° - 33°C (ฝนช่วงบ่าย 30%)
+          🌡️ 25° - 33°C (ฝนบ่าย 30%)
         </div>
       </div>
 
-      <!-- Timeline Items -->
-      <div class="space-y-4">
+      <!-- Stop Cards with Real Visuals -->
+      <div class="space-y-6">
 
-        <!-- Stop 1 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              1
-            </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">09:00 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">ออกเดินทางจากกรุงเทพฯ</h4>
-                </div>
-                <a href="https://www.google.com/maps/dir/?api=1&destination=Cha-am" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-xs px-3 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold transition">
-                  <span>🚗</span> นำทาง Google Maps
-                </a>
+        <!-- Stop 1: Depart Bangkok -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="p-5 flex flex-col sm:flex-row items-start justify-between gap-4">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-orange-500 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
+                1
               </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                ใช้เส้นทาง<strong>ถนนพระราม 2</strong> มุ่งหน้าสู่ชะอำ เช็คระบบลมยางและน้ำมันให้พร้อม ขับสบายๆ ช่วงเช้า
-              </p>
-              <div class="p-2.5 rounded-xl bg-blue-50 text-blue-800 text-xs flex items-center gap-2">
-                <span>💡</span>
-                <span><strong>ข้อแนะนำ:</strong> ออกตามเวลา 09:00 น. เพื่อให้ถึงจุดแวะแรกประมาณ 10:45 น. พอดีเวลาพักรถ</span>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Stop 2 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              2
-            </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">10:45 – 12:00 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">แวะคาเฟ่ข้างทาง: IKO Camp & Cafe (เขาย้อย)</h4>
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">09:00 น.</span>
+                  <span class="text-xs text-slate-500">จุดเริ่มต้น</span>
                 </div>
-                <a href="https://maps.google.com/?q=IKO+Camp+Cafe+เขาย้อย+เพชรบุรี" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-xs px-3 py-1 rounded-lg bg-orange-50 hover:bg-orange-100 text-orange-700 font-semibold border border-orange-200 transition">
-                  <span>📍</span> พิกัดร้าน IKO
-                </a>
-              </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                สายธรรมชาติ • จิบกาแฟ • ถ่ายรูปสวย คาเฟ่ฟีลแคมป์ปิ้งวิวภูเขาเขาย้อย บรรยากาศร่มรื่น นั่งชิลเติมคาเฟอีนก่อนเข้าชะอำ
-              </p>
-              <div class="flex flex-wrap gap-2 text-xs text-slate-500">
-                <span class="px-2 py-0.5 rounded bg-slate-100">☕ กาแฟ & เครื่องดื่มสดชื่น</span>
-                <span class="px-2 py-0.5 rounded bg-slate-100">📸 มุมถ่ายรูปแคมป์ปิ้ง</span>
-                <span class="px-2 py-0.5 rounded bg-slate-100">⛰️ วิวเขาหินปูน</span>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Stop 3 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              3
-            </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">12:30 – 14:00 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">กิจกรรมแอดเวนเจอร์ / ถ่ายรูป (เลือก 1 จุด)</h4>
-                </div>
-              </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                เลือกทำกิจกรรมตามสไตล์ของแก๊งคุณ มี 2 ตัวเลือกยอดฮิตใกล้ๆ กัน:
-              </p>
-              
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-                <!-- Option A -->
-                <div class="p-3 rounded-xl border border-slate-200 bg-slate-50 space-y-1.5">
-                  <div class="flex items-center justify-between">
-                    <span class="font-bold text-xs text-slate-900">🏎️ ตัวเลือกที่ 1: Cha-am ATV Park</span>
-                    <a href="https://maps.google.com/?q=Cha-am+ATV+Park" target="_blank" rel="noopener" class="text-xs text-sky-600 font-semibold underline">แผนที่</a>
-                  </div>
-                  <p class="text-xs text-slate-600">สายลุย ขับรถ ATV ลุยเส้นทางวิบาก มีสนามยิงธนูและเพนต์บอลสำหรับสายมันส์</p>
-                </div>
-
-                <!-- Option B -->
-                <div class="p-3 rounded-xl border border-slate-200 bg-slate-50 space-y-1.5">
-                  <div class="flex items-center justify-between">
-                    <span class="font-bold text-xs text-slate-900">🐑 ตัวเลือกที่ 2: Swiss Sheep Farm ชะอำ</span>
-                    <a href="https://maps.google.com/?q=Swiss+Sheep+Farm+Cha-am" target="_blank" rel="noopener" class="text-xs text-sky-600 font-semibold underline">แผนที่</a>
-                  </div>
-                  <p class="text-xs text-slate-600">สายถ่ายรูป คิ้วท์ๆ ฟาร์มแกะสไตล์สวิส ให้อาหารแกะ ม้าแคระ อัลปาก้า ถ่ายรูปมุมน่ารัก</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Stop 4 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              4
-            </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">14:30 – 15:00 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">Check-in CP พูลวิลล่าชะอำ</h4>
-                </div>
-                <span class="text-xs px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 font-semibold">🏠 ที่พักพูลวิลล่า</span>
-              </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                เข้าเช็คอิน เก็บสัมภาระ เปลี่ยนชุด พักผ่อน เล่นน้ำในสระส่วนตัว ถ่ายรูปชิลๆ ในวิลล่า (ช่วงเวลานี้แดดภายนอกอาจจะร้อน การอยู่ในวิลล่าติดแอร์ริมสระจะฟินที่สุด)
-              </p>
-            </div>
-          </div>
-        </article>
-
-        <!-- Stop 5 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              5
-            </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">17:00 – 18:15 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">ชมพระอาทิตย์ตกริมทะเล (หาดชะอำ หรือ หาดปึกเตียน)</h4>
-                </div>
-                <div class="flex gap-1.5">
-                  <a href="https://maps.google.com/?q=หาดชะอำ" target="_blank" rel="noopener" class="text-xs px-2.5 py-1 rounded-lg bg-sky-50 text-sky-700 font-semibold">หาดชะอำ</a>
-                  <a href="https://maps.google.com/?q=หาดปึกเตียน" target="_blank" rel="noopener" class="text-xs px-2.5 py-1 rounded-lg bg-sky-50 text-sky-700 font-semibold">หาดปึกเตียน</a>
-                </div>
-              </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                นั่งรับลมเย็น ชมท้องฟ้าเปลี่ยนสี (Golden Hour) คลื่นลมทะเลช่วงนี้สงบ เดินเล่นรับลมทะเลชิลๆ
-              </p>
-              
-              <!-- Food Shopping Tip -->
-              <div class="p-3 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs space-y-1">
-                <div class="font-bold flex items-center gap-1.5 text-amber-800">
-                  <span>💡</span>
-                  <span>Tip สำคัญ: แวะซื้อซีฟู้ดสด & ถ่านปิ้งย่างที่สะพานหินชะอำ</span>
-                </div>
-                <p class="leading-relaxed">
-                  แนะนำแวะที่ <strong>สะพานปลาชะอำ / สะพานหินชะอำ</strong> เลือกซื้อปูม้าเป็นๆ กุ้งสด หอยหวาน ปลาหมึกสดใหม่จากเรือประมง และถ่านปิ้งย่างเพื่อนำกลับไปทำมื้อเย็นที่วิลล่า
+                <h4 class="text-lg font-bold text-slate-900">ออกเดินทางจากกรุงเทพฯ</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                  ใช้เส้นทาง<strong>ถนนพระราม 2</strong> มุ่งหน้าสู่ชะอำ เช็คระบบน้ำมัน ลมยาง และของจำเป็นให้พร้อม ออกตามเวลาเพื่อให้ถึงคาเฟ่จุดแรกช่วงสายพอดี
                 </p>
               </div>
             </div>
+            <div class="flex sm:flex-col gap-2 shrink-0 w-full sm:w-auto">
+              <button onclick="focusOnMapStop('bkk')" class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold transition">
+                <span>📍</span> ดูบนแผนที่
+              </button>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=Cha-am" target="_blank" rel="noopener" class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-700 text-xs font-semibold border border-sky-200 transition">
+                <span>🚗</span> นำทาง
+              </a>
+            </div>
           </div>
         </article>
 
-        <!-- Stop 6 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              6
-            </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">18:30 น. เป็นต้นไป</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">กลับพูลวิลล่า ปาร์ตี้ซีฟู้ด & คาราโอเกะ</h4>
-                </div>
-                <span class="text-xs px-2.5 py-1 rounded-full bg-purple-100 text-purple-800 font-semibold">🎉 Night Party</span>
+        <!-- Stop 2: IKO Camp & Cafe -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+            <!-- Real Photo -->
+            <div class="md:col-span-5 relative group overflow-hidden bg-slate-900 min-h-[220px]">
+              <img src="images/iko-camp-cafe.jpg" alt="บรรยากาศ IKO Camp & Cafe เขาย้อย เพชรบุรี" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-2.5 left-2.5 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-sm text-white text-xs font-medium">
+                📸 บรรยากาศจริง IKO Camp & Cafe
               </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                ปาร์ตี้ซีฟู้ดปิ้งย่างริมสระ • ร้องเพลงคาราโอเกะ • เล่นน้ำรอบดึก สนุกสนานกับเพื่อนๆ ได้เต็มที่ตลอดคืน
-              </p>
+            </div>
+            <!-- Details -->
+            <div class="md:col-span-7 p-5 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-orange-500 text-white flex items-center justify-center font-bold text-xs">
+                      2
+                    </div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">10:45 – 12:00 น.</span>
+                  </div>
+                  <span class="text-xs font-semibold text-emerald-600 bg-emerald-50 px-2.5 py-0.5 rounded-full">☕ คาเฟ่สายธรรมชาติ</span>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900">แวะคาเฟ่ข้างทาง: IKO Camp & Cafe (เขาย้อย)</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                  คาเฟ่ฟีลแคมป์ปิ้งวิวเขาหินปูนเขาย้อย บรรยากาศร่มรื่นใต้ร่มไม้ใหญ่ จิบกาแฟ ลิ้มลองเบเกอรี่ ถ่ายรูปมุมแคมป์ปิ้งสุดชิค พักเหนื่อยจากการขับรถช่วงแรก
+                </p>
+                <div class="mt-3 flex flex-wrap gap-1.5 text-xs text-slate-500">
+                  <span class="px-2 py-0.5 rounded-md bg-slate-100">⛰️ วิวผาหินปูนอลังการ</span>
+                  <span class="px-2 py-0.5 rounded-md bg-slate-100">☕ กาแฟ Specialty & ชาเขียว</span>
+                  <span class="px-2 py-0.5 rounded-md bg-slate-100">📸 มุมถ่ายรูปเพียบ</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                <button onclick="focusOnMapStop('iko')" class="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center gap-1">
+                  <span>📍</span> ดูหมุดบนแผนที่ GPS
+                </button>
+                <a href="https://maps.google.com/?q=IKO+Camp+Cafe+เขาย้อย+เพชรบุรี" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs px-3.5 py-1.5 rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-semibold shadow-xs transition">
+                  <span>🚗</span> เปิด Google Maps
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Stop 3: ATV Adventure / Swiss Sheep Farm -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+            <!-- Real Photo -->
+            <div class="md:col-span-5 relative group overflow-hidden bg-slate-900 min-h-[220px]">
+              <img src="images/chaam-atv.jpg" alt="กิจกรรมขับรถ ATV ชะอำ" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-2.5 left-2.5 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-sm text-white text-xs font-medium">
+                🏎️ Cha-am ATV Park
+              </div>
+            </div>
+            <!-- Details -->
+            <div class="md:col-span-7 p-5 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-orange-500 text-white flex items-center justify-center font-bold text-xs">
+                      3
+                    </div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">12:30 – 14:00 น.</span>
+                  </div>
+                  <span class="text-xs font-semibold text-amber-600 bg-amber-50 px-2.5 py-0.5 rounded-full">🎯 เลือก 1 กิจกรรม</span>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900">กิจกรรม ATV หรือ ถ่ายรูปฟาร์มแกะ</h4>
+                
+                <!-- Options Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mt-2 text-xs">
+                  <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="font-bold text-slate-800">🏎️ Cha-am ATV Park (สายลุย)</div>
+                    <p class="text-slate-500 mt-0.5">ขี่ ATV เส้นทางวิบาก สนามยิงธนู เพนต์บอล</p>
+                  </div>
+                  <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="font-bold text-slate-800">🐑 Swiss Sheep Farm (สายชิล)</div>
+                    <p class="text-slate-500 mt-0.5">ฟาร์มแกะสไตล์สวิส ป้อนหญ้าแกะ ม้าแคระ</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                <button onclick="focusOnMapStop('atv')" class="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center gap-1">
+                  <span>📍</span> ดูหมุดบนแผนที่ GPS
+                </button>
+                <a href="https://maps.google.com/?q=Cha-am+ATV+Park" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs px-3.5 py-1.5 rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-semibold shadow-xs transition">
+                  <span>🚗</span> เปิด Google Maps
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Stop 4: Check-in CP Pool Villa -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+            <!-- Real Photo -->
+            <div class="md:col-span-5 relative group overflow-hidden bg-slate-900 min-h-[220px]">
+              <img src="images/cp-pool-villa.jpg" alt="CP พูลวิลล่า ชะอำ สระว่ายน้ำส่วนตัว" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-2.5 left-2.5 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-sm text-white text-xs font-medium">
+                🏊 บรรยากาศพูลวิลล่าชะอำ
+              </div>
+            </div>
+            <!-- Details -->
+            <div class="md:col-span-7 p-5 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-orange-500 text-white flex items-center justify-center font-bold text-xs">
+                      4
+                    </div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">14:30 – 15:00 น.</span>
+                  </div>
+                  <span class="text-xs font-semibold text-sky-600 bg-sky-50 px-2.5 py-0.5 rounded-full">🏠 เช็คอินที่พัก</span>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900">Check-in CP พูลวิลล่าชะอำ</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                  เช็คอินเข้าที่พักวิลล่าส่วนตัว เก็บสัมภาระ เปลี่ยนชุดว่ายน้ำ เล่นน้ำในสระส่วนตัว ถ่ายรูปเช็คอิน พักผ่อนตากแอร์เย็นๆ หลบแดดช่วงบ่าย
+                </p>
+                <div class="p-2.5 rounded-xl bg-sky-50 border border-sky-100 text-sky-800 text-xs mt-2">
+                  💡 <strong>ช่วงเวลานี้:</strong> แดดภายนอกจะร้อนที่สุด การอยู่ในวิลล่าริมสระว่ายน้ำจะชิลและสบายตัวที่สุดครับ
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                <button onclick="focusOnMapStop('villa')" class="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center gap-1">
+                  <span>📍</span> ดูหมุดบนแผนที่ GPS
+                </button>
+                <a href="https://maps.google.com/?q=ชะอำ+พูลวิลล่า" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs px-3.5 py-1.5 rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-semibold shadow-xs transition">
+                  <span>🚗</span> เปิด Google Maps
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Stop 5 & 6: Sunset Beach & Seafood Party -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+            <!-- Real Photo -->
+            <div class="md:col-span-5 relative group overflow-hidden bg-slate-900 min-h-[220px]">
+              <img src="images/chaam-sunset-seafood.jpg" alt="พระอาทิตย์ตกหาดชะอำ และซีฟู้ดปิ้งย่าง" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-2.5 left-2.5 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-sm text-white text-xs font-medium">
+                🌅 พระอาทิตย์ตก & อาหารทะเลสด
+              </div>
+            </div>
+            <!-- Details -->
+            <div class="md:col-span-7 p-5 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-orange-500 text-white flex items-center justify-center font-bold text-xs">
+                      5-6
+                    </div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 text-xs font-bold">17:00 – 18:30 น. เป็นต้นไป</span>
+                  </div>
+                  <span class="text-xs font-semibold text-purple-600 bg-purple-50 px-2.5 py-0.5 rounded-full">🦞 ซีฟู้ด & ปาร์ตี้</span>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900">ชมพระอาทิตย์ตกริมทะเล ➔ ปาร์ตี้ซีฟู้ดพูลวิลล่า</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                  ไปนั่งรับลมเย็นริมหาดชะอำ หรือหาดปึกเตียน ชมท้องฟ้าเปลี่ยนสีตอนเย็น คลื่นลมสงบ
+                </p>
+                
+                <!-- Seafood Buying Tip -->
+                <div class="p-3 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs mt-2 space-y-1">
+                  <div class="font-bold flex items-center gap-1.5 text-amber-800">
+                    <span>💡</span>
+                    <span>Tip ซื้อซีฟู้ด: แวะสะพานหินชะอำ (สะพานปลา)</span>
+                  </div>
+                  <p class="leading-relaxed">
+                    แวะซื้อปูม้า กุ้งลายเสือ หมึกไข่ หอยหวาน สดๆ จากเรือประมง พร้อมถ่านปิ้งย่าง นำกลับมาจัดปาร์ตี้บาร์บีคิว คาราโอเกะที่วิลล่า
+                  </p>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                <button onclick="focusOnMapStop('beach')" class="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center gap-1">
+                  <span>📍</span> ดูหมุดบนแผนที่ GPS
+                </button>
+                <a href="https://maps.google.com/?q=สะพานปลาชะอำ" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs px-3.5 py-1.5 rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-semibold shadow-xs transition">
+                  <span>🚗</span> แผนที่สะพานปลาชะอำ
+                </a>
+              </div>
             </div>
           </div>
         </article>
@@ -354,157 +482,238 @@
       </div>
     </section>
 
-    <!-- ==================== TAB 2: DAY 2 ==================== -->
-    <section id="tab-day2" class="space-y-4 hidden">
+    <!-- ==================== TAB 2: DAY 2 ITINERARY & PHOTOS ==================== -->
+    <section id="tab-day2" class="space-y-6 hidden">
       
-      <!-- Day 2 Header Card -->
-      <div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md flex flex-wrap items-center justify-between gap-3">
+      <!-- Day 2 Header Banner -->
+      <div class="p-5 rounded-2xl bg-gradient-to-r from-blue-600 via-indigo-600 to-indigo-700 text-white shadow-md flex flex-wrap items-center justify-between gap-3">
         <div>
-          <div class="text-xs font-bold uppercase tracking-wider text-blue-100">วันที่ 2 • อาทิตย์</div>
-          <h3 class="text-xl sm:text-2xl font-black mt-0.5">Check-out ➔ มื้อเที่ยง ➔ วัดถ้ำแจง ➔ คาเฟ่สวนตาล ➔ ของฝาก</h3>
-          <p class="text-xs sm:text-sm text-blue-50 mt-1">เน้นเที่ยวร้านเด็ด พักผ่อนในร่ม และเดินทางกลับก่อนฝนตกช่วงค่ำ</p>
+          <div class="text-xs font-bold uppercase tracking-wider text-blue-100">วันที่ 2 • วันอาทิตย์ (เที่ยวเพชรบุรี & กลับ กทม.)</div>
+          <h3 class="text-xl sm:text-2xl font-black mt-0.5">Check-out ➔ ครัวห้วยทราย ➔ วัดถ้ำแจง ➔ คาเฟ่สวนตาล ➔ ของฝาก</h3>
+          <p class="text-xs sm:text-sm text-blue-50 mt-1">เที่ยวไฮไลท์เมืองเพชร พักผ่อนคาเฟ่ในร่ม และเริ่มกลับก่อนฝนตกช่วงค่ำ</p>
         </div>
         <div class="px-3 py-1.5 rounded-xl bg-white/20 backdrop-blur-md text-xs font-semibold">
-          🌧️ 25° - 31°C (ระวังฝนบ่าย-เย็น 60%)
+          🌧️ 25° - 31°C (ระวังฝน 50-60%)
         </div>
       </div>
 
-      <!-- Timeline Items -->
-      <div class="space-y-4">
+      <!-- Stop Cards -->
+      <div class="space-y-6">
 
-        <!-- Stop 1 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              1
-            </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">12:00 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">Check-out จาก CP พูลวิลล่าชะอำ</h4>
-                </div>
+        <!-- Stop 1: Check-out -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="p-5 flex flex-col sm:flex-row items-start justify-between gap-4">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
+                1
               </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                แพ็กกระเป๋า เช็กสัมภาระให้ครบถ้วน คืนกุญแจที่พัก (ช่วงเช้า 08:00 - 11:00 น. สามารถตื่นมาเล่นน้ำรอบเช้าหรือจิบกาแฟริมสระได้สบายๆ)
-              </p>
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">12:00 น.</span>
+                  <span class="text-xs text-slate-500">เช็คเอาท์</span>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900">Check-out ออกจาก CP พูลวิลล่าชะอำ</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                  แพ็กกระเป๋า ตรวจสอบสัมภาระให้ครบถ้วน คืนกุญแจที่พัก (ช่วงเช้า 08:00 - 11:30 น. สามารถตื่นมาจิบกาแฟ เล่นน้ำรอบเช้า หรือถ่ายรูปชิลๆ ในวิลล่าได้)
+                </p>
+              </div>
             </div>
+            <button onclick="focusOnMapStop('villa')" class="shrink-0 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold transition">
+              <span>📍</span> ดูบนแผนที่
+            </button>
           </div>
         </article>
 
-        <!-- Stop 2 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              2
+        <!-- Stop 2: Krua Huai Sai Seafood -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+            <!-- Real Photo -->
+            <div class="md:col-span-5 relative group overflow-hidden bg-slate-900 min-h-[220px]">
+              <img src="images/krua-huai-sai.jpg" alt="อาหารทะเลมื้อเที่ยง ครัวห้วยทราย ชะอำ" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-2.5 left-2.5 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-sm text-white text-xs font-medium">
+                🦀 อาหารทะเล ครัวห้วยทราย
+              </div>
             </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">12:15 – 13:30 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">มื้อกลางวันเติมพลัง: ครัวห้วยทราย (ชะอำ)</h4>
+            <!-- Details -->
+            <div class="md:col-span-7 p-5 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-xs">
+                      2
+                    </div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">12:15 – 13:30 น.</span>
+                  </div>
+                  <span class="text-xs font-semibold text-rose-600 bg-rose-50 px-2.5 py-0.5 rounded-full">🍚 ข้าวสวยฟรีไม่อั้น</span>
                 </div>
-                <a href="https://maps.google.com/?q=ครัวห้วยทราย+ชะอำ" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-xs px-3 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-semibold border border-blue-200 transition">
-                  <span>📍</span> แผนที่ครัวห้วยทราย
+                <h4 class="text-lg font-bold text-slate-900">มื้อกลางวันเติมพลัง: ครัวห้วยทราย (ชะอำ)</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                  ร้านซีฟู้ดระดับตำนานของชะอำ รสชาติจัดจ้านถึงใจ <strong>ข้าวสวยตักฟรีไม่อั้น!</strong> เมนูเด็ด: ปูผัดผงกะหรี่, ต้มยำซีฟู้ดหม้อไฟ, ปลากะพงทอดน้ำปลา, หอยนางรมสดทรงเครื่อง
+                </p>
+                <div class="flex flex-wrap gap-1.5 text-xs text-slate-500 mt-2">
+                  <span class="px-2 py-0.5 rounded-md bg-slate-100">⭐ ร้านมิชลิน/วงในรีวิวแน่น</span>
+                  <span class="px-2 py-0.5 rounded-md bg-slate-100">🍲 ซีฟู้ดสด รสจัดจ้าน</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                <button onclick="focusOnMapStop('krua')" class="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center gap-1">
+                  <span>📍</span> ดูหมุดบนแผนที่ GPS
+                </button>
+                <a href="https://maps.google.com/?q=ครัวห้วยทราย+ชะอำ" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-xs transition">
+                  <span>🚗</span> เปิด Google Maps
                 </a>
               </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                ร้านซีฟู้ดในตำนานรสชาติจัดจ้านถึงเครื่อง <strong>ข้าวเปล่าฟรีไม่อั้น!</strong> เมนูแนะนำ: แกงป่าปลาทราย, ไข่ตุ๋นหม้อไฟซีฟู้ด, ปลากะพงทอดน้ำปลา, แกงส้มไข่ปลาริวกิว
-              </p>
             </div>
           </div>
         </article>
 
-        <!-- Stop 3 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              3
+        <!-- Stop 3: Wat Tham Chaeng -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+            <!-- Real Photo -->
+            <div class="md:col-span-5 relative group overflow-hidden bg-slate-900 min-h-[220px]">
+              <img src="images/wat-tham-chaeng.jpg" alt="พญาพุทธเพชรคีรี วัดถ้ำแจง ชะอำ" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-2.5 left-2.5 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-sm text-white text-xs font-medium">
+                🐉 องค์พญานาคใหญ่ที่สุดในไทย
+              </div>
             </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">13:45 – 14:45 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">สักการะพญาพุทธเพชรคีรี ณ วัดถ้ำแจง</h4>
+            <!-- Details -->
+            <div class="md:col-span-7 p-5 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-xs">
+                      3
+                    </div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">13:45 – 14:45 น.</span>
+                  </div>
+                  <span class="text-xs font-semibold text-sky-600 bg-sky-50 px-2.5 py-0.5 rounded-full">🙏 สายมู & ถ่ายรูปอลังการ</span>
                 </div>
-                <a href="https://maps.google.com/?q=วัดถ้ำแจง+ชะอำ+เพชรบุรี" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-xs px-3 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-semibold border border-blue-200 transition">
-                  <span>📍</span> แผนที่วัดถ้ำแจง
+                <h4 class="text-lg font-bold text-slate-900">สักการะพญาพุทธเพชรคีรี ณ วัดถ้ำแจง</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                  กราบไหว้ <strong>พญานาคสีฟ้าครามองค์ใหญ่ที่สุดในประเทศไทย</strong> ลวดลายวิจิตรบรรจง โดดเด่นตระการตาหน้าขุนเขา เสริมสิริมงคล โชคลาภ และความเจริญรุ่งเรือง
+                </p>
+                <div class="p-2.5 rounded-xl bg-slate-50 text-slate-600 text-xs mt-2 flex items-center gap-2">
+                  <span>📸</span>
+                  <span><strong>จุดถ่ายรูป:</strong> บันไดทางขึ้นด้านหน้าลอดซุ้มองค์พญานาค ถ่ายมุมเสยอลังการมาก</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                <button onclick="focusOnMapStop('wat')" class="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center gap-1">
+                  <span>📍</span> ดูหมุดบนแผนที่ GPS
+                </button>
+                <a href="https://maps.google.com/?q=วัดถ้ำแจง+ชะอำ+เพชรบุรี" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-xs transition">
+                  <span>🚗</span> เปิด Google Maps
                 </a>
               </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                กราบไหว้ <strong>พญานาคองค์ใหญ่ที่สุดในประเทศไทย</strong> ลวดลายวิจิตรงดงามด้วยสีฟ้าครามตระการตา เสริมสิริมงคล โชคลาภ และบันดาลความสำเร็จ ถ่ายรูปมุมมองอลังการมาก
-              </p>
-              <div class="p-2.5 rounded-xl bg-slate-50 text-slate-600 text-xs flex items-center gap-2">
-                <span>📸</span>
-                <span>แนะนำถ่ายรูปมุมเงยด้านหน้า หรือลอดซุ้มองค์พญานาค</span>
-              </div>
             </div>
           </div>
         </article>
 
-        <!-- Stop 4 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              4
+        <!-- Stop 4: Baan Rai Phu Waan (Palm Garden Cafe) -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+            <!-- Real Photo -->
+            <div class="md:col-span-5 relative group overflow-hidden bg-slate-900 min-h-[220px]">
+              <img src="images/baan-rai-phu-waan.jpg" alt="บ้านไร่ภู่หวาน คาเฟ่สวนตาล เพชรบุรี" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-2.5 left-2.5 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-sm text-white text-xs font-medium">
+                🌴 คาเฟ่กลางดงตาลโตนด
+              </div>
             </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">15:15 – 16:15 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">แวะคาเฟ่กลางสวนตาล: บ้านไร่ภู่หวาน</h4>
+            <!-- Details -->
+            <div class="md:col-span-7 p-5 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-xs">
+                      4
+                    </div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">15:15 – 16:15 น.</span>
+                  </div>
+                  <span class="text-xs font-semibold text-emerald-600 bg-emerald-50 px-2.5 py-0.5 rounded-full">🌿 พักเหนื่อยร่มรื่น</span>
                 </div>
-                <a href="https://maps.google.com/?q=บ้านไร่ภู่หวาน+เพชรบุรี" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-xs px-3 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-semibold border border-blue-200 transition">
-                  <span>📍</span> แผนที่บ้านไร่ภู่หวาน
+                <h4 class="text-lg font-bold text-slate-900">แวะคาเฟ่กลางสวนตาล: บ้านไร่ภู่หวาน</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                  คาเฟ่บรรยากาศธรรมชาติกลางสวนตาลโตนดเมืองเพชร สัมผัสวิถีตาลโตนด ลิ้มลองน้ำตาลสดแท้หวานชื่นใจ กาแฟน้ำตาลโตนด และขนมตาลนุ่มๆ ท่ามกลางลมโกรกสบาย
+                </p>
+                <div class="flex flex-wrap gap-1.5 text-xs text-slate-500 mt-2">
+                  <span class="px-2 py-0.5 rounded-md bg-slate-100">🥤 น้ำตาลสดแท้เย็นชื่นใจ</span>
+                  <span class="px-2 py-0.5 rounded-md bg-slate-100">☕ กาแฟน้ำตาลโตนดซิกเนเจอร์</span>
+                  <span class="px-2 py-0.5 rounded-md bg-slate-100">🌾 เปลตาข่ายริมทุ่ง</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                <button onclick="focusOnMapStop('palm')" class="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center gap-1">
+                  <span>📍</span> ดูหมุดบนแผนที่ GPS
+                </button>
+                <a href="https://maps.google.com/?q=บ้านไร่ภู่หวาน+เพชรบุรี" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-xs transition">
+                  <span>🚗</span> เปิด Google Maps
                 </a>
               </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                พักเหนื่อยในบรรยากาศร่มรื่นกลางดงต้นตาลโตนดเมืองเพชร ลิ้มลองน้ำตาลสดแท้ กาแฟน้ำตาลโตนด ขนมตาลนุ่มๆ หลบแดดบ่ายใต้ร่มเงาไม้
-              </p>
             </div>
           </div>
         </article>
 
-        <!-- Stop 5 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              5
+        <!-- Stop 5: Baan Khanom Nanthawan -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+            <!-- Real Photo -->
+            <div class="md:col-span-5 relative group overflow-hidden bg-slate-900 min-h-[220px]">
+              <img src="images/baan-khanom-nanthawan.jpg" alt="บ้านขนมนันทวัน เพชรบุรี ของฝากขึ้นชื่อ" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-2.5 left-2.5 px-2.5 py-1 rounded-lg bg-black/60 backdrop-blur-sm text-white text-xs font-medium">
+                🎁 ของฝากขนมเมืองเพชร
+              </div>
             </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">16:30 – 17:00 น.</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">ซื้อของฝากเมืองเพชร: บ้านขนมนันทวัน</h4>
+            <!-- Details -->
+            <div class="md:col-span-7 p-5 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-xs">
+                      5
+                    </div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">16:30 – 17:00 น.</span>
+                  </div>
+                  <span class="text-xs font-semibold text-amber-600 bg-amber-50 px-2.5 py-0.5 rounded-full">🍮 ของฝากขึ้นชื่อ</span>
                 </div>
-                <a href="https://maps.google.com/?q=บ้านขนมนันทวัน+เพชรบุรี" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-xs px-3 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-semibold border border-blue-200 transition">
-                  <span>📍</span> แผนที่บ้านขนมนันทวัน
+                <h4 class="text-lg font-bold text-slate-900">ซื้อของฝากเมืองเพชร: บ้านขนมนันทวัน</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                  ศูนย์รวมของฝากเกรดพรีเมียม ขนมหม้อแกงเตาถ่านหลากหลายรสชาติ บ้าบิ่นมะพร้าวอ่อน ทองหยิบ ทองหยอด ฝอยทองสด และขนมไทยโบราณติดไม้ติดมือก่อนกลับ
+                </p>
+              </div>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                <button onclick="focusOnMapStop('dessert')" class="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center gap-1">
+                  <span>📍</span> ดูหมุดบนแผนที่ GPS
+                </button>
+                <a href="https://maps.google.com/?q=บ้านขนมนันทวัน+เพชรบุรี" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-xs transition">
+                  <span>🚗</span> เปิด Google Maps
                 </a>
               </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                ร้านของฝากระดับพรีเมียม ขนมหม้อแกงเตาถ่านรสเลิศ ทองหยอด ฝอยทอง บ้าบิ่นมะพร้าวอ่อน น้ำตาลสด และของกินเล่นติดไม้ติดมือก่อนกลับ
-              </p>
             </div>
           </div>
         </article>
 
-        <!-- Stop 6 -->
-        <article class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-sky-300 transition">
-          <div class="flex items-start gap-3 sm:gap-4">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
-              6
-            </div>
-            <div class="flex-1 space-y-2">
-              <div class="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <span class="inline-block px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">17:00 น. เป็นต้นไป</span>
-                  <h4 class="text-base sm:text-lg font-bold text-slate-900 mt-1">เดินทางกลับกรุงเทพฯ (ปิดทริปโดยสวัสดิภาพ)</h4>
-                </div>
+        <!-- Stop 6: Return Bangkok -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden hover:shadow-md transition">
+          <div class="p-5 flex flex-col sm:flex-row items-start justify-between gap-4">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
+                6
               </div>
-              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                มุ่งหน้ากลับสู่กรุงเทพฯ โดยสวัสดิภาพ แนะนำตรวจสอบการจราจรบนทางหลวงหมายเลข 35 (พระราม 2) ผ่าน Google Maps แบบเรียลไทม์
-              </p>
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">17:00 น. เป็นต้นไป</span>
+                  <span class="text-xs text-slate-500">เดินทางกลับ</span>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900">เดินทางกลับกรุงเทพฯ (ปิดทริปโดยสวัสดิภาพ)</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                  มุ่งหน้ากลับสู่กรุงเทพฯ อย่างปลอดภัย ใช้เวลาเดินทางประมาณ 2 – 2.5 ชั่วโมง แนะนำเปิดแอป Google Maps นำทางเพื่อเช็กจุดรถติดช่วงพระราม 2
+                </p>
+              </div>
             </div>
+            <button onclick="focusOnMapStop('bkk')" class="shrink-0 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold transition">
+              <span>📍</span> ดูบนแผนที่
+            </button>
           </div>
         </article>
 
@@ -518,10 +727,10 @@
       <div class="p-5 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-slate-800 space-y-2">
         <div class="flex items-center gap-2 text-amber-700 font-bold text-base">
           <span>🌦️</span>
-          <span>สรุปสภาพอากาศสำหรับทริปนี้ (อ้างอิงกรมอุตุนิยมวิทยา TMD)</span>
+          <span>สรุปพยากรณ์อากาศชะอำ 2 วัน 1 คืน (กรมอุตุนิยมวิทยา TMD)</span>
         </div>
         <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
-          ช่วงต้นเดือนตุลาคม มรสุมตะวันตกเฉียงใต้เริ่มปะทะกับมวลอากาศเย็นจากตอนบน ทำให้<strong>วันเสาร์อากาศเปิด เที่ยวสบาย แดดจัด มีฝนบ่ายสั้นๆ</strong> แต่<strong>วันอาทิตย์ช่วงบ่าย-เย็นจะมีโอกาสเกิดฝนฟ้าคะนองและลมกระโชกแรง 50-60%</strong>
+          ช่วงต้นเดือนตุลาคม มีมวลอากาศเย็นเริ่มแผ่ลงมาปะทะอากาศร้อนชื้น ทำให้ <strong>วันเสาร์สภาพอากาศเปิด ทะเลสงบ แดดดีตลอดวัน</strong> แต่ <strong>วันอาทิตย์ช่วงบ่ายถึงเย็นจะมีโอกาสเกิดฝนฟ้าคะนอง 50-60% และลมกระโชกแรง</strong>
         </p>
       </div>
 
@@ -531,7 +740,7 @@
         <!-- Day 1 Weather -->
         <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
           <div class="flex items-center justify-between">
-            <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800">วันเสาร์ • เดินทางไป</span>
+            <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800">วันเสาร์ • สภาพอากาศดี</span>
             <span class="text-2xl">⛅</span>
           </div>
           <div>
@@ -549,7 +758,7 @@
             </div>
             <div class="flex justify-between p-2 rounded-lg bg-slate-50">
               <span class="text-slate-500">🎯 คำแนะนำ</span>
-              <span class="font-bold text-emerald-600">เหมาะกับกิจกรรมกลางแจ้ง & ชายหาด</span>
+              <span class="font-bold text-emerald-600">เหมาะกับกิจกรรมกลางแจ้ง & ริมหาด</span>
             </div>
           </div>
         </div>
@@ -557,7 +766,7 @@
         <!-- Day 2 Weather -->
         <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
           <div class="flex items-center justify-between">
-            <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-rose-100 text-rose-800">วันอาทิตย์ • เดินทางกลับ</span>
+            <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-rose-100 text-rose-800">วันอาทิตย์ • ระวังฝนบ่าย</span>
             <span class="text-2xl">⛈️</span>
           </div>
           <div>
@@ -582,7 +791,7 @@
 
       </div>
 
-      <!-- Driving & Safety Precautions -->
+      <!-- Driving Safety Precautions -->
       <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
         <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
           <span>⚠️</span> 3 ข้อแนะนำการขับขี่ขากลับช่วงเย็นวันอาทิตย์
@@ -590,7 +799,7 @@
         <ul class="text-xs sm:text-sm text-slate-600 space-y-2.5 list-disc list-inside">
           <li><strong>ระวังถนนพระราม 2:</strong> มีแนวเขตก่อสร้างสะพานและผิวถนนต่างระดับ เมื่อมีฝนตกจะทำให้ทัศนวิสัยลดลงและถนนลื่น ควรเว้นระยะห่างจากคันหน้ามากกว่าปกติ</li>
           <li><strong>เวลาเริ่มออกเดินทาง:</strong> แนะนำออกจากจุดแวะสุดท้าย (บ้านขนมนันทวัน) ไม่เกิน 16:30 – 17:00 น. หรือหากต้องการเลี่ยงรถติดหนัก สามารถแวะทานมื้อค่ำที่ตัวเมืองเพชรบุรีก่อน แล้วออกเดินทางหลัง 20:00 น.</li>
-          <li><strong>ตรวจเช็คที่ปัดน้ำฝนและไฟหน้ารถ:</strong> ตรวจดูยางปัดน้ำฝนและน้ำฉีดกระจกก่อนออกเดินทาง</li>
+          <li><strong>ตรวจเช็คยางปัดน้ำฝนและไฟหน้ารถ:</strong> ตรวจดูยางปัดน้ำฝนและระดับน้ำฉีดกระจกก่อนออกเดินทาง</li>
         </ul>
       </div>
 
@@ -616,7 +825,7 @@
 
     </section>
 
-    <!-- ==================== TAB 4: TOOLS & CHECKLIST ==================== -->
+    <!-- ==================== TAB 4: TOOLS & BILL SPLIT ==================== -->
     <section id="tab-tools" class="space-y-5 hidden">
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -625,7 +834,7 @@
         <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
           <div class="flex items-center justify-between">
             <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
-              <span>🎒</span> เช็คลิสต์จัดกระเป๋า (ติ๊กแล้วบันทึกอัตโนมัติ)
+              <span>🎒</span> เช็คลิสต์จัดกระเป๋า (บันทึกอัตโนมัติ)
             </h4>
             <button onclick="resetChecklist()" class="text-xs text-slate-400 hover:text-slate-600 underline">รีเซ็ต</button>
           </div>
@@ -639,7 +848,7 @@
           <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
             <span>🧮</span> เครื่องมือคำนวณหารค่าทริป
           </h4>
-          <p class="text-xs text-slate-500">กรอกยอดเงินเพื่อคำนวณหารเฉลี่ยต่อคน</p>
+          <p class="text-xs text-slate-500">กรอกยอดเงินเพื่อคำนวณหารเฉลี่ยต่อคนแบบเรียลไทม์</p>
 
           <div class="space-y-2.5 text-xs">
             <div>
@@ -651,19 +860,19 @@
               <input type="number" id="calc-villa" value="6900" oninput="calculateSplit()" class="w-full px-3 py-2 rounded-xl border border-slate-200 focus:outline-none focus:border-sky-500">
             </div>
             <div>
-              <label class="block text-slate-600 mb-1">ค่าอาหารทะเล & ปิ้งย่าง (บาท)</label>
-              <input type="number" id="calc-food" value="3500" oninput="calculateSplit()" class="w-full px-3 py-2 rounded-xl border border-slate-200 focus:outline-none focus:border-sky-500">
+              <label class="block text-slate-600 mb-1">ค่าอาหารทะเล & ปิ้งย่าง & มื้อเที่ยง (บาท)</label>
+              <input type="number" id="calc-food" value="3800" oninput="calculateSplit()" class="w-full px-3 py-2 rounded-xl border border-slate-200 focus:outline-none focus:border-sky-500">
             </div>
             <div>
-              <label class="block text-slate-600 mb-1">ค่าน้ำมัน / ทางด่วน / อื่นๆ (บาท)</label>
+              <label class="block text-slate-600 mb-1">ค่าน้ำมัน / ทางด่วน / ค่าคาเฟ่ (บาท)</label>
               <input type="number" id="calc-gas" value="1600" oninput="calculateSplit()" class="w-full px-3 py-2 rounded-xl border border-slate-200 focus:outline-none focus:border-sky-500">
             </div>
 
             <!-- Result -->
             <div class="mt-4 p-4 rounded-xl bg-sky-50 border border-sky-200 text-center space-y-1">
-              <div class="text-xs text-sky-700">ยอดรวมทั้งหมด: <strong id="calc-total" class="text-slate-900 font-bold">12,000</strong> บาท</div>
+              <div class="text-xs text-sky-700">ยอดรวมทั้งทริป: <strong id="calc-total" class="text-slate-900 font-bold">12,300</strong> บาท</div>
               <div class="text-lg font-black text-sky-700">
-                หารตกคนละ <span id="calc-per-person" class="text-2xl text-sky-600 font-extrabold">2,000</span> บาท
+                หารตกคนละ <span id="calc-per-person" class="text-2xl text-sky-600 font-extrabold">2,050</span> บาท
               </div>
             </div>
           </div>
@@ -711,9 +920,277 @@
     <p>สร้างขึ้นเพื่ออำนวยความสะดวกในการเดินทางและเช็กสภาพอากาศ • ขอให้มีความสุขตลอดทริปครับ</p>
   </footer>
 
-  <!-- Application Logic -->
+  <!-- ==================== LEAFLET MAP & APPLICATION SCRIPT ==================== -->
   <script>
-    // Tab switching logic
+    // GPS Coordinates for all trip stops
+    const stopsData = {
+      bkk: {
+        id: 'bkk',
+        name: 'กรุงเทพฯ (จุดเริ่มต้น/ปลายทาง)',
+        time: '09:00 น. / 17:00 น.',
+        day: 'both',
+        coords: [13.7563, 100.5018],
+        pinNumber: '★',
+        pinClass: 'pin-start',
+        image: 'roadmap.jpg',
+        mapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=Cha-am',
+        desc: 'ออกเดินทางจากกรุงเทพฯ ถนนพระราม 2'
+      },
+      iko: {
+        id: 'iko',
+        name: 'IKO Camp & Cafe (เขาย้อย)',
+        time: '10:45 – 12:00 น.',
+        day: 'day1',
+        coords: [13.2505, 99.8245],
+        pinNumber: '1',
+        pinClass: 'pin-day1',
+        image: 'images/iko-camp-cafe.jpg',
+        mapsUrl: 'https://maps.google.com/?q=IKO+Camp+Cafe+เขาย้อย+เพชรบุรี',
+        desc: 'คาเฟ่สไตล์แคมป์ปิ้งวิวเขาหินปูน จิบกาแฟ ถ่ายรูปสวย'
+      },
+      atv: {
+        id: 'atv',
+        name: 'Cha-am ATV Park / Swiss Sheep Farm',
+        time: '12:30 – 14:00 น.',
+        day: 'day1',
+        coords: [12.8256, 99.9542],
+        pinNumber: '2',
+        pinClass: 'pin-day1',
+        image: 'images/chaam-atv.jpg',
+        mapsUrl: 'https://maps.google.com/?q=Cha-am+ATV+Park',
+        desc: 'กิจกรรมขับรถ ATV สายลุย หรือ ถ่ายรูปฟาร์มแกะ'
+      },
+      villa: {
+        id: 'villa',
+        name: 'CP พูลวิลล่าชะอำ (ที่พัก)',
+        time: '14:30 น. (เช็คอิน) / 12:00 น. (เช็คเอาท์)',
+        day: 'both',
+        coords: [12.7950, 99.9650],
+        pinNumber: '3',
+        pinClass: 'pin-day1',
+        image: 'images/cp-pool-villa.jpg',
+        mapsUrl: 'https://maps.google.com/?q=ชะอำ+พูลวิลล่า',
+        desc: 'พักผ่อน เล่นน้ำสระส่วนตัว ปาร์ตี้ซีฟู้ด & คาราโอเกะ'
+      },
+      beach: {
+        id: 'beach',
+        name: 'หาดชะอำ & สะพานหินชะอำ (สะพานปลา)',
+        time: '17:00 – 18:30 น.',
+        day: 'day1',
+        coords: [12.8020, 99.9880],
+        pinNumber: '4',
+        pinClass: 'pin-day1',
+        image: 'images/chaam-sunset-seafood.jpg',
+        mapsUrl: 'https://maps.google.com/?q=สะพานปลาชะอำ',
+        desc: 'ชมพระอาทิตย์ตกริมทะเล ซื้ออาหารทะเลสดปิ้งย่าง'
+      },
+      krua: {
+        id: 'krua',
+        name: 'ครัวห้วยทราย (ชะอำ)',
+        time: '12:15 – 13:30 น.',
+        day: 'day2',
+        coords: [12.6738, 99.9576],
+        pinNumber: '1',
+        pinClass: 'pin-day2',
+        image: 'images/krua-huai-sai.jpg',
+        mapsUrl: 'https://maps.google.com/?q=ครัวห้วยทราย+ชะอำ',
+        desc: 'มื้อเที่ยงซีฟู้ดรสเด็ด ข้าวสวยฟรีไม่อั้น'
+      },
+      wat: {
+        id: 'wat',
+        name: 'วัดถ้ำแจง (พญาพุทธเพชรคีรี)',
+        time: '13:45 – 14:45 น.',
+        day: 'day2',
+        coords: [12.8278, 99.9396],
+        pinNumber: '2',
+        pinClass: 'pin-day2',
+        image: 'images/wat-tham-chaeng.jpg',
+        mapsUrl: 'https://maps.google.com/?q=วัดถ้ำแจง+ชะอำ+เพชรบุรี',
+        desc: 'สักการะพญานาคสีฟ้าครามองค์ใหญ่ที่สุดในไทย'
+      },
+      palm: {
+        id: 'palm',
+        name: 'บ้านไร่ภู่หวาน (คาเฟ่สวนตาล)',
+        time: '15:15 – 16:15 น.',
+        day: 'day2',
+        coords: [13.0645, 99.9240],
+        pinNumber: '3',
+        pinClass: 'pin-day2',
+        image: 'images/baan-rai-phu-waan.jpg',
+        mapsUrl: 'https://maps.google.com/?q=บ้านไร่ภู่หวาน+เพชรบุรี',
+        desc: 'จิบน้ำตาลสดแท้ กาแฟน้ำตาลโตนด ร่มรื่นกลางสวนตาล'
+      },
+      dessert: {
+        id: 'dessert',
+        name: 'บ้านขนมนันทวัน (ซื้อของฝาก)',
+        time: '16:30 – 17:00 น.',
+        day: 'day2',
+        coords: [13.0842, 99.9510],
+        pinNumber: '4',
+        pinClass: 'pin-day2',
+        image: 'images/baan-khanom-nanthawan.jpg',
+        mapsUrl: 'https://maps.google.com/?q=บ้านขนมนันทวัน+เพชรบุรี',
+        desc: 'ซื้อขนมหม้อแกงเตาถ่าน บ้าบิ่น ของฝากเมืองเพชร'
+      }
+    };
+
+    // Route Sequences
+    const day1RouteCoords = [
+      stopsData.bkk.coords,
+      stopsData.iko.coords,
+      stopsData.atv.coords,
+      stopsData.villa.coords,
+      stopsData.beach.coords,
+      stopsData.villa.coords
+    ];
+
+    const day2RouteCoords = [
+      stopsData.villa.coords,
+      stopsData.krua.coords,
+      stopsData.wat.coords,
+      stopsData.palm.coords,
+      stopsData.dessert.coords,
+      stopsData.bkk.coords
+    ];
+
+    let map;
+    let markers = {};
+    let day1Polyline;
+    let day2Polyline;
+
+    function initMap() {
+      // Create Leaflet Map centered between Bangkok and Cha-am
+      map = L.map('trip-map', {
+        center: [13.25, 100.1],
+        zoom: 9,
+        scrollWheelZoom: false
+      });
+
+      // Modern CartoDB Voyager Tile Layer
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+      }).addTo(map);
+
+      // Create Route Polylines
+      day1Polyline = L.polyline(day1RouteCoords, {
+        color: '#f97316',
+        weight: 4,
+        opacity: 0.85,
+        dashArray: '8, 8'
+      }).addTo(map);
+
+      day2Polyline = L.polyline(day2RouteCoords, {
+        color: '#2563eb',
+        weight: 4,
+        opacity: 0.85,
+        dashArray: '8, 8'
+      }).addTo(map);
+
+      // Add Markers
+      Object.keys(stopsData).forEach(key => {
+        const stop = stopsData[key];
+        
+        // Custom HTML Icon
+        const customIcon = L.divIcon({
+          className: '',
+          html: `<div class="custom-map-pin ${stop.pinClass}">${stop.pinNumber}</div>`,
+          iconSize: [32, 32],
+          iconAnchor: [16, 16],
+          popupAnchor: [0, -18]
+        });
+
+        // Popup Content
+        const popupContent = `
+          <div class="w-64 overflow-hidden">
+            <div class="h-28 w-full bg-slate-900 relative">
+              <img src="${stop.image}" alt="${stop.name}" class="w-full h-full object-cover">
+              <div class="absolute top-2 left-2 px-2 py-0.5 rounded bg-black/60 text-white text-[11px] font-bold">
+                ${stop.time}
+              </div>
+            </div>
+            <div class="p-3 space-y-1.5 bg-white text-slate-800">
+              <h5 class="font-bold text-sm text-slate-900 leading-snug">${stop.name}</h5>
+              <p class="text-[11px] text-slate-500 leading-tight">${stop.desc}</p>
+              <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+                <span class="text-[10px] text-slate-400">GPS: ${stop.coords[0].toFixed(3)}, ${stop.coords[1].toFixed(3)}</span>
+                <a href="${stop.mapsUrl}" target="_blank" rel="noopener" class="text-[11px] px-2.5 py-1 rounded-lg bg-sky-500 hover:bg-sky-600 text-white font-semibold shadow-xs">
+                  🚗 นำทาง
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+
+        const marker = L.marker(stop.coords, { icon: customIcon }).addTo(map).bindPopup(popupContent);
+        markers[key] = marker;
+      });
+
+      fitAllMarkers();
+    }
+
+    function fitAllMarkers() {
+      const allCoords = Object.values(stopsData).map(s => s.coords);
+      const bounds = L.latLngBounds(allCoords);
+      map.fitBounds(bounds, { padding: [40, 40] });
+    }
+
+    function filterRoute(mode) {
+      document.getElementById('filter-all').className = 'px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition';
+      document.getElementById('filter-day1').className = 'px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1';
+      document.getElementById('filter-day2').className = 'px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1';
+
+      if (mode === 'all') {
+        document.getElementById('filter-all').className = 'px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-xs transition font-bold';
+        map.addLayer(day1Polyline);
+        map.addLayer(day2Polyline);
+        Object.keys(markers).forEach(k => map.addLayer(markers[k]));
+        fitAllMarkers();
+      } else if (mode === 'day1') {
+        document.getElementById('filter-day1').className = 'px-3 py-1.5 rounded-lg bg-white text-orange-600 shadow-xs transition font-bold flex items-center gap-1';
+        map.addLayer(day1Polyline);
+        map.removeLayer(day2Polyline);
+        Object.keys(stopsData).forEach(k => {
+          if (stopsData[k].day === 'day1' || stopsData[k].day === 'both') {
+            map.addLayer(markers[k]);
+          } else {
+            map.removeLayer(markers[k]);
+          }
+        });
+        const bounds = L.latLngBounds(day1RouteCoords);
+        map.fitBounds(bounds, { padding: [40, 40] });
+      } else if (mode === 'day2') {
+        document.getElementById('filter-day2').className = 'px-3 py-1.5 rounded-lg bg-white text-blue-600 shadow-xs transition font-bold flex items-center gap-1';
+        map.removeLayer(day1Polyline);
+        map.addLayer(day2Polyline);
+        Object.keys(stopsData).forEach(k => {
+          if (stopsData[k].day === 'day2' || stopsData[k].day === 'both') {
+            map.addLayer(markers[k]);
+          } else {
+            map.removeLayer(markers[k]);
+          }
+        });
+        const bounds = L.latLngBounds(day2RouteCoords);
+        map.fitBounds(bounds, { padding: [40, 40] });
+      }
+    }
+
+    function focusOnMapStop(stopKey) {
+      scrollToMap();
+      const stop = stopsData[stopKey];
+      if (stop && markers[stopKey]) {
+        map.setView(stop.coords, 13, { animate: true });
+        markers[stopKey].openPopup();
+      }
+    }
+
+    function scrollToMap() {
+      const el = document.getElementById('map-section');
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Tab switcher
     function switchTab(tabId) {
       const tabs = ['day1', 'day2', 'weather', 'tools'];
       tabs.forEach(t => {
@@ -727,25 +1204,23 @@
           btn.className = 'px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition shrink-0 bg-white text-slate-600 hover:text-slate-900 border border-slate-200 flex items-center gap-1.5';
         }
       });
-      window.scrollTo({ top: 120, behavior: 'smooth' });
+      // Filter map to match tab if Day 1 or Day 2
+      if (tabId === 'day1') filterRoute('day1');
+      else if (tabId === 'day2') filterRoute('day2');
+      else filterRoute('all');
     }
 
-    // Modal controls
-    function openModal(id) {
-      document.getElementById(id).classList.remove('hidden');
-    }
-    function closeModal(id) {
-      document.getElementById(id).classList.add('hidden');
-    }
+    // Modal
+    function openModal(id) { document.getElementById(id).classList.remove('hidden'); }
+    function closeModal(id) { document.getElementById(id).classList.add('hidden'); }
 
-    // Web Share API or Clipboard Copy
+    // Share
     function shareTrip() {
       const shareData = {
         title: 'Roadmap ทริปชะอำ - เพชรบุรี 2 วัน 1 คืน 🏖️',
-        text: 'แผนเที่ยวฉบับเต็ม คาเฟ่ • ATV • พูลวิลล่า • ปาร์ตี้ซีฟู้ด • วัดถ้ำแจง • คาเฟ่สวนตาล พร้อมข้อมูลสภาพอากาศ',
+        text: 'แผนที่เส้นทางจริง GPS • คาเฟ่ • ATV • CP พูลวิลล่า • ครัวห้วยทราย • วัดถ้ำแจง • คาเฟ่สวนตาล • บ้านขนมนันทวัน',
         url: window.location.href
       };
-
       if (navigator.share) {
         navigator.share(shareData).catch(() => {});
       } else {
@@ -757,7 +1232,7 @@
       }
     }
 
-    // Bill split calculation
+    // Split Calculator
     function calculateSplit() {
       const people = parseFloat(document.getElementById('calc-people').value) || 1;
       const villa = parseFloat(document.getElementById('calc-villa').value) || 0;
@@ -771,7 +1246,7 @@
       document.getElementById('calc-per-person').innerText = perPerson.toLocaleString();
     }
 
-    // Packing Checklist with LocalStorage
+    // Checklist
     const defaultChecklist = [
       { id: 'item1', text: 'ชุดว่ายน้ำ / เสื้อผ้าเปลี่ยนเล่นน้ำพูลวิลล่า', checked: false },
       { id: 'item2', text: 'ร่มพับ หรือเสื้อกันฝน (สำหรับช่วงเย็นวันอาทิตย์)', checked: false },
@@ -808,8 +1283,9 @@
       loadChecklist();
     }
 
-    // Initialize
+    // Initialize map & tools on DOM load
     document.addEventListener('DOMContentLoaded', () => {
+      initMap();
       calculateSplit();
       loadChecklist();
     });
